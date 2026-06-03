@@ -1,0 +1,45 @@
+# Refresh tweets.json from the Olhar Factual X account via RapidAPI (twitter-api45).
+# Reads the timeline and commits the result so GitHub Pages redeploys.
+name: Fetch X posts
+
+on:
+  schedule:
+    - cron: '17 * * * *'    # hourly (~720 calls/mo, under the 1000 free cap). Avoid */30 — that's ~1440/mo.
+  workflow_dispatch: {}       # lets you run it manually from the Actions tab
+
+permissions:
+  contents: write             # needed to commit tweets.json back to the repo
+
+concurrency:
+  group: fetch-x
+  cancel-in-progress: true
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Fetch latest posts
+        env:
+          RAPIDAPI_KEY: ${{ secrets.RAPIDAPI_KEY }}
+          X_HANDLE: olharfactual
+          OUT_PATH: tweets.json
+          MAX_POSTS: '20'
+        run: node x-fetcher/fetch.mjs
+
+      - name: Commit if changed
+        run: |
+          if [[ -n "$(git status --porcelain tweets.json)" ]]; then
+            git config user.name  "olhar-factual-bot"
+            git config user.email "actions@users.noreply.github.com"
+            git add tweets.json
+            git commit -m "chore: refresh tweets.json [skip ci]"
+            git push
+          else
+            echo "No changes."
+          fi

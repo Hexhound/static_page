@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Olhar Factual — Contato</title>
+<link rel="stylesheet" href="of-tokens.css">
+<style>
+  .pg-head { padding-block: var(--of-s8) var(--of-s7); border-bottom: 2px solid var(--of-ink); }
+  .pg-title { font-family: var(--of-display); font-size: clamp(2.6rem, 6vw, 4.25rem); line-height: 0.96; margin: var(--of-s3) 0 0; }
+
+  .ct-wrap { display: grid; gap: var(--of-s8); padding-block: var(--of-s8); align-items: start; }
+  @media (min-width: 860px){ .ct-wrap { grid-template-columns: 0.85fr 1.15fr; gap: var(--of-s9, 5rem); } }
+
+  /* channels */
+  .ct-chan { border-top: 1px solid var(--of-rule); padding: var(--of-s5) 0; }
+  .ct-chan:first-of-type { border-top: 0; padding-top: 0; }
+  .ct-chan__l { font-family: var(--of-mono); font-size: var(--of-fs-micro); letter-spacing: 0.18em; text-transform: uppercase; color: var(--of-ink-55); margin: 0 0 var(--of-s2); }
+  .ct-chan__v { font-family: var(--of-serif); font-size: 1.15rem; color: var(--of-ink); margin: 0; }
+  .ct-chan__v a { color: var(--of-crimson); }
+  .ct-chan__p { font-family: var(--of-serif); font-size: 0.95rem; color: var(--of-ink-60); margin: 0.3rem 0 0; max-width: 38ch; }
+
+  /* form */
+  .ct-form { background: var(--of-paper-raised); border: 1px solid var(--of-rule); border-radius: var(--of-radius); padding: var(--of-s7); }
+  .ct-form h2 { font-family: var(--of-display); font-size: 1.7rem; margin: 0 0 var(--of-s2); }
+  .ct-form__sub { font-family: var(--of-serif); font-size: 0.98rem; color: var(--of-ink-70, var(--of-ink-60)); margin: 0 0 var(--of-s5); }
+  .ct-field { display: flex; flex-direction: column; gap: 0.35rem; margin-bottom: var(--of-s4); }
+  .ct-field label { font-family: var(--of-mono); font-size: var(--of-fs-micro); letter-spacing: 0.16em; text-transform: uppercase; color: var(--of-ink-55); }
+  .ct-input, .ct-select, .ct-textarea { font-family: var(--of-serif); font-size: 1.05rem; padding: 0.7rem 0.85rem;
+    background: var(--of-paper); border: 1px solid var(--of-rule); border-radius: var(--of-radius); color: var(--of-ink);
+    width: 100%; transition: border-color .15s, box-shadow .15s; }
+  .ct-input:focus, .ct-select:focus, .ct-textarea:focus { outline: none; border-color: var(--of-ink); box-shadow: 0 0 0 3px var(--of-ink-20); }
+  .ct-textarea { resize: vertical; min-height: 130px; line-height: 1.5; }
+  .ct-input--err { border-color: var(--of-bias-left); }
+  .ct-err { font-family: var(--of-mono); font-size: var(--of-fs-micro); color: var(--of-bias-left); min-height: 0.9rem; margin: 0 0 var(--of-s3); }
+  .ct-form .of-btn { width: 100%; justify-content: center; padding-block: 0.95em; }
+  .ct-form .of-btn[disabled] { opacity: 0.55; cursor: default; }
+  .ct-fine { font-family: var(--of-mono); font-size: 0.5625rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--of-ink-40); text-align: center; margin: var(--of-s3) 0 0; }
+  /* success */
+  .ct-form--done { border-color: var(--of-crimson); }
+  .ct-success { text-align: center; padding-block: var(--of-s4); }
+  .ct-success__mark { width: 3rem; height: 3rem; margin: 0 auto var(--of-s4); border-radius: 99px; background: var(--of-crimson); color: var(--of-on-red); display: grid; place-items: center; font-size: 1.4rem; }
+</style>
+</head>
+<body data-screen-label="Contato">
+
+<header class="of-topbar">
+  <div class="of-container of-topbar__inner">
+    <a href="index.html" class="of-logo"><span class="of-logo__mark" style="font-size:1.4rem">OF</span><span class="of-logo__rule"></span><span class="of-logo__word">Olhar Factual</span></a>
+    <nav class="of-nav" style="border:0">
+      <a href="index.html">Início</a><a href="FAQ.html">FAQ</a><a href="Sobre.html">Sobre</a><a href="Fontes.html">Fontes</a><a href="Contato.html" aria-current="page" style="border:0">Contato</a>
+    </nav>
+  </div>
+</header>
+
+<main class="of-container">
+
+  <div class="pg-head">
+    <div class="of-kicker">Fale com a gente</div>
+    <h1 class="pg-title">Contato</h1>
+    <p class="of-deck" style="margin-top:var(--of-s5); max-width:60ch">
+      Dúvidas sobre a metodologia, contestação de uma classificação, imprensa ou parcerias — escolha o canal ou mande uma mensagem direto por aqui.
+    </p>
+  </div>
+
+  <div class="ct-wrap">
+
+    <!-- CHANNELS -->
+    <div>
+      <div class="ct-chan">
+        <p class="ct-chan__l">E-mail</p>
+        <p class="ct-chan__v"><a href="mailto:contato@olharfactual.com.br">contato@olharfactual.com.br</a></p>
+      </div>
+      <div class="ct-chan">
+        <p class="ct-chan__l">X / Twitter</p>
+        <p class="ct-chan__v"><a href="https://x.com/olharfactual" target="_blank" rel="noopener">@OlharFactual</a></p>
+      </div>
+      <div class="ct-chan">
+        <p class="ct-chan__l">Contestar classificação</p>
+        <p class="ct-chan__p">Discorda da posição de um veículo no espectro? Use o assunto <strong>"Contestação"</strong> no formulário — revisamos cada pedido fundamentado.</p>
+      </div>
+      <div class="ct-chan">
+        <p class="ct-chan__l">Imprensa &amp; parcerias</p>
+        <p class="ct-chan__p">Licenciamento de dados de cobertura, pesquisa e colaborações editoriais.</p>
+      </div>
+    </div>
+
+    <!-- FORM -->
+    <div class="ct-form" id="ct-card">
+      <div id="ct-form-wrap">
+        <h2>Envie uma mensagem</h2>
+        <p class="ct-form__sub">Respondemos no e-mail informado, normalmente em até 2 dias úteis.</p>
+        <form id="ct-form" novalidate>
+          <div class="ct-field">
+            <label for="ct-name">Nome</label>
+            <input class="ct-input" id="ct-name" name="name" type="text" autocomplete="name" placeholder="Seu nome" required>
+          </div>
+          <div class="ct-field">
+            <label for="ct-email">E-mail</label>
+            <input class="ct-input" id="ct-email" name="email" type="email" autocomplete="email" placeholder="voce@exemplo.com" required>
+          </div>
+          <div class="ct-field">
+            <label for="ct-subject">Assunto</label>
+            <select class="ct-select" id="ct-subject" name="subject">
+              <option value="Dúvida">Dúvida sobre a metodologia</option>
+              <option value="Contestação">Contestar uma classificação</option>
+              <option value="Imprensa">Imprensa &amp; parcerias</option>
+              <option value="Correção">Correção / erro no conteúdo</option>
+              <option value="Outro">Outro</option>
+            </select>
+          </div>
+          <div class="ct-field">
+            <label for="ct-message">Mensagem</label>
+            <textarea class="ct-textarea" id="ct-message" name="message" placeholder="Como podemos ajudar?" required></textarea>
+          </div>
+          <p class="ct-err" id="ct-err" role="alert"></p>
+          <button class="of-btn" type="submit" id="ct-btn">Enviar mensagem →</button>
+        </form>
+        <p class="ct-fine">Seus dados ficam só com a redação. Sem listas de marketing.</p>
+      </div>
+    </div>
+
+  </div>
+</main>
+
+<footer class="of-footer">
+  <div class="of-container">
+    <div class="of-footer__cols">
+      <div class="of-footer__col" style="grid-column: span 2; min-width:auto">
+        <a href="index.html" style="padding:0"><span class="of-logo"><span class="of-logo__mark">OF</span><span class="of-logo__rule"></span><span class="of-logo__word of-logo--stacked" style="display:flex;flex-direction:column">Olhar<br>Factual</span></span></a>
+        <p class="of-kicker" style="margin-top:var(--of-s4); color:var(--of-ink-40)">Todas as fontes · Todos os ângulos</p>
+      </div>
+      <div class="of-footer__col"><h4>Institucional</h4><a href="Sobre.html">Sobre</a><a href="FAQ.html">Metodologia &amp; FAQ</a><a href="Fontes.html">Fontes</a><a href="Contato.html">Contato</a></div>
+      <div class="of-footer__col"><h4>Seguir</h4><a href="https://x.com/olharfactual" target="_blank" rel="noopener">X / Twitter</a></div>
+    </div>
+    <div class="of-hr" style="margin-top:var(--of-s7)"></div>
+    <p class="of-kicker" style="margin-top:var(--of-s4); text-align:center; color:var(--of-ink-30)">© 2026 Olhar Factual · Edição Digital · Todas as fontes, todos os ângulos</p>
+  </div>
+</footer>
+
+<script>
+(function(){
+  'use strict';
+  // ── Web3Forms ── paste your access key from https://web3forms.com (free).
+  // Leave '' to run in demo mode (validates + shows success, sends nothing).
+  var WEB3FORMS_KEY = '';
+  var WEB3FORMS_URL = 'https://api.web3forms.com/submit';
+
+  var form = document.getElementById('ct-form');
+  var btn = document.getElementById('ct-btn'), errEl = document.getElementById('ct-err');
+  var nameI = document.getElementById('ct-name'), emailI = document.getElementById('ct-email');
+  var subjI = document.getElementById('ct-subject'), msgI = document.getElementById('ct-message');
+  function validEmail(v){ return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v); }
+  function esc(s){ return String(s).replace(/[&<>"']/g,function(c){return ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'})[c];}); }
+
+  function showDone(){
+    document.getElementById('ct-card').classList.add('ct-form--done');
+    document.getElementById('ct-form-wrap').innerHTML =
+      '<div class="ct-success">'
+      + '<div class="ct-success__mark">✓</div>'
+      + '<h2>Mensagem enviada</h2>'
+      + '<p class="ct-form__sub" style="margin-top:var(--of-s3)">Obrigado por escrever. Respondemos no e-mail informado, normalmente em até 2 dias úteis.</p>'
+      + '</div>';
+  }
+
+  form.addEventListener('submit', function(e){
+    e.preventDefault();
+    errEl.textContent = '';
+    [nameI,emailI,msgI].forEach(function(i){ i.classList.remove('ct-input--err'); });
+    var name = nameI.value.trim(), email = emailI.value.trim(), msg = msgI.value.trim();
+    if (!name){ nameI.classList.add('ct-input--err'); errEl.textContent = 'Informe seu nome.'; nameI.focus(); return; }
+    if (!validEmail(email)){ emailI.classList.add('ct-input--err'); errEl.textContent = 'Informe um e-mail válido.'; emailI.focus(); return; }
+    if (!msg){ msgI.classList.add('ct-input--err'); errEl.textContent = 'Escreva sua mensagem.'; msgI.focus(); return; }
+
+    btn.disabled = true; var orig = btn.textContent; btn.textContent = 'Enviando…';
+    function fail(){ btn.disabled = false; btn.textContent = orig; errEl.textContent = 'Não foi possível enviar agora. Tente novamente.'; }
+
+    if (WEB3FORMS_KEY){
+      fetch(WEB3FORMS_URL, {
+        method:'POST', headers:{'Content-Type':'application/json','Accept':'application/json'},
+        body: JSON.stringify({
+          access_key: WEB3FORMS_KEY,
+          subject: 'Contato (' + subjI.value + ') — Olhar Factual',
+          from_name: 'Olhar Factual · Contato',
+          name: name, email: email, assunto: subjI.value, message: msg
+        })
+      })
+        .then(function(r){ return r.json(); })
+        .then(function(d){ if (d && d.success) showDone(); else fail(); })
+        .catch(fail);
+    } else {
+      setTimeout(showDone, 450); // demo mode
+    }
+  });
+})();
+</script>
+
+</body>
+</html>

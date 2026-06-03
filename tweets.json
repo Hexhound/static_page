@@ -1,0 +1,839 @@
+{
+  "account": {
+    "name": "Olhar Factual",
+    "handle": "OlharFactual",
+    "url": "https://x.com/OlharFactual",
+    "avatar": "https://pbs.twimg.com/profile_images/2059074705168949248/oy2orqtg_400x400.jpg",
+    "bio": "A mesma notícia. Todos os lados. Analisamos como a mídia brasileira cobre os mesmos fatos.",
+    "followers": 31,
+    "posts_count": 88
+  },
+  "fetched_at": "2026-06-03T20:52:24.555Z",
+  "posts": [
+    {
+      "id": "2062200000000000000",
+      "url": "https://x.com/OlharFactual",
+      "created_at": "2026-06-03T15:30:00.000Z",
+      "title": "MPRJ denuncia vice-prefeito de Trajano de Moraes por forjar casamento e desviar quase R$ 5 milhões em pensão",
+      "summary": "O MPRJ denunciou o vice-prefeito Hélio Luiz Fazoli e a ex-mulher por suposta fraude previdenciária: ele teria forjado uma união estável com uma procuradora aposentada de 83 anos para receber pensão por morte. A Justiça suspendeu o benefício e bloqueou os bens dos acusados.",
+      "lenses": null,
+      "media": ["https://s2-g1.glbimg.com/HDFVf_bAgVWD9rHRrwXJcriLs-I=/3840x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/l/b/6h0t0yTPmOkIyCqUfoIw/globo-canal-4-20260531-2000-frame-221070.jpeg"],
+      "media_alt": "Reportagem do Fantástico sobre o caso do vice-prefeito de Trajano de Moraes",
+      "likes": 4,
+      "reposts": 2,
+      "replies": 1,
+      "views": 63,
+      "coverage_kind": "blindspot",
+      "coverage": {
+        "left": {
+          "count": 0,
+          "outlets": []
+        },
+        "center": {
+          "count": 8,
+          "outlets": [
+            "G1",
+            "O Globo",
+            "Veja",
+            "Poder360"
+          ]
+        },
+        "right": {
+          "count": 0,
+          "outlets": []
+        }
+      },
+      "sources": [
+        {
+          "outlet": "G1",
+          "lean": "center",
+          "url": "https://g1.globo.com/fantastico/noticia/2026/05/31/vice-prefeito-de-trajano-de-moraes-rj-e-acusado-de-forjar-casamento.ghtml"
+        },
+        {
+          "outlet": "O Globo",
+          "lean": "center",
+          "url": "https://oglobo.globo.com/rio/noticia/2026/06/01/mprj-denuncia-vice-prefeito.ghtml"
+        },
+        {
+          "outlet": "Veja",
+          "lean": "center",
+          "url": "https://veja.abril.com.br/brasil/vice-prefeito-forjar-casamento-pensao-milionaria/"
+        },
+        {
+          "outlet": "Poder360",
+          "lean": "center",
+          "url": "https://www.poder360.com.br/poder-justica/vice-prefeito-tem-bens-bloqueados.ghtml"
+        }
+      ]
+    },
+    {
+      "id": "2062185996288967006",
+      "url": "https://x.com/OlharFactual/status/2062185996288967006",
+      "created_at": "2026-06-03T14:53:49.000Z",
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 5,
+      "title": "Governo Lula anuncia um novo polo naval",
+      "summary": "Elio Gaspari escreveu uma coluna sobre o novo polo naval de Lula, com R$ 41,7 bilhões em investimentos e 890 obras. O texto é o mesmo nos dois veículos — mas",
+      "lenses": 2,
+      "media": [
+        "https://pbs.twimg.com/media/HJ5a6jaW4AAiQIc.jpg"
+      ],
+      "media_alt": "Governo Lula anuncia um novo polo naval",
+      "coverage_kind": "comparison",
+      "coverage": {
+        "left": {
+          "count": 0,
+          "outlets": []
+        },
+        "center": {
+          "count": 3,
+          "outlets": [
+            "Folha"
+          ]
+        },
+        "right": {
+          "count": 4,
+          "outlets": [
+            "Pleno News",
+            "Jovem Pan",
+            "Gazeta do Povo"
+          ]
+        }
+      },
+      "sources": []
+    },
+    {
+      "id": "2062178161866019149",
+      "url": "https://x.com/OlharFactual/status/2062178161866019149",
+      "created_at": "2026-06-03T14:22:41.000Z",
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 21,
+      "title": "Vorcaro pagou férias milionárias de Ciro Nogueira nos Alpes Franceses, aponta PF",
+      "summary": "A PF aponta que o banqueiro Daniel Vorcaro bancou férias de quase R$ 2 milhões para o senador Ciro Nogueira nos Alpes Franceses. Refeição de R$ 63 mil, hotel",
+      "lenses": 2,
+      "media": [
+        "https://pbs.twimg.com/media/HJ5T6tAWgAAs3z6.jpg"
+      ],
+      "media_alt": "Vorcaro pagou férias milionárias de Ciro Nogueira nos Alpes Franceses, aponta PF",
+      "coverage_kind": "comparison",
+      "coverage": {
+        "left": {
+          "count": 0,
+          "outlets": []
+        },
+        "center": {
+          "count": 2,
+          "outlets": [
+            "UOL",
+            "O Globo"
+          ]
+        },
+        "right": {
+          "count": 3,
+          "outlets": [
+            "Jovem Pan",
+            "Gazeta do Povo"
+          ]
+        }
+      },
+      "sources": []
+    },
+    {
+      "id": "2061989461035044987",
+      "url": "https://x.com/OlharFactual/status/2061989461035044987",
+      "created_at": "2026-06-03T01:52:52.000Z",
+      "likes": 2,
+      "reposts": 1,
+      "replies": 0,
+      "views": 5,
+      "title": "PSD avalia Kassab como vice na chapa de Caiado",
+      "summary": "Kassab pode ser vice de Caiado na chapa presidencial do PSD. Parece simples, mas cada lado da mídia contou uma história bem diferente.\n🔴 Esquerda (Folha de",
+      "lenses": 3,
+      "media": [
+        "https://pbs.twimg.com/media/HJ2n0DoXAAA46uj.jpg"
+      ],
+      "media_alt": "PSD avalia Kassab como vice na chapa de Caiado",
+      "coverage_kind": "comparison",
+      "coverage": {
+        "left": {
+          "count": 5,
+          "outlets": [
+            "Fórum",
+            "Carta Capital"
+          ]
+        },
+        "center": {
+          "count": 7,
+          "outlets": [
+            "G1",
+            "Folha",
+            "UOL"
+          ]
+        },
+        "right": {
+          "count": 4,
+          "outlets": [
+            "Jovem Pan"
+          ]
+        }
+      },
+      "sources": []
+    },
+    {
+      "id": "2061948554529149073",
+      "url": "https://x.com/OlharFactual/status/2061948554529149073",
+      "created_at": "2026-06-02T23:10:19.000Z",
+      "likes": 2,
+      "reposts": 1,
+      "replies": 0,
+      "views": 21,
+      "title": "Oposição vai a Alcolumbre para tentar frear 6x1 no Senado",
+      "summary": "A PEC do fim da escala 6x1 foi aprovada na Câmara com placar elástico (472 a 22) e agora enfrenta a batalha do Senado. Mas quem está \"freando\" e quem está",
+      "lenses": 3,
+      "media": [
+        "https://pbs.twimg.com/media/HJ2CrQmW4AAB39Q.jpg"
+      ],
+      "media_alt": "Oposição vai a Alcolumbre para tentar frear 6x1 no Senado",
+      "coverage_kind": "comparison",
+      "coverage": {
+        "left": {
+          "count": 5,
+          "outlets": [
+            "Carta Capital",
+            "Brasil 247"
+          ]
+        },
+        "center": {
+          "count": 3,
+          "outlets": [
+            "Poder360",
+            "Estadão",
+            "G1"
+          ]
+        },
+        "right": {
+          "count": 2,
+          "outlets": [
+            "Pleno News"
+          ]
+        }
+      },
+      "sources": []
+    },
+    {
+      "id": "2061946706678133120",
+      "url": "https://x.com/OlharFactual/status/2061946706678133120",
+      "created_at": "2026-06-02T23:02:58.000Z",
+      "likes": 2,
+      "reposts": 1,
+      "replies": 0,
+      "views": 16,
+      "title": "Senado derruba regras de atendimento a crianças vítimas de violência sexual",
+      "summary": "O Senado aprovou a derrubada da Resolução 258/24 do Conanda, que estabelecia diretrizes de atendimento a crianças e adolescentes vítimas de estupro nos casos",
+      "lenses": 2,
+      "media": [
+        "https://pbs.twimg.com/media/HJ2A9g3XUAAw3Ps.jpg"
+      ],
+      "media_alt": "Senado derruba regras de atendimento a crianças vítimas de violência sexual",
+      "coverage_kind": "comparison",
+      "coverage": {
+        "left": {
+          "count": 6,
+          "outlets": [
+            "Fórum",
+            "Brasil 247"
+          ]
+        },
+        "center": {
+          "count": 6,
+          "outlets": [
+            "Poder360",
+            "O Globo",
+            "CNN Brasil"
+          ]
+        },
+        "right": {
+          "count": 0,
+          "outlets": []
+        }
+      },
+      "sources": []
+    },
+    {
+      "id": "2061902572794060941",
+      "url": "https://x.com/OlharFactual/status/2061902572794060941",
+      "created_at": "2026-06-02T20:07:36.000Z",
+      "likes": 2,
+      "reposts": 1,
+      "replies": 0,
+      "views": 55,
+      "title": "Motta nega atuar como ponte entre Lula e Alcolumbre",
+      "summary": "Lula e Alcolumbre não se falam desde a rejeição de Jorge Messias ao STF. Hugo Motta diz que tenta ajudar, mas que a decisão não depende dele. Veja como cada",
+      "lenses": 3,
+      "media": [
+        "https://pbs.twimg.com/media/HJ1YnGzWkAEcdcH.jpg"
+      ],
+      "media_alt": "Motta nega atuar como ponte entre Lula e Alcolumbre",
+      "coverage_kind": "comparison",
+      "coverage": {
+        "left": {
+          "count": 4,
+          "outlets": [
+            "Carta Capital",
+            "Brasil 247"
+          ]
+        },
+        "center": {
+          "count": 5,
+          "outlets": [
+            "G1",
+            "Folha"
+          ]
+        },
+        "right": {
+          "count": 3,
+          "outlets": [
+            "Revista Oeste",
+            "Pleno News",
+            "Jovem Pan"
+          ]
+        }
+      },
+      "sources": []
+    },
+    {
+      "id": "2061861029567504821",
+      "url": "https://x.com/OlharFactual/status/2061861029567504821",
+      "created_at": "2026-06-02T17:22:31.000Z",
+      "likes": 2,
+      "reposts": 1,
+      "replies": 0,
+      "views": 4,
+      "title": "Flávio, Zema e Caiado em BH: união, protesto ou bastidor?",
+      "summary": "Flávio Bolsonaro foi a Minas Gerais para uma série de agendas políticas, incluindo a Megaleite, um título de cidadão honorário em BH e encontros com Zema e",
+      "lenses": 3,
+      "media": [
+        "https://pbs.twimg.com/media/HJ0zX4bWYAAUk1s.jpg"
+      ],
+      "media_alt": "Flávio, Zema e Caiado em BH: união, protesto ou bastidor?",
+      "coverage_kind": "comparison",
+      "coverage": {
+        "left": {
+          "count": 7,
+          "outlets": [
+            "Fórum",
+            "Intercept",
+            "Carta Capital"
+          ]
+        },
+        "center": {
+          "count": 4,
+          "outlets": [
+            "Estadão"
+          ]
+        },
+        "right": {
+          "count": 3,
+          "outlets": [
+            "Gazeta do Povo"
+          ]
+        }
+      },
+      "sources": []
+    },
+    {
+      "id": "2061853119974138200",
+      "url": "https://x.com/OlharFactual/status/2061853119974138200",
+      "created_at": "2026-06-02T16:51:05.000Z",
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 4,
+      "title": "EUA indicam que estão prestes a concluir investigação comercial contra o Brasil",
+      "summary": "Os EUA propuseram tarifa de 25% sobre produtos brasileiros após investigação da Seção 301, mirando o Pix, decisões judiciais, etanol e desmatamento. Mas",
+      "lenses": 3,
+      "media": [
+        "https://pbs.twimg.com/media/HJ0g8X9XgAAJ2EA.jpg"
+      ],
+      "media_alt": "EUA indicam que estão prestes a concluir investigação comercial contra o Brasil",
+      "coverage_kind": "comparison",
+      "coverage": {
+        "left": {
+          "count": 3,
+          "outlets": [
+            "Intercept"
+          ]
+        },
+        "center": {
+          "count": 5,
+          "outlets": [
+            "G1",
+            "UOL"
+          ]
+        },
+        "right": {
+          "count": 6,
+          "outlets": [
+            "Gazeta do Povo",
+            "Jovem Pan",
+            "Pleno News"
+          ]
+        }
+      },
+      "sources": []
+    },
+    {
+      "id": "2061827639107629104",
+      "url": "https://x.com/OlharFactual/status/2061827639107629104",
+      "created_at": "2026-06-02T15:09:50.000Z",
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 4,
+      "title": "Moraes, Viviane e Motta participam de jantar em clima de 'pré-Gilmarpalooza'",
+      "summary": "O Fórum de Lisboa, o \"Gilmarpalooza\" organizado por Gilmar Mendes, começou sob a sombra do escândalo do Banco Master. Moraes, Motta e outras autoridades se",
+      "lenses": 2,
+      "media": [
+        "https://pbs.twimg.com/media/HJ0U6p2WwAAtFp8.jpg"
+      ],
+      "media_alt": "Moraes, Viviane e Motta participam de jantar em clima de 'pré-Gilmarpalooza'",
+      "coverage_kind": "comparison",
+      "coverage": {
+        "left": {
+          "count": 6,
+          "outlets": [
+            "GGN",
+            "Intercept"
+          ]
+        },
+        "center": {
+          "count": 0,
+          "outlets": []
+        },
+        "right": {
+          "count": 3,
+          "outlets": [
+            "Gazeta do Povo"
+          ]
+        }
+      },
+      "sources": []
+    },
+    {
+      "id": "2061826792751550522",
+      "url": "https://x.com/OlharFactual/status/2061826792751550522",
+      "created_at": "2026-06-02T15:06:28.000Z",
+      "likes": 1,
+      "reposts": 1,
+      "replies": 0,
+      "views": 4,
+      "title": "Bolsonaro está com \"limitação de movimento no ombro\", diz relatório",
+      "summary": "Bolsonaro não foi liberado para fisioterapia ativa no ombro direito, 28 dias após cirurgia. Relatórios médicos apontam rigidez articular e limitação de",
+      "lenses": 3,
+      "media": [
+        "https://pbs.twimg.com/media/HJ0UH_XXwAAC1Vu.jpg"
+      ],
+      "media_alt": "Bolsonaro está com \"limitação de movimento no ombro\", diz relatório",
+      "coverage_kind": "comparison",
+      "coverage": {
+        "left": {
+          "count": 5,
+          "outlets": [
+            "Brasil 247",
+            "Intercept",
+            "Carta Capital"
+          ]
+        },
+        "center": {
+          "count": 7,
+          "outlets": [
+            "Folha",
+            "O Globo",
+            "CNN Brasil"
+          ]
+        },
+        "right": {
+          "count": 7,
+          "outlets": [
+            "Revista Oeste",
+            "Pleno News",
+            "Gazeta do Povo"
+          ]
+        }
+      },
+      "sources": []
+    },
+    {
+      "id": "2061602189118767265",
+      "url": "https://x.com/OlharFactual/status/2061602189118767265",
+      "created_at": "2026-06-02T00:13:59.000Z",
+      "likes": 3,
+      "reposts": 1,
+      "replies": 0,
+      "views": 3,
+      "title": "ONG da produtora de filme de Bolsonaro é alvo de operação por suspeita de desvio de recursos",
+      "summary": "R$ 1.800 por ponto de wi-fi quando a empresa pública cobrava R$ 306. A Polícia Civil de SP deflagrou a Operação Wi-Fi contra a ONG da mesma dona da produtora",
+      "lenses": 3,
+      "media": [
+        "https://pbs.twimg.com/media/HJxHbTVW0AALzgY.jpg"
+      ],
+      "media_alt": "ONG da produtora de filme de Bolsonaro é alvo de operação por suspeita de desvio de recursos",
+      "coverage_kind": "comparison",
+      "coverage": {
+        "left": {
+          "count": 3,
+          "outlets": [
+            "GGN",
+            "Fórum",
+            "Intercept"
+          ]
+        },
+        "center": {
+          "count": 4,
+          "outlets": [
+            "Folha",
+            "O Globo"
+          ]
+        },
+        "right": {
+          "count": 1,
+          "outlets": [
+            "Revista Oeste"
+          ]
+        }
+      },
+      "sources": []
+    },
+    {
+      "id": "2061600782554657161",
+      "url": "https://x.com/OlharFactual/status/2061600782554657161",
+      "created_at": "2026-06-02T00:08:23.000Z",
+      "likes": 3,
+      "reposts": 1,
+      "replies": 0,
+      "views": 3,
+      "title": "Fazenda ampliará limite de crédito do DF para salvar BRB, mas garantia virá de bancos",
+      "summary": "R$ 6,6 bilhões para salvar o BRB após o escândalo do Banco Master. Um acordo inédito, mediado pelo STF, com bancos fiadores e sem aval da União. Mas cada",
+      "lenses": 3,
+      "media": [
+        "https://pbs.twimg.com/media/HJxGWZrXMAARKfx.jpg"
+      ],
+      "media_alt": "Fazenda ampliará limite de crédito do DF para salvar BRB, mas garantia virá de bancos",
+      "coverage_kind": "comparison",
+      "coverage": {
+        "left": {
+          "count": 5,
+          "outlets": [
+            "Fórum",
+            "Carta Capital"
+          ]
+        },
+        "center": {
+          "count": 5,
+          "outlets": [
+            "O Globo"
+          ]
+        },
+        "right": {
+          "count": 5,
+          "outlets": [
+            "Pleno News"
+          ]
+        }
+      },
+      "sources": []
+    },
+    {
+      "id": "2061599300157604209",
+      "url": "https://x.com/OlharFactual/status/2061599300157604209",
+      "created_at": "2026-06-02T00:02:30.000Z",
+      "likes": 3,
+      "reposts": 1,
+      "replies": 0,
+      "views": 3,
+      "title": "Sem Pacheco, presidente do PT negocia candidatura de Josué Gomes ao governo de MG",
+      "summary": "Pacheco recusou disputar o governo de Minas Gerais e o PT ficou sem candidato no segundo maior colégio eleitoral do país. Veja como cada lado da mídia contou",
+      "lenses": 3,
+      "media": [
+        "https://pbs.twimg.com/media/HJxFKgPWMAAfgtL.jpg"
+      ],
+      "media_alt": "Sem Pacheco, presidente do PT negocia candidatura de Josué Gomes ao governo de MG",
+      "coverage_kind": "comparison",
+      "coverage": {
+        "left": {
+          "count": 6,
+          "outlets": [
+            "GGN",
+            "Brasil 247"
+          ]
+        },
+        "center": {
+          "count": 6,
+          "outlets": [
+            "O Globo",
+            "Folha"
+          ]
+        },
+        "right": {
+          "count": 2,
+          "outlets": [
+            "Jovem Pan",
+            "Gazeta do Povo"
+          ]
+        }
+      },
+      "sources": []
+    },
+    {
+      "id": "2061598345508835634",
+      "url": "https://x.com/OlharFactual/status/2061598345508835634",
+      "created_at": "2026-06-01T23:58:42.000Z",
+      "likes": 3,
+      "reposts": 1,
+      "replies": 0,
+      "views": 4,
+      "title": "Preço do petróleo cai com expectativa sobre acordo de paz entre EUA e Irã",
+      "summary": "O petróleo despencou mais de 5% em um único dia com rumores de acordo entre EUA e Irã — mas cada lado da mídia contou uma história bem diferente sobre o que",
+      "lenses": 3,
+      "media": [
+        "https://pbs.twimg.com/media/HJxEH9oXMAAqnZ0.jpg"
+      ],
+      "media_alt": "Preço do petróleo cai com expectativa sobre acordo de paz entre EUA e Irã",
+      "coverage_kind": "comparison",
+      "coverage": {
+        "left": {
+          "count": 3,
+          "outlets": [
+            "GGN",
+            "Intercept",
+            "Brasil 247"
+          ]
+        },
+        "center": {
+          "count": 2,
+          "outlets": [
+            "Estadão"
+          ]
+        },
+        "right": {
+          "count": 4,
+          "outlets": [
+            "Gazeta do Povo",
+            "Pleno News"
+          ]
+        }
+      },
+      "sources": []
+    },
+    {
+      "id": "2061597231770124565",
+      "url": "https://x.com/OlharFactual/status/2061597231770124565",
+      "created_at": "2026-06-01T23:54:17.000Z",
+      "likes": 3,
+      "reposts": 2,
+      "replies": 0,
+      "views": 3,
+      "title": "PCC e CV na lista terrorista dos EUA: o que muda para o Brasil — e quem ganha com isso?",
+      "summary": "Os EUA classificaram PCC e Comando Vermelho como organizações terroristas. Flávio Bolsonaro celebrou, Lula criticou, especialistas divergem. Mas o que cada",
+      "lenses": 3,
+      "media": [
+        "https://pbs.twimg.com/media/HJxC6RvXwAAtYTk.jpg"
+      ],
+      "media_alt": "PCC e CV na lista terrorista dos EUA: o que muda para o Brasil — e quem ganha com isso?",
+      "coverage_kind": "comparison",
+      "coverage": {
+        "left": {
+          "count": 4,
+          "outlets": [
+            "Carta Capital",
+            "GGN"
+          ]
+        },
+        "center": {
+          "count": 4,
+          "outlets": [
+            "CNN Brasil",
+            "Poder360",
+            "O Globo"
+          ]
+        },
+        "right": {
+          "count": 6,
+          "outlets": [
+            "Pleno News",
+            "Gazeta do Povo"
+          ]
+        }
+      },
+      "sources": []
+    },
+    {
+      "id": "2061595853572174065",
+      "url": "https://x.com/OlharFactual/status/2061595853572174065",
+      "created_at": "2026-06-01T23:48:48.000Z",
+      "likes": 3,
+      "reposts": 1,
+      "replies": 0,
+      "views": 2,
+      "title": "Israel intensifica ofensiva no sul do Líbano e amplia operação terrestre apesar de cessar-fogo",
+      "summary": "Israel lançou mais de 100 bombardeios no sul do Líbano e expandiu operações terrestres, mesmo com o cessar-fogo em vigor desde abril. Trump anunciou uma",
+      "lenses": 3,
+      "media": [
+        "https://pbs.twimg.com/media/HJxBxICW4AAi3pu.jpg"
+      ],
+      "media_alt": "Israel intensifica ofensiva no sul do Líbano e amplia operação terrestre apesar de cessar-fogo",
+      "coverage_kind": "comparison",
+      "coverage": {
+        "left": {
+          "count": 2,
+          "outlets": [
+            "Brasil 247"
+          ]
+        },
+        "center": {
+          "count": 3,
+          "outlets": [
+            "CNN Brasil"
+          ]
+        },
+        "right": {
+          "count": 4,
+          "outlets": [
+            "Jovem Pan",
+            "Pleno News"
+          ]
+        }
+      },
+      "sources": []
+    },
+    {
+      "id": "2061594674893046183",
+      "url": "https://x.com/OlharFactual/status/2061594674893046183",
+      "created_at": "2026-06-01T23:44:07.000Z",
+      "likes": 3,
+      "reposts": 1,
+      "replies": 0,
+      "views": 2,
+      "title": "Polícia Civil pede acesso a dados financeiros sigilosos de produtora de 'Dark Horse'",
+      "summary": "R$ 108 milhões de um contrato de Wi-Fi da Prefeitura de SP podem ter ido parar num filme sobre Bolsonaro. A Polícia Civil investiga desvio de recursos, notas",
+      "lenses": 3,
+      "media": [
+        "https://pbs.twimg.com/media/HJxBY3QWAAAsfC4.jpg"
+      ],
+      "media_alt": "Polícia Civil pede acesso a dados financeiros sigilosos de produtora de 'Dark Horse'",
+      "coverage_kind": "comparison",
+      "coverage": {
+        "left": {
+          "count": 3,
+          "outlets": [
+            "Fórum",
+            "Brasil 247"
+          ]
+        },
+        "center": {
+          "count": 5,
+          "outlets": [
+            "G1",
+            "CNN Brasil"
+          ]
+        },
+        "right": {
+          "count": 5,
+          "outlets": [
+            "Gazeta do Povo",
+            "Revista Oeste"
+          ]
+        }
+      },
+      "sources": []
+    },
+    {
+      "id": "2061592972840354126",
+      "url": "https://x.com/OlharFactual/status/2061592972840354126",
+      "created_at": "2026-06-01T23:37:21.000Z",
+      "likes": 3,
+      "reposts": 1,
+      "replies": 0,
+      "views": 2,
+      "title": "Bolívia facilita declaração de estado de emergência em meio a protestos",
+      "summary": "O presidente da Bolívia, Rodrigo Paz, revogou uma lei que limitava o estado de emergência, podendo agora usar militares contra protestos que pedem sua",
+      "lenses": 3,
+      "media": [
+        "https://pbs.twimg.com/media/HJw-n2_XgAA5Rwa.jpg"
+      ],
+      "media_alt": "Bolívia facilita declaração de estado de emergência em meio a protestos",
+      "coverage_kind": "comparison",
+      "coverage": {
+        "left": {
+          "count": 3,
+          "outlets": [
+            "GGN",
+            "Carta Capital",
+            "Fórum"
+          ]
+        },
+        "center": {
+          "count": 3,
+          "outlets": [
+            "UOL",
+            "G1",
+            "Poder360"
+          ]
+        },
+        "right": {
+          "count": 6,
+          "outlets": [
+            "Jovem Pan",
+            "Gazeta do Povo",
+            "Pleno News"
+          ]
+        }
+      },
+      "sources": []
+    },
+    {
+      "id": "2061591199073599596",
+      "url": "https://x.com/OlharFactual/status/2061591199073599596",
+      "created_at": "2026-06-01T23:30:19.000Z",
+      "likes": 3,
+      "reposts": 1,
+      "replies": 0,
+      "views": 3,
+      "title": "Lula tem 46% e Flávio, 41% no 2º turno, diz pesquisa",
+      "summary": "Lula lidera com 46% contra 41% de Flávio Bolsonaro no 2º turno, segundo pesquisa Indexa. Mas a forma como cada lado apresentou esses números muda",
+      "lenses": 3,
+      "media": [
+        "https://pbs.twimg.com/media/HJw9irRWoAA1rQt.jpg"
+      ],
+      "media_alt": "Lula tem 46% e Flávio, 41% no 2º turno, diz pesquisa",
+      "coverage_kind": "comparison",
+      "coverage": {
+        "left": {
+          "count": 2,
+          "outlets": [
+            "GGN"
+          ]
+        },
+        "center": {
+          "count": 4,
+          "outlets": [
+            "Poder360",
+            "Folha",
+            "G1"
+          ]
+        },
+        "right": {
+          "count": 2,
+          "outlets": [
+            "Pleno News"
+          ]
+        }
+      },
+      "sources": []
+    }
+  ]
+}

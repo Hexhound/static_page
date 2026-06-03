@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Olhar Factual — Fontes &amp; Classificação</title>
+<link rel="stylesheet" href="of-tokens.css">
+<style>
+  .pg-head { padding-block: var(--of-s8) var(--of-s7); border-bottom: 2px solid var(--of-ink); }
+  .pg-title { font-family: var(--of-display); font-size: clamp(2.6rem, 6vw, 4.25rem); line-height: 0.96; margin: var(--of-s3) 0 0; }
+
+  /* spectrum explainer */
+  .fo-spectrum { padding-block: var(--of-s7); border-bottom: 1px solid var(--of-rule); display: grid; gap: var(--of-s6); align-items: center; }
+  @media (min-width: 820px){ .fo-spectrum { grid-template-columns: 1.1fr 1fr; gap: var(--of-s8); } }
+  .fo-spectrum p { font-family: var(--of-serif); font-size: 1.1rem; line-height: 1.55; color: var(--of-ink-80); margin: 0; max-width: 52ch; }
+  .fo-spectrum .of-bias__legend { font-size: 0.7rem; }
+
+  /* counts strip */
+  .fo-counts { display: flex; flex-wrap: wrap; gap: var(--of-s6) var(--of-s8); padding-block: var(--of-s6); border-bottom: 1px solid var(--of-rule); }
+  .fo-count__n { font-family: var(--of-display); font-size: 2.4rem; line-height: 1; }
+  .fo-count__l { font-family: var(--of-mono); font-size: var(--of-fs-micro); letter-spacing: 0.14em; text-transform: uppercase; color: var(--of-ink-55); margin-top: 0.3rem; }
+
+  /* outlet groups */
+  .fo-group { padding-block: var(--of-s7); border-bottom: 1px solid var(--of-rule); }
+  .fo-group__head { display: flex; align-items: baseline; gap: var(--of-s4); margin-bottom: var(--of-s5); }
+  .fo-dot { width: 12px; height: 12px; border-radius: 99px; flex: none; transform: translateY(1px); }
+  .fo-dot--left { background: var(--of-bias-left); }
+  .fo-dot--center { background: var(--of-bias-center); }
+  .fo-dot--right { background: var(--of-bias-right); }
+  .fo-group__title { font-family: var(--of-display); font-size: 1.7rem; line-height: 1; }
+  .fo-group__sub { font-family: var(--of-mono); font-size: var(--of-fs-micro); letter-spacing: 0.1em; color: var(--of-ink-55); }
+  .fo-outlets { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 0; }
+  .fo-outlet { padding: var(--of-s4) 0; border-top: 1px solid var(--of-rule-soft); font-family: var(--of-serif);
+    font-size: 1.05rem; color: var(--of-ink); display: flex; align-items: center; gap: 0.6rem; }
+  .fo-outlet small { font-family: var(--of-mono); font-size: 0.62rem; letter-spacing: 0.08em; color: var(--of-ink-40); text-transform: uppercase; }
+
+  /* disclaimer */
+  .fo-note { background: var(--of-paper-raised); border: 1px solid var(--of-rule); border-radius: var(--of-radius);
+    padding: var(--of-s6); margin-top: var(--of-s7); }
+  .fo-note h4 { font-family: var(--of-mono); font-size: var(--of-fs-micro); letter-spacing: 0.2em; text-transform: uppercase; color: var(--of-ink-55); margin: 0 0 var(--of-s3); }
+  .fo-note p { font-family: var(--of-serif); font-size: 1rem; line-height: 1.5; color: var(--of-ink-80); margin: 0 0 0.7em; max-width: 72ch; }
+  .fo-note p:last-child { margin-bottom: 0; }
+  .fo-note a { color: var(--of-crimson); }
+</style>
+</head>
+<body data-screen-label="Fontes">
+
+<header class="of-topbar">
+  <div class="of-container of-topbar__inner">
+    <a href="index.html" class="of-logo"><span class="of-logo__mark" style="font-size:1.4rem">OF</span><span class="of-logo__rule"></span><span class="of-logo__word">Olhar Factual</span></a>
+    <nav class="of-nav" style="border:0">
+      <a href="index.html">Início</a><a href="FAQ.html">FAQ</a><a href="Sobre.html">Sobre</a><a href="Fontes.html" aria-current="page">Fontes</a><a href="Contato.html" style="border:0">Contato</a>
+    </nav>
+  </div>
+</header>
+
+<main class="of-container">
+
+  <div class="pg-head">
+    <div class="of-kicker">Transparência</div>
+    <h1 class="pg-title">Fontes &amp; classificação</h1>
+    <p class="of-deck" style="margin-top:var(--of-s5); max-width:62ch">
+      Acompanhamos a imprensa brasileira — dos grandes jornais a nativos digitais. Cada veículo recebe uma posição no espectro político segundo a sua linha editorial média. Veja como classificamos e quais veículos monitoramos.
+    </p>
+  </div>
+
+  <!-- SPECTRUM -->
+  <section class="fo-spectrum">
+    <p>A posição reflete a <strong>tendência editorial recorrente</strong> de um veículo — a escolha de pautas, de fontes e de linguagem — não a qualidade, a veracidade ou a filiação partidária. "Centro" indica cobertura predominantemente factual e equilibrada entre os polos.</p>
+    <div class="of-bias">
+      <div class="of-bias__track of-bias__track--lg">
+        <div class="of-bias__seg of-bias__seg--left" style="width:33.33%"></div>
+        <div class="of-bias__seg of-bias__seg--center" style="width:33.33%"></div>
+        <div class="of-bias__seg of-bias__seg--right" style="width:33.34%"></div>
+      </div>
+      <div class="of-bias__legend"><span class="l">Esquerda</span><span class="c">Centro</span><span class="r">Direita</span></div>
+    </div>
+  </section>
+
+  <!-- COUNTS -->
+  <section class="fo-counts">
+    <div><div class="fo-count__n">120+</div><div class="fo-count__l">Veículos monitorados</div></div>
+    <div><div class="fo-count__n">3</div><div class="fo-count__l">Faixas do espectro</div></div>
+    <div><div class="fo-count__n">∞</div><div class="fo-count__l">Atualização contínua</div></div>
+  </section>
+
+  <!-- ESQUERDA -->
+  <section class="fo-group">
+    <div class="fo-group__head">
+      <span class="fo-dot fo-dot--left"></span>
+      <div><div class="fo-group__title">Esquerda &amp; centro-esquerda</div><div class="fo-group__sub">Exemplos representativos</div></div>
+    </div>
+    <div class="fo-outlets">
+      <div class="fo-outlet">Brasil 247</div>
+      <div class="fo-outlet">Carta Capital</div>
+      <div class="fo-outlet">Revista Fórum</div>
+      <div class="fo-outlet">GGN</div>
+      <div class="fo-outlet">The Intercept Brasil</div>
+      <div class="fo-outlet">Opera Mundi</div>
+    </div>
+  </section>
+
+  <!-- CENTRO -->
+  <section class="fo-group">
+    <div class="fo-group__head">
+      <span class="fo-dot fo-dot--center"></span>
+      <div><div class="fo-group__title">Centro</div><div class="fo-group__sub">Exemplos representativos</div></div>
+    </div>
+    <div class="fo-outlets">
+      <div class="fo-outlet">G1</div>
+      <div class="fo-outlet">O Globo</div>
+      <div class="fo-outlet">Folha de S.Paulo</div>
+      <div class="fo-outlet">UOL</div>
+      <div class="fo-outlet">Estadão</div>
+      <div class="fo-outlet">CNN Brasil</div>
+      <div class="fo-outlet">Poder360</div>
+      <div class="fo-outlet">Agência Pública</div>
+    </div>
+  </section>
+
+  <!-- DIREITA -->
+  <section class="fo-group">
+    <div class="fo-group__head">
+      <span class="fo-dot fo-dot--right"></span>
+      <div><div class="fo-group__title">Direita &amp; centro-direita</div><div class="fo-group__sub">Exemplos representativos</div></div>
+    </div>
+    <div class="fo-outlets">
+      <div class="fo-outlet">Gazeta do Povo</div>
+      <div class="fo-outlet">Jovem Pan</div>
+      <div class="fo-outlet">Revista Oeste</div>
+      <div class="fo-outlet">Pleno.News</div>
+      <div class="fo-outlet">Conexão Política</div>
+    </div>
+  </section>
+
+  <!-- DISCLAIMER -->
+  <div class="fo-note">
+    <h4>Como ler esta lista</h4>
+    <p>Esta é uma <strong>amostra representativa</strong>, não a lista completa dos veículos monitorados. As faixas descrevem a <strong>linha editorial média</strong> de cada veículo e são revisadas periodicamente — linhas editoriais mudam devagar, então a classificação é estável, mas nunca definitiva.</p>
+    <p>Discorda de uma classificação? Aceitamos <strong>contestações fundamentadas</strong> e registramos publicamente cada mudança. <a href="Contato.html">Fale com a gente →</a></p>
+  </div>
+
+  <div style="height:var(--of-s8)"></div>
+
+</main>
+
+<footer class="of-footer">
+  <div class="of-container">
+    <div class="of-footer__cols">
+      <div class="of-footer__col" style="grid-column: span 2; min-width:auto">
+        <a href="index.html" style="padding:0"><span class="of-logo"><span class="of-logo__mark">OF</span><span class="of-logo__rule"></span><span class="of-logo__word of-logo--stacked" style="display:flex;flex-direction:column">Olhar<br>Factual</span></span></a>
+        <p class="of-kicker" style="margin-top:var(--of-s4); color:var(--of-ink-40)">Todas as fontes · Todos os ângulos</p>
+      </div>
+      <div class="of-footer__col"><h4>Institucional</h4><a href="Sobre.html">Sobre</a><a href="FAQ.html">Metodologia &amp; FAQ</a><a href="Fontes.html">Fontes</a><a href="Contato.html">Contato</a></div>
+      <div class="of-footer__col"><h4>Seguir</h4><a href="https://x.com/olharfactual" target="_blank" rel="noopener">X / Twitter</a></div>
+    </div>
+    <div class="of-hr" style="margin-top:var(--of-s7)"></div>
+    <p class="of-kicker" style="margin-top:var(--of-s4); text-align:center; color:var(--of-ink-30)">© 2026 Olhar Factual · Edição Digital · Todas as fontes, todos os ângulos</p>
+  </div>
+</footer>
+
+</body>
+</html>

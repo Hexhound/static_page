@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Olhar Factual — Direto do X</title>
+<link rel="stylesheet" href="of-tokens.css">
+<style>
+  /* ---- live indicator in the masthead bar ---- */
+  .xf-live { display:inline-flex; align-items:center; gap:0.45rem; font-family:var(--of-mono);
+    font-size:0.625rem; letter-spacing:0.2em; text-transform:uppercase; color:var(--of-breaking); }
+  .xf-live__dot { width:7px; height:7px; border-radius:99px; background:var(--of-breaking);
+    animation: of-pulse 1.6s ease-in-out infinite; }
+  @media (prefers-reduced-motion: reduce){ .xf-live__dot{ animation:none; } }
+
+  /* ---- hero ---- */
+  .xf-hero { padding-block: var(--of-s7); border-bottom: 2px solid var(--of-ink); }
+  .xf-hero__img { width:100%; aspect-ratio:4/3; object-fit:cover; background:var(--of-paper-sunken); filter:saturate(0.92); }
+
+  /* ---- secondary 3-up ---- */
+  .xf-secondary { display:grid; gap:0; }
+  @media (min-width:768px){ .xf-secondary{ grid-template-columns:repeat(3,1fr); } }
+
+  /* ---- masonry-ish grid rows ---- */
+  .xf-grid-row { display:grid; grid-template-columns:1fr; gap:var(--of-s6); padding-block:var(--of-s6); }
+  @media (min-width:768px){ .xf-grid-row{ grid-template-columns:repeat(4,1fr); } }
+
+  /* ---- engagement line (mono, restrained) ---- */
+  .xf-eng { display:flex; align-items:center; gap:0.9rem; flex-wrap:wrap; margin-top:var(--of-s2);
+    font-family:var(--of-mono); font-size:var(--of-fs-micro); letter-spacing:0.08em; color:var(--of-ink-55); }
+  .xf-eng b { color:var(--of-ink-80); font-weight:600; }
+  .xf-eng__sep { color:var(--of-ink-20); }
+
+  /* ---- post body text in hashtags/mentions ---- */
+  .xf-tag { color:var(--of-crimson); }
+
+  /* ---- ticker links ---- */
+  .of-ticker__link { color:inherit; text-decoration:none; transition:opacity .15s; }
+  .of-ticker__link:hover { opacity:0.82; }
+  .of-ticker__link:hover .of-ticker__item { text-decoration:underline; text-underline-offset:3px; }
+
+  /* ---- lens badge (brand kicker: "🔍 Três lentes diferentes") ---- */
+  .xf-lens { display:inline-flex; align-items:center; gap:0.38rem; margin-bottom:var(--of-s3);
+    font-family:var(--of-mono); font-size:var(--of-fs-micro); font-weight:600; letter-spacing:0.12em;
+    text-transform:uppercase; color:var(--of-crimson); }
+  .xf-lens__icon { font-size:0.85em; filter:grayscale(1) brightness(0.6); }
+  .of-card .xf-lens { margin-bottom:0; margin-top:var(--of-s3); }
+
+  /* ---- coverage kicker (blindspot / comparison) ---- */
+  .xf-covk { display:inline-flex; align-items:center; gap:0.4rem; margin-bottom:var(--of-s3);
+    font-family:var(--of-mono); font-size:var(--of-fs-micro); font-weight:700; letter-spacing:0.14em;
+    text-transform:uppercase; color:var(--of-ink-80); }
+  .xf-covk__g { font-size:0.95em; }
+  .xf-covk--blind { color:var(--of-crimson); }
+  .of-card .xf-covk { margin-bottom:0; margin-top:var(--of-s3); }
+
+  /* ---- coverage panel (hero) ---- */
+  .xf-covpanel { background:var(--of-paper-raised); border:1px solid var(--of-rule);
+    border-radius:var(--of-radius); padding:var(--of-s6); }
+  .xf-covpanel__head { display:flex; align-items:baseline; justify-content:space-between; gap:var(--of-s4);
+    margin-bottom:var(--of-s5); flex-wrap:wrap; }
+  .xf-covpanel__label { font-family:var(--of-mono); font-size:var(--of-fs-micro); letter-spacing:0.22em;
+    text-transform:uppercase; color:var(--of-ink-55); }
+  .xf-covpanel__stat { font-family:var(--of-mono); font-size:var(--of-fs-label); letter-spacing:0.06em; color:var(--of-ink-80); }
+  .xf-covpanel .of-bias { margin-top:0; }
+  .xf-covpanel .of-bias__legend { font-size:0.6rem; margin-top:6px; }
+  .xf-covpanel__note { font-family:var(--of-serif); font-size:1.02rem; line-height:1.45; color:var(--of-ink-80);
+    margin:var(--of-s5) 0 0; text-wrap:pretty; }
+
+  /* ---- outlet chips ---- */
+  .xf-chips { display:flex; flex-wrap:wrap; gap:0.4rem; margin-top:var(--of-s5); }
+
+  /* ---- compact coverage on cards ---- */
+  .xf-covmini { margin-top:var(--of-s3); }
+  .xf-covmini .of-bias { margin-top:0; }
+  .xf-covstat { font-family:var(--of-mono); font-size:var(--of-fs-micro); letter-spacing:0.06em;
+    color:var(--of-ink-55); margin-top:0.45rem; }
+
+  /* ---- inline coverage under the hero headline ---- */
+  .xf-herocov { margin-top:var(--of-s5); max-width:400px; }
+  .xf-herocov .of-bias { margin-top:0; }
+  .xf-covnote { font-family:var(--of-serif); font-size:0.92rem; line-height:1.4; color:var(--of-ink-55);
+    margin:var(--of-s3) 0 0; text-wrap:pretty; }
+  .of-card .xf-covnote { font-size:0.8rem; margin-top:0.45rem; }
+
+  /* ---- image placeholder (shown only if the X cover fails / is unavailable) ---- */
+  .xf-imgph { display:grid; place-items:center; background:
+      repeating-linear-gradient(135deg, var(--of-paper-sunken) 0 14px, color-mix(in oklab, var(--of-paper-sunken) 60%, var(--of-rule-soft)) 14px 28px);
+    border:1px solid var(--of-rule); }
+  .xf-imgph__lens { font-size:1.9rem; filter:grayscale(1) opacity(0.32); }
+  .xf-hero__img.xf-imgph .xf-imgph__lens { font-size:3rem; }
+
+  /* ---- per-card "ver no X" affordance ---- */
+  .xf-source { margin-top:var(--of-s3); }
+
+  /* ---- status / loading / error ---- */
+  .xf-status { padding-block:var(--of-s9); text-align:center; }
+  .xf-status__inner { display:inline-flex; flex-direction:column; align-items:center; gap:var(--of-s4); max-width:46ch; }
+  .xf-spinner { width:26px; height:26px; border:2px solid var(--of-rule); border-top-color:var(--of-ink);
+    border-radius:99px; animation: xf-spin 0.8s linear infinite; }
+  @keyframes xf-spin { to { transform: rotate(360deg); } }
+  .xf-hide { display:none !important; }
+
+  /* skeleton shimmer for first paint */
+  .xf-skel { background:linear-gradient(90deg, var(--of-paper-sunken) 25%, var(--of-rule-soft) 37%, var(--of-paper-sunken) 63%);
+    background-size:400% 100%; animation: xf-shimmer 1.4s ease infinite; }
+  @keyframes xf-shimmer { 0%{ background-position:100% 0; } 100%{ background-position:-100% 0; } }
+
+  /* ---- profile strip ---- */
+  .xf-profile { display:flex; align-items:center; gap:var(--of-s5); flex-wrap:wrap;
+    padding-block:var(--of-s5); border-bottom:1px solid var(--of-rule); }
+  .xf-profile__id { display:flex; align-items:center; gap:var(--of-s4); }
+  .xf-profile__avatar { width:3.1rem; height:3.1rem; font-size:1.15rem; flex:none; }
+  .xf-profile__name { font-family:var(--of-display); font-size:1.45rem; line-height:1; display:flex; align-items:center; gap:0.4rem; }
+  .xf-profile__check { display:inline-grid; place-items:center; width:1rem; height:1rem; border-radius:99px;
+    background:var(--of-crimson); color:var(--of-on-red); font-size:0.62rem; font-family:var(--of-mono); transform:translateY(1px); }
+  .xf-profile__handle { font-family:var(--of-mono); font-size:var(--of-fs-label); letter-spacing:0.1em; color:var(--of-ink-55); margin-top:0.3rem; }
+  .xf-profile__bio { font-family:var(--of-serif); font-size:1rem; color:var(--of-ink-80); margin:0; max-width:42ch; }
+  .xf-profile__stats { display:flex; gap:var(--of-s5); font-family:var(--of-mono); font-size:var(--of-fs-micro);
+    letter-spacing:0.06em; text-transform:uppercase; color:var(--of-ink-55); }
+  .xf-profile__stats b { color:var(--of-ink); font-weight:600; }
+  .xf-profile__spacer { flex:1; }
+  .xf-profile__cta { flex:none; }
+  @media (max-width:640px){ .xf-profile__bio { order:3; flex-basis:100%; } }
+
+  /* ---- waitlist band ---- */
+  .xf-waitlist { background:var(--of-ink); color:var(--of-paper); margin-top:var(--of-s8); }
+  .xf-waitlist__grid { display:grid; gap:var(--of-s7); padding-block:var(--of-s8); align-items:center; }
+  @media (min-width:880px){ .xf-waitlist__grid { grid-template-columns:1.05fr 0.95fr; gap:var(--of-s8); } }
+  .xf-waitlist .of-section-head__label { color:color-mix(in oklab, var(--of-paper) 70%, transparent); }
+  .xf-waitlist .of-section-head__tick { background:var(--of-paper); }
+  .xf-waitlist .of-section-head__line { background:color-mix(in oklab, var(--of-paper) 22%, transparent); }
+  .xf-wl__eyebrow { font-family:var(--of-mono); font-size:var(--of-fs-micro); letter-spacing:0.3em;
+    text-transform:uppercase; color:color-mix(in oklab, var(--of-paper) 60%, transparent); }
+  .xf-wl__title { font-family:var(--of-display); font-size:var(--of-fs-d2); line-height:1.04; letter-spacing:-0.01em; margin:var(--of-s4) 0 0; color:var(--of-paper); text-wrap:balance; }
+  .xf-wl__lede { font-family:var(--of-serif); font-size:var(--of-fs-deck); line-height:1.5; color:color-mix(in oklab, var(--of-paper) 78%, transparent); margin:var(--of-s5) 0 0; max-width:46ch; text-wrap:pretty; }
+  .xf-feat { list-style:none; margin:var(--of-s6) 0 0; padding:0; display:grid; gap:var(--of-s4); }
+  .xf-feat li { display:grid; grid-template-columns:auto 1fr; gap:0.85rem; align-items:start;
+    font-family:var(--of-serif); font-size:1.02rem; line-height:1.4; color:color-mix(in oklab, var(--of-paper) 88%, transparent); }
+  .xf-feat li::before { content:'+'; font-family:var(--of-mono); font-weight:700; color:var(--of-paper);
+    background:color-mix(in oklab, var(--of-paper) 14%, transparent); width:1.4rem; height:1.4rem; border-radius:var(--of-radius);
+    display:grid; place-items:center; font-size:0.85rem; transform:translateY(0.1rem); }
+  .xf-feat li b { color:var(--of-paper); font-weight:600; }
+
+  /* coupon-style form card */
+  .xf-coupon { background:var(--of-paper-raised); color:var(--of-ink); border:2px dashed var(--of-ink);
+    border-radius:var(--of-radius); padding:var(--of-s6); position:relative; }
+  .xf-stamp { position:absolute; top:-0.85rem; right:var(--of-s6); background:var(--of-crimson); color:var(--of-on-red);
+    font-family:var(--of-mono); font-weight:700; font-size:0.72rem; letter-spacing:0.16em; text-transform:uppercase;
+    padding:0.4em 0.7em; border-radius:var(--of-radius); transform:rotate(-2deg); box-shadow:0 2px 0 color-mix(in oklab,#000 25%,var(--of-crimson)); }
+  .xf-coupon__eyebrow { font-family:var(--of-mono); font-size:var(--of-fs-micro); letter-spacing:0.3em; text-transform:uppercase; color:var(--of-ink-55); }
+  .xf-coupon__title { font-family:var(--of-display); font-size:1.7rem; line-height:1.05; margin:var(--of-s2) 0 0; }
+  .xf-coupon__sub { font-family:var(--of-serif); font-size:0.98rem; color:var(--of-ink-80); margin:var(--of-s3) 0 0; text-wrap:pretty; }
+  .xf-form { display:grid; gap:var(--of-s4); margin-top:var(--of-s5); }
+  .xf-field { display:flex; flex-direction:column; gap:0.35rem; }
+  .xf-field label { font-family:var(--of-mono); font-size:var(--of-fs-micro); letter-spacing:0.18em; text-transform:uppercase; color:var(--of-ink-55); }
+  .xf-input { font-family:var(--of-serif); font-size:1.05rem; padding:0.7rem 0.85rem; background:var(--of-paper);
+    border:1px solid var(--of-rule); border-radius:var(--of-radius); color:var(--of-ink); width:100%; transition:border-color .15s, box-shadow .15s; }
+  .xf-input:focus { outline:none; border-color:var(--of-ink); box-shadow:0 0 0 3px var(--of-ink-20); }
+  .xf-input::placeholder { color:var(--of-ink-30); }
+  .xf-input--err { border-color:var(--of-breaking); }
+  .xf-form__err { font-family:var(--of-mono); font-size:var(--of-fs-micro); letter-spacing:0.04em; color:var(--of-breaking); min-height:0.9rem; }
+  .xf-form .of-btn { width:100%; justify-content:center; padding-block:0.95em; }
+  .xf-form .of-btn[disabled] { opacity:0.55; cursor:default; }
+  .xf-fine { font-family:var(--of-mono); font-size:0.5625rem; letter-spacing:0.06em; text-transform:uppercase; color:var(--of-ink-40); text-align:center; margin:var(--of-s3) 0 0; }
+  /* success state */
+  .xf-coupon--done { border-style:solid; border-color:var(--of-crimson); }
+  .xf-success { text-align:center; padding-block:var(--of-s3); }
+  .xf-success__mark { width:3rem; height:3rem; margin:0 auto var(--of-s4); border-radius:99px; background:var(--of-crimson); color:var(--of-on-red);
+    display:grid; place-items:center; font-size:1.4rem; }
+  .xf-success__pos { font-family:var(--of-mono); font-size:var(--of-fs-label); letter-spacing:0.14em; text-transform:uppercase; color:var(--of-ink-55); margin-top:var(--of-s4); }
+  .xf-success__pos b { color:var(--of-crimson); font-size:1.05rem; }
+</style>
+</head>
+<body>
+
+<!-- ===================== MASTHEAD ===================== -->
+<header class="of-masthead" data-screen-label="Feed do X">
+  <div class="of-container">
+    <div class="of-masthead__bar">
+      <span class="of-masthead__date" id="xf-date">—</span>
+    </div>
+    <div class="of-masthead__title">
+      <div class="of-eyebrow" style="margin-bottom:var(--of-s3)">─────── Edição Digital ───────</div>
+      <a href="index.html"><h1 class="of-wordmark">Olhar Factual</h1></a>
+      <div class="of-eyebrow" style="margin-top:var(--of-s3); letter-spacing:0.45em">Todas as fontes · Todos os ângulos</div>
+    </div>
+    <nav class="of-nav">
+      <a href="index.html" aria-current="page">Início</a>
+      <a href="FAQ.html">FAQ</a>
+      <a href="Sobre.html">Sobre</a>
+      <a href="Fontes.html">Fontes</a>
+      <a href="Contato.html">Contato</a>
+    </nav>
+  </div>
+</header>
+
+<!-- ===================== BREAKING TICKER ===================== -->
+<div class="of-ticker xf-hide" id="xf-ticker">
+  <div class="of-ticker__inner">
+    <div class="of-ticker__tag"><span class="of-ticker__dot">●</span><span>Últimas</span></div>
+    <div class="of-ticker__viewport">
+      <div class="of-ticker__track" id="xf-ticker-track"></div>
+    </div>
+  </div>
+</div>
+
+<!-- (profile strip removed per review) -->
+
+<main class="of-container">
+
+  <!-- ===================== LOADING / ERROR STATE ===================== -->
+  <section class="xf-status" id="xf-state">
+    <div class="xf-status__inner">
+      <div class="xf-spinner" id="xf-spinner"></div>
+      <p class="of-deck" id="xf-state-msg">Carregando publicações de @olharfactual…</p>
+      <p class="of-kicker xf-hide" id="xf-state-sub"></p>
+      <a class="of-btn of-btn--ghost xf-hide" id="xf-state-cta" href="#" target="_blank" rel="noopener">Ver no X →</a>
+    </div>
+  </section>
+
+  <!-- ===================== HERO (post 1) ===================== -->
+  <article class="xf-hero of-card group xf-hide" id="xf-hero"></article>
+
+  <!-- ===================== SECONDARY ROW (posts 2–4) ===================== -->
+  <section class="xf-secondary of-divide-x of-row-3 xf-hide" id="xf-secondary" style="padding-block:var(--of-s4)"></section>
+
+  <!-- ===================== GRID (rest) ===================== -->
+  <section class="of-pad-y xf-hide" id="xf-more">
+    <div class="of-section-head">
+      <span class="of-section-head__tick"></span>
+      <span class="of-section-head__label">Mais Publicações</span>
+      <span class="of-section-head__line"></span>
+    </div>
+    <div class="of-divide-y" id="xf-grid"></div>
+    <div style="text-align:center; margin-top:var(--of-s7)">
+      <a class="of-btn of-btn--ghost" id="xf-seeall" href="https://x.com/olharfactual" target="_blank" rel="noopener">Ver todas no X</a>
+    </div>
+  </section>
+</main>
+
+<!-- ===================== WAITLIST BAND ===================== -->
+<section class="xf-waitlist" id="waitlist" data-screen-label="Waitlist">
+  <div class="of-container">
+    <div class="xf-wl__eyebrow">Em Breve · Acesso Antecipado</div>
+    <div class="xf-waitlist__grid">
+      <div>
+        <h2 class="xf-wl__title">O X mostra as notícias.<br>Nós vamos mostrar todos os ângulos.</h2>
+        <p class="xf-wl__lede">Estamos construindo a plataforma completa do Olhar Factual — tudo o que você vê aqui, e muito mais do que um feed pode oferecer:</p>
+        <ul class="xf-feat">
+          <li><span><b>Ponto cego personalizado</b> — veja as histórias que o seu lado do espectro não está cobrindo.</span></li>
+          <li><span><b>Filtre por tópicos</b> — acompanhe só os assuntos que importam para você.</span></li>
+          <li><span><b>Viés e factualidade de cada veículo</b> — saiba quem está contando, e como.</span></li>
+          <li><span><b>Compare a mesma história</b> entre dezenas de fontes, lado a lado.</span></li>
+          <li><span><b>Estatísticas do seu consumo</b> — quanto você lê de cada lado do espectro.</span></li>
+        </ul>
+      </div>
+
+      <div class="xf-coupon" id="xf-coupon">
+        <span class="xf-stamp">3 meses grátis</span>
+        <div id="xf-form-wrap">
+          <div class="xf-coupon__eyebrow">Lista de espera</div>
+          <h3 class="xf-coupon__title">Garanta seu acesso antecipado</h3>
+          <p class="xf-coupon__sub">Entre na lista e avisamos você no lançamento. Os primeiros inscritos ganham <strong>3 meses de acesso completo, gratuitos</strong>.</p>
+          <form class="xf-form" id="xf-form" novalidate>
+            <div class="xf-field">
+              <label for="xf-name">Nome</label>
+              <input class="xf-input" id="xf-name" name="name" type="text" autocomplete="name" placeholder="Seu nome" required>
+            </div>
+            <div class="xf-field">
+              <label for="xf-email">E-mail</label>
+              <input class="xf-input" id="xf-email" name="email" type="email" autocomplete="email" placeholder="voce@exemplo.com" required>
+            </div>
+            <p class="xf-form__err" id="xf-form-err" role="alert"></p>
+            <button class="of-btn" type="submit" id="xf-form-btn">Entrar na lista →</button>
+          </form>
+          <p class="xf-fine">Sem spam. Cancele quando quiser. Seus dados ficam só com a redação.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== FOOTER ===================== -->
+<footer class="of-footer">
+  <div class="of-container">
+    <div class="of-footer__cols">
+      <div class="of-footer__col" style="grid-column: span 2; min-width:auto">
+        <a href="index.html" style="padding:0"><span class="of-logo"><span class="of-logo__mark">OF</span><span class="of-logo__rule"></span><span class="of-logo__word of-logo--stacked" style="display:flex;flex-direction:column">Olhar<br>Factual</span></span></a>
+        <p class="of-kicker" style="margin-top:var(--of-s4); color:var(--of-ink-40)" id="xf-foot-updated"></p>
+      </div>
+      <div class="of-footer__col"><h4>Institucional</h4><a href="Sobre.html">Sobre</a><a href="FAQ.html">Metodologia &amp; FAQ</a><a href="Fontes.html">Fontes</a><a href="Contato.html">Contato</a></div>
+      <div class="of-footer__col"><h4>Seguir</h4><a href="https://x.com/olharfactual" target="_blank" rel="noopener">X / Twitter</a></div>
+    </div>
+    <div class="of-hr" style="margin-top:var(--of-s7)"></div>
+    <p class="of-kicker" style="margin-top:var(--of-s4); text-align:center; color:var(--of-ink-30)">© 2026 Olhar Factual · Edição Digital · Todas as fontes, todos os ângulos</p>
+  </div>
+</footer>
+
+<script>
+/* ============================================================================
+   Olhar Factual — "Direto do X"
+   Reads posts from tweets.json (same origin → no CORS, no backend) and renders
+   them into the broadsheet layout. Swap tweets.json for a live feed (GitHub
+   Action / Cloudflare Worker) and this page updates automatically.
+   ========================================================================== */
+(function () {
+  'use strict';
+
+  var DATA_URL = 'tweets.json';
+  var DEFAULT_HANDLE = 'OlharFactual';
+
+  /* ---------- helpers ---------- */
+  function el(id){ return document.getElementById(id); }
+  function esc(s){ return String(s).replace(/[&<>"']/g, function(c){
+    return ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'})[c]; }); }
+
+  // pt-BR relative time
+  function relTime(date){
+    var diff = Math.max(0, (Date.now() - date.getTime()) / 1000); // seconds
+    var m = Math.round(diff/60);
+    if (m < 1)  return 'agora';
+    if (m < 60) return m + 'min atrás';
+    var h = Math.round(m/60);
+    if (h < 24) return h + 'h atrás';
+    var d = Math.round(h/24);
+    if (d < 7)  return d + 'd atrás';
+    return date.toLocaleDateString('pt-BR', { day:'2-digit', month:'short' });
+  }
+
+  function postDate(p){
+    if (p.created_at) return new Date(p.created_at);
+    if (typeof p.minutes_ago === 'number') return new Date(Date.now() - p.minutes_ago*60000);
+    return new Date();
+  }
+
+  function compact(n){
+    if (n == null) return null;
+    if (n >= 1000000) return (n/1000000).toFixed(1).replace(/\.0$/,'') + 'M';
+    if (n >= 1000)    return (n/1000).toFixed(1).replace(/\.0$/,'') + 'mil';
+    return String(n);
+  }
+
+  // Each post is an X "article": title = headline, summary = the media-comparison
+  // deck, lenses = how many media angles it contrasts. Plain tweets have only title.
+  function postTitle(p){ return String(p.title || p.text || '').replace(/https?:\/\/\S+/g,'').trim(); }
+  function postSummary(p){ return String(p.summary || '').trim(); }
+
+  var LENS_WORD = { 1:'Uma lente', 2:'Duas lentes', 3:'Três lentes', 4:'Quatro lentes', 5:'Cinco lentes' };
+  function lensBadge(p){
+    if (!p.lenses) return '';
+    var label = LENS_WORD[p.lenses] || (p.lenses + ' lentes');
+    return '<span class="xf-lens"><span class="xf-lens__icon">🔍</span>' + esc(label) + ' diferentes</span>';
+  }
+
+  // image with graceful fallback: X CDN images that fail OR hang are swapped for
+  // an on-brand "lens" placeholder so the layout never breaks. In production the
+  // real cover loads before the timeout and the placeholder never appears.
+  function imgTag(cls, src, alt){
+    return '<img class="' + cls + '" src="' + esc(src) + '" alt="' + esc(alt || '') + '" '
+      + 'loading="lazy" data-imgwatch="1">';
+  }
+
+  function placeholderFor(img){
+    var ph = document.createElement('div');
+    ph.className = img.className + ' xf-imgph';
+    ph.setAttribute('role', 'img');
+    ph.setAttribute('aria-label', img.getAttribute('alt') || 'Imagem da publicação');
+    ph.innerHTML = '<span class="xf-imgph__lens">🔍</span>';
+    if (img.parentNode) img.parentNode.replaceChild(ph, img);
+  }
+
+  function watchImg(img){
+    if (img.__w) return; img.__w = true;
+    function ok(){ img.__done = true; }
+    function fail(){ if (img.__done) return; img.__done = true; placeholderFor(img); }
+    if (img.complete && img.naturalWidth > 0){ ok(); return; }
+    img.addEventListener('load', ok);
+    img.addEventListener('error', fail);
+    setTimeout(function(){ if (!img.__done && !(img.complete && img.naturalWidth > 0)) fail(); }, 5000);
+  }
+  function watchImages(){
+    var imgs = document.querySelectorAll('img[data-imgwatch]');
+    for (var i = 0; i < imgs.length; i++) watchImg(imgs[i]);
+  }
+
+  // escape, then linkify #hashtags and @mentions
+  function richText(text){
+    var out = esc(text);
+    out = out.replace(/(^|\s)([#＃][\wÀ-ÿ]+)/g, '$1<span class="xf-tag">$2</span>');
+    out = out.replace(/(^|\s)(@[\w]+)/g, '$1<span class="xf-tag">$2</span>');
+    return out.replace(/\n/g, '<br>');
+  }
+
+  // No @handle — every post is from the same feed, so it's redundant. Instead we
+  // surface the coverage stat (veículos · artigos) the way the homepage does.
+  function metaLine(p, date){
+    var parts = [];
+    if (p.coverage){
+      var t = covTotals(p.coverage);
+      parts.push('<span class="of-meta__strong">' + t.outlets + ' veículos</span>');
+      parts.push('<span class="of-meta__num">' + t.articles + ' artigos</span>');
+    }
+    parts.push('<time class="of-meta__time">' + esc(relTime(date)) + '</time>');
+    return '<div class="of-meta">' + parts.join('<span class="of-meta__sep">·</span>') + '</div>';
+  }
+
+  function engLine(p){
+    var parts = [];
+    if (p.views   != null && p.views   > 0) parts.push('<span><b>' + esc(compact(p.views))   + '</b> visualizações</span>');
+    if (p.reposts != null && p.reposts > 0) parts.push('<span><b>' + esc(compact(p.reposts)) + '</b> reposts</span>');
+    if (p.likes   != null && p.likes   > 0) parts.push('<span><b>' + esc(compact(p.likes))   + '</b> curtidas</span>');
+    if (!parts.length) return '';
+    return '<div class="xf-eng">' + parts.join('<span class="xf-eng__sep">·</span>') + '</div>';
+  }
+
+  function sourceLink(url){
+    if (!url) return '';
+    return '<div class="xf-source"><a class="of-textlink" href="' + esc(url) + '" target="_blank" rel="noopener">Ler no X →</a></div>';
+  }
+
+  /* ---------- coverage (the signature data viz) ---------- */
+  var SIDE_LABEL = { left:'Esquerda', center:'Centro', right:'Direita' };
+  function covTotals(cov){
+    var a = (cov.left.count||0) + (cov.center.count||0) + (cov.right.count||0);
+    var names = {};
+    ['left','center','right'].forEach(function(k){ (cov[k].outlets||[]).forEach(function(o){ names[o]=1; }); });
+    return { articles:a, outlets:Object.keys(names).length };
+  }
+  function covPct(cov){
+    var t = (cov.left.count||0)+(cov.center.count||0)+(cov.right.count||0) || 1;
+    var l = Math.round((cov.left.count||0)/t*100);
+    var c = Math.round((cov.center.count||0)/t*100);
+    return { l:l, c:c, r:Math.max(0, 100-l-c) };
+  }
+  function coverageBar(cov, lg){
+    var p = covPct(cov);
+    return '<div class="of-bias">'
+      + '<div class="of-bias__track ' + (lg ? 'of-bias__track--lg' : '') + '">'
+      +   '<div class="of-bias__seg of-bias__seg--left" style="width:' + p.l + '%"></div>'
+      +   '<div class="of-bias__seg of-bias__seg--center" style="width:' + p.c + '%"></div>'
+      +   '<div class="of-bias__seg of-bias__seg--right" style="width:' + p.r + '%"></div>'
+      + '</div>'
+      + '<div class="of-bias__legend"><span class="l">Esq. ' + p.l + '%</span><span class="c">Centro ' + p.c + '%</span><span class="r">Dir. ' + p.r + '%</span></div>'
+      + '</div>';
+  }
+  function coverageNote(cov){
+    var present = [], absent = [];
+    ['left','center','right'].forEach(function(k){ ((cov[k].count||0) > 0 ? present : absent).push(k); });
+    if (present.length && absent.length){
+      var p = present.map(function(k){ return SIDE_LABEL[k]; });
+      var a = absent.map(function(k){ return SIDE_LABEL[k]; });
+      var pStr = p.length === 1 ? ('Apenas veículos de ' + p[0]) : ('Veículos de ' + p.join(' e '));
+      return pStr + ' cobriram esta história — ' + a.join(' e ') + ' sem registros.';
+    }
+    return null;
+  }
+  function coverageKicker(p){
+    if (p.coverage_kind === 'blindspot')
+      return '<span class="xf-covk xf-covk--blind"><span class="xf-covk__g">◑</span>Cobertura Assimétrica</span>';
+    return '<span class="xf-covk"><span class="xf-covk__g">🔍</span>Cobertura Comparada</span>';
+  }
+  function outletChips(cov){
+    var chips = [];
+    ['left','center','right'].forEach(function(k){
+      var cls = k === 'left' ? 'of-chip--left' : k === 'right' ? 'of-chip--right' : 'of-chip--center';
+      (cov[k].outlets || []).forEach(function(o){ chips.push('<span class="of-chip ' + cls + '">' + esc(o) + '</span>'); });
+    });
+    return chips.length ? '<div class="xf-chips">' + chips.join('') + '</div>' : '';
+  }
+  function coveragePanel(p){
+    var cov = p.coverage, tot = covTotals(cov), note = coverageNote(cov);
+    return '<div class="xf-covpanel">'
+      + '<div class="xf-covpanel__head"><span class="xf-covpanel__label">Dados da cobertura</span>'
+      +   '<span class="xf-covpanel__stat">' + tot.articles + ' artigos · ' + tot.outlets + ' veículos</span></div>'
+      + coverageBar(cov, true)
+      + (note ? '<p class="xf-covpanel__note">' + esc(note) + '</p>' : '')
+      + outletChips(cov)
+      + '</div>';
+  }
+  function coverageMini(p){
+    var note = p.coverage_kind === 'blindspot' ? coverageNote(p.coverage) : null;
+    return '<div class="xf-covmini">' + coverageBar(p.coverage, false)
+      + (note ? '<p class="xf-covnote">' + esc(note) + '</p>' : '') + '</div>';
+  }
+
+  /* ---------- renderers ---------- */
+  function renderHero(p, handle){
+    var date = postDate(p);
+    var img = (p.media && p.media[0]) ? p.media[0] : null;
+    var summary = postSummary(p);
+    var cov = p.coverage;
+    var kicker = p.coverage_kind === 'blindspot' ? coverageKicker(p) : lensBadge(p);
+    var note = (cov && p.coverage_kind === 'blindspot') ? coverageNote(cov) : null;
+    var textCol =
+      '<div>' + kicker + metaLine(p, date)
+      + '<h2 class="of-headline of-headline--d1 of-link-head" style="margin-top:var(--of-s3)">' + richText(postTitle(p)) + '</h2>'
+      + (summary ? '<p class="of-deck" style="margin-top:var(--of-s4)">' + richText(summary) + '</p>' : '')
+      + (cov ? '<div class="xf-herocov">' + coverageBar(cov, true)
+             + (note ? '<p class="xf-covnote">' + esc(note) + '</p>' : '') + '</div>' : '')
+      + sourceLink(p.url)
+      + '</div>';
+    var html;
+    if (img){
+      // keep the cover image AND show the coverage bar inline on the left
+      html = '<div class="of-grid of-grid--hero">' + textCol
+        + '<div>' + imgTag('xf-hero__img', img, p.media_alt) + '</div></div>';
+    } else if (cov){
+      // no image (e.g. blindspot): pair the headline with the full coverage panel
+      html = '<div class="of-grid of-grid--hero">'
+        + '<div>' + kicker + metaLine(p, date)
+          + '<h2 class="of-headline of-headline--d1 of-link-head" style="margin-top:var(--of-s3)">' + richText(postTitle(p)) + '</h2>'
+          + (summary ? '<p class="of-deck" style="margin-top:var(--of-s4)">' + richText(summary) + '</p>' : '')
+          + sourceLink(p.url) + '</div>'
+        + '<div>' + coveragePanel(p) + '</div></div>';
+    } else {
+      html = '<div>' + textCol + '</div>';
+    }
+    var hero = el('xf-hero');
+    hero.innerHTML = html;
+    if (p.url) hero.onclick = function(e){ if (e.target.closest('a')) return; window.open(p.url, '_blank', 'noopener'); };
+    hero.classList.remove('xf-hide');
+  }
+
+  function card(p, handle, opts){
+    opts = opts || {};
+    var date = postDate(p);
+    var img = (p.media && p.media[0]) ? p.media[0] : null;
+    var summary = postSummary(p);
+    var cov = p.coverage;
+    var headClass = opts.small ? 'of-headline--h4 of-clamp-3' : 'of-headline--h3 of-clamp-3';
+    var html = '';
+    if (img && !opts.noImg) html += imgTag('of-card__img', img, p.media_alt);
+    html += p.coverage_kind === 'blindspot' ? coverageKicker(p) : lensBadge(p);
+    html += metaLine(p, date);
+    html += '<h3 class="of-headline ' + headClass + ' of-link-head" style="margin-top:var(--of-s2)">' + richText(postTitle(p)) + '</h3>';
+    if (opts.span2 && summary) html += '<p class="of-deck of-clamp-2" style="margin-top:var(--of-s2)">' + richText(summary) + '</p>';
+    if (cov) html += coverageMini(p);
+    var art = document.createElement('article');
+    art.className = 'of-card group' + (opts.span2 ? ' of-span-2' : '');
+    if (opts.span2) art.style.gridColumn = 'span 2';
+    if (opts.pad) art.style.paddingBlock = 'var(--of-s6)';
+    art.innerHTML = html;
+    if (p.url) art.addEventListener('click', function(e){ if (e.target.closest('a')) return; window.open(p.url, '_blank', 'noopener'); });
+    return art;
+  }
+
+  function renderSecondary(posts, handle){
+    var wrap = el('xf-secondary');
+    wrap.innerHTML = '';
+    posts.forEach(function(p){ wrap.appendChild(card(p, handle, { pad:true })); });
+    if (posts.length) wrap.classList.remove('xf-hide');
+  }
+
+  // Lay the remaining posts into alternating 4-col rows (1 wide + 2 narrow),
+  // mirroring the homepage rhythm. Posts with no image become text cards.
+  function renderGrid(posts, handle){
+    var grid = el('xf-grid');
+    grid.innerHTML = '';
+    var i = 0, rowIndex = 0;
+    while (i < posts.length){
+      var row = document.createElement('div');
+      row.className = 'xf-grid-row';
+      row.style.borderTop = '1px solid var(--of-rule)';
+      var chunk = posts.slice(i, i + 3);
+      var wideFirst = (rowIndex % 2 === 0);
+      chunk.forEach(function(p, idx){
+        var isWide = wideFirst ? (idx === 0) : (idx === 1);
+        row.appendChild(card(p, handle, isWide
+          ? { span2:true, small:false }
+          : { small:true, noImg: !(p.media && p.media[0]) }));
+      });
+      grid.appendChild(row);
+      i += 3; rowIndex++;
+    }
+    el('xf-more').classList.remove('xf-hide');
+  }
+
+  function renderTicker(posts){
+    var track = el('xf-ticker-track');
+    var items = posts.slice(0, 6).map(function(p){
+      var t = postTitle(p).split('\n')[0];
+      if (t.length > 90) t = t.slice(0, 88) + '…';
+      var label = '<span class="of-ticker__item">' + esc(t) + '</span>';
+      return p.url
+        ? '<a class="of-ticker__link" href="' + esc(p.url) + '" target="_blank" rel="noopener">' + label + '</a>'
+        : label;
+    });
+    if (!items.length) return;
+    track.innerHTML = items.join('') + items.join(''); // duplicate for seamless loop
+    el('xf-ticker').classList.remove('xf-hide');
+  }
+
+  function setChrome(account, fetchedAt){
+    var handle = (account && account.handle) || DEFAULT_HANDLE;
+    el('xf-date').textContent = capitalize(new Date().toLocaleDateString('pt-BR',
+      { weekday:'long', day:'numeric', month:'long', year:'numeric' }));
+    var url = (account && account.url) || ('https://x.com/' + handle);
+    el('xf-seeall').href = url;
+    el('xf-seeall').textContent = 'Ver todas em @' + handle;
+    if (fetchedAt){
+      el('xf-foot-updated').textContent = 'Última atualização: ' + relTime(new Date(fetchedAt)) + '.';
+    }
+    return handle;
+  }
+  function capitalize(s){ return s.charAt(0).toUpperCase() + s.slice(1); }
+
+  function showError(msg, handle){
+    el('xf-spinner').classList.add('xf-hide');
+    el('xf-state-msg').textContent = 'Não foi possível carregar as publicações.';
+    var sub = el('xf-state-sub');
+    sub.textContent = msg; sub.classList.remove('xf-hide');
+    var cta = el('xf-state-cta');
+    cta.href = 'https://x.com/' + (handle || DEFAULT_HANDLE);
+    cta.textContent = 'Abrir @' + (handle || DEFAULT_HANDLE) + ' no X →';
+    cta.classList.remove('xf-hide');
+  }
+
+  /* ---------- boot + silent auto-refresh ---------- */
+  var REFRESH_MS = 3 * 60 * 1000;   // re-check tweets.json every 3 min
+  var lastSig = '';
+
+  function signature(data){
+    var posts = (data && data.posts) || [];
+    return (data && data.fetched_at || '') + '|' + posts.length + '|'
+      + posts.map(function(p){ return p.id; }).join(',');
+  }
+
+  function render(data){
+    var posts = (data && data.posts) || [];
+    var handle = setChrome(data && data.account, data && data.fetched_at);
+    if (!posts.length){ showError('Nenhuma publicação encontrada no momento.', handle); return; }
+    el('xf-state').classList.add('xf-hide');
+    renderTicker(posts);
+    renderHero(posts[0], handle);
+    renderSecondary(posts.slice(1, 4), handle);
+    if (posts.length > 4) renderGrid(posts.slice(4), handle);
+    else { el('xf-grid').innerHTML = ''; el('xf-more').classList.add('xf-hide'); }
+    watchImages();
+  }
+
+  function load(isRefresh){
+    fetch(DATA_URL, { cache: 'no-store' })
+      .then(function(r){ if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+      .then(function(data){
+        var sig = signature(data);
+        // On a silent refresh with no new posts, just bump the relative timestamps.
+        if (isRefresh && sig === lastSig){ setChrome(data && data.account, data && data.fetched_at); return; }
+        lastSig = sig;
+        render(data);
+      })
+      .catch(function(err){
+        if (isRefresh){ console.warn('[Direto do X] refresh falhou (mantendo conteúdo atual):', err); return; }
+        console.error('[Direto do X] falha ao carregar tweets.json:', err);
+        setChrome(null, null);
+        showError('Verifique se o arquivo tweets.json está publicado ao lado desta página. (' + err.message + ')', DEFAULT_HANDLE);
+      });
+  }
+
+  load(false);
+  setInterval(function(){ load(true); }, REFRESH_MS);
+  // refresh when the tab regains focus, too
+  document.addEventListener('visibilitychange', function(){ if (!document.hidden) load(true); });
+
+  /* ---------- waitlist ---------- */
+  // ── Web3Forms ── paste your access key from https://web3forms.com (free).
+  // Leave '' to run in demo mode (shows success locally, sends nothing).
+  var WEB3FORMS_KEY = '0150f1ba-c5b4-4f9b-9e4d-ab336661ab3f';
+  var WEB3FORMS_URL = 'https://api.web3forms.com/submit';
+  (function initWaitlist(){
+    var form = el('xf-form'); if (!form) return;
+    var btn = el('xf-form-btn'), errEl = el('xf-form-err');
+    var nameI = el('xf-name'), emailI = el('xf-email');
+    var KEY = 'of_waitlist_v1';
+
+    try {
+      var saved = JSON.parse(localStorage.getItem(KEY) || 'null');
+      if (saved && saved.email) showDone();
+    } catch (e) {}
+
+    function validEmail(v){ return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v); }
+
+    function showDone(){
+      el('xf-coupon').classList.add('xf-coupon--done');
+      el('xf-form-wrap').innerHTML =
+        '<div class="xf-success">'
+        + '<div class="xf-success__mark">✓</div>'
+        + '<div class="xf-coupon__eyebrow">Você está na lista</div>'
+        + '<h3 class="xf-coupon__title" style="margin-top:0.4rem">Acesso garantido</h3>'
+        + '<p class="xf-coupon__sub">Avisaremos assim que o Olhar Factual completo entrar no ar — com <strong>3 meses grátis</strong> reservados para você.</p>'
+        + '</div>';
+    }
+
+    form.addEventListener('submit', function(e){
+      e.preventDefault();
+      errEl.textContent = '';
+      nameI.classList.remove('xf-input--err'); emailI.classList.remove('xf-input--err');
+      var name = nameI.value.trim(), email = emailI.value.trim();
+      if (!name){ nameI.classList.add('xf-input--err'); errEl.textContent = 'Informe seu nome.'; nameI.focus(); return; }
+      if (!validEmail(email)){ emailI.classList.add('xf-input--err'); errEl.textContent = 'Informe um e-mail válido.'; emailI.focus(); return; }
+
+      btn.disabled = true; var orig = btn.textContent; btn.textContent = 'Enviando…';
+
+      function done(){
+        try { localStorage.setItem(KEY, JSON.stringify({ email: email, name: name })); } catch (e) {}
+        showDone();
+      }
+      function fail(){ btn.disabled = false; btn.textContent = orig; errEl.textContent = 'Não foi possível enviar agora. Tente novamente.'; }
+
+      if (WEB3FORMS_KEY){
+        fetch(WEB3FORMS_URL, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+          body: JSON.stringify({
+            access_key: WEB3FORMS_KEY,
+            subject: 'Nova inscrição — Lista de espera Olhar Factual',
+            from_name: 'Olhar Factual · Lista de espera',
+            name: name,
+            email: email,
+            source: 'feed-x · lista de espera'
+          })
+        })
+          .then(function(r){ return r.json(); })
+          .then(function(d){ if (d && d.success) done(); else fail(); })
+          .catch(function(){ fail(); });
+      } else {
+        setTimeout(done, 450); // demo mode
+      }
+    });
+  })();
+})();
+</script>
+
+</body>
+</html>

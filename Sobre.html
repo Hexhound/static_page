@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Olhar Factual — Sobre</title>
+<link rel="stylesheet" href="of-tokens.css">
+<style>
+  .pg-head { padding-block: var(--of-s8) var(--of-s7); border-bottom: 2px solid var(--of-ink); }
+  .pg-title { font-family: var(--of-display); font-size: clamp(2.6rem, 6vw, 4.25rem); line-height: 0.96; margin: var(--of-s3) 0 0; }
+
+  .sb-manifesto { padding-block: var(--of-s8); border-bottom: 1px solid var(--of-rule); }
+  .sb-manifesto p { font-family: var(--of-serif); font-size: clamp(1.3rem, 2.2vw, 1.7rem); line-height: 1.5;
+    max-width: 30ch; margin: 0; color: var(--of-ink); text-wrap: pretty; }
+  .sb-manifesto p + p { margin-top: var(--of-s5); color: var(--of-ink-80); font-size: clamp(1.15rem, 1.8vw, 1.4rem); }
+  .sb-manifesto strong { color: var(--of-crimson); font-weight: 600; }
+
+  .sb-steps { display: grid; gap: var(--of-s6); padding-block: var(--of-s8); }
+  @media (min-width: 760px){ .sb-steps { grid-template-columns: repeat(3, 1fr); } }
+  .sb-step { border-top: 2px solid var(--of-ink); padding-top: var(--of-s4); }
+  .sb-step__n { font-family: var(--of-mono); font-size: var(--of-fs-micro); letter-spacing: 0.2em; color: var(--of-ink-55); }
+  .sb-step__h { font-family: var(--of-display); font-size: 1.6rem; margin: var(--of-s3) 0 var(--of-s3); line-height: 1.05; }
+  .sb-step__p { font-family: var(--of-serif); font-size: 1.02rem; line-height: 1.5; color: var(--of-ink-80); margin: 0; }
+
+  .sb-principles { padding-block: var(--of-s8); border-top: 1px solid var(--of-rule); }
+  .sb-pgrid { display: grid; gap: 0; margin-top: var(--of-s5); }
+  @media (min-width: 760px){ .sb-pgrid { grid-template-columns: 1fr 1fr; } }
+  .sb-pr { padding: var(--of-s6) 0; border-top: 1px solid var(--of-rule); }
+  @media (min-width: 760px){
+    .sb-pr { padding: var(--of-s6) var(--of-s7); }
+    .sb-pr:nth-child(odd) { border-right: 1px solid var(--of-rule); padding-left: 0; }
+  }
+  .sb-pr__h { font-family: var(--of-mono); font-weight: 700; font-size: var(--of-fs-label); letter-spacing: 0.14em;
+    text-transform: uppercase; color: var(--of-ink); margin: 0 0 var(--of-s3); display: flex; gap: 0.5rem; align-items: baseline; }
+  .sb-pr__h span { color: var(--of-crimson); }
+  .sb-pr__p { font-family: var(--of-serif); font-size: 1.02rem; line-height: 1.5; color: var(--of-ink-80); margin: 0; max-width: 44ch; }
+
+  .sb-not { padding-block: var(--of-s8); border-top: 1px solid var(--of-rule); }
+  .sb-not ul { list-style: none; margin: var(--of-s5) 0 0; padding: 0; display: grid; gap: var(--of-s4); max-width: 70ch; }
+  .sb-not li { display: grid; grid-template-columns: auto 1fr; gap: 0.85rem; font-family: var(--of-serif);
+    font-size: 1.08rem; line-height: 1.45; color: var(--of-ink-80); }
+  .sb-not li::before { content: '✕'; font-family: var(--of-mono); color: var(--of-bias-left); font-weight: 700; }
+  .sb-not li b { color: var(--of-ink); font-weight: 600; }
+
+  .sb-cta { background: var(--of-ink); color: var(--of-paper); padding: var(--of-s8) var(--of-s7); text-align: center; margin-top: var(--of-s8); }
+  .sb-cta h3 { font-family: var(--of-display); font-size: clamp(1.8rem, 3vw, 2.6rem); margin: 0 0 var(--of-s3); color: var(--of-paper); }
+  .sb-cta p { color: color-mix(in oklab, var(--of-paper) 75%, transparent); max-width: 48ch; margin: 0 auto var(--of-s5); font-family: var(--of-serif); font-size: 1.1rem; }
+  .sb-cta .of-btn { background: var(--of-paper); color: var(--of-ink); border-color: var(--of-paper); }
+  .sb-cta .of-btn:hover { background: transparent; color: var(--of-paper); }
+</style>
+</head>
+<body data-screen-label="Sobre">
+
+<header class="of-topbar">
+  <div class="of-container of-topbar__inner">
+    <a href="index.html" class="of-logo"><span class="of-logo__mark" style="font-size:1.4rem">OF</span><span class="of-logo__rule"></span><span class="of-logo__word">Olhar Factual</span></a>
+    <nav class="of-nav" style="border:0">
+      <a href="index.html">Início</a><a href="FAQ.html">FAQ</a><a href="Sobre.html" aria-current="page">Sobre</a><a href="Fontes.html">Fontes</a><a href="Contato.html" style="border:0">Contato</a>
+    </nav>
+  </div>
+</header>
+
+<main class="of-container">
+
+  <div class="pg-head">
+    <div class="of-kicker">Quem somos</div>
+    <h1 class="pg-title">A mesma notícia.<br>Todos os ângulos.</h1>
+    <p class="of-deck" style="margin-top:var(--of-s5); max-width:62ch">
+      O Olhar Factual é um agregador independente de notícias brasileiras. Reunimos como cada veículo cobriu a mesma história — e mostramos o equilíbrio político dessa cobertura, para que você tire suas próprias conclusões.
+    </p>
+  </div>
+
+  <!-- MANIFESTO -->
+  <section class="sb-manifesto">
+    <p>Nenhuma redação conta uma história do mesmo jeito.</p>
+    <p>Nosso trabalho não é dizer quem está certo — é colocar as versões <strong>lado a lado</strong>, revelar quem cobriu (e quem ignorou) cada fato, e devolver ao leitor o poder de decidir.</p>
+  </section>
+
+  <!-- COMO FUNCIONA -->
+  <section>
+    <div class="of-section-head" style="margin-top:var(--of-s8)"><span class="of-section-head__tick"></span><span class="of-section-head__label">Como funciona</span><span class="of-section-head__line"></span></div>
+    <div class="sb-steps">
+      <div class="sb-step">
+        <div class="sb-step__n">01</div>
+        <h3 class="sb-step__h">Agregamos</h3>
+        <p class="sb-step__p">Monitoramos continuamente a imprensa brasileira e agrupamos as matérias que falam do mesmo fato em uma única história.</p>
+      </div>
+      <div class="sb-step">
+        <div class="sb-step__n">02</div>
+        <h3 class="sb-step__h">Classificamos</h3>
+        <p class="sb-step__p">Cada veículo tem uma posição no espectro — <span class="of-chip of-chip--left" style="vertical-align:middle">esq.</span> <span class="of-chip of-chip--center" style="vertical-align:middle">centro</span> <span class="of-chip of-chip--right" style="vertical-align:middle">dir.</span> — e a barra mostra como a cobertura se distribui.</p>
+      </div>
+      <div class="sb-step">
+        <div class="sb-step__n">03</div>
+        <h3 class="sb-step__h">Contextualizamos</h3>
+        <p class="sb-step__p">Destacamos pontos cegos: histórias que só um lado do espectro noticiou — e que você talvez nunca visse no seu feed habitual.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRINCÍPIOS -->
+  <section class="sb-principles">
+    <div class="of-section-head"><span class="of-section-head__tick"></span><span class="of-section-head__label">Nossos princípios</span><span class="of-section-head__line"></span></div>
+    <div class="sb-pgrid">
+      <div class="sb-pr">
+        <h4 class="sb-pr__h"><span>01</span> Independência</h4>
+        <p class="sb-pr__p">Não temos dono partidário nem vendemos posição. Nenhum veículo paga para aparecer melhor classificado ou em destaque.</p>
+      </div>
+      <div class="sb-pr">
+        <h4 class="sb-pr__h"><span>02</span> Transparência</h4>
+        <p class="sb-pr__p">Nossa metodologia é pública e nossas classificações podem ser contestadas. Quando mudamos uma nota, registramos a data e o motivo.</p>
+      </div>
+      <div class="sb-pr">
+        <h4 class="sb-pr__h"><span>03</span> Contexto</h4>
+        <p class="sb-pr__p">Um número sozinho engana. Toda contagem vem acompanhada de quem cobriu, de que lado, e o que ficou de fora.</p>
+      </div>
+      <div class="sb-pr">
+        <h4 class="sb-pr__h"><span>04</span> Foco no Brasil</h4>
+        <p class="sb-pr__p">Calibramos a classificação para o contexto político e editorial brasileiro — não importamos critérios de outros países.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- O QUE NÃO SOMOS -->
+  <section class="sb-not">
+    <div class="of-section-head"><span class="of-section-head__tick"></span><span class="of-section-head__label">O que não somos</span><span class="of-section-head__line"></span></div>
+    <ul>
+      <li><span></span><span><b>Não produzimos notícias.</b> Não temos redação nem publicamos reportagens próprias — todo crédito e todo link apontam para a fonte original.</span></li>
+      <li><span></span><span><b>Não medimos verdade.</b> A barra mostra diversidade de cobertura, não se uma matéria é certa ou errada.</span></li>
+      <li><span></span><span><b>Não vendemos destaque.</b> O posicionamento de um veículo nunca está à venda.</span></li>
+    </ul>
+  </section>
+
+</main>
+
+<!-- CTA -->
+<section class="sb-cta">
+  <div class="of-container">
+    <h3>Em breve, a plataforma completa</h3>
+    <p>Filtros por tópico, ponto cego personalizado, comparação lado a lado e estatísticas do seu consumo. Entre na lista de espera e ganhe 3 meses grátis no lançamento.</p>
+    <a href="index.html#waitlist" class="of-btn">Entrar na lista de espera →</a>
+  </div>
+</section>
+
+<footer class="of-footer">
+  <div class="of-container">
+    <div class="of-footer__cols">
+      <div class="of-footer__col" style="grid-column: span 2; min-width:auto">
+        <a href="index.html" style="padding:0"><span class="of-logo"><span class="of-logo__mark">OF</span><span class="of-logo__rule"></span><span class="of-logo__word of-logo--stacked" style="display:flex;flex-direction:column">Olhar<br>Factual</span></span></a>
+        <p class="of-kicker" style="margin-top:var(--of-s4); color:var(--of-ink-40)">Todas as fontes · Todos os ângulos</p>
+      </div>
+      <div class="of-footer__col"><h4>Institucional</h4><a href="Sobre.html">Sobre</a><a href="FAQ.html">Metodologia &amp; FAQ</a><a href="Fontes.html">Fontes</a><a href="Contato.html">Contato</a></div>
+      <div class="of-footer__col"><h4>Seguir</h4><a href="https://x.com/olharfactual" target="_blank" rel="noopener">X / Twitter</a></div>
+    </div>
+    <div class="of-hr" style="margin-top:var(--of-s7)"></div>
+    <p class="of-kicker" style="margin-top:var(--of-s4); text-align:center; color:var(--of-ink-30)">© 2026 Olhar Factual · Edição Digital · Todas as fontes, todos os ângulos</p>
+  </div>
+</footer>
+
+</body>
+</html>

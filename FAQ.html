@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Olhar Factual — Perguntas Frequentes</title>
+<link rel="stylesheet" href="of-tokens.css">
+<style>
+  .faq-head { padding-block: var(--of-s8) var(--of-s7); border-bottom: 2px solid var(--of-ink); }
+  .faq-title { font-family: var(--of-display); font-size: clamp(2.6rem, 6vw, 4.25rem); line-height: 0.96; margin: var(--of-s3) 0 0; }
+
+  .faq-wrap { display: grid; gap: var(--of-s7); align-items: start; }
+  @media (min-width: 900px){ .faq-wrap { grid-template-columns: 232px 1fr; gap: var(--of-s8); } }
+
+  /* sticky index */
+  .faq-toc { position: sticky; top: 88px; align-self: start; }
+  .faq-toc__group + .faq-toc__group { margin-top: var(--of-s5); }
+  .faq-toc h4 { font-family: var(--of-mono); font-size: var(--of-fs-micro); font-weight: 700;
+    letter-spacing: 0.26em; text-transform: uppercase; color: var(--of-ink-55); margin: 0 0 var(--of-s3); }
+  .faq-toc a { display: block; font-family: var(--of-serif); font-size: 0.92rem; line-height: 1.35;
+    color: var(--of-ink-60); padding: 0.22rem 0; transition: color 0.15s; }
+  .faq-toc a:hover { color: var(--of-crimson); }
+  @media (max-width: 899px){ .faq-toc { position: static; padding-bottom: var(--of-s5); border-bottom: 1px solid var(--of-rule); } }
+
+  /* groups + items */
+  .faq-group { margin-bottom: var(--of-s8); }
+  .faq-group > .of-section-head { margin-bottom: var(--of-s4); }
+
+  .faq-item { padding: var(--of-s6) 0 var(--of-s6) 0; border-top: 1px solid var(--of-rule);
+    scroll-margin-top: 92px; transition: background 0.4s ease, box-shadow 0.4s ease, padding 0.25s ease; }
+  .faq-item:target { background: var(--of-paper-raised); box-shadow: inset 3px 0 0 var(--of-ink);
+    padding-inline: var(--of-s5); }
+
+  .faq-q { position: relative; display: flex; align-items: baseline; gap: var(--of-s3);
+    font-family: var(--of-serif); font-weight: 600; font-size: 1.45rem; line-height: 1.25;
+    letter-spacing: -0.005em; color: var(--of-ink); margin: 0; text-wrap: pretty; }
+  .faq-q__link { color: inherit; }
+
+  .faq-a { margin-top: var(--of-s4); max-width: 70ch; }
+  .faq-a p { margin: 0 0 0.9em; }
+  .faq-a p:last-child { margin-bottom: 0; }
+  .faq-a ul { margin: 0.4em 0 0.9em; padding-left: 1.2em; }
+  .faq-a li { margin-bottom: 0.4em; }
+  .faq-note { font-family: var(--of-mono); font-size: var(--of-fs-micro); letter-spacing: 0.06em;
+    color: var(--of-ink-55); margin-top: var(--of-s4); display: inline-flex; gap: 0.5em; }
+  .faq-note::before { content: '↳'; }
+
+  /* still-have-questions */
+  .faq-cta { background: var(--of-ink); color: var(--of-paper); padding: var(--of-s7); text-align: center; }
+  .faq-cta h3 { font-family: var(--of-display); font-size: 2rem; margin: 0 0 var(--of-s3); color: var(--of-paper); }
+  .faq-cta p { color: color-mix(in oklab, var(--of-paper) 75%, transparent); max-width: 46ch; margin: 0 auto var(--of-s5); }
+  .faq-cta .of-btn { background: var(--of-paper); color: var(--of-ink); border-color: var(--of-paper); }
+  .faq-cta .of-btn:hover { background: transparent; color: var(--of-paper); }
+</style>
+</head>
+<body data-screen-label="FAQ">
+
+<header class="of-topbar">
+  <div class="of-container of-topbar__inner">
+    <a href="index.html" class="of-logo"><span class="of-logo__mark" style="font-size:1.4rem">OF</span><span class="of-logo__rule"></span><span class="of-logo__word">Olhar Factual</span></a>
+    <nav class="of-nav" style="border:0">
+      <a href="index.html">Início</a><a href="FAQ.html" aria-current="page">FAQ</a><a href="Sobre.html">Sobre</a><a href="Fontes.html">Fontes</a><a href="Contato.html" style="border:0">Contato</a>
+    </nav>
+  </div>
+</header>
+
+<main class="of-container">
+
+  <div class="faq-head">
+    <div class="of-kicker">Central de transparência</div>
+    <h1 class="faq-title">Perguntas frequentes</h1>
+    <p class="of-deck" style="margin-top:var(--of-s5); max-width:60ch">
+      Como agregamos notícias, como classificamos o viés político dos veículos e o que cada número significa. Use o índice ao lado para ir direto a uma resposta — cada pergunta tem seu próprio endereço no navegador.
+    </p>
+  </div>
+
+  <div class="faq-wrap of-pad-y">
+
+    <!-- ============ ÍNDICE (anchors) ============ -->
+    <nav class="faq-toc" aria-label="Índice das perguntas">
+      <div class="faq-toc__group">
+        <h4>Sobre nós</h4>
+        <a href="#o-que-e">O que é o Olhar Factual?</a>
+        <a href="#produzem-noticias">Vocês produzem notícias?</a>
+        <a href="#apenas-brasil">Só veículos brasileiros?</a>
+      </div>
+      <div class="faq-toc__group">
+        <h4>Classificação &amp; viés</h4>
+        <a href="#categorizacao-politica">Como um veículo é categorizado?</a>
+        <a href="#espectro">O que significam esquerda/centro/direita?</a>
+        <a href="#revisao-classificacao">Com que frequência é revista?</a>
+        <a href="#barra-equilibrio">A barra mede o viés de um artigo?</a>
+      </div>
+      <div class="faq-toc__group">
+        <h4>Agregação</h4>
+        <a href="#como-agregamos">Como um artigo é agregado?</a>
+        <a href="#mesma-historia">Como sabem que é a mesma história?</a>
+        <a href="#atualizacao-feed">De quanto em quanto tempo atualiza?</a>
+        <a href="#veiculos-artigos">"Veículos" e "artigos": qual a diferença?</a>
+      </div>
+      <div class="faq-toc__group">
+        <h4>Independência</h4>
+        <a href="#vies-proprio">O Olhar Factual tem viés próprio?</a>
+        <a href="#contestar-classificacao">Posso contestar uma classificação?</a>
+        <a href="#modelo-negocio">Como vocês se sustentam?</a>
+      </div>
+    </nav>
+
+    <!-- ============ PERGUNTAS ============ -->
+    <div>
+
+      <!-- ===== SOBRE ===== -->
+      <section class="faq-group">
+        <div class="of-section-head"><span class="of-section-head__tick"></span><span class="of-section-head__label">Sobre nós</span><span class="of-section-head__line"></span></div>
+
+        <article class="faq-item" id="o-que-e">
+          <h3 class="faq-q"><a class="faq-q__link" href="#o-que-e">O que é o Olhar Factual?</a></h3>
+          <div class="faq-a of-body">
+            <p>O Olhar Factual é um <strong>agregador de notícias brasileiras</strong>. Reunimos, em um só lugar, como diferentes veículos cobriram a mesma história — e mostramos o equilíbrio político dessa cobertura por meio da nossa barra de viés.</p>
+            <p>A ideia é simples: a mesma notícia raramente é contada do mesmo jeito. Ao colocar as versões lado a lado, você enxerga o enquadramento de cada redação e tira suas próprias conclusões.</p>
+          </div>
+        </article>
+
+        <article class="faq-item" id="produzem-noticias">
+          <h3 class="faq-q"><a class="faq-q__link" href="#produzem-noticias">Vocês produzem notícias?</a></h3>
+          <div class="faq-a of-body">
+            <p>Não. Não temos redação própria e não publicamos reportagens. Todo o conteúdo é produzido por veículos terceiros — nós apenas <strong>agregamos, classificamos e damos contexto</strong> ao que já foi publicado.</p>
+            <p>Os créditos e os links sempre apontam para a fonte original. Quando você clica para ler, é levado ao site do veículo que escreveu a matéria.</p>
+          </div>
+        </article>
+
+        <article class="faq-item" id="apenas-brasil">
+          <h3 class="faq-q"><a class="faq-q__link" href="#apenas-brasil">Vocês trabalham apenas com veículos brasileiros?</a></h3>
+          <div class="faq-a of-body">
+            <p>Sim. Nosso foco é exclusivamente a <strong>imprensa brasileira</strong> — dos grandes jornais nacionais a veículos regionais e nativos digitais. Esse recorte nos permite calibrar a classificação política para o contexto político e editorial do Brasil, em vez de aplicar critérios importados de outros países.</p>
+          </div>
+        </article>
+      </section>
+
+      <!-- ===== CLASSIFICAÇÃO ===== -->
+      <section class="faq-group">
+        <div class="of-section-head"><span class="of-section-head__tick"></span><span class="of-section-head__label">Classificação &amp; viés</span><span class="of-section-head__line"></span></div>
+
+        <article class="faq-item" id="categorizacao-politica">
+          <h3 class="faq-q"><a class="faq-q__link" href="#categorizacao-politica">Como um veículo de notícia é categorizado politicamente?</a></h3>
+          <div class="faq-a of-body">
+            <p>Cada veículo recebe uma posição em um espectro de <span class="of-chip of-chip--left" style="vertical-align:middle">esquerda</span> <span class="of-chip of-chip--center" style="vertical-align:middle">centro</span> <span class="of-chip of-chip--right" style="vertical-align:middle">direita</span>. A classificação combina três camadas:</p>
+            <ul>
+              <li><strong>Análise editorial recorrente</strong> de uma amostra de matérias e editoriais ao longo do tempo — escolha de pautas, fontes ouvidas e linguagem.</li>
+              <li><strong>Revisão humana</strong> por uma equipe de perfis diversos, para que nenhuma visão individual domine a nota.</li>
+              <li><strong>Referências externas</strong>, como estudos acadêmicos e avaliações públicas já existentes sobre o veículo.</li>
+            </ul>
+            <p>A posição reflete a <strong>linha editorial média</strong> — não a qualidade, a veracidade ou a filiação partidária do veículo.</p>
+            <p class="faq-note">Linhas editoriais mudam devagar; por isso a classificação é estável, mas nunca definitiva.</p>
+          </div>
+        </article>
+
+        <article class="faq-item" id="espectro">
+          <h3 class="faq-q"><a class="faq-q__link" href="#espectro">O que significam "esquerda", "centro" e "direita"?</a></h3>
+          <div class="faq-a of-body">
+            <p>São <strong>faixas de enquadramento</strong>, não rótulos de partido. "Centro" indica cobertura predominantemente factual e equilibrada entre os polos. "Esquerda" e "direita" indicam ênfases editoriais recorrentes na seleção de temas, fontes e palavras.</p>
+            <p>Um veículo pode ser classificado como de centro e ainda assim ter posições fortes em pautas específicas — a faixa descreve a tendência geral, não cada matéria isolada.</p>
+          </div>
+        </article>
+
+        <article class="faq-item" id="revisao-classificacao">
+          <h3 class="faq-q"><a class="faq-q__link" href="#revisao-classificacao">Com que frequência a classificação de um veículo é revista?</a></h3>
+          <div class="faq-a of-body">
+            <p>Revisamos cada veículo <strong>periodicamente</strong> e sempre que há uma mudança editorial relevante — troca de comando, reposicionamento ou alteração consistente no tom da cobertura.</p>
+            <p>Quando uma classificação muda, registramos a data e o motivo, para que o histórico fique transparente.</p>
+          </div>
+        </article>
+
+        <article class="faq-item" id="barra-equilibrio">
+          <h3 class="faq-q"><a class="faq-q__link" href="#barra-equilibrio">A barra de equilíbrio mede o viés de um artigo individual?</a></h3>
+          <div class="faq-a of-body">
+            <div class="of-bias" style="max-width:320px; margin-bottom:var(--of-s4)"><div class="of-bias__track of-bias__track--lg"><div class="of-bias__seg of-bias__seg--left" style="width:38%"></div><div class="of-bias__seg of-bias__seg--center" style="width:35%"></div><div class="of-bias__seg of-bias__seg--right" style="width:27%"></div></div><div class="of-bias__legend"><span class="l">Esq. 38%</span><span class="c">Centro 35%</span><span class="r">Dir. 27%</span></div></div>
+            <p>Não. A barra mostra como a <strong>cobertura total de uma história</strong> se distribui no espectro — quantos veículos de cada faixa a noticiaram e com que peso.</p>
+            <p>Uma história coberta só pela esquerda não é "falsa" por isso: significa apenas que faltam fontes do outro lado noticiando aquele fato. A barra é uma medida de <strong>diversidade de cobertura</strong>, não de verdade.</p>
+          </div>
+        </article>
+      </section>
+
+      <!-- ===== AGREGAÇÃO ===== -->
+      <section class="faq-group">
+        <div class="of-section-head"><span class="of-section-head__tick"></span><span class="of-section-head__label">Agregação</span><span class="of-section-head__line"></span></div>
+
+        <article class="faq-item" id="como-agregamos">
+          <h3 class="faq-q"><a class="faq-q__link" href="#como-agregamos">Como um artigo é agregado?</a></h3>
+          <div class="faq-a of-body">
+            <p>Monitoramos continuamente os feeds e as páginas dos veículos acompanhados. Quando uma nova matéria é publicada, ela é <strong>coletada, tem seu texto analisado e é vinculada à história correspondente</strong>.</p>
+            <p>De cada matéria guardamos título, olho (resumo), veículo, horário de publicação e o link original — nunca o texto integral, que permanece no site da fonte.</p>
+          </div>
+        </article>
+
+        <article class="faq-item" id="mesma-historia">
+          <h3 class="faq-q"><a class="faq-q__link" href="#mesma-historia">Como vocês sabem que matérias diferentes falam da mesma história?</a></h3>
+          <div class="faq-a of-body">
+            <p>Usamos análise de linguagem para agrupar matérias por <strong>evento</strong>: entidades citadas, datas, locais e a similaridade entre os textos. Quando várias matérias descrevem o mesmo fato, elas formam uma única "história" — e é nela que a barra de equilíbrio aparece.</p>
+            <p>Casos ambíguos passam por verificação para evitar que assuntos parecidos, mas distintos, sejam misturados.</p>
+          </div>
+        </article>
+
+        <article class="faq-item" id="atualizacao-feed">
+          <h3 class="faq-q"><a class="faq-q__link" href="#atualizacao-feed">De quanto em quanto tempo o feed é atualizado?</a></h3>
+          <div class="faq-a of-body">
+            <p>Em <strong>questão de minutos</strong>. Histórias em desenvolvimento são reagrupadas à medida que novas matérias chegam — então a contagem de veículos e o equilíbrio da cobertura podem mudar ao longo do dia conforme a pauta evolui.</p>
+          </div>
+        </article>
+
+        <article class="faq-item" id="veiculos-artigos">
+          <h3 class="faq-q"><a class="faq-q__link" href="#veiculos-artigos">Qual a diferença entre "veículos" e "artigos" nas contagens?</a></h3>
+          <div class="faq-a of-body">
+            <div class="of-meta" style="margin-bottom:var(--of-s4)"><span class="of-meta__strong">47 veículos</span><span class="of-meta__sep">·</span><span class="of-meta__num">312 artigos</span></div>
+            <p><strong>"Veículos"</strong> é quantas redações distintas cobriram a história. <strong>"Artigos"</strong> é o total de matérias publicadas por todas elas somadas.</p>
+            <p>Cinco veículos podem gerar vinte artigos. A diferença ajuda a perceber o tamanho e a repercussão de uma pauta — muitos artigos de poucos veículos indicam intensidade; muitos veículos indicam alcance.</p>
+          </div>
+        </article>
+      </section>
+
+      <!-- ===== INDEPENDÊNCIA ===== -->
+      <section class="faq-group" style="margin-bottom:var(--of-s7)">
+        <div class="of-section-head"><span class="of-section-head__tick"></span><span class="of-section-head__label">Independência</span><span class="of-section-head__line"></span></div>
+
+        <article class="faq-item" id="vies-proprio">
+          <h3 class="faq-q"><a class="faq-q__link" href="#vies-proprio">O Olhar Factual tem viés próprio?</a></h3>
+          <div class="faq-a of-body">
+            <p>Nosso compromisso é ser <strong>neutro na apresentação</strong>. A classificação é metodológica e revisada por pessoas de perfis variados, justamente para reduzir o viés de qualquer avaliador individual.</p>
+            <p>Erramos às vezes — e por isso publicamos nossa metodologia abertamente e aceitamos contestações. Transparência, para nós, vale mais do que uma falsa pretensão de neutralidade absoluta.</p>
+          </div>
+        </article>
+
+        <article class="faq-item" id="contestar-classificacao">
+          <h3 class="faq-q"><a class="faq-q__link" href="#contestar-classificacao">Posso contestar uma classificação ou sugerir uma correção?</a></h3>
+          <div class="faq-a of-body">
+            <p>Sim, e incentivamos. Cada veículo tem um canal para <strong>contestação fundamentada</strong>. Revisamos os pedidos com a equipe editorial e, quando o argumento procede, ajustamos a classificação e registramos a mudança publicamente.</p>
+          </div>
+        </article>
+
+        <article class="faq-item" id="modelo-negocio">
+          <h3 class="faq-q"><a class="faq-q__link" href="#modelo-negocio">Como o Olhar Factual se sustenta?</a></h3>
+          <div class="faq-a of-body">
+            <!-- TODO (equipe): confirmar o modelo de negócio antes de publicar -->
+            <p>Por <strong>assinaturas dos leitores</strong> e pelo licenciamento dos nossos dados de cobertura para pesquisa e imprensa. <strong>Não vendemos posicionamento</strong>: nenhum veículo pode pagar para aparecer melhor classificado ou em destaque.</p>
+            <p class="faq-note">Esta resposta está em revisão pela equipe — confirmar antes da publicação.</p>
+          </div>
+        </article>
+      </section>
+
+      <!-- CTA -->
+      <div class="faq-cta">
+        <h3>Ainda com dúvidas?</h3>
+        <p>Não encontrou o que procurava ou quer entender melhor a metodologia? Fale com a gente.</p>
+        <a href="Contato.html" class="of-btn">Falar com a equipe</a>
+      </div>
+
+    </div>
+  </div>
+</main>
+
+<footer class="of-footer">
+  <div class="of-container">
+    <div class="of-footer__cols">
+      <div class="of-footer__col" style="grid-column: span 2; min-width:auto">
+        <a href="index.html" style="padding:0"><span class="of-logo"><span class="of-logo__mark">OF</span><span class="of-logo__rule"></span><span class="of-logo__word of-logo--stacked" style="display:flex;flex-direction:column">Olhar<br>Factual</span></span></a>
+        <p class="of-kicker" style="margin-top:var(--of-s4); color:var(--of-ink-40)">Todas as fontes · Todos os ângulos</p>
+      </div>
+      <div class="of-footer__col"><h4>Institucional</h4><a href="Sobre.html">Sobre</a><a href="FAQ.html">Metodologia &amp; FAQ</a><a href="Fontes.html">Fontes</a><a href="Contato.html">Contato</a></div>
+      <div class="of-footer__col"><h4>Seguir</h4><a href="https://x.com/olharfactual" target="_blank" rel="noopener">X / Twitter</a></div>
+    </div>
+    <div class="of-hr" style="margin-top:var(--of-s7)"></div>
+    <p class="of-kicker" style="margin-top:var(--of-s4); text-align:center; color:var(--of-ink-30)">© 2026 Olhar Factual · Edição Digital · Todas as fontes, todos os ângulos</p>
+  </div>
+</footer>
+
+</body>
+</html>
