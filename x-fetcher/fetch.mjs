@@ -25,7 +25,7 @@ import { dirname } from 'node:path';
 
 const RAPIDAPI_KEY  = process.env.RAPIDAPI_KEY;
 const RAPIDAPI_HOST = 'twitter-api45.p.rapidapi.com';
-const HANDLE        = process.env.X_HANDLE || 'olharfactual';
+const HANDLE        = process.env.X_HANDLE || 'OlharFactual';
 const OUT_PATH      = process.env.OUT_PATH || 'tweets.json';
 const MAX_POSTS     = Math.max(1, parseInt(process.env.MAX_POSTS || '20', 10));
 
