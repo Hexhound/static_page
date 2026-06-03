@@ -3,11 +3,373 @@
     "name": "Olhar Factual",
     "handle": "olharfactual",
     "url": "https://x.com/olharfactual",
-    "avatar": null,
-    "bio": "",
-    "followers": null,
-    "posts_count": null
+    "avatar": "https://pbs.twimg.com/profile_images/2059074705168949248/oy2orqtg_400x400.jpg",
+    "bio": "A mesma notícia. Todos os lados. Analisamos como a mídia brasileira cobre os mesmos fatos.",
+    "followers": 31,
+    "posts_count": 95
   },
-  "fetched_at": "2026-06-03T22:08:26.463Z",
-  "posts": []
+  "fetched_at": "2026-06-03T22:11:49.133Z",
+  "posts": [
+    {
+      "id": "2062295654987116646",
+      "url": "https://x.com/olharfactual/status/2062295654987116646",
+      "created_at": "2026-06-03T22:09:34.000Z",
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": null,
+      "title": "INSS reativa acordo com entidade ligada ao PT e investigada por farra",
+      "summary": "O INSS reativou o acordo de cooperação técnica com a Contag, entidade investigada pela Polícia Federal no escândalo dos descontos indevidos em",
+      "lenses": 2,
+      "media": [
+        "https://pbs.twimg.com/media/HJ6-mWOXEAEIaDF.jpg"
+      ],
+      "media_alt": "INSS reativa acordo com entidade ligada ao PT e investigada por farra",
+      "coverage_kind": "comparison",
+      "coverage": null,
+      "sources": []
+    },
+    {
+      "id": "2062271500745404576",
+      "url": "https://x.com/olharfactual/status/2062271500745404576",
+      "created_at": "2026-06-03T20:33:35.000Z",
+      "likes": 1,
+      "reposts": 1,
+      "replies": 0,
+      "views": 2488,
+      "title": "Lula: no dia da taxação de Trump, filhos de Bolsonaro agradeceram nas redes",
+      "summary": "Tarifas americanas de 25% sobre exportações brasileiras esquentaram o debate político. Mas quem é o culpado? Depende de onde você lê. Veja como cada lado da",
+      "lenses": 2,
+      "media": [
+        "https://pbs.twimg.com/media/HJ6o_BRWAAA_sXA.jpg"
+      ],
+      "media_alt": "Lula: no dia da taxação de Trump, filhos de Bolsonaro agradeceram nas redes",
+      "coverage_kind": "comparison",
+      "coverage": null,
+      "sources": []
+    },
+    {
+      "id": "2062269643616657819",
+      "url": "https://x.com/olharfactual/status/2062269643616657819",
+      "created_at": "2026-06-03T20:26:12.000Z",
+      "likes": 1,
+      "reposts": 1,
+      "replies": 0,
+      "views": 12,
+      "title": "Projeto que dificulta aborto legal em crianças avança no Senado",
+      "summary": "Em menos de 2 minutos e com plenário esvaziado, o Senado aprovou o projeto que suspende a resolução do Conanda sobre aborto legal em menores vítimas de",
+      "lenses": 2,
+      "media": [
+        "https://pbs.twimg.com/media/HJ6m6ePWMAEOgDL.jpg"
+      ],
+      "media_alt": "Projeto que dificulta aborto legal em crianças avança no Senado",
+      "coverage_kind": "comparison",
+      "coverage": null,
+      "sources": []
+    },
+    {
+      "id": "2062268688166703190",
+      "url": "https://x.com/olharfactual/status/2062268688166703190",
+      "created_at": "2026-06-03T20:22:25.000Z",
+      "likes": 1,
+      "reposts": 1,
+      "replies": 0,
+      "views": 12,
+      "title": "Curadora da mostra 'Funk: Um Grito de Ousadia e Liberdade' cita censura",
+      "summary": "Uma exposição sobre funk no Museu da Língua Portuguesa foi encerrada antes do previsto após pressão de políticos do PL. Censura ou proteção? Depende de quem",
+      "lenses": 3,
+      "media": [
+        "https://pbs.twimg.com/media/HJ6mC9IXgAEOaXj.jpg"
+      ],
+      "media_alt": "Curadora da mostra 'Funk: Um Grito de Ousadia e Liberdade' cita censura",
+      "coverage_kind": "comparison",
+      "coverage": null,
+      "sources": []
+    },
+    {
+      "id": "2062185996288967006",
+      "url": "https://x.com/olharfactual/status/2062185996288967006",
+      "created_at": "2026-06-03T14:53:49.000Z",
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 7,
+      "title": "Governo Lula anuncia um novo polo naval",
+      "summary": "Elio Gaspari escreveu uma coluna sobre o novo polo naval de Lula, com R$ 41,7 bilhões em investimentos e 890 obras. O texto é o mesmo nos dois veículos — mas",
+      "lenses": 2,
+      "media": [
+        "https://pbs.twimg.com/media/HJ5a6jaW4AAiQIc.jpg"
+      ],
+      "media_alt": "Governo Lula anuncia um novo polo naval",
+      "coverage_kind": "comparison",
+      "coverage": null,
+      "sources": []
+    },
+    {
+      "id": "2062178161866019149",
+      "url": "https://x.com/olharfactual/status/2062178161866019149",
+      "created_at": "2026-06-03T14:22:41.000Z",
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 27,
+      "title": "Vorcaro pagou férias milionárias de Ciro Nogueira nos Alpes Franceses, aponta PF",
+      "summary": "A PF aponta que o banqueiro Daniel Vorcaro bancou férias de quase R$ 2 milhões para o senador Ciro Nogueira nos Alpes Franceses. Refeição de R$ 63 mil, hotel",
+      "lenses": 2,
+      "media": [
+        "https://pbs.twimg.com/media/HJ5T6tAWgAAs3z6.jpg"
+      ],
+      "media_alt": "Vorcaro pagou férias milionárias de Ciro Nogueira nos Alpes Franceses, aponta PF",
+      "coverage_kind": "comparison",
+      "coverage": null,
+      "sources": []
+    },
+    {
+      "id": "2061989461035044987",
+      "url": "https://x.com/olharfactual/status/2061989461035044987",
+      "created_at": "2026-06-03T01:52:52.000Z",
+      "likes": 2,
+      "reposts": 1,
+      "replies": 0,
+      "views": 7,
+      "title": "PSD avalia Kassab como vice na chapa de Caiado",
+      "summary": "Kassab pode ser vice de Caiado na chapa presidencial do PSD. Parece simples, mas cada lado da mídia contou uma história bem diferente.\n🔴 Esquerda (Folha de",
+      "lenses": 3,
+      "media": [
+        "https://pbs.twimg.com/media/HJ2n0DoXAAA46uj.jpg"
+      ],
+      "media_alt": "PSD avalia Kassab como vice na chapa de Caiado",
+      "coverage_kind": "comparison",
+      "coverage": null,
+      "sources": []
+    },
+    {
+      "id": "2061948554529149073",
+      "url": "https://x.com/olharfactual/status/2061948554529149073",
+      "created_at": "2026-06-02T23:10:19.000Z",
+      "likes": 2,
+      "reposts": 1,
+      "replies": 0,
+      "views": 23,
+      "title": "Oposição vai a Alcolumbre para tentar frear 6x1 no Senado",
+      "summary": "A PEC do fim da escala 6x1 foi aprovada na Câmara com placar elástico (472 a 22) e agora enfrenta a batalha do Senado. Mas quem está \"freando\" e quem está",
+      "lenses": 3,
+      "media": [
+        "https://pbs.twimg.com/media/HJ2CrQmW4AAB39Q.jpg"
+      ],
+      "media_alt": "Oposição vai a Alcolumbre para tentar frear 6x1 no Senado",
+      "coverage_kind": "comparison",
+      "coverage": null,
+      "sources": []
+    },
+    {
+      "id": "2061946706678133120",
+      "url": "https://x.com/olharfactual/status/2061946706678133120",
+      "created_at": "2026-06-02T23:02:58.000Z",
+      "likes": 2,
+      "reposts": 1,
+      "replies": 0,
+      "views": 18,
+      "title": "Senado derruba regras de atendimento a crianças vítimas de violência sexual",
+      "summary": "O Senado aprovou a derrubada da Resolução 258/24 do Conanda, que estabelecia diretrizes de atendimento a crianças e adolescentes vítimas de estupro nos casos",
+      "lenses": 2,
+      "media": [
+        "https://pbs.twimg.com/media/HJ2A9g3XUAAw3Ps.jpg"
+      ],
+      "media_alt": "Senado derruba regras de atendimento a crianças vítimas de violência sexual",
+      "coverage_kind": "comparison",
+      "coverage": null,
+      "sources": []
+    },
+    {
+      "id": "2061902572794060941",
+      "url": "https://x.com/olharfactual/status/2061902572794060941",
+      "created_at": "2026-06-02T20:07:36.000Z",
+      "likes": 2,
+      "reposts": 1,
+      "replies": 0,
+      "views": 57,
+      "title": "Motta nega atuar como ponte entre Lula e Alcolumbre",
+      "summary": "Lula e Alcolumbre não se falam desde a rejeição de Jorge Messias ao STF. Hugo Motta diz que tenta ajudar, mas que a decisão não depende dele. Veja como cada",
+      "lenses": 3,
+      "media": [
+        "https://pbs.twimg.com/media/HJ1YnGzWkAEcdcH.jpg"
+      ],
+      "media_alt": "Motta nega atuar como ponte entre Lula e Alcolumbre",
+      "coverage_kind": "comparison",
+      "coverage": null,
+      "sources": []
+    },
+    {
+      "id": "2061861029567504821",
+      "url": "https://x.com/olharfactual/status/2061861029567504821",
+      "created_at": "2026-06-02T17:22:31.000Z",
+      "likes": 2,
+      "reposts": 1,
+      "replies": 0,
+      "views": 6,
+      "title": "Flávio, Zema e Caiado em BH: união, protesto ou bastidor?",
+      "summary": "Flávio Bolsonaro foi a Minas Gerais para uma série de agendas políticas, incluindo a Megaleite, um título de cidadão honorário em BH e encontros com Zema e",
+      "lenses": 3,
+      "media": [
+        "https://pbs.twimg.com/media/HJ0zX4bWYAAUk1s.jpg"
+      ],
+      "media_alt": "Flávio, Zema e Caiado em BH: união, protesto ou bastidor?",
+      "coverage_kind": "comparison",
+      "coverage": null,
+      "sources": []
+    },
+    {
+      "id": "2061853119974138200",
+      "url": "https://x.com/olharfactual/status/2061853119974138200",
+      "created_at": "2026-06-02T16:51:05.000Z",
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 7,
+      "title": "EUA indicam que estão prestes a concluir investigação comercial contra o Brasil",
+      "summary": "Os EUA propuseram tarifa de 25% sobre produtos brasileiros após investigação da Seção 301, mirando o Pix, decisões judiciais, etanol e desmatamento. Mas",
+      "lenses": 3,
+      "media": [
+        "https://pbs.twimg.com/media/HJ0g8X9XgAAJ2EA.jpg"
+      ],
+      "media_alt": "EUA indicam que estão prestes a concluir investigação comercial contra o Brasil",
+      "coverage_kind": "comparison",
+      "coverage": null,
+      "sources": []
+    },
+    {
+      "id": "2061827639107629104",
+      "url": "https://x.com/olharfactual/status/2061827639107629104",
+      "created_at": "2026-06-02T15:09:50.000Z",
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 6,
+      "title": "Moraes, Viviane e Motta participam de jantar em clima de ‘pré-Gilmarpalooza’",
+      "summary": "O Fórum de Lisboa, o \"Gilmarpalooza\" organizado por Gilmar Mendes, começou sob a sombra do escândalo do Banco Master. Moraes, Motta e outras autoridades se",
+      "lenses": 2,
+      "media": [
+        "https://pbs.twimg.com/media/HJ0U6p2WwAAtFp8.jpg"
+      ],
+      "media_alt": "Moraes, Viviane e Motta participam de jantar em clima de ‘pré-Gilmarpalooza’",
+      "coverage_kind": "comparison",
+      "coverage": null,
+      "sources": []
+    },
+    {
+      "id": "2061826792751550522",
+      "url": "https://x.com/olharfactual/status/2061826792751550522",
+      "created_at": "2026-06-02T15:06:28.000Z",
+      "likes": 1,
+      "reposts": 1,
+      "replies": 0,
+      "views": 6,
+      "title": "Bolsonaro está com \"limitação de movimento no ombro\", diz relatório",
+      "summary": "Bolsonaro não foi liberado para fisioterapia ativa no ombro direito, 28 dias após cirurgia. Relatórios médicos apontam rigidez articular e limitação de",
+      "lenses": 3,
+      "media": [
+        "https://pbs.twimg.com/media/HJ0UH_XXwAAC1Vu.jpg"
+      ],
+      "media_alt": "Bolsonaro está com \"limitação de movimento no ombro\", diz relatório",
+      "coverage_kind": "comparison",
+      "coverage": null,
+      "sources": []
+    },
+    {
+      "id": "2061602189118767265",
+      "url": "https://x.com/olharfactual/status/2061602189118767265",
+      "created_at": "2026-06-02T00:13:59.000Z",
+      "likes": 3,
+      "reposts": 1,
+      "replies": 0,
+      "views": 5,
+      "title": "ONG da produtora de filme de Bolsonaro é alvo de operação por suspeita de desvio de recursos",
+      "summary": "R$ 1.800 por ponto de wi-fi quando a empresa pública cobrava R$ 306. A Polícia Civil de SP deflagrou a Operação Wi-Fi contra a ONG da mesma dona da produtora",
+      "lenses": 3,
+      "media": [
+        "https://pbs.twimg.com/media/HJxHbTVW0AALzgY.jpg"
+      ],
+      "media_alt": "ONG da produtora de filme de Bolsonaro é alvo de operação por suspeita de desvio de recursos",
+      "coverage_kind": "comparison",
+      "coverage": null,
+      "sources": []
+    },
+    {
+      "id": "2061600782554657161",
+      "url": "https://x.com/olharfactual/status/2061600782554657161",
+      "created_at": "2026-06-02T00:08:23.000Z",
+      "likes": 3,
+      "reposts": 1,
+      "replies": 0,
+      "views": 5,
+      "title": "Fazenda ampliará limite de crédito do DF para salvar BRB, mas garantia virá de bancos",
+      "summary": "R$ 6,6 bilhões para salvar o BRB após o escândalo do Banco Master. Um acordo inédito, mediado pelo STF, com bancos fiadores e sem aval da União. Mas cada",
+      "lenses": 3,
+      "media": [
+        "https://pbs.twimg.com/media/HJxGWZrXMAARKfx.jpg"
+      ],
+      "media_alt": "Fazenda ampliará limite de crédito do DF para salvar BRB, mas garantia virá de bancos",
+      "coverage_kind": "comparison",
+      "coverage": null,
+      "sources": []
+    },
+    {
+      "id": "2061599300157604209",
+      "url": "https://x.com/olharfactual/status/2061599300157604209",
+      "created_at": "2026-06-02T00:02:30.000Z",
+      "likes": 3,
+      "reposts": 1,
+      "replies": 0,
+      "views": 5,
+      "title": "Sem Pacheco, presidente do PT negocia candidatura de Josué Gomes ao governo de MG",
+      "summary": "Pacheco recusou disputar o governo de Minas Gerais e o PT ficou sem candidato no segundo maior colégio eleitoral do país. Veja como cada lado da mídia contou",
+      "lenses": 3,
+      "media": [
+        "https://pbs.twimg.com/media/HJxFKgPWMAAfgtL.jpg"
+      ],
+      "media_alt": "Sem Pacheco, presidente do PT negocia candidatura de Josué Gomes ao governo de MG",
+      "coverage_kind": "comparison",
+      "coverage": null,
+      "sources": []
+    },
+    {
+      "id": "2061598345508835634",
+      "url": "https://x.com/olharfactual/status/2061598345508835634",
+      "created_at": "2026-06-01T23:58:42.000Z",
+      "likes": 3,
+      "reposts": 1,
+      "replies": 0,
+      "views": 6,
+      "title": "Preço do petróleo cai com expectativa sobre acordo de paz entre EUA e Irã",
+      "summary": "O petróleo despencou mais de 5% em um único dia com rumores de acordo entre EUA e Irã — mas cada lado da mídia contou uma história bem diferente sobre o que",
+      "lenses": 3,
+      "media": [
+        "https://pbs.twimg.com/media/HJxEH9oXMAAqnZ0.jpg"
+      ],
+      "media_alt": "Preço do petróleo cai com expectativa sobre acordo de paz entre EUA e Irã",
+      "coverage_kind": "comparison",
+      "coverage": null,
+      "sources": []
+    },
+    {
+      "id": "2061597231770124565",
+      "url": "https://x.com/olharfactual/status/2061597231770124565",
+      "created_at": "2026-06-01T23:54:17.000Z",
+      "likes": 3,
+      "reposts": 2,
+      "replies": 0,
+      "views": 5,
+      "title": "PCC e CV na lista terrorista dos EUA: o que muda para o Brasil — e quem ganha com isso?",
+      "summary": "Os EUA classificaram PCC e Comando Vermelho como organizações terroristas. Flávio Bolsonaro celebrou, Lula criticou, especialistas divergem. Mas o que cada",
+      "lenses": 3,
+      "media": [
+        "https://pbs.twimg.com/media/HJxC6RvXwAAtYTk.jpg"
+      ],
+      "media_alt": "PCC e CV na lista terrorista dos EUA: o que muda para o Brasil — e quem ganha com isso?",
+      "coverage_kind": "comparison",
+      "coverage": null,
+      "sources": []
+    }
+  ]
 }
