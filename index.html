@@ -357,8 +357,17 @@
   // an on-brand "lens" placeholder so the layout never breaks. In production the
   // real cover loads before the timeout and the placeholder never appears.
   function imgTag(cls, src, alt){
-    return '<img class="' + cls + '" src="' + esc(src) + '" alt="' + esc(alt || '') + '" '
-      + 'loading="lazy" data-imgwatch="1">';
+    return '<img class="' + cls + '" src="' + esc(proxied(src)) + '" alt="' + esc(alt || '') + '" '
+      + 'loading="lazy" referrerpolicy="no-referrer" data-imgwatch="1">';
+  }
+  // Route third-party CDN images (pbs.twimg.com, glbimg.com, …) through a neutral
+  // image proxy. Privacy blockers (Firefox ETP, uBlock) blocklist the X/Twitter CDN
+  // by domain, so loading covers directly gets blocked client-side; wsrv.nl is a
+  // plain image CDN that isn't on those lists, so the images come through. It also
+  // bypasses CDN hotlink/referer protection (e.g. Globo's glbimg).
+  function proxied(src){
+    if (!src || !/^https?:\/\//i.test(src)) return src; // leave local/relative paths alone
+    return 'https://wsrv.nl/?url=' + encodeURIComponent(src);
   }
 
   function placeholderFor(img){
