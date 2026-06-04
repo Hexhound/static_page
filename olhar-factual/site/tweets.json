@@ -1,0 +1,2020 @@
+{
+  "account": {
+    "name": "Olhar Factual",
+    "handle": "olharfactual",
+    "url": "https://x.com/olharfactual",
+    "avatar": "media/a14d8acb8ac4d85a.jpg",
+    "bio": "A mesma notícia. Todos os lados. Analisamos como a mídia brasileira cobre os mesmos fatos.",
+    "followers": 33,
+    "posts_count": 128
+  },
+  "fetched_at": "2026-06-04T22:19:31.881Z",
+  "posts": [
+    {
+      "id": "2062637336563994898",
+      "url": "https://x.com/olharfactual/status/2062637336563994898",
+      "created_at": "2026-06-04T20:47:17.000Z",
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 14,
+      "title": "Messias representará Lula na Marcha para Jesus pelo quarto ano seguido",
+      "summary": "Lula não foi à Marcha para Jesus. Flávio Bolsonaro foi e discursou em tom de campanha. Jorge Messias representou o governo. Mesmos fatos, três histórias",
+      "lenses": 3,
+      "media": [
+        "media/e1e406895f4fd184.jpg"
+      ],
+      "media_alt": "Messias representará Lula na Marcha para Jesus pelo quarto ano seguido",
+      "coverage_kind": "comparison",
+      "coverage": {
+        "left": {
+          "count": 4,
+          "outlets": [
+            "Folha de S.Paulo",
+            "Carta Capital",
+            "Revista Fórum",
+            "UOL"
+          ]
+        },
+        "center": {
+          "count": 2,
+          "outlets": [
+            "Metrópoles",
+            "G1"
+          ]
+        },
+        "right": {
+          "count": 4,
+          "outlets": [
+            "Gazeta do Povo",
+            "Revista Oeste",
+            "Poder360",
+            "Veja"
+          ]
+        }
+      },
+      "sources": [],
+      "full_text": "🔍 A MESMA NOTÍCIA, TRÊS LENTES DIFERENTES\n\nLula não foi à Marcha para Jesus. Flávio Bolsonaro foi e discursou em tom de campanha. Jorge Messias representou o governo. Mesmos fatos, três histórias completamente diferentes. Veja como cada lado da mídia contou essa história:\n\n🔴 Esquerda (Folha de S.Paulo, Carta Capital, Revista Fórum, UOL): O protagonista é Lula, mesmo ausente. Destacam o telefonema ao apóstolo Estevam Hernandes, no qual o presidente diz que não participa de \"nada religioso em época de eleição\" para não \"tirar proveito político de coisa sagrada\". Apresentam a ausência como gesto de respeito à fé. Messias aparece como homem de reconciliação e diálogo. A Revista Fórum vai além: conecta a presença de Flávio ao escândalo do Banco Master, à relação com Daniel Vorcaro e ao filme \"Dark Horse\", e destaca que André Mendonça, relator do caso Master no STF, estava no mesmo trio elétrico que Flávio.\n\n⚪ Centro (Metrópoles, G1): Tom descritivo. Registram tanto a ligação de Lula quanto o discurso de Flávio, sem adjetivar nenhum dos dois. Destacam a convivência inusitada de Messias e Flávio no mesmo trio elétrico e as falas de ambos minimizando o \"climão\". O G1 traz estimativa do Monitor do Debate Político da USP: cerca de 33,8 mil pessoas, número bem inferior aos \"milhões\" citados pela organização.\n\n🟢 Direita (Gazeta do Povo, Revista Oeste, Poder360, Veja): O protagonista é Flávio Bolsonaro, \"ovacionado\" pelo público. Destacam seu discurso de \"guerra espiritual\" e a frase \"o mal vai ser expulso do governo\". A Revista Oeste publicou matéria antes do telefonema afirmando que Lula não apresentou \"nenhuma justificativa\" para a ausência. O Poder360 descreve que \"Messias se isolou em trio\", enquanto Flávio dominava o evento. Pesquisas de intenção de voto entre evangélicos são citadas para reforçar o favoritismo de Flávio nesse segmento.\n\n𝗢 𝗾𝘂𝗲 𝗻𝗶𝗻𝗴𝘂𝗲́𝗺 𝘁𝗲 𝗰𝗼𝗻𝘁𝗮:\n\nA esquerda transforma a ausência de Lula em virtude e a presença de Flávio em oportunismo eleitoral. A direita transforma a presença de Flávio em triunfo popular e a ausência de Lula em distância do povo evangélico. O centro registra os dois lados dividindo o mesmo trio elétrico e deixa o leitor tirar suas conclusões.\n\nNenhum deles está inventando fatos. Cada um escolheu qual personagem colocar no centro do palco.\n\nDa próxima vez que você ler sobre um evento com milhares de pessoas, pergunte: quem essa matéria decidiu colocar como protagonista?\n\n\n\n\n\n#MarchaParaJesus #ViesNaMidia #Eleicoes2026 #FéEPolítica #MídiaComparada\n\n",
+      "raw": {
+        "article": {
+          "rest_id": "2062636566481145856",
+          "title": "Messias representará Lula na Marcha para Jesus pelo quarto ano seguido",
+          "preview_text": "🔍 A MESMA NOTÍCIA, TRÊS LENTES DIFERENTES\nLula não foi à Marcha para Jesus. Flávio Bolsonaro foi e discursou em tom de campanha. Jorge Messias representou o governo. Mesmos fatos, três histórias",
+          "cover_media": "https://pbs.twimg.com/media/HJ_2PBRWUAA9nJn.jpg"
+        },
+        "text": "https://t.co/jAu5vpOFg0",
+        "note_tweet": null,
+        "detail": {
+          "likes": 0,
+          "created_at": "Thu Jun 04 20:47:17 +0000 2026",
+          "status": "active",
+          "text": "https://t.co/jAu5vpOFg0",
+          "display_text": "x.com/i/article/2062…",
+          "urls": [
+            {
+              "display_url": "x.com/i/article/2062…",
+              "expanded_url": "http://x.com/i/article/2062636566481145856",
+              "url": "https://t.co/jAu5vpOFg0"
+            }
+          ],
+          "retweets": 0,
+          "bookmarks": 0,
+          "quotes": 1,
+          "reply_to": null,
+          "replies": 0,
+          "lang": "zxx",
+          "in_reply_to_screen_name": null,
+          "in_reply_to_status_id_str": null,
+          "in_reply_to_user_id_str": null,
+          "sensitive": false,
+          "views": "14",
+          "conversation_id": "2062637336563994898",
+          "entities": {
+            "urls": [
+              {
+                "display_url": "x.com/i/article/2062…",
+                "expanded_url": "http://x.com/i/article/2062636566481145856",
+                "indices": [
+                  0,
+                  23
+                ],
+                "url": "https://t.co/jAu5vpOFg0"
+              }
+            ],
+            "hashtags": [],
+            "symbols": [],
+            "timestamps": [],
+            "user_mentions": []
+          },
+          "conversation_control": {
+            "policy": null
+          },
+          "article": {
+            "title": "Messias representará Lula na Marcha para Jesus pelo quarto ano seguido",
+            "preview_text": "🔍 A MESMA NOTÍCIA, TRÊS LENTES DIFERENTES\nLula não foi à Marcha para Jesus. Flávio Bolsonaro foi e discursou em tom de campanha. Jorge Messias representou o governo. Mesmos fatos, três histórias",
+            "full_text": "🔍 A MESMA NOTÍCIA, TRÊS LENTES DIFERENTES\n\nLula não foi à Marcha para Jesus. Flávio Bolsonaro foi e discursou em tom de campanha. Jorge Messias representou o governo. Mesmos fatos, três histórias completamente diferentes. Veja como cada lado da mídia contou essa história:\n\n🔴 Esquerda (Folha de S.Paulo, Carta Capital, Revista Fórum, UOL): O protagonista é Lula, mesmo ausente. Destacam o telefonema ao apóstolo Estevam Hernandes, no qual o presidente diz que não participa de \"nada religioso em época de eleição\" para não \"tirar proveito político de coisa sagrada\". Apresentam a ausência como gesto de respeito à fé. Messias aparece como homem de reconciliação e diálogo. A Revista Fórum vai além: conecta a presença de Flávio ao escândalo do Banco Master, à relação com Daniel Vorcaro e ao filme \"Dark Horse\", e destaca que André Mendonça, relator do caso Master no STF, estava no mesmo trio elétrico que Flávio.\n\n⚪ Centro (Metrópoles, G1): Tom descritivo. Registram tanto a ligação de Lula quanto o discurso de Flávio, sem adjetivar nenhum dos dois. Destacam a convivência inusitada de Messias e Flávio no mesmo trio elétrico e as falas de ambos minimizando o \"climão\". O G1 traz estimativa do Monitor do Debate Político da USP: cerca de 33,8 mil pessoas, número bem inferior aos \"milhões\" citados pela organização.\n\n🟢 Direita (Gazeta do Povo, Revista Oeste, Poder360, Veja): O protagonista é Flávio Bolsonaro, \"ovacionado\" pelo público. Destacam seu discurso de \"guerra espiritual\" e a frase \"o mal vai ser expulso do governo\". A Revista Oeste publicou matéria antes do telefonema afirmando que Lula não apresentou \"nenhuma justificativa\" para a ausência. O Poder360 descreve que \"Messias se isolou em trio\", enquanto Flávio dominava o evento. Pesquisas de intenção de voto entre evangélicos são citadas para reforçar o favoritismo de Flávio nesse segmento.\n\n𝗢 𝗾𝘂𝗲 𝗻𝗶𝗻𝗴𝘂𝗲́𝗺 𝘁𝗲 𝗰𝗼𝗻𝘁𝗮:\n\nA esquerda transforma a ausência de Lula em virtude e a presença de Flávio em oportunismo eleitoral. A direita transforma a presença de Flávio em triunfo popular e a ausência de Lula em distância do povo evangélico. O centro registra os dois lados dividindo o mesmo trio elétrico e deixa o leitor tirar suas conclusões.\n\nNenhum deles está inventando fatos. Cada um escolheu qual personagem colocar no centro do palco.\n\nDa próxima vez que você ler sobre um evento com milhares de pessoas, pergunte: quem essa matéria decidiu colocar como protagonista?\n\n\n\n\n\n#MarchaParaJesus #ViesNaMidia #Eleicoes2026 #FéEPolítica #MídiaComparada\n\n",
+            "cover_media": "https://pbs.twimg.com/media/HJ_2PBRWUAA9nJn.jpg"
+          },
+          "initial_tweets": null,
+          "author": {
+            "rest_id": "2056136747096965120",
+            "name": "Olhar Factual",
+            "screen_name": "OlharFactual",
+            "image": "https://pbs.twimg.com/profile_images/2059074705168949248/oy2orqtg_normal.jpg",
+            "blue_verified": true,
+            "verification": null,
+            "sub_count": 33
+          },
+          "card": {
+            "type": null,
+            "url": "https://t.co/jAu5vpOFg0",
+            "media": {
+              "image_url": null
+            }
+          },
+          "media": null,
+          "id": "2062637336563994898"
+        }
+      },
+      "_d": 1
+    },
+    {
+      "id": "2062635474540200114",
+      "url": "https://x.com/olharfactual/status/2062635474540200114",
+      "created_at": "2026-06-04T20:39:53.000Z",
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 9,
+      "title": "Virginia se defende e afirma que empresas passam por auditoria",
+      "summary": "A Polícia Federal estaria investigando Virginia Fonseca por movimentações financeiras atípicas detectadas pelo Coaf. A influenciadora se defendeu dizendo que",
+      "lenses": 3,
+      "media": [
+        "media/b7b2a5a74d3462f3.jpg"
+      ],
+      "media_alt": "Virginia se defende e afirma que empresas passam por auditoria",
+      "coverage_kind": "comparison",
+      "coverage": {
+        "left": {
+          "count": 1,
+          "outlets": [
+            "Revista Fórum"
+          ]
+        },
+        "center": {
+          "count": 2,
+          "outlets": [
+            "Metrópoles",
+            "O Globo"
+          ]
+        },
+        "right": {
+          "count": 2,
+          "outlets": [
+            "Revista Oeste",
+            "O Globo"
+          ]
+        }
+      },
+      "sources": [],
+      "full_text": "🔍 A MESMA NOTÍCIA, TRÊS LENTES DIFERENTES\n\nA Polícia Federal estaria investigando Virginia Fonseca por movimentações financeiras atípicas detectadas pelo Coaf. A influenciadora se defendeu dizendo que suas empresas são auditadas pela BDO. Veja como cada lado da mídia contou essa história:\n\n🔴 Esquerda (Revista Fórum): Foco investigativo. Detalha os Relatórios de Inteligência Financeira, os R$ 22,4 milhões recebidos pela Talismã Digital e o alerta do Banco Santander sobre a AMP Pay, empresa do Simples Nacional que depositou R$ 17,7 milhões via Pix a partir de um box comercial em Itajaí. Dedica uma seção inteira à ligação da origem da WePink com a \"Japa do PCC\". A defesa de Virginia e seu desabafo emocional não aparecem no texto.\n\n⚪ Centro (Metrópoles, O Globo): Equilíbrio entre defesa e apuração. Lideram com o desabafo de Virginia: \"construí empresas do zero\", \"os números são auditados pela BDO\". O Globo acrescenta que não há acusação formal e que a defesa afirma que todas as movimentações têm justificativa documental. Contextualizam o episódio dos xingamentos no Maracanã. Também reportam detalhes da investigação, mas sem o mesmo peso dado pela esquerda à conexão com o PCC.\n\n🟢 Direita (Revista Oeste, O Globo): Vão além nos números. Revista Oeste traz dados que não aparecem nos outros veículos: a WPink Suplementos movimentou R$ 43,6 milhões em créditos entre janeiro e março de 2025, valor considerado \"incompatível com o faturamento informado\". Detalha 190 operações da WePink Cosméticos em caixas eletrônicos de diferentes agências. O Globo aprofunda a história da Pink Lash e reproduz fala de Karen (\"Japa do PCC\") afirmando que o capital inicial veio de \"dinheiro de uma liderança da maior facção criminosa do Brasil\". Também revela a existência de uma rede de fãs organizada para turbinar o engajamento de Virginia.\n\n𝗢 𝗾𝘂𝗲 𝗻𝗶𝗻𝗴𝘂𝗲́𝗺 𝘁𝗲 𝗰𝗼𝗻𝘁𝗮:\n\nEsquerda construiu uma narrativa puramente investigativa, sem espaço para a versão de Virginia. Centro priorizou o lado humano e emocional da influenciadora, equilibrando com os fatos da apuração. Direita trouxe os números mais detalhados da investigação e aprofundou as conexões empresariais.\n\nNenhum lado está inventando fatos. Cada um escolheu um ângulo diferente da mesma história para contar primeiro.\n\nLer uma só fonte é escolher uma só lente. Ler todas é enxergar o quadro completo.\n\n\n\n\n\n#VirginiaFonseca #PoliciaFederal #WePink #ViésNaMídia #Coaf\n\n",
+      "raw": {
+        "article": {
+          "rest_id": "2062634760401293312",
+          "title": "Virginia se defende e afirma que empresas passam por auditoria",
+          "preview_text": "🔍 A MESMA NOTÍCIA, TRÊS LENTES DIFERENTES\nA Polícia Federal estaria investigando Virginia Fonseca por movimentações financeiras atípicas detectadas pelo Coaf. A influenciadora se defendeu dizendo que",
+          "cover_media": "https://pbs.twimg.com/media/HJ_zbAuXUAA9HLP.jpg"
+        },
+        "text": "https://t.co/gHpvsB5ciY",
+        "note_tweet": null,
+        "detail": {
+          "likes": 0,
+          "created_at": "Thu Jun 04 20:39:53 +0000 2026",
+          "status": "active",
+          "text": "https://t.co/gHpvsB5ciY",
+          "display_text": "x.com/i/article/2062…",
+          "urls": [
+            {
+              "display_url": "x.com/i/article/2062…",
+              "expanded_url": "http://x.com/i/article/2062634760401293312",
+              "url": "https://t.co/gHpvsB5ciY"
+            }
+          ],
+          "retweets": 0,
+          "bookmarks": 0,
+          "quotes": 7,
+          "reply_to": null,
+          "replies": 0,
+          "lang": "zxx",
+          "in_reply_to_screen_name": null,
+          "in_reply_to_status_id_str": null,
+          "in_reply_to_user_id_str": null,
+          "sensitive": false,
+          "views": "9",
+          "conversation_id": "2062635474540200114",
+          "entities": {
+            "urls": [
+              {
+                "display_url": "x.com/i/article/2062…",
+                "expanded_url": "http://x.com/i/article/2062634760401293312",
+                "indices": [
+                  0,
+                  23
+                ],
+                "url": "https://t.co/gHpvsB5ciY"
+              }
+            ],
+            "hashtags": [],
+            "symbols": [],
+            "timestamps": [],
+            "user_mentions": []
+          },
+          "conversation_control": {
+            "policy": null
+          },
+          "article": {
+            "title": "Virginia se defende e afirma que empresas passam por auditoria",
+            "preview_text": "🔍 A MESMA NOTÍCIA, TRÊS LENTES DIFERENTES\nA Polícia Federal estaria investigando Virginia Fonseca por movimentações financeiras atípicas detectadas pelo Coaf. A influenciadora se defendeu dizendo que",
+            "full_text": "🔍 A MESMA NOTÍCIA, TRÊS LENTES DIFERENTES\n\nA Polícia Federal estaria investigando Virginia Fonseca por movimentações financeiras atípicas detectadas pelo Coaf. A influenciadora se defendeu dizendo que suas empresas são auditadas pela BDO. Veja como cada lado da mídia contou essa história:\n\n🔴 Esquerda (Revista Fórum): Foco investigativo. Detalha os Relatórios de Inteligência Financeira, os R$ 22,4 milhões recebidos pela Talismã Digital e o alerta do Banco Santander sobre a AMP Pay, empresa do Simples Nacional que depositou R$ 17,7 milhões via Pix a partir de um box comercial em Itajaí. Dedica uma seção inteira à ligação da origem da WePink com a \"Japa do PCC\". A defesa de Virginia e seu desabafo emocional não aparecem no texto.\n\n⚪ Centro (Metrópoles, O Globo): Equilíbrio entre defesa e apuração. Lideram com o desabafo de Virginia: \"construí empresas do zero\", \"os números são auditados pela BDO\". O Globo acrescenta que não há acusação formal e que a defesa afirma que todas as movimentações têm justificativa documental. Contextualizam o episódio dos xingamentos no Maracanã. Também reportam detalhes da investigação, mas sem o mesmo peso dado pela esquerda à conexão com o PCC.\n\n🟢 Direita (Revista Oeste, O Globo): Vão além nos números. Revista Oeste traz dados que não aparecem nos outros veículos: a WPink Suplementos movimentou R$ 43,6 milhões em créditos entre janeiro e março de 2025, valor considerado \"incompatível com o faturamento informado\". Detalha 190 operações da WePink Cosméticos em caixas eletrônicos de diferentes agências. O Globo aprofunda a história da Pink Lash e reproduz fala de Karen (\"Japa do PCC\") afirmando que o capital inicial veio de \"dinheiro de uma liderança da maior facção criminosa do Brasil\". Também revela a existência de uma rede de fãs organizada para turbinar o engajamento de Virginia.\n\n𝗢 𝗾𝘂𝗲 𝗻𝗶𝗻𝗴𝘂𝗲́𝗺 𝘁𝗲 𝗰𝗼𝗻𝘁𝗮:\n\nEsquerda construiu uma narrativa puramente investigativa, sem espaço para a versão de Virginia. Centro priorizou o lado humano e emocional da influenciadora, equilibrando com os fatos da apuração. Direita trouxe os números mais detalhados da investigação e aprofundou as conexões empresariais.\n\nNenhum lado está inventando fatos. Cada um escolheu um ângulo diferente da mesma história para contar primeiro.\n\nLer uma só fonte é escolher uma só lente. Ler todas é enxergar o quadro completo.\n\n\n\n\n\n#VirginiaFonseca #PoliciaFederal #WePink #ViésNaMídia #Coaf\n\n",
+            "cover_media": "https://pbs.twimg.com/media/HJ_zbAuXUAA9HLP.jpg"
+          },
+          "initial_tweets": null,
+          "author": {
+            "rest_id": "2056136747096965120",
+            "name": "Olhar Factual",
+            "screen_name": "OlharFactual",
+            "image": "https://pbs.twimg.com/profile_images/2059074705168949248/oy2orqtg_normal.jpg",
+            "blue_verified": true,
+            "verification": null,
+            "sub_count": 33
+          },
+          "card": {
+            "type": null,
+            "url": "https://t.co/gHpvsB5ciY",
+            "media": {
+              "image_url": null
+            }
+          },
+          "media": null,
+          "id": "2062635474540200114"
+        }
+      },
+      "_d": 1
+    },
+    {
+      "id": "2062634219659317529",
+      "url": "https://x.com/olharfactual/status/2062634219659317529",
+      "created_at": "2026-06-04T20:34:54.000Z",
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 20,
+      "title": "Festas de Vorcaro em Nova York com políticos custaram R$ 11,9 milhões",
+      "summary": "O banqueiro Daniel Vorcaro gastou R$ 11,9 milhões em festas de luxo em Nova York para entreter políticos — incluindo a \"noite das astronautas\", degustação de",
+      "lenses": 2,
+      "media": [
+        "media/1c7618d25a53825a.jpg"
+      ],
+      "media_alt": "Festas de Vorcaro em Nova York com políticos custaram R$ 11,9 milhões",
+      "coverage_kind": "comparison",
+      "coverage": {
+        "left": {
+          "count": 1,
+          "outlets": [
+            "Revista Fórum"
+          ]
+        },
+        "center": {
+          "count": 0,
+          "outlets": []
+        },
+        "right": {
+          "count": 1,
+          "outlets": [
+            "O Globo"
+          ]
+        }
+      },
+      "sources": [],
+      "full_text": "🔍 A MESMA NOTÍCIA, DUAS LENTES DIFERENTES\n\nO banqueiro Daniel Vorcaro gastou R$ 11,9 milhões em festas de luxo em Nova York para entreter políticos — incluindo a \"noite das astronautas\", degustação de uísques de R$ 5,3 milhões e jantar com Salt Bae. Tudo isso enquanto bilhões do Rioprevidência iam para o Banco Master. Veja como cada lado da mídia contou essa história:\n\n🔴 Esquerda (Revista Fórum 1, Revista Fórum 2): Cobre os fatos da farra em NY com detalhes, mas abre uma segunda frente: ataca O Globo por não mencionar seus próprios laços com Vorcaro. Aponta que o Banco Master patrocinou o aniversário de 15 anos do Valor Econômico em Nova York, o camarote de Carnaval e as Willimpíadas da Globo com Luciano Huck, num patrocínio total de aproximadamente R$ 200 milhões em 2025.\n\n🟢 Direita (O Globo): Reportagem original, rica em documentos e valores. Vai além de NY e revela a degustação em Londres no clube George, bancada por Vorcaro por US$ 640,8 mil, com a presença de ministros do STF Alexandre de Moraes e Dias Toffoli, o então ministro da Justiça Ricardo Lewandowski, o diretor-geral da PF e o procurador-geral da República. Não menciona a relação comercial do próprio Grupo Globo com Vorcaro.\n\n𝗢 𝗾𝘂𝗲 𝗻𝗶𝗻𝗴𝘂𝗲́𝗺 𝘁𝗲 𝗰𝗼𝗻𝘁𝗮:\n\nA direita publica a investigação com riqueza documental e inclui nomes do Judiciário e do Ministério Público no evento de Londres, mas não aborda os próprios negócios do Grupo Globo com o banqueiro. A esquerda cobre a farra em NY e usa a reportagem como gancho para questionar a credibilidade de quem a publicou, apontando o patrocínio milionário de Vorcaro à Globo.\n\nCada lado ilumina o que o outro deixa no escuro. Os fatos estão lá — o enquadramento é que muda.\n\nLeia as duas versões. Compare. E tire suas próprias conclusões.\n\n\n\n#BancoMaster #Vorcaro #CláudioCastro #Rioprevidência #ViésNaMídia\n\n",
+      "raw": {
+        "article": {
+          "rest_id": "2062633739063021568",
+          "title": "Festas de Vorcaro em Nova York com políticos custaram R$ 11,9 milhões",
+          "preview_text": "🔍 A MESMA NOTÍCIA, DUAS LENTES DIFERENTES\nO banqueiro Daniel Vorcaro gastou R$ 11,9 milhões em festas de luxo em Nova York para entreter políticos — incluindo a \"noite das astronautas\", degustação de",
+          "cover_media": "https://pbs.twimg.com/media/HJ_yecgW8AAzQNP.jpg"
+        },
+        "text": "https://t.co/pX5xYHfqOg",
+        "note_tweet": null,
+        "detail": {
+          "likes": 0,
+          "created_at": "Thu Jun 04 20:34:54 +0000 2026",
+          "status": "active",
+          "text": "https://t.co/pX5xYHfqOg",
+          "display_text": "x.com/i/article/2062…",
+          "urls": [
+            {
+              "display_url": "x.com/i/article/2062…",
+              "expanded_url": "http://x.com/i/article/2062633739063021568",
+              "url": "https://t.co/pX5xYHfqOg"
+            }
+          ],
+          "retweets": 0,
+          "bookmarks": 0,
+          "quotes": 1,
+          "reply_to": null,
+          "replies": 0,
+          "lang": "zxx",
+          "in_reply_to_screen_name": null,
+          "in_reply_to_status_id_str": null,
+          "in_reply_to_user_id_str": null,
+          "sensitive": false,
+          "views": "20",
+          "conversation_id": "2062634219659317529",
+          "entities": {
+            "urls": [
+              {
+                "display_url": "x.com/i/article/2062…",
+                "expanded_url": "http://x.com/i/article/2062633739063021568",
+                "indices": [
+                  0,
+                  23
+                ],
+                "url": "https://t.co/pX5xYHfqOg"
+              }
+            ],
+            "hashtags": [],
+            "symbols": [],
+            "timestamps": [],
+            "user_mentions": []
+          },
+          "conversation_control": {
+            "policy": null
+          },
+          "article": {
+            "title": "Festas de Vorcaro em Nova York com políticos custaram R$ 11,9 milhões",
+            "preview_text": "🔍 A MESMA NOTÍCIA, DUAS LENTES DIFERENTES\nO banqueiro Daniel Vorcaro gastou R$ 11,9 milhões em festas de luxo em Nova York para entreter políticos — incluindo a \"noite das astronautas\", degustação de",
+            "full_text": "🔍 A MESMA NOTÍCIA, DUAS LENTES DIFERENTES\n\nO banqueiro Daniel Vorcaro gastou R$ 11,9 milhões em festas de luxo em Nova York para entreter políticos — incluindo a \"noite das astronautas\", degustação de uísques de R$ 5,3 milhões e jantar com Salt Bae. Tudo isso enquanto bilhões do Rioprevidência iam para o Banco Master. Veja como cada lado da mídia contou essa história:\n\n🔴 Esquerda (Revista Fórum 1, Revista Fórum 2): Cobre os fatos da farra em NY com detalhes, mas abre uma segunda frente: ataca O Globo por não mencionar seus próprios laços com Vorcaro. Aponta que o Banco Master patrocinou o aniversário de 15 anos do Valor Econômico em Nova York, o camarote de Carnaval e as Willimpíadas da Globo com Luciano Huck, num patrocínio total de aproximadamente R$ 200 milhões em 2025.\n\n🟢 Direita (O Globo): Reportagem original, rica em documentos e valores. Vai além de NY e revela a degustação em Londres no clube George, bancada por Vorcaro por US$ 640,8 mil, com a presença de ministros do STF Alexandre de Moraes e Dias Toffoli, o então ministro da Justiça Ricardo Lewandowski, o diretor-geral da PF e o procurador-geral da República. Não menciona a relação comercial do próprio Grupo Globo com Vorcaro.\n\n𝗢 𝗾𝘂𝗲 𝗻𝗶𝗻𝗴𝘂𝗲́𝗺 𝘁𝗲 𝗰𝗼𝗻𝘁𝗮:\n\nA direita publica a investigação com riqueza documental e inclui nomes do Judiciário e do Ministério Público no evento de Londres, mas não aborda os próprios negócios do Grupo Globo com o banqueiro. A esquerda cobre a farra em NY e usa a reportagem como gancho para questionar a credibilidade de quem a publicou, apontando o patrocínio milionário de Vorcaro à Globo.\n\nCada lado ilumina o que o outro deixa no escuro. Os fatos estão lá — o enquadramento é que muda.\n\nLeia as duas versões. Compare. E tire suas próprias conclusões.\n\n\n\n#BancoMaster #Vorcaro #CláudioCastro #Rioprevidência #ViésNaMídia\n\n",
+            "cover_media": "https://pbs.twimg.com/media/HJ_yecgW8AAzQNP.jpg"
+          },
+          "initial_tweets": null,
+          "author": {
+            "rest_id": "2056136747096965120",
+            "name": "Olhar Factual",
+            "screen_name": "OlharFactual",
+            "image": "https://pbs.twimg.com/profile_images/2059074705168949248/oy2orqtg_normal.jpg",
+            "blue_verified": true,
+            "verification": null,
+            "sub_count": 33
+          },
+          "card": {
+            "type": null,
+            "url": "https://t.co/pX5xYHfqOg",
+            "media": {
+              "image_url": null
+            }
+          },
+          "media": null,
+          "id": "2062634219659317529"
+        }
+      },
+      "_d": 1
+    },
+    {
+      "id": "2062632919655674177",
+      "url": "https://x.com/olharfactual/status/2062632919655674177",
+      "created_at": "2026-06-04T20:29:44.000Z",
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 5,
+      "title": "Governo de Trump desmonta infraestrutura de observação oceânica",
+      "summary": "O governo Trump começou a desmontar uma rede de US$ 368 milhões que monitorava oceanos há uma década. Mais de 900 instrumentos serão retirados do fundo do",
+      "lenses": 2,
+      "media": [
+        "media/8864f4ecde039107.jpg"
+      ],
+      "media_alt": "Governo de Trump desmonta infraestrutura de observação oceânica",
+      "coverage_kind": "comparison",
+      "coverage": {
+        "left": {
+          "count": 2,
+          "outlets": [
+            "UOL",
+            "Folha de S.Paulo"
+          ]
+        },
+        "center": {
+          "count": 0,
+          "outlets": []
+        },
+        "right": {
+          "count": 1,
+          "outlets": [
+            "O Globo"
+          ]
+        }
+      },
+      "sources": [],
+      "full_text": "🔍 A MESMA NOTÍCIA, DUAS LENTES DIFERENTES\n\nO governo Trump começou a desmontar uma rede de US$ 368 milhões que monitorava oceanos há uma década. Mais de 900 instrumentos serão retirados do fundo do mar. Veja como cada lado da mídia contou essa história:\n\n🔴 Esquerda (UOL, Folha de S.Paulo): Foco na perda científica e ambiental. O UOL chama a decisão de \"novo golpe para a pesquisa sobre o meio ambiente e o aquecimento global\". A Folha detalha extensamente o que os dados monitoravam: absorção de CO₂, ondas de calor marinhas, a corrente AMOC, pesca comercial. Dá voz a vários cientistas, como Hilary Palevsky, que chama a retirada de \"muito precipitada\", e Craig McLean, que diz que os EUA são \"empurrados para um papel secundário na liderança científica global\". O tom é de tragédia científica irreversível e de expertise que \"corre o risco de ser perdida\".\n\n🟢 Direita (O Globo): Enquadramento mais político. Destaca a reação de senadores democratas que prometem \"lutar contra\" a medida. Traz a economia de US$ 48 milhões/ano como justificativa do governo. Conecta a decisão ao Projeto 2025, plano conservador que criticava a concentração de recursos federais em pesquisa climática. Também noticia que um juiz federal bloqueou o desmonte do Centro Nacional de Pesquisa Atmosférica e que o Congresso já havia barrado iniciativa semelhante na NOAA.\n\n\n\n𝗢 𝗾𝘂𝗲 𝗻𝗶𝗻𝗴𝘂𝗲́𝗺 𝘁𝗲 𝗰𝗼𝗻𝘁𝗮:\n\nEsquerda: constrói uma narrativa de destruição silenciosa da ciência, com cientistas como protagonistas e dados técnicos que mostram a dimensão da perda. A resistência política ao desmonte não aparece.\n\nDireita: amplia o campo de visão político, mostrando que há freios institucionais em ação — juízes, Congresso, senadores. A voz dos cientistas que usam os dados no dia a dia fica em segundo plano.\n\nNenhum lado está inventando fatos. Ambos cobrem a mesma decisão — mas um escolhe o microscópio da ciência e o outro, a lente da disputa política.\n\nNa próxima manchete que você ler, pergunte: que parte dessa história ficou de fora?\n\n\n\n#MonitoramentoOceanico #CienciaEmRisco #MudancasClimaticas #Trump #ViesNaMidia\n\n",
+      "raw": {
+        "article": {
+          "rest_id": "2062632173484814336",
+          "title": "Governo de Trump desmonta infraestrutura de observação oceânica",
+          "preview_text": "🔍 A MESMA NOTÍCIA, DUAS LENTES DIFERENTES\nO governo Trump começou a desmontar uma rede de US$ 368 milhões que monitorava oceanos há uma década. Mais de 900 instrumentos serão retirados do fundo do",
+          "cover_media": "https://pbs.twimg.com/media/HJ_xNmtXsAAD7up.jpg"
+        },
+        "text": "https://t.co/jOT9JyhatJ",
+        "note_tweet": null,
+        "detail": {
+          "likes": 0,
+          "created_at": "Thu Jun 04 20:29:44 +0000 2026",
+          "status": "active",
+          "text": "https://t.co/jOT9JyhatJ",
+          "display_text": "x.com/i/article/2062…",
+          "urls": [
+            {
+              "display_url": "x.com/i/article/2062…",
+              "expanded_url": "http://x.com/i/article/2062632173484814336",
+              "url": "https://t.co/jOT9JyhatJ"
+            }
+          ],
+          "retweets": 0,
+          "bookmarks": 0,
+          "quotes": 0,
+          "reply_to": null,
+          "replies": 0,
+          "lang": "zxx",
+          "in_reply_to_screen_name": null,
+          "in_reply_to_status_id_str": null,
+          "in_reply_to_user_id_str": null,
+          "sensitive": false,
+          "views": "5",
+          "conversation_id": "2062632919655674177",
+          "entities": {
+            "urls": [
+              {
+                "display_url": "x.com/i/article/2062…",
+                "expanded_url": "http://x.com/i/article/2062632173484814336",
+                "indices": [
+                  0,
+                  23
+                ],
+                "url": "https://t.co/jOT9JyhatJ"
+              }
+            ],
+            "hashtags": [],
+            "symbols": [],
+            "timestamps": [],
+            "user_mentions": []
+          },
+          "conversation_control": {
+            "policy": null
+          },
+          "article": {
+            "title": "Governo de Trump desmonta infraestrutura de observação oceânica",
+            "preview_text": "🔍 A MESMA NOTÍCIA, DUAS LENTES DIFERENTES\nO governo Trump começou a desmontar uma rede de US$ 368 milhões que monitorava oceanos há uma década. Mais de 900 instrumentos serão retirados do fundo do",
+            "full_text": "🔍 A MESMA NOTÍCIA, DUAS LENTES DIFERENTES\n\nO governo Trump começou a desmontar uma rede de US$ 368 milhões que monitorava oceanos há uma década. Mais de 900 instrumentos serão retirados do fundo do mar. Veja como cada lado da mídia contou essa história:\n\n🔴 Esquerda (UOL, Folha de S.Paulo): Foco na perda científica e ambiental. O UOL chama a decisão de \"novo golpe para a pesquisa sobre o meio ambiente e o aquecimento global\". A Folha detalha extensamente o que os dados monitoravam: absorção de CO₂, ondas de calor marinhas, a corrente AMOC, pesca comercial. Dá voz a vários cientistas, como Hilary Palevsky, que chama a retirada de \"muito precipitada\", e Craig McLean, que diz que os EUA são \"empurrados para um papel secundário na liderança científica global\". O tom é de tragédia científica irreversível e de expertise que \"corre o risco de ser perdida\".\n\n🟢 Direita (O Globo): Enquadramento mais político. Destaca a reação de senadores democratas que prometem \"lutar contra\" a medida. Traz a economia de US$ 48 milhões/ano como justificativa do governo. Conecta a decisão ao Projeto 2025, plano conservador que criticava a concentração de recursos federais em pesquisa climática. Também noticia que um juiz federal bloqueou o desmonte do Centro Nacional de Pesquisa Atmosférica e que o Congresso já havia barrado iniciativa semelhante na NOAA.\n\n\n\n𝗢 𝗾𝘂𝗲 𝗻𝗶𝗻𝗴𝘂𝗲́𝗺 𝘁𝗲 𝗰𝗼𝗻𝘁𝗮:\n\nEsquerda: constrói uma narrativa de destruição silenciosa da ciência, com cientistas como protagonistas e dados técnicos que mostram a dimensão da perda. A resistência política ao desmonte não aparece.\n\nDireita: amplia o campo de visão político, mostrando que há freios institucionais em ação — juízes, Congresso, senadores. A voz dos cientistas que usam os dados no dia a dia fica em segundo plano.\n\nNenhum lado está inventando fatos. Ambos cobrem a mesma decisão — mas um escolhe o microscópio da ciência e o outro, a lente da disputa política.\n\nNa próxima manchete que você ler, pergunte: que parte dessa história ficou de fora?\n\n\n\n#MonitoramentoOceanico #CienciaEmRisco #MudancasClimaticas #Trump #ViesNaMidia\n\n",
+            "cover_media": "https://pbs.twimg.com/media/HJ_xNmtXsAAD7up.jpg"
+          },
+          "initial_tweets": null,
+          "author": {
+            "rest_id": "2056136747096965120",
+            "name": "Olhar Factual",
+            "screen_name": "OlharFactual",
+            "image": "https://pbs.twimg.com/profile_images/2059074705168949248/oy2orqtg_normal.jpg",
+            "blue_verified": true,
+            "verification": null,
+            "sub_count": 33
+          },
+          "card": {
+            "type": null,
+            "url": "https://t.co/jOT9JyhatJ",
+            "media": {
+              "image_url": null
+            }
+          },
+          "media": null,
+          "id": "2062632919655674177"
+        }
+      },
+      "_d": 1
+    },
+    {
+      "id": "2062631833674682552",
+      "url": "https://x.com/olharfactual/status/2062631833674682552",
+      "created_at": "2026-06-04T20:25:25.000Z",
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 6,
+      "title": "Rubio espera que futuros governos latino-americanos se unam à aliança de segurança de Trump",
+      "summary": "Rubio declarou que mais de 14 países já aderiram ao Escudo das Américas e que esse número deve crescer com as eleições na região. Veja como cada lado da",
+      "lenses": 3,
+      "media": [
+        "media/bbc15cd6db918c54.jpg"
+      ],
+      "media_alt": "Rubio espera que futuros governos latino-americanos se unam à aliança de segurança de Trump",
+      "coverage_kind": "comparison",
+      "coverage": {
+        "left": {
+          "count": 1,
+          "outlets": [
+            "The Intercept Brasil"
+          ]
+        },
+        "center": {
+          "count": 1,
+          "outlets": [
+            "Metrópoles"
+          ]
+        },
+        "right": {
+          "count": 3,
+          "outlets": [
+            "UOL/AFP",
+            "g1",
+            "VEJA"
+          ]
+        }
+      },
+      "sources": [],
+      "full_text": "🔍 A MESMA NOTÍCIA, TRÊS LENTES DIFERENTES\n\nRubio declarou que mais de 14 países já aderiram ao Escudo das Américas e que esse número deve crescer com as eleições na região. Veja como cada lado da mídia contou essa história:\n\n🔴 Esquerda (The Intercept Brasil): Já no título, enquadra a chamada \"Doutrina Donroe\" de Trump como algo que \"não resolve\" a segurança da América Latina. O foco não é a adesão dos países, mas a ineficácia da proposta.\n\n⚪ Centro (Metrópoles): Apresenta os fatos de forma direta. Lista os 13 países que integram a coalizão, informa que Brasil, México e Colômbia não foram convidados por terem governos de esquerda e contextualiza a declaração de Rubio no âmbito da audiência orçamentária no Congresso.\n\n🟢 Direita (UOL/AFP, g1, VEJA): Cobertura mais ampla e detalhada. Além de Rubio, trazem a comemoração de Trump pelo desempenho do candidato de extrema direita Abelardo de la Espriella na Colômbia, o encontro de Flávio Bolsonaro com Trump na Casa Branca e a frase de Trump chamando Flávio de \"jovem inteligente que ama muito o seu país\". VEJA ainda menciona a próxima cúpula da Otan na Turquia. Os textos do UOL e do g1 também registram que Jair Bolsonaro \"está preso por tentativa de golpe de Estado\".\n\n𝗢 𝗾𝘂𝗲 𝗻𝗶𝗻𝗴𝘂𝗲́𝗺 𝘁𝗲 𝗰𝗼𝗻𝘁𝗮:\n\nA esquerda direciona o olhar para a fragilidade da estratégia de Trump. O centro descreve o tabuleiro sem apontar vencedores. A direita amplia o mapa e mostra as peças em movimento: Colômbia, Brasil, Otan.\n\nNenhum lado está mentindo. Cada um escolheu um ângulo diferente da mesma cena.\n\nLeia as três versões. Forme sua própria.\n\n\n\n#EscudoDasAméricas #PolíticaLatina #ViésNaMídia #TrumpAméricaLatina #EleiçõesBrasil\n\n",
+      "raw": {
+        "article": {
+          "rest_id": "2062631382128676864",
+          "title": "Rubio espera que futuros governos latino-americanos se unam à aliança de segurança de Trump",
+          "preview_text": "🔍 A MESMA NOTÍCIA, TRÊS LENTES DIFERENTES\nRubio declarou que mais de 14 países já aderiram ao Escudo das Américas e que esse número deve crescer com as eleições na região. Veja como cada lado da",
+          "cover_media": "https://pbs.twimg.com/media/HJ_wYPJWoAAT9Mn.jpg"
+        },
+        "text": "https://t.co/GVscoVBiB3",
+        "note_tweet": null,
+        "detail": {
+          "likes": 0,
+          "created_at": "Thu Jun 04 20:25:25 +0000 2026",
+          "status": "active",
+          "text": "https://t.co/GVscoVBiB3",
+          "display_text": "x.com/i/article/2062…",
+          "urls": [
+            {
+              "display_url": "x.com/i/article/2062…",
+              "expanded_url": "http://x.com/i/article/2062631382128676864",
+              "url": "https://t.co/GVscoVBiB3"
+            }
+          ],
+          "retweets": 0,
+          "bookmarks": 0,
+          "quotes": 1,
+          "reply_to": null,
+          "replies": 0,
+          "lang": "zxx",
+          "in_reply_to_screen_name": null,
+          "in_reply_to_status_id_str": null,
+          "in_reply_to_user_id_str": null,
+          "sensitive": false,
+          "views": "6",
+          "conversation_id": "2062631833674682552",
+          "entities": {
+            "urls": [
+              {
+                "display_url": "x.com/i/article/2062…",
+                "expanded_url": "http://x.com/i/article/2062631382128676864",
+                "indices": [
+                  0,
+                  23
+                ],
+                "url": "https://t.co/GVscoVBiB3"
+              }
+            ],
+            "hashtags": [],
+            "symbols": [],
+            "timestamps": [],
+            "user_mentions": []
+          },
+          "conversation_control": {
+            "policy": null
+          },
+          "article": {
+            "title": "Rubio espera que futuros governos latino-americanos se unam à aliança de segurança de Trump",
+            "preview_text": "🔍 A MESMA NOTÍCIA, TRÊS LENTES DIFERENTES\nRubio declarou que mais de 14 países já aderiram ao Escudo das Américas e que esse número deve crescer com as eleições na região. Veja como cada lado da",
+            "full_text": "🔍 A MESMA NOTÍCIA, TRÊS LENTES DIFERENTES\n\nRubio declarou que mais de 14 países já aderiram ao Escudo das Américas e que esse número deve crescer com as eleições na região. Veja como cada lado da mídia contou essa história:\n\n🔴 Esquerda (The Intercept Brasil): Já no título, enquadra a chamada \"Doutrina Donroe\" de Trump como algo que \"não resolve\" a segurança da América Latina. O foco não é a adesão dos países, mas a ineficácia da proposta.\n\n⚪ Centro (Metrópoles): Apresenta os fatos de forma direta. Lista os 13 países que integram a coalizão, informa que Brasil, México e Colômbia não foram convidados por terem governos de esquerda e contextualiza a declaração de Rubio no âmbito da audiência orçamentária no Congresso.\n\n🟢 Direita (UOL/AFP, g1, VEJA): Cobertura mais ampla e detalhada. Além de Rubio, trazem a comemoração de Trump pelo desempenho do candidato de extrema direita Abelardo de la Espriella na Colômbia, o encontro de Flávio Bolsonaro com Trump na Casa Branca e a frase de Trump chamando Flávio de \"jovem inteligente que ama muito o seu país\". VEJA ainda menciona a próxima cúpula da Otan na Turquia. Os textos do UOL e do g1 também registram que Jair Bolsonaro \"está preso por tentativa de golpe de Estado\".\n\n𝗢 𝗾𝘂𝗲 𝗻𝗶𝗻𝗴𝘂𝗲́𝗺 𝘁𝗲 𝗰𝗼𝗻𝘁𝗮:\n\nA esquerda direciona o olhar para a fragilidade da estratégia de Trump. O centro descreve o tabuleiro sem apontar vencedores. A direita amplia o mapa e mostra as peças em movimento: Colômbia, Brasil, Otan.\n\nNenhum lado está mentindo. Cada um escolheu um ângulo diferente da mesma cena.\n\nLeia as três versões. Forme sua própria.\n\n\n\n#EscudoDasAméricas #PolíticaLatina #ViésNaMídia #TrumpAméricaLatina #EleiçõesBrasil\n\n",
+            "cover_media": "https://pbs.twimg.com/media/HJ_wYPJWoAAT9Mn.jpg"
+          },
+          "initial_tweets": null,
+          "author": {
+            "rest_id": "2056136747096965120",
+            "name": "Olhar Factual",
+            "screen_name": "OlharFactual",
+            "image": "https://pbs.twimg.com/profile_images/2059074705168949248/oy2orqtg_normal.jpg",
+            "blue_verified": true,
+            "verification": null,
+            "sub_count": 33
+          },
+          "card": {
+            "type": null,
+            "url": "https://t.co/GVscoVBiB3",
+            "media": {
+              "image_url": null
+            }
+          },
+          "media": null,
+          "id": "2062631833674682552"
+        }
+      },
+      "_d": 1
+    },
+    {
+      "id": "2062630418604556486",
+      "url": "https://x.com/olharfactual/status/2062630418604556486",
+      "created_at": "2026-06-04T20:19:48.000Z",
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 3852,
+      "title": "Eduardo Bolsonaro vê espaço para negociar sobre Pix com EUA",
+      "summary": "Eduardo Bolsonaro disse que dá pra negociar com os EUA usando sistemas de pagamento \"semelhantes ao Pix\", como o Zelle. O vídeo viralizou e dividiu opiniões.",
+      "lenses": 2,
+      "media": [
+        "media/96960671c0591397.jpg"
+      ],
+      "media_alt": "Eduardo Bolsonaro vê espaço para negociar sobre Pix com EUA",
+      "coverage_kind": "comparison",
+      "coverage": {
+        "left": {
+          "count": 1,
+          "outlets": [
+            "UOL"
+          ]
+        },
+        "center": {
+          "count": 0,
+          "outlets": []
+        },
+        "right": {
+          "count": 2,
+          "outlets": [
+            "O Globo",
+            "O Antagonista"
+          ]
+        }
+      },
+      "sources": [],
+      "full_text": "🔍 A MESMA NOTÍCIA, DUAS LENTES DIFERENTES\n\nEduardo Bolsonaro disse que dá pra negociar com os EUA usando sistemas de pagamento \"semelhantes ao Pix\", como o Zelle. O vídeo viralizou e dividiu opiniões. Veja como cada lado da mídia contou essa história:\n\n🔴 Esquerda (UOL): Coluna de opinião que transforma a declaração em munição contra toda a família Bolsonaro. Josias de Souza classifica Eduardo como \"anti-embaixador\" e diz que ele \"presta serviço para Lula nas redes\" ao tocar no Pix, \"quindim dos brasileiros\". Aponta que Flávio Bolsonaro tenta se afastar do tema enquanto Eduardo se afunda nele. Destaca a diferença técnica: o Pix é público, gerido pelo Banco Central; o Zelle é privado, administrado por um consórcio de bancos americanos. Conclui que \"o grande déficit dos Bolsonaro fica localizado entre as orelhas\".\n\n🟢 Direita (O Globo, O Antagonista): Tom factual e descritivo. O Globo relata que a declaração viralizou na rede X, reproduz a fala de Eduardo na íntegra e registra que ele se tornou alvo de críticas. Não adjetiva nem defende o deputado. O Antagonista noticia a declaração com manchete direta, sem juízo de valor.\n\n𝗢 𝗾𝘂𝗲 𝗻𝗶𝗻𝗴𝘂𝗲́𝗺 𝘁𝗲 𝗰𝗼𝗻𝘁𝗮:\n\nA esquerda transforma a fala de Eduardo em retrato de despreparo da família Bolsonaro e usa a diferença entre Pix e Zelle como prova do argumento. A direita apresenta o episódio como fato noticioso, registra a repercussão nas redes, mas não entra no mérito técnico nem político da comparação.\n\nNenhum lado inventou o que aconteceu. Cada um escolheu o ângulo que mais interessa ao seu público.\n\nLeu só uma manchete? Agora você viu as duas. Forme sua própria opinião.\n\n\n\n\n\n#Pix #EduardoBolsonaro #Zelle #ViésNaMídia #MídiaEPolítica\n\n",
+      "raw": {
+        "article": {
+          "rest_id": "2062630008753991680",
+          "title": "Eduardo Bolsonaro vê espaço para negociar sobre Pix com EUA",
+          "preview_text": "🔍 A MESMA NOTÍCIA, DUAS LENTES DIFERENTES\nEduardo Bolsonaro disse que dá pra negociar com os EUA usando sistemas de pagamento \"semelhantes ao Pix\", como o Zelle. O vídeo viralizou e dividiu opiniões.",
+          "cover_media": "https://pbs.twimg.com/media/HJ_vH5-WcAA8_rX.jpg"
+        },
+        "text": "https://t.co/XUOkSddguP",
+        "note_tweet": null,
+        "detail": {
+          "likes": 1,
+          "created_at": "Thu Jun 04 20:19:48 +0000 2026",
+          "status": "active",
+          "text": "https://t.co/XUOkSddguP",
+          "display_text": "x.com/i/article/2062…",
+          "urls": [
+            {
+              "display_url": "x.com/i/article/2062…",
+              "expanded_url": "http://x.com/i/article/2062630008753991680",
+              "url": "https://t.co/XUOkSddguP"
+            }
+          ],
+          "retweets": 0,
+          "bookmarks": 0,
+          "quotes": 1,
+          "reply_to": null,
+          "replies": 0,
+          "lang": "zxx",
+          "in_reply_to_screen_name": null,
+          "in_reply_to_status_id_str": null,
+          "in_reply_to_user_id_str": null,
+          "sensitive": false,
+          "views": "3852",
+          "conversation_id": "2062630418604556486",
+          "entities": {
+            "urls": [
+              {
+                "display_url": "x.com/i/article/2062…",
+                "expanded_url": "http://x.com/i/article/2062630008753991680",
+                "indices": [
+                  0,
+                  23
+                ],
+                "url": "https://t.co/XUOkSddguP"
+              }
+            ],
+            "hashtags": [],
+            "symbols": [],
+            "timestamps": [],
+            "user_mentions": []
+          },
+          "conversation_control": {
+            "policy": null
+          },
+          "article": {
+            "title": "Eduardo Bolsonaro vê espaço para negociar sobre Pix com EUA",
+            "preview_text": "🔍 A MESMA NOTÍCIA, DUAS LENTES DIFERENTES\nEduardo Bolsonaro disse que dá pra negociar com os EUA usando sistemas de pagamento \"semelhantes ao Pix\", como o Zelle. O vídeo viralizou e dividiu opiniões.",
+            "full_text": "🔍 A MESMA NOTÍCIA, DUAS LENTES DIFERENTES\n\nEduardo Bolsonaro disse que dá pra negociar com os EUA usando sistemas de pagamento \"semelhantes ao Pix\", como o Zelle. O vídeo viralizou e dividiu opiniões. Veja como cada lado da mídia contou essa história:\n\n🔴 Esquerda (UOL): Coluna de opinião que transforma a declaração em munição contra toda a família Bolsonaro. Josias de Souza classifica Eduardo como \"anti-embaixador\" e diz que ele \"presta serviço para Lula nas redes\" ao tocar no Pix, \"quindim dos brasileiros\". Aponta que Flávio Bolsonaro tenta se afastar do tema enquanto Eduardo se afunda nele. Destaca a diferença técnica: o Pix é público, gerido pelo Banco Central; o Zelle é privado, administrado por um consórcio de bancos americanos. Conclui que \"o grande déficit dos Bolsonaro fica localizado entre as orelhas\".\n\n🟢 Direita (O Globo, O Antagonista): Tom factual e descritivo. O Globo relata que a declaração viralizou na rede X, reproduz a fala de Eduardo na íntegra e registra que ele se tornou alvo de críticas. Não adjetiva nem defende o deputado. O Antagonista noticia a declaração com manchete direta, sem juízo de valor.\n\n𝗢 𝗾𝘂𝗲 𝗻𝗶𝗻𝗴𝘂𝗲́𝗺 𝘁𝗲 𝗰𝗼𝗻𝘁𝗮:\n\nA esquerda transforma a fala de Eduardo em retrato de despreparo da família Bolsonaro e usa a diferença entre Pix e Zelle como prova do argumento. A direita apresenta o episódio como fato noticioso, registra a repercussão nas redes, mas não entra no mérito técnico nem político da comparação.\n\nNenhum lado inventou o que aconteceu. Cada um escolheu o ângulo que mais interessa ao seu público.\n\nLeu só uma manchete? Agora você viu as duas. Forme sua própria opinião.\n\n\n\n\n\n#Pix #EduardoBolsonaro #Zelle #ViésNaMídia #MídiaEPolítica\n\n",
+            "cover_media": "https://pbs.twimg.com/media/HJ_vH5-WcAA8_rX.jpg"
+          },
+          "initial_tweets": null,
+          "author": {
+            "rest_id": "2056136747096965120",
+            "name": "Olhar Factual",
+            "screen_name": "OlharFactual",
+            "image": "https://pbs.twimg.com/profile_images/2059074705168949248/oy2orqtg_normal.jpg",
+            "blue_verified": true,
+            "verification": null,
+            "sub_count": 33
+          },
+          "card": {
+            "type": null,
+            "url": "https://t.co/XUOkSddguP",
+            "media": {
+              "image_url": null
+            }
+          },
+          "media": null,
+          "id": "2062630418604556486"
+        }
+      },
+      "_d": 1
+    },
+    {
+      "id": "2062554162097721727",
+      "url": "https://x.com/olharfactual/status/2062554162097721727",
+      "created_at": "2026-06-04T15:16:47.000Z",
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 4,
+      "title": "Ponto cego: Concessões rodoviárias põem em xeque bandeira eleitoral de Tarcísio",
+      "summary": "Levantamento da Folha de S.Paulo compara os números de concessões rodoviárias de Tarcísio de Freitas (Republicanos) — como ex-ministro da Infraestrutura e",
+      "lenses": null,
+      "media": [
+        "media/fde050f2dd999456.jpg"
+      ],
+      "media_alt": "Ponto cego: Concessões rodoviárias põem em xeque bandeira eleitoral de Tarcísio",
+      "coverage_kind": "blindspot",
+      "coverage": null,
+      "sources": [],
+      "full_text": "🔍 𝗖𝗢𝗕𝗘𝗥𝗧𝗨𝗥𝗔 𝗔𝗦𝗦𝗜MÉ𝗧𝗥𝗜𝗖𝗔\nLevantamento da Folha de S.Paulo compara os números de concessões rodoviárias de Tarcísio de Freitas (Republicanos) — como ex-ministro da Infraestrutura e",
+      "raw": {
+        "article": {
+          "rest_id": "2061586770743984128",
+          "title": "Ponto cego: Concessões rodoviárias põem em xeque bandeira eleitoral de Tarcísio",
+          "preview_text": "🔍 𝗖𝗢𝗕𝗘𝗥𝗧𝗨𝗥𝗔 𝗔𝗦𝗦𝗜MÉ𝗧𝗥𝗜𝗖𝗔\nLevantamento da Folha de S.Paulo compara os números de concessões rodoviárias de Tarcísio de Freitas (Republicanos) — como ex-ministro da Infraestrutura e",
+          "cover_media": "https://pbs.twimg.com/media/HJw9gdaWMAAJQr8.jpg"
+        },
+        "text": "https://t.co/uBWDrHIhFT",
+        "note_tweet": null,
+        "detail": null
+      },
+      "_d": 1
+    },
+    {
+      "id": "2062553272716570671",
+      "url": "https://x.com/olharfactual/status/2062553272716570671",
+      "created_at": "2026-06-04T15:13:15.000Z",
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 5,
+      "title": "Governo Lula chama Flávio e Eduardo Bolsonaro de \"traidores envolvidos com o crime\"",
+      "summary": "Os EUA classificaram PCC e CV como organizações terroristas. O governo Lula respondeu com uma nota chamando a família Bolsonaro de \"traidores\" e defendendo a",
+      "lenses": 3,
+      "media": [
+        "media/b7eadba797d8243d.jpg"
+      ],
+      "media_alt": "Governo Lula chama Flávio e Eduardo Bolsonaro de \"traidores envolvidos com o crime\"",
+      "coverage_kind": "comparison",
+      "coverage": {
+        "left": {
+          "count": 4,
+          "outlets": [
+            "Carta Capital",
+            "Folha de S.Paulo",
+            "Revista Fórum",
+            "UOL"
+          ]
+        },
+        "center": {
+          "count": 2,
+          "outlets": [
+            "CNN Brasil",
+            "Poder360"
+          ]
+        },
+        "right": {
+          "count": 1,
+          "outlets": [
+            "Jovem Pan"
+          ]
+        }
+      },
+      "sources": [],
+      "full_text": "🔍 A MESMA NOTÍCIA, TRÊS LENTES DIFERENTES\n\nOs EUA classificaram PCC e CV como organizações terroristas. O governo Lula respondeu com uma nota chamando a família Bolsonaro de \"traidores\" e defendendo a soberania nacional. Veja como cada lado da mídia contou essa história:\n\n🔴 Esquerda (Carta Capital, Folha de S.Paulo, Revista Fórum, UOL): Protagonismo total da nota do governo. Reproduzem a íntegra do comunicado, destacam a defesa da soberania, os riscos ao Pix e à cooperação policial, e amplificam as acusações contra a família Bolsonaro. A Revista Fórum usa subtítulos como \"governo mira ofensiva bolsonarista\". O Poder360 observa que o discurso de soberania repete a estratégia usada no tarifaço de 2025, com objetivo de melhorar a popularidade do governo.\n\n⚪ Centro (CNN Brasil, Poder360): Tom enxuto e factual. A CNN Brasil publica nota curta dizendo apenas que o governo afirma travar \"combate permanente\" contra as facções. O Poder360 apresenta pesquisas: 53% dos brasileiros consideram a decisão dos EUA \"boa para o Brasil\", sem adjetivar nenhum dos lados.\n\n🟢 Direita (Jovem Pan): Foco nos números que contradizem a posição do governo. Destaca que 55,9% dos brasileiros defendem que o próprio Brasil deveria classificar PCC e CV como terroristas. Publica que 47,6% avaliam a segurança pública de Lula como \"péssima\". A nota do governo e a acusação aos Bolsonaros ficam em segundo plano.\n\n𝗢 𝗾𝘂𝗲 𝗻𝗶𝗻𝗴𝘂𝗲́𝗺 𝘁𝗲 𝗰𝗼𝗻𝘁𝗮:\n\nEsquerda entrega ao leitor a versão do governo praticamente sem contraponto — a nota oficial vira a matéria. Direita entrega ao leitor os números que mostram a maioria da população discordando do governo — a pesquisa vira a matéria. Centro apresenta os dados sem enquadrar vencedores ou perdedores.\n\nUm detalhe revelador: a pesquisa AtlasIntel mostrando que 55,9% querem PCC e CV classificados como terroristas aparece nos veículos de esquerda (UOL) e de direita (Jovem Pan), mas cada um destaca um dado diferente da mesma pesquisa. A esquerda foca nos 40,8% que rejeitam. A direita foca nos 55,9% que apoiam.\n\nNenhum lado está inventando fatos. Todos estão escolhendo quais fatos merecem o holofote.\n\nLeu só uma manchete? Você recebeu só metade da história. Siga para ver o outro lado que o seu feed não mostra.\n\n\n\n#PCCeCV #Terrorismo #SoberaniaNacional #ViésDaMídia #SegurançaPública \n\n",
+      "raw": {
+        "article": {
+          "rest_id": "2062550923235176448",
+          "title": "Governo Lula chama Flávio e Eduardo Bolsonaro de \"traidores envolvidos com o crime\"",
+          "preview_text": "🔍 A MESMA NOTÍCIA, TRÊS LENTES DIFERENTES\nOs EUA classificaram PCC e CV como organizações terroristas. O governo Lula respondeu com uma nota chamando a família Bolsonaro de \"traidores\" e defendendo a",
+          "cover_media": "https://pbs.twimg.com/media/HJ-o8DMWkAAlnB_.jpg"
+        },
+        "text": "https://t.co/cePnEM5MOT",
+        "note_tweet": null,
+        "detail": {
+          "likes": 0,
+          "created_at": "Thu Jun 04 15:13:15 +0000 2026",
+          "status": "active",
+          "text": "https://t.co/cePnEM5MOT",
+          "display_text": "x.com/i/article/2062…",
+          "urls": [
+            {
+              "display_url": "x.com/i/article/2062…",
+              "expanded_url": "http://x.com/i/article/2062550923235176448",
+              "url": "https://t.co/cePnEM5MOT"
+            }
+          ],
+          "retweets": 0,
+          "bookmarks": 0,
+          "quotes": 0,
+          "reply_to": null,
+          "replies": 0,
+          "lang": "zxx",
+          "in_reply_to_screen_name": null,
+          "in_reply_to_status_id_str": null,
+          "in_reply_to_user_id_str": null,
+          "sensitive": false,
+          "views": "5",
+          "conversation_id": "2062553272716570671",
+          "entities": {
+            "urls": [
+              {
+                "display_url": "x.com/i/article/2062…",
+                "expanded_url": "http://x.com/i/article/2062550923235176448",
+                "indices": [
+                  0,
+                  23
+                ],
+                "url": "https://t.co/cePnEM5MOT"
+              }
+            ],
+            "hashtags": [],
+            "symbols": [],
+            "timestamps": [],
+            "user_mentions": []
+          },
+          "conversation_control": {
+            "policy": null
+          },
+          "article": {
+            "title": "Governo Lula chama Flávio e Eduardo Bolsonaro de \"traidores envolvidos com o crime\"",
+            "preview_text": "🔍 A MESMA NOTÍCIA, TRÊS LENTES DIFERENTES\nOs EUA classificaram PCC e CV como organizações terroristas. O governo Lula respondeu com uma nota chamando a família Bolsonaro de \"traidores\" e defendendo a",
+            "full_text": "🔍 A MESMA NOTÍCIA, TRÊS LENTES DIFERENTES\n\nOs EUA classificaram PCC e CV como organizações terroristas. O governo Lula respondeu com uma nota chamando a família Bolsonaro de \"traidores\" e defendendo a soberania nacional. Veja como cada lado da mídia contou essa história:\n\n🔴 Esquerda (Carta Capital, Folha de S.Paulo, Revista Fórum, UOL): Protagonismo total da nota do governo. Reproduzem a íntegra do comunicado, destacam a defesa da soberania, os riscos ao Pix e à cooperação policial, e amplificam as acusações contra a família Bolsonaro. A Revista Fórum usa subtítulos como \"governo mira ofensiva bolsonarista\". O Poder360 observa que o discurso de soberania repete a estratégia usada no tarifaço de 2025, com objetivo de melhorar a popularidade do governo.\n\n⚪ Centro (CNN Brasil, Poder360): Tom enxuto e factual. A CNN Brasil publica nota curta dizendo apenas que o governo afirma travar \"combate permanente\" contra as facções. O Poder360 apresenta pesquisas: 53% dos brasileiros consideram a decisão dos EUA \"boa para o Brasil\", sem adjetivar nenhum dos lados.\n\n🟢 Direita (Jovem Pan): Foco nos números que contradizem a posição do governo. Destaca que 55,9% dos brasileiros defendem que o próprio Brasil deveria classificar PCC e CV como terroristas. Publica que 47,6% avaliam a segurança pública de Lula como \"péssima\". A nota do governo e a acusação aos Bolsonaros ficam em segundo plano.\n\n𝗢 𝗾𝘂𝗲 𝗻𝗶𝗻𝗴𝘂𝗲́𝗺 𝘁𝗲 𝗰𝗼𝗻𝘁𝗮:\n\nEsquerda entrega ao leitor a versão do governo praticamente sem contraponto — a nota oficial vira a matéria. Direita entrega ao leitor os números que mostram a maioria da população discordando do governo — a pesquisa vira a matéria. Centro apresenta os dados sem enquadrar vencedores ou perdedores.\n\nUm detalhe revelador: a pesquisa AtlasIntel mostrando que 55,9% querem PCC e CV classificados como terroristas aparece nos veículos de esquerda (UOL) e de direita (Jovem Pan), mas cada um destaca um dado diferente da mesma pesquisa. A esquerda foca nos 40,8% que rejeitam. A direita foca nos 55,9% que apoiam.\n\nNenhum lado está inventando fatos. Todos estão escolhendo quais fatos merecem o holofote.\n\nLeu só uma manchete? Você recebeu só metade da história. Siga para ver o outro lado que o seu feed não mostra.\n\n\n\n#PCCeCV #Terrorismo #SoberaniaNacional #ViésDaMídia #SegurançaPública \n\n",
+            "cover_media": "https://pbs.twimg.com/media/HJ-o8DMWkAAlnB_.jpg"
+          },
+          "initial_tweets": null,
+          "author": {
+            "rest_id": "2056136747096965120",
+            "name": "Olhar Factual",
+            "screen_name": "OlharFactual",
+            "image": "https://pbs.twimg.com/profile_images/2059074705168949248/oy2orqtg_normal.jpg",
+            "blue_verified": true,
+            "verification": null,
+            "sub_count": 33
+          },
+          "card": {
+            "type": null,
+            "url": "https://t.co/cePnEM5MOT",
+            "media": {
+              "image_url": null
+            }
+          },
+          "media": null,
+          "id": "2062553272716570671"
+        }
+      },
+      "_d": 1
+    },
+    {
+      "id": "2062345218033177067",
+      "url": "https://x.com/olharfactual/status/2062345218033177067",
+      "created_at": "2026-06-04T01:26:31.000Z",
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 17,
+      "title": "Aécio se reúne com Joaquim Barbosa e diz avaliar pesquisas por alternativa à polarização",
+      "summary": "Aécio Neves e Joaquim Barbosa se reuniram no Rio para discutir uma possível aliança fora da polarização. Até aí, todos concordam. Mas o que cada veículo",
+      "lenses": 3,
+      "media": [
+        "media/27fecf497fc4ef8c.jpg"
+      ],
+      "media_alt": "Aécio se reúne com Joaquim Barbosa e diz avaliar pesquisas por alternativa à polarização",
+      "coverage_kind": "comparison",
+      "coverage": {
+        "left": {
+          "count": 1,
+          "outlets": [
+            "UOL"
+          ]
+        },
+        "center": {
+          "count": 1,
+          "outlets": [
+            "Poder360"
+          ]
+        },
+        "right": {
+          "count": 2,
+          "outlets": [
+            "VEJA",
+            "Revista Oeste"
+          ]
+        }
+      },
+      "sources": [],
+      "full_text": "🔍 A MESMA NOTÍCIA, TRÊS LENTES DIFERENTES\n\nAécio Neves e Joaquim Barbosa se reuniram no Rio para discutir uma possível aliança fora da polarização. Até aí, todos concordam. Mas o que cada veículo decidiu destacar muda completamente a história. Veja como cada lado da mídia contou essa história:\n\n🔴 Esquerda (UOL): Reproduz a íntegra da declaração de Aécio e mantém tom cauteloso. Destaca que o tucano \"não especifica qual seria o caminho\" e que Barbosa \"nunca confirmou que será de fato candidato\". Também menciona que Aécio afirmou que só entra na disputa se conseguir viabilizar seu nome.\n\n⚪ Centro (Poder360): Relato enxuto e direto. Registra que Barbosa \"ainda não realizou movimentos públicos de pré-campanha nem foi incluído em pesquisas eleitorais\" sobre a disputa presidencial de 2026. Sem drama, sem aposta.\n\n🟢 Direita (VEJA, Revista Oeste): VEJA já estampa na manchete que os dois \"discutem possível chapa para a Presidência\" e nomeia explicitamente Lula e Flávio Bolsonaro como os polos da disputa. Revista Oeste traz bastidores internos do DC: a troca de Aldo Rebelo por Barbosa, a acusação de Rebelo contra o presidente do partido envolvendo o Banco Master e sua posterior expulsão da sigla.\n\n𝗢 𝗾𝘂𝗲 𝗻𝗶𝗻𝗴𝘂𝗲́𝗺 𝘁𝗲 𝗰𝗼𝗻𝘁𝗮:\n\nEsquerda e centro tratam o encontro como sondagem inicial, sem garantias. A direita já projeta uma chapa presidencial e aprofunda os conflitos internos do DC que nenhum outro veículo detalhou.\n\nA mesma reunião em uma livraria no Rio vira cautela em um veículo e articulação presidencial em outro.\n\nNenhum lado está mentindo. Cada um escolheu um ângulo diferente do mesmo fato.\n\nQuer treinar seu olhar crítico? Leia a mesma notícia em pelo menos dois veículos antes de formar opinião.\n\n\n\n\n\n#Eleições2026 #AécioNeves #JoaquimBarbosa #Polarização #VíesDaMídia\n\n",
+      "raw": {
+        "article": {
+          "rest_id": "2062344889325494272",
+          "title": "Aécio se reúne com Joaquim Barbosa e diz avaliar pesquisas por alternativa à polarização",
+          "preview_text": "🔍 A MESMA NOTÍCIA, TRÊS LENTES DIFERENTES\nAécio Neves e Joaquim Barbosa se reuniram no Rio para discutir uma possível aliança fora da polarização. Até aí, todos concordam. Mas o que cada veículo",
+          "cover_media": "https://pbs.twimg.com/media/HJ7ryZQWIAAjaci.jpg"
+        },
+        "text": "https://t.co/g3CAfsC8CL",
+        "note_tweet": null,
+        "detail": {
+          "likes": 1,
+          "created_at": "Thu Jun 04 01:26:31 +0000 2026",
+          "status": "active",
+          "text": "https://t.co/g3CAfsC8CL",
+          "display_text": "x.com/i/article/2062…",
+          "urls": [
+            {
+              "display_url": "x.com/i/article/2062…",
+              "expanded_url": "http://x.com/i/article/2062344889325494272",
+              "url": "https://t.co/g3CAfsC8CL"
+            }
+          ],
+          "retweets": 0,
+          "bookmarks": 0,
+          "quotes": 0,
+          "reply_to": null,
+          "replies": 0,
+          "lang": "zxx",
+          "in_reply_to_screen_name": null,
+          "in_reply_to_status_id_str": null,
+          "in_reply_to_user_id_str": null,
+          "sensitive": false,
+          "views": "17",
+          "conversation_id": "2062345218033177067",
+          "entities": {
+            "urls": [
+              {
+                "display_url": "x.com/i/article/2062…",
+                "expanded_url": "http://x.com/i/article/2062344889325494272",
+                "indices": [
+                  0,
+                  23
+                ],
+                "url": "https://t.co/g3CAfsC8CL"
+              }
+            ],
+            "hashtags": [],
+            "symbols": [],
+            "timestamps": [],
+            "user_mentions": []
+          },
+          "conversation_control": {
+            "policy": null
+          },
+          "article": {
+            "title": "Aécio se reúne com Joaquim Barbosa e diz avaliar pesquisas por alternativa à polarização",
+            "preview_text": "🔍 A MESMA NOTÍCIA, TRÊS LENTES DIFERENTES\nAécio Neves e Joaquim Barbosa se reuniram no Rio para discutir uma possível aliança fora da polarização. Até aí, todos concordam. Mas o que cada veículo",
+            "full_text": "🔍 A MESMA NOTÍCIA, TRÊS LENTES DIFERENTES\n\nAécio Neves e Joaquim Barbosa se reuniram no Rio para discutir uma possível aliança fora da polarização. Até aí, todos concordam. Mas o que cada veículo decidiu destacar muda completamente a história. Veja como cada lado da mídia contou essa história:\n\n🔴 Esquerda (UOL): Reproduz a íntegra da declaração de Aécio e mantém tom cauteloso. Destaca que o tucano \"não especifica qual seria o caminho\" e que Barbosa \"nunca confirmou que será de fato candidato\". Também menciona que Aécio afirmou que só entra na disputa se conseguir viabilizar seu nome.\n\n⚪ Centro (Poder360): Relato enxuto e direto. Registra que Barbosa \"ainda não realizou movimentos públicos de pré-campanha nem foi incluído em pesquisas eleitorais\" sobre a disputa presidencial de 2026. Sem drama, sem aposta.\n\n🟢 Direita (VEJA, Revista Oeste): VEJA já estampa na manchete que os dois \"discutem possível chapa para a Presidência\" e nomeia explicitamente Lula e Flávio Bolsonaro como os polos da disputa. Revista Oeste traz bastidores internos do DC: a troca de Aldo Rebelo por Barbosa, a acusação de Rebelo contra o presidente do partido envolvendo o Banco Master e sua posterior expulsão da sigla.\n\n𝗢 𝗾𝘂𝗲 𝗻𝗶𝗻𝗴𝘂𝗲́𝗺 𝘁𝗲 𝗰𝗼𝗻𝘁𝗮:\n\nEsquerda e centro tratam o encontro como sondagem inicial, sem garantias. A direita já projeta uma chapa presidencial e aprofunda os conflitos internos do DC que nenhum outro veículo detalhou.\n\nA mesma reunião em uma livraria no Rio vira cautela em um veículo e articulação presidencial em outro.\n\nNenhum lado está mentindo. Cada um escolheu um ângulo diferente do mesmo fato.\n\nQuer treinar seu olhar crítico? Leia a mesma notícia em pelo menos dois veículos antes de formar opinião.\n\n\n\n\n\n#Eleições2026 #AécioNeves #JoaquimBarbosa #Polarização #VíesDaMídia\n\n",
+            "cover_media": "https://pbs.twimg.com/media/HJ7ryZQWIAAjaci.jpg"
+          },
+          "initial_tweets": null,
+          "author": {
+            "rest_id": "2056136747096965120",
+            "name": "Olhar Factual",
+            "screen_name": "OlharFactual",
+            "image": "https://pbs.twimg.com/profile_images/2059074705168949248/oy2orqtg_normal.jpg",
+            "blue_verified": true,
+            "verification": null,
+            "sub_count": 33
+          },
+          "card": {
+            "type": null,
+            "url": "https://t.co/g3CAfsC8CL",
+            "media": {
+              "image_url": null
+            }
+          },
+          "media": null,
+          "id": "2062345218033177067"
+        }
+      },
+      "_d": 1
+    },
+    {
+      "id": "2062344579878158519",
+      "url": "https://x.com/olharfactual/status/2062344579878158519",
+      "created_at": "2026-06-04T01:23:59.000Z",
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 13,
+      "title": "União repassa R$ 4,9 bi ao TSE, e partidos já fazem as contas do fundo eleitoral",
+      "summary": "R$ 4,9 bilhões de dinheiro público foram repassados ao TSE para financiar campanhas em 2026. PL, PT e União Brasil, juntos, ficam com 40% do bolo. Veja como",
+      "lenses": 3,
+      "media": [
+        "media/bddef322f1dde53e.jpg"
+      ],
+      "media_alt": "União repassa R$ 4,9 bi ao TSE, e partidos já fazem as contas do fundo eleitoral",
+      "coverage_kind": "comparison",
+      "coverage": {
+        "left": {
+          "count": 2,
+          "outlets": [
+            "CartaCapital",
+            "UOL"
+          ]
+        },
+        "center": {
+          "count": 2,
+          "outlets": [
+            "Metrópoles",
+            "Agência Brasil"
+          ]
+        },
+        "right": {
+          "count": 1,
+          "outlets": [
+            "Jovem Pan"
+          ]
+        }
+      },
+      "sources": [],
+      "full_text": "🔍 A MESMA NOTÍCIA, TRÊS LENTES DIFERENTES\n\nR$ 4,9 bilhões de dinheiro público foram repassados ao TSE para financiar campanhas em 2026. PL, PT e União Brasil, juntos, ficam com 40% do bolo. Veja como cada lado da mídia contou essa história:\n\n🔴 Esquerda (CartaCapital, UOL): Foco na mecânica da divisão. Detalham os critérios legais de repartição, listam os valores de todos os 30 partidos e destacam que PL e PT lideram por terem eleito as maiores bancadas. Tom institucional, quase técnico. Não problematizam o tamanho do fundo nem sua evolução ao longo dos anos.\n\n⚪ Centro (Metrópoles, Agência Brasil): Cobertura semelhante, centrada nos números e nos critérios da Lei das Eleições. Metrópoles identifica o PL como \"legenda do ex-presidente Jair Bolsonaro\". Agência Brasil contextualiza a origem do fundo após a proibição de doações empresariais em 2015. Nenhum dos dois aborda polêmicas em torno do valor total.\n\n🟢 Direita (Jovem Pan): Muda completamente o ângulo. Destaca que o fundo saiu de R$ 2 bilhões para R$ 4,9 bilhões desde sua criação, renovando \"o debate sobre o uso do dinheiro público em campanhas\". E traz um fato que não aparece em nenhum outro veículo: o Partido Novo, que construiu sua identidade na recusa ao fundo público, anunciou que vai usar os recursos pela primeira vez em 2026.\n\n𝗢 𝗾𝘂𝗲 𝗻𝗶𝗻𝗴𝘂𝗲́𝗺 𝘁𝗲 𝗰𝗼𝗻𝘁𝗮:\n\nEsquerda e centro tratam o repasse como fato administrativo — tabelas, critérios, valores. A direita questiona o crescimento do fundo e transforma a mudança de posição do Partido Novo no centro da narrativa.\n\nResultado: quem leu só um lado saiu com uma história completamente diferente na cabeça.\n\nNenhum veículo mentiu. Cada um escolheu qual parte dos R$ 4,9 bilhões iluminar — e qual deixar na sombra.\n\nDa próxima vez que ler sobre dinheiro público e eleições, pergunte: essa matéria quer me informar ou me confirmar?\n\n\n\n\n\n#FundoEleitoral #Eleições2026 #DinheiroPublico #ViesNaMidia #PartidoNovo\n\n",
+      "raw": {
+        "article": {
+          "rest_id": "2062344077073416192",
+          "title": "União repassa R$ 4,9 bi ao TSE, e partidos já fazem as contas do fundo eleitoral",
+          "preview_text": "🔍 A MESMA NOTÍCIA, TRÊS LENTES DIFERENTES\nR$ 4,9 bilhões de dinheiro público foram repassados ao TSE para financiar campanhas em 2026. PL, PT e União Brasil, juntos, ficam com 40% do bolo. Veja como",
+          "cover_media": "https://pbs.twimg.com/media/HJ7rCIOWcAAuzNw.jpg"
+        },
+        "text": "https://t.co/EThIXsZYMN",
+        "note_tweet": null,
+        "detail": {
+          "likes": 1,
+          "created_at": "Thu Jun 04 01:23:59 +0000 2026",
+          "status": "active",
+          "text": "https://t.co/EThIXsZYMN",
+          "display_text": "x.com/i/article/2062…",
+          "urls": [
+            {
+              "display_url": "x.com/i/article/2062…",
+              "expanded_url": "http://x.com/i/article/2062344077073416192",
+              "url": "https://t.co/EThIXsZYMN"
+            }
+          ],
+          "retweets": 0,
+          "bookmarks": 0,
+          "quotes": 0,
+          "reply_to": null,
+          "replies": 0,
+          "lang": "zxx",
+          "in_reply_to_screen_name": null,
+          "in_reply_to_status_id_str": null,
+          "in_reply_to_user_id_str": null,
+          "sensitive": false,
+          "views": "13",
+          "conversation_id": "2062344579878158519",
+          "entities": {
+            "urls": [
+              {
+                "display_url": "x.com/i/article/2062…",
+                "expanded_url": "http://x.com/i/article/2062344077073416192",
+                "indices": [
+                  0,
+                  23
+                ],
+                "url": "https://t.co/EThIXsZYMN"
+              }
+            ],
+            "hashtags": [],
+            "symbols": [],
+            "timestamps": [],
+            "user_mentions": []
+          },
+          "conversation_control": {
+            "policy": null
+          },
+          "article": {
+            "title": "União repassa R$ 4,9 bi ao TSE, e partidos já fazem as contas do fundo eleitoral",
+            "preview_text": "🔍 A MESMA NOTÍCIA, TRÊS LENTES DIFERENTES\nR$ 4,9 bilhões de dinheiro público foram repassados ao TSE para financiar campanhas em 2026. PL, PT e União Brasil, juntos, ficam com 40% do bolo. Veja como",
+            "full_text": "🔍 A MESMA NOTÍCIA, TRÊS LENTES DIFERENTES\n\nR$ 4,9 bilhões de dinheiro público foram repassados ao TSE para financiar campanhas em 2026. PL, PT e União Brasil, juntos, ficam com 40% do bolo. Veja como cada lado da mídia contou essa história:\n\n🔴 Esquerda (CartaCapital, UOL): Foco na mecânica da divisão. Detalham os critérios legais de repartição, listam os valores de todos os 30 partidos e destacam que PL e PT lideram por terem eleito as maiores bancadas. Tom institucional, quase técnico. Não problematizam o tamanho do fundo nem sua evolução ao longo dos anos.\n\n⚪ Centro (Metrópoles, Agência Brasil): Cobertura semelhante, centrada nos números e nos critérios da Lei das Eleições. Metrópoles identifica o PL como \"legenda do ex-presidente Jair Bolsonaro\". Agência Brasil contextualiza a origem do fundo após a proibição de doações empresariais em 2015. Nenhum dos dois aborda polêmicas em torno do valor total.\n\n🟢 Direita (Jovem Pan): Muda completamente o ângulo. Destaca que o fundo saiu de R$ 2 bilhões para R$ 4,9 bilhões desde sua criação, renovando \"o debate sobre o uso do dinheiro público em campanhas\". E traz um fato que não aparece em nenhum outro veículo: o Partido Novo, que construiu sua identidade na recusa ao fundo público, anunciou que vai usar os recursos pela primeira vez em 2026.\n\n𝗢 𝗾𝘂𝗲 𝗻𝗶𝗻𝗴𝘂𝗲́𝗺 𝘁𝗲 𝗰𝗼𝗻𝘁𝗮:\n\nEsquerda e centro tratam o repasse como fato administrativo — tabelas, critérios, valores. A direita questiona o crescimento do fundo e transforma a mudança de posição do Partido Novo no centro da narrativa.\n\nResultado: quem leu só um lado saiu com uma história completamente diferente na cabeça.\n\nNenhum veículo mentiu. Cada um escolheu qual parte dos R$ 4,9 bilhões iluminar — e qual deixar na sombra.\n\nDa próxima vez que ler sobre dinheiro público e eleições, pergunte: essa matéria quer me informar ou me confirmar?\n\n\n\n\n\n#FundoEleitoral #Eleições2026 #DinheiroPublico #ViesNaMidia #PartidoNovo\n\n",
+            "cover_media": "https://pbs.twimg.com/media/HJ7rCIOWcAAuzNw.jpg"
+          },
+          "initial_tweets": null,
+          "author": {
+            "rest_id": "2056136747096965120",
+            "name": "Olhar Factual",
+            "screen_name": "OlharFactual",
+            "image": "https://pbs.twimg.com/profile_images/2059074705168949248/oy2orqtg_normal.jpg",
+            "blue_verified": true,
+            "verification": null,
+            "sub_count": 33
+          },
+          "card": {
+            "type": null,
+            "url": "https://t.co/EThIXsZYMN",
+            "media": {
+              "image_url": null
+            }
+          },
+          "media": null,
+          "id": "2062344579878158519"
+        }
+      },
+      "_d": 1
+    },
+    {
+      "id": "2062343933795999760",
+      "url": "https://x.com/olharfactual/status/2062343933795999760",
+      "created_at": "2026-06-04T01:21:24.000Z",
+      "likes": 2,
+      "reposts": 1,
+      "replies": 0,
+      "views": 25,
+      "title": "Líbano e Israel concordam com cessar-fogo após negociação mediada pelos EUA",
+      "summary": "Israel e Líbano concordaram com um cessar-fogo após negociações mediadas pelos EUA em Washington. A trégua depende da cessação total dos disparos do",
+      "lenses": 3,
+      "media": [
+        "media/893b7d35b47f0db4.jpg"
+      ],
+      "media_alt": "Líbano e Israel concordam com cessar-fogo após negociação mediada pelos EUA",
+      "coverage_kind": "comparison",
+      "coverage": {
+        "left": {
+          "count": 1,
+          "outlets": [
+            "Folha de S.Paulo"
+          ]
+        },
+        "center": {
+          "count": 1,
+          "outlets": [
+            "CNN Brasil"
+          ]
+        },
+        "right": {
+          "count": 2,
+          "outlets": [
+            "O Globo",
+            "Revista Oeste"
+          ]
+        }
+      },
+      "sources": [],
+      "full_text": "🔍 A MESMA NOTÍCIA, TRÊS LENTES DIFERENTES\n\nIsrael e Líbano concordaram com um cessar-fogo após negociações mediadas pelos EUA em Washington. A trégua depende da cessação total dos disparos do Hezbollah e da retirada de seus membros do sul do rio Litani. Veja como cada lado da mídia contou essa história:\n\n🔴 Esquerda (Folha de S.Paulo): Contextualiza o conflito lembrando que Israel invadiu o Líbano em março e que a guerra envolve EUA e Israel contra o Irã. Destaca a posição iraniana: Teerã afirma que não aceitará acordo a menos que o cessar-fogo também abranja o Líbano. O Hezbollah aparece como ator regional alinhado ao Irã, sem rótulos como \"terrorista\".\n\n⚪ Centro (CNN Brasil): Publica a íntegra da declaração conjunta e traz bastidores que não aparecem nos outros veículos: a ligação tensa entre Trump e Netanyahu, em que o presidente americano teria chamado o primeiro-ministro israelense de \"louco pra c***\" e pressionado Israel a reduzir operações no Líbano. Também relata que ataques israelenses continuaram durante as negociações, incluindo um bombardeio sem aviso prévio em Khaldeh.\n\n🟢 Direita (O Globo, Revista Oeste): Classificam o Hezbollah como \"grupo terrorista\" e \"principal fator de instabilidade na região\". Revista Oeste destaca a fala do secretário de Estado Marco Rubio de que o Hezbollah é \"um inimigo do Líbano\". Ambos enfatizam o desarmamento completo do grupo e o desmantelamento de sua infraestrutura como condição para a paz. O Irã é apontado como responsável por minar a estabilidade no Oriente Médio.\n\n𝗢 𝗾𝘂𝗲 𝗻𝗶𝗻𝗴𝘂𝗲́𝗺 𝘁𝗲 𝗰𝗼𝗻𝘁𝗮:\n\nEsquerda situa o cessar-fogo dentro de uma guerra iniciada por EUA e Israel contra o Irã, dando peso à posição iraniana. Centro revela os bastidores diplomáticos e a pressão americana sobre Netanyahu. Direita enquadra tudo pela lente da segurança e da soberania, com o Hezbollah como ameaça terrorista a ser eliminada.\n\nNenhum lado está inventando fatos. Cada um escolheu um ângulo diferente da mesma declaração conjunta.\n\nLer só uma fonte é ver o mundo por uma fresta. Abra a janela inteira.\n\n\n\n\n\n#CessarFogo #IsraelLíbano #Hezbollah #OrienteMédio #ViésNaMídia\n\n",
+      "raw": {
+        "article": {
+          "rest_id": "2062343457574719488",
+          "title": "Líbano e Israel concordam com cessar-fogo após negociação mediada pelos EUA",
+          "preview_text": "🔍 A MESMA NOTÍCIA, TRÊS LENTES DIFERENTES\nIsrael e Líbano concordaram com um cessar-fogo após negociações mediadas pelos EUA em Washington. A trégua depende da cessação total dos disparos do",
+          "cover_media": "https://pbs.twimg.com/media/HJ7qgW0X0AASpHM.jpg"
+        },
+        "text": "https://t.co/iCnel0NXSu",
+        "note_tweet": null,
+        "detail": {
+          "likes": 2,
+          "created_at": "Thu Jun 04 01:21:24 +0000 2026",
+          "status": "active",
+          "text": "https://t.co/iCnel0NXSu",
+          "display_text": "x.com/i/article/2062…",
+          "urls": [
+            {
+              "display_url": "x.com/i/article/2062…",
+              "expanded_url": "http://x.com/i/article/2062343457574719488",
+              "url": "https://t.co/iCnel0NXSu"
+            }
+          ],
+          "retweets": 1,
+          "bookmarks": 1,
+          "quotes": 0,
+          "reply_to": null,
+          "replies": 0,
+          "lang": "zxx",
+          "in_reply_to_screen_name": null,
+          "in_reply_to_status_id_str": null,
+          "in_reply_to_user_id_str": null,
+          "sensitive": false,
+          "views": "25",
+          "conversation_id": "2062343933795999760",
+          "entities": {
+            "urls": [
+              {
+                "display_url": "x.com/i/article/2062…",
+                "expanded_url": "http://x.com/i/article/2062343457574719488",
+                "indices": [
+                  0,
+                  23
+                ],
+                "url": "https://t.co/iCnel0NXSu"
+              }
+            ],
+            "hashtags": [],
+            "symbols": [],
+            "timestamps": [],
+            "user_mentions": []
+          },
+          "conversation_control": {
+            "policy": null
+          },
+          "article": {
+            "title": "Líbano e Israel concordam com cessar-fogo após negociação mediada pelos EUA",
+            "preview_text": "🔍 A MESMA NOTÍCIA, TRÊS LENTES DIFERENTES\nIsrael e Líbano concordaram com um cessar-fogo após negociações mediadas pelos EUA em Washington. A trégua depende da cessação total dos disparos do",
+            "full_text": "🔍 A MESMA NOTÍCIA, TRÊS LENTES DIFERENTES\n\nIsrael e Líbano concordaram com um cessar-fogo após negociações mediadas pelos EUA em Washington. A trégua depende da cessação total dos disparos do Hezbollah e da retirada de seus membros do sul do rio Litani. Veja como cada lado da mídia contou essa história:\n\n🔴 Esquerda (Folha de S.Paulo): Contextualiza o conflito lembrando que Israel invadiu o Líbano em março e que a guerra envolve EUA e Israel contra o Irã. Destaca a posição iraniana: Teerã afirma que não aceitará acordo a menos que o cessar-fogo também abranja o Líbano. O Hezbollah aparece como ator regional alinhado ao Irã, sem rótulos como \"terrorista\".\n\n⚪ Centro (CNN Brasil): Publica a íntegra da declaração conjunta e traz bastidores que não aparecem nos outros veículos: a ligação tensa entre Trump e Netanyahu, em que o presidente americano teria chamado o primeiro-ministro israelense de \"louco pra c***\" e pressionado Israel a reduzir operações no Líbano. Também relata que ataques israelenses continuaram durante as negociações, incluindo um bombardeio sem aviso prévio em Khaldeh.\n\n🟢 Direita (O Globo, Revista Oeste): Classificam o Hezbollah como \"grupo terrorista\" e \"principal fator de instabilidade na região\". Revista Oeste destaca a fala do secretário de Estado Marco Rubio de que o Hezbollah é \"um inimigo do Líbano\". Ambos enfatizam o desarmamento completo do grupo e o desmantelamento de sua infraestrutura como condição para a paz. O Irã é apontado como responsável por minar a estabilidade no Oriente Médio.\n\n𝗢 𝗾𝘂𝗲 𝗻𝗶𝗻𝗴𝘂𝗲́𝗺 𝘁𝗲 𝗰𝗼𝗻𝘁𝗮:\n\nEsquerda situa o cessar-fogo dentro de uma guerra iniciada por EUA e Israel contra o Irã, dando peso à posição iraniana. Centro revela os bastidores diplomáticos e a pressão americana sobre Netanyahu. Direita enquadra tudo pela lente da segurança e da soberania, com o Hezbollah como ameaça terrorista a ser eliminada.\n\nNenhum lado está inventando fatos. Cada um escolheu um ângulo diferente da mesma declaração conjunta.\n\nLer só uma fonte é ver o mundo por uma fresta. Abra a janela inteira.\n\n\n\n\n\n#CessarFogo #IsraelLíbano #Hezbollah #OrienteMédio #ViésNaMídia\n\n",
+            "cover_media": "https://pbs.twimg.com/media/HJ7qgW0X0AASpHM.jpg"
+          },
+          "initial_tweets": null,
+          "author": {
+            "rest_id": "2056136747096965120",
+            "name": "Olhar Factual",
+            "screen_name": "OlharFactual",
+            "image": "https://pbs.twimg.com/profile_images/2059074705168949248/oy2orqtg_normal.jpg",
+            "blue_verified": true,
+            "verification": null,
+            "sub_count": 33
+          },
+          "card": {
+            "type": null,
+            "url": "https://t.co/iCnel0NXSu",
+            "media": {
+              "image_url": null
+            }
+          },
+          "media": null,
+          "id": "2062343933795999760"
+        }
+      },
+      "_d": 1
+    },
+    {
+      "id": "2062343260194885797",
+      "url": "https://x.com/olharfactual/status/2062343260194885797",
+      "created_at": "2026-06-04T01:18:44.000Z",
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 10,
+      "title": "Cenário requer cautela e diligência adicionais no mercado de crédito, alerta BC",
+      "summary": "O Banco Central alertou que o endividamento das famílias está em 49,8%, quase no recorde histórico, e pediu \"cautela e diligência\" no mercado de crédito. No",
+      "lenses": 3,
+      "media": [
+        "media/ccb15593a4c8f4df.jpg"
+      ],
+      "media_alt": "Cenário requer cautela e diligência adicionais no mercado de crédito, alerta BC",
+      "coverage_kind": "comparison",
+      "coverage": {
+        "left": {
+          "count": 2,
+          "outlets": [
+            "Revista Fórum",
+            "Folha de S.Paulo"
+          ]
+        },
+        "center": {
+          "count": 4,
+          "outlets": [
+            "Poder360",
+            "Metrópoles",
+            "G1",
+            "Valor Econômico"
+          ]
+        },
+        "right": {
+          "count": 3,
+          "outlets": [
+            "Revista Oeste",
+            "O Globo",
+            "CNN Brasil"
+          ]
+        }
+      },
+      "sources": [],
+      "full_text": "🔍 A MESMA NOTÍCIA, TRÊS LENTES DIFERENTES\n\nO Banco Central alertou que o endividamento das famílias está em 49,8%, quase no recorde histórico, e pediu \"cautela e diligência\" no mercado de crédito. No mesmo dia, o governo apresentou o balanço do Desenrola 2.0. Veja como cada lado da mídia contou essa história:\n\n🔴 Esquerda (Revista Fórum, Folha de S.Paulo): A Revista Fórum dedicou sua cobertura inteiramente à ferramenta de simulação do Desenrola 2.0, detalhando como funciona, quem pode usar e os benefícios do programa — descontos de até 90%, uso do FGTS e juros de 1,99%. O alerta do BC sobre o endividamento recorde não foi abordado. A Folha trouxe o alerta do BC com dados detalhados, mas também conectou o Desenrola ao contexto eleitoral, chamando-o de \"aposta do governo Lula para melhorar a percepção da população\" sobre a economia.\n\n⚪ Centro (Poder360, Metrópoles, G1, Valor Econômico): O Poder360 e o Metrópoles fizeram coberturas técnicas do alerta do BC, apresentando os números de endividamento e comprometimento de renda sem adjetivar politicamente. Mencionam o Desenrola como resposta do governo ao cenário. G1 e Valor Econômico focaram no balanço do Desenrola: R$ 20 bilhões renegociados, 1,4 milhão de operações, desconto médio de 85%. Reportam dados da ministra Miriam Belchior sem entrar no mérito eleitoral.\n\n🟢 Direita (Revista Oeste, O Globo, CNN Brasil): A Revista Oeste destaca que o endividamento \"atingiu patamares recordes\" e afirma que o Desenrola, \"em ano eleitoral, é uma aposta para melhorar a imagem do governo junto à população\". O Globo vai além e conecta o endividamento diretamente à \"queda de aprovação\" de Lula e ao \"desempenho nas pesquisas para a eleição de outubro\". A CNN Brasil revela que a reunião ministerial onde os dados foram apresentados teve como objetivo \"definir a estratégia de propaganda\" e \"alinhar a divulgação dos principais programas com potencial eleitoral\".\n\n𝗢 𝗾𝘂𝗲 𝗻𝗶𝗻𝗴𝘂𝗲́𝗺 𝘁𝗲 𝗰𝗼𝗻𝘁𝗮:\n\nEsquerda foca na solução oferecida pelo governo e nos benefícios do programa, tratando o Desenrola como protagonista da história. Direita foca no problema — o recorde de endividamento — e enquadra o Desenrola como manobra eleitoral. Centro oscila: alguns veículos reportam os números do programa sem questionar motivações, outros trazem o alerta do BC em tom técnico.\n\nO dado mais revelador? Todos reportam que o endividamento está em 49,8%. Mas enquanto um lado celebra os R$ 20 bilhões renegociados, o outro pergunta por que as famílias chegaram a esse ponto.\n\nNenhum lado está inventando fatos. Cada um escolhe qual parte da realidade merece o holofote.\n\nLeia as fontes, compare os ângulos e tire suas próprias conclusões.\n\n\n\n#Endividamento #Desenrola #BancoCentral #ViesNaMidia #EconomiaReal\n\n",
+      "raw": {
+        "article": {
+          "rest_id": "2062342395417460736",
+          "title": "Cenário requer cautela e diligência adicionais no mercado de crédito, alerta BC",
+          "preview_text": "🔍 A MESMA NOTÍCIA, TRÊS LENTES DIFERENTES\nO Banco Central alertou que o endividamento das famílias está em 49,8%, quase no recorde histórico, e pediu \"cautela e diligência\" no mercado de crédito. No",
+          "cover_media": "https://pbs.twimg.com/media/HJ7pglfWMAAoeql.jpg"
+        },
+        "text": "https://t.co/PNMD6XmTRc",
+        "note_tweet": null,
+        "detail": {
+          "likes": 1,
+          "created_at": "Thu Jun 04 01:18:44 +0000 2026",
+          "status": "active",
+          "text": "https://t.co/PNMD6XmTRc",
+          "display_text": "x.com/i/article/2062…",
+          "urls": [
+            {
+              "display_url": "x.com/i/article/2062…",
+              "expanded_url": "http://x.com/i/article/2062342395417460736",
+              "url": "https://t.co/PNMD6XmTRc"
+            }
+          ],
+          "retweets": 0,
+          "bookmarks": 0,
+          "quotes": 0,
+          "reply_to": null,
+          "replies": 0,
+          "lang": "zxx",
+          "in_reply_to_screen_name": null,
+          "in_reply_to_status_id_str": null,
+          "in_reply_to_user_id_str": null,
+          "sensitive": false,
+          "views": "10",
+          "conversation_id": "2062343260194885797",
+          "entities": {
+            "urls": [
+              {
+                "display_url": "x.com/i/article/2062…",
+                "expanded_url": "http://x.com/i/article/2062342395417460736",
+                "indices": [
+                  0,
+                  23
+                ],
+                "url": "https://t.co/PNMD6XmTRc"
+              }
+            ],
+            "hashtags": [],
+            "symbols": [],
+            "timestamps": [],
+            "user_mentions": []
+          },
+          "conversation_control": {
+            "policy": null
+          },
+          "article": {
+            "title": "Cenário requer cautela e diligência adicionais no mercado de crédito, alerta BC",
+            "preview_text": "🔍 A MESMA NOTÍCIA, TRÊS LENTES DIFERENTES\nO Banco Central alertou que o endividamento das famílias está em 49,8%, quase no recorde histórico, e pediu \"cautela e diligência\" no mercado de crédito. No",
+            "full_text": "🔍 A MESMA NOTÍCIA, TRÊS LENTES DIFERENTES\n\nO Banco Central alertou que o endividamento das famílias está em 49,8%, quase no recorde histórico, e pediu \"cautela e diligência\" no mercado de crédito. No mesmo dia, o governo apresentou o balanço do Desenrola 2.0. Veja como cada lado da mídia contou essa história:\n\n🔴 Esquerda (Revista Fórum, Folha de S.Paulo): A Revista Fórum dedicou sua cobertura inteiramente à ferramenta de simulação do Desenrola 2.0, detalhando como funciona, quem pode usar e os benefícios do programa — descontos de até 90%, uso do FGTS e juros de 1,99%. O alerta do BC sobre o endividamento recorde não foi abordado. A Folha trouxe o alerta do BC com dados detalhados, mas também conectou o Desenrola ao contexto eleitoral, chamando-o de \"aposta do governo Lula para melhorar a percepção da população\" sobre a economia.\n\n⚪ Centro (Poder360, Metrópoles, G1, Valor Econômico): O Poder360 e o Metrópoles fizeram coberturas técnicas do alerta do BC, apresentando os números de endividamento e comprometimento de renda sem adjetivar politicamente. Mencionam o Desenrola como resposta do governo ao cenário. G1 e Valor Econômico focaram no balanço do Desenrola: R$ 20 bilhões renegociados, 1,4 milhão de operações, desconto médio de 85%. Reportam dados da ministra Miriam Belchior sem entrar no mérito eleitoral.\n\n🟢 Direita (Revista Oeste, O Globo, CNN Brasil): A Revista Oeste destaca que o endividamento \"atingiu patamares recordes\" e afirma que o Desenrola, \"em ano eleitoral, é uma aposta para melhorar a imagem do governo junto à população\". O Globo vai além e conecta o endividamento diretamente à \"queda de aprovação\" de Lula e ao \"desempenho nas pesquisas para a eleição de outubro\". A CNN Brasil revela que a reunião ministerial onde os dados foram apresentados teve como objetivo \"definir a estratégia de propaganda\" e \"alinhar a divulgação dos principais programas com potencial eleitoral\".\n\n𝗢 𝗾𝘂𝗲 𝗻𝗶𝗻𝗴𝘂𝗲́𝗺 𝘁𝗲 𝗰𝗼𝗻𝘁𝗮:\n\nEsquerda foca na solução oferecida pelo governo e nos benefícios do programa, tratando o Desenrola como protagonista da história. Direita foca no problema — o recorde de endividamento — e enquadra o Desenrola como manobra eleitoral. Centro oscila: alguns veículos reportam os números do programa sem questionar motivações, outros trazem o alerta do BC em tom técnico.\n\nO dado mais revelador? Todos reportam que o endividamento está em 49,8%. Mas enquanto um lado celebra os R$ 20 bilhões renegociados, o outro pergunta por que as famílias chegaram a esse ponto.\n\nNenhum lado está inventando fatos. Cada um escolhe qual parte da realidade merece o holofote.\n\nLeia as fontes, compare os ângulos e tire suas próprias conclusões.\n\n\n\n#Endividamento #Desenrola #BancoCentral #ViesNaMidia #EconomiaReal\n\n",
+            "cover_media": "https://pbs.twimg.com/media/HJ7pglfWMAAoeql.jpg"
+          },
+          "initial_tweets": null,
+          "author": {
+            "rest_id": "2056136747096965120",
+            "name": "Olhar Factual",
+            "screen_name": "OlharFactual",
+            "image": "https://pbs.twimg.com/profile_images/2059074705168949248/oy2orqtg_normal.jpg",
+            "blue_verified": true,
+            "verification": null,
+            "sub_count": 33
+          },
+          "card": {
+            "type": null,
+            "url": "https://t.co/PNMD6XmTRc",
+            "media": {
+              "image_url": null
+            }
+          },
+          "media": null,
+          "id": "2062343260194885797"
+        }
+      },
+      "_d": 1
+    },
+    {
+      "id": "2062342160523866169",
+      "url": "https://x.com/olharfactual/status/2062342160523866169",
+      "created_at": "2026-06-04T01:14:22.000Z",
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 14,
+      "title": "Câmara dos Deputados dos EUA apoia resolução que restringe poderes de guerra de Trump contra Irã",
+      "summary": "A Câmara dos EUA aprovou por 215 a 208 uma resolução para limitar os poderes de guerra de Trump contra o Irã, com quatro republicanos votando contra o",
+      "lenses": 3,
+      "media": [
+        "media/3ebb022c967a8100.jpg"
+      ],
+      "media_alt": "Câmara dos Deputados dos EUA apoia resolução que restringe poderes de guerra de Trump contra Irã",
+      "coverage_kind": "comparison",
+      "coverage": {
+        "left": {
+          "count": 2,
+          "outlets": [
+            "UOL",
+            "Folha de S.Paulo"
+          ]
+        },
+        "center": {
+          "count": 4,
+          "outlets": [
+            "Poder360",
+            "Metrópoles",
+            "G1",
+            "CNN Brasil"
+          ]
+        },
+        "right": {
+          "count": 3,
+          "outlets": [
+            "O Globo",
+            "Valor Econômico",
+            "Revista Oeste"
+          ]
+        }
+      },
+      "sources": [],
+      "full_text": "🔍 A MESMA NOTÍCIA, TRÊS LENTES DIFERENTES\n\nA Câmara dos EUA aprovou por 215 a 208 uma resolução para limitar os poderes de guerra de Trump contra o Irã, com quatro republicanos votando contra o próprio partido. Veja como cada lado da mídia contou essa história:\n\n🔴 Esquerda (UOL, Folha de S.Paulo): Enquadram a votação como uma \"afronta\" e \"repreensão\" a Trump. Destacam que democratas chamaram o conflito de \"guerra ilegal e profundamente impopular\". A Folha detalha que líderes republicanos retiraram a votação da pauta duas semanas antes para evitar \"uma derrota constrangedora\" e que não conseguiram reverter votos desde então. Contextualizam com outras derrotas recentes de Trump no Congresso, como o recuo no fundo de US$ 1 bilhão para seu salão de festas.\n\n⚪ Centro (Poder360, Metrópoles, G1, CNN Brasil): Cobertura mais técnica e detalhada. Poder360 traz dado de pesquisa: 64% dos eleitores consideram que Trump errou ao entrar em guerra. CNN Brasil nomeia os quatro republicanos dissidentes (Massie, Fitzpatrick, Barrett e Davidson), publica a defesa do presidente da Câmara, Mike Johnson, que chamou a medida de \"muito perigosa\", e revela que inspetores-gerais do Pentágono iniciaram revisão da guerra por ela já ter ultrapassado 60 dias. O g1 menciona que republicanos temem o impacto nas eleições de novembro.\n\n🟢 Direita (O Globo, Valor Econômico, Revista Oeste): Valor Econômico chama a votação de \"notável constrangimento\" e destaca que três resoluções anteriores já haviam sido rejeitadas por margens cada vez menores. O Globo aprofunda o debate jurídico, citando decisão da Suprema Corte de 1983 que exigiria assinatura presidencial para efeito legal vinculante. Revista Oeste dá espaço ao argumento do governo Trump de que a restrição \"pode comprometer a capacidade de resposta militar dos EUA\" em região estratégica, e enquadra a votação como rara ocasião bipartidária contra a Casa Branca.\n\n𝗢 𝗾𝘂𝗲 𝗻𝗶𝗻𝗴𝘂𝗲́𝗺 𝘁𝗲 𝗰𝗼𝗻𝘁𝗮:\n\nEsquerda enfatiza a derrota política de Trump e o caráter \"ilegal\" da guerra. Centro entrega os números, os nomes e o contexto institucional completo, incluindo a voz do governo. Direita aprofunda o debate constitucional e dá mais peso ao argumento de que a medida pode enfraquecer a posição militar dos EUA.\n\nNenhum lado está mentindo. Cada um escolheu um ângulo da mesma votação: derrota política, processo institucional ou dilema constitucional.\n\nNa próxima manchete que você ler, pergunte: que parte da história ficou de fora?\n\n\n\n\n\n#GuerraNoIrã #PoderesDeGuerra #Trump #CongressoEUA #ViésNaMídia\n\n",
+      "raw": {
+        "article": {
+          "rest_id": "2062341431700660224",
+          "title": "Câmara dos Deputados dos EUA apoia resolução que restringe poderes de guerra de Trump contra Irã",
+          "preview_text": "🔍 A MESMA NOTÍCIA, TRÊS LENTES DIFERENTES\nA Câmara dos EUA aprovou por 215 a 208 uma resolução para limitar os poderes de guerra de Trump contra o Irã, com quatro republicanos votando contra o",
+          "cover_media": "https://pbs.twimg.com/media/HJ7orfeWoAA2xa5.jpg"
+        },
+        "text": "https://t.co/8gyigUabTK",
+        "note_tweet": null,
+        "detail": {
+          "likes": 0,
+          "created_at": "Thu Jun 04 01:14:22 +0000 2026",
+          "status": "active",
+          "text": "https://t.co/8gyigUabTK",
+          "display_text": "x.com/i/article/2062…",
+          "urls": [
+            {
+              "display_url": "x.com/i/article/2062…",
+              "expanded_url": "http://x.com/i/article/2062341431700660224",
+              "url": "https://t.co/8gyigUabTK"
+            }
+          ],
+          "retweets": 0,
+          "bookmarks": 0,
+          "quotes": 0,
+          "reply_to": null,
+          "replies": 0,
+          "lang": "zxx",
+          "in_reply_to_screen_name": null,
+          "in_reply_to_status_id_str": null,
+          "in_reply_to_user_id_str": null,
+          "sensitive": false,
+          "views": "14",
+          "conversation_id": "2062342160523866169",
+          "entities": {
+            "urls": [
+              {
+                "display_url": "x.com/i/article/2062…",
+                "expanded_url": "http://x.com/i/article/2062341431700660224",
+                "indices": [
+                  0,
+                  23
+                ],
+                "url": "https://t.co/8gyigUabTK"
+              }
+            ],
+            "hashtags": [],
+            "symbols": [],
+            "timestamps": [],
+            "user_mentions": []
+          },
+          "conversation_control": {
+            "policy": null
+          },
+          "article": {
+            "title": "Câmara dos Deputados dos EUA apoia resolução que restringe poderes de guerra de Trump contra Irã",
+            "preview_text": "🔍 A MESMA NOTÍCIA, TRÊS LENTES DIFERENTES\nA Câmara dos EUA aprovou por 215 a 208 uma resolução para limitar os poderes de guerra de Trump contra o Irã, com quatro republicanos votando contra o",
+            "full_text": "🔍 A MESMA NOTÍCIA, TRÊS LENTES DIFERENTES\n\nA Câmara dos EUA aprovou por 215 a 208 uma resolução para limitar os poderes de guerra de Trump contra o Irã, com quatro republicanos votando contra o próprio partido. Veja como cada lado da mídia contou essa história:\n\n🔴 Esquerda (UOL, Folha de S.Paulo): Enquadram a votação como uma \"afronta\" e \"repreensão\" a Trump. Destacam que democratas chamaram o conflito de \"guerra ilegal e profundamente impopular\". A Folha detalha que líderes republicanos retiraram a votação da pauta duas semanas antes para evitar \"uma derrota constrangedora\" e que não conseguiram reverter votos desde então. Contextualizam com outras derrotas recentes de Trump no Congresso, como o recuo no fundo de US$ 1 bilhão para seu salão de festas.\n\n⚪ Centro (Poder360, Metrópoles, G1, CNN Brasil): Cobertura mais técnica e detalhada. Poder360 traz dado de pesquisa: 64% dos eleitores consideram que Trump errou ao entrar em guerra. CNN Brasil nomeia os quatro republicanos dissidentes (Massie, Fitzpatrick, Barrett e Davidson), publica a defesa do presidente da Câmara, Mike Johnson, que chamou a medida de \"muito perigosa\", e revela que inspetores-gerais do Pentágono iniciaram revisão da guerra por ela já ter ultrapassado 60 dias. O g1 menciona que republicanos temem o impacto nas eleições de novembro.\n\n🟢 Direita (O Globo, Valor Econômico, Revista Oeste): Valor Econômico chama a votação de \"notável constrangimento\" e destaca que três resoluções anteriores já haviam sido rejeitadas por margens cada vez menores. O Globo aprofunda o debate jurídico, citando decisão da Suprema Corte de 1983 que exigiria assinatura presidencial para efeito legal vinculante. Revista Oeste dá espaço ao argumento do governo Trump de que a restrição \"pode comprometer a capacidade de resposta militar dos EUA\" em região estratégica, e enquadra a votação como rara ocasião bipartidária contra a Casa Branca.\n\n𝗢 𝗾𝘂𝗲 𝗻𝗶𝗻𝗴𝘂𝗲́𝗺 𝘁𝗲 𝗰𝗼𝗻𝘁𝗮:\n\nEsquerda enfatiza a derrota política de Trump e o caráter \"ilegal\" da guerra. Centro entrega os números, os nomes e o contexto institucional completo, incluindo a voz do governo. Direita aprofunda o debate constitucional e dá mais peso ao argumento de que a medida pode enfraquecer a posição militar dos EUA.\n\nNenhum lado está mentindo. Cada um escolheu um ângulo da mesma votação: derrota política, processo institucional ou dilema constitucional.\n\nNa próxima manchete que você ler, pergunte: que parte da história ficou de fora?\n\n\n\n\n\n#GuerraNoIrã #PoderesDeGuerra #Trump #CongressoEUA #ViésNaMídia\n\n",
+            "cover_media": "https://pbs.twimg.com/media/HJ7orfeWoAA2xa5.jpg"
+          },
+          "initial_tweets": null,
+          "author": {
+            "rest_id": "2056136747096965120",
+            "name": "Olhar Factual",
+            "screen_name": "OlharFactual",
+            "image": "https://pbs.twimg.com/profile_images/2059074705168949248/oy2orqtg_normal.jpg",
+            "blue_verified": true,
+            "verification": null,
+            "sub_count": 33
+          },
+          "card": {
+            "type": null,
+            "url": "https://t.co/8gyigUabTK",
+            "media": {
+              "image_url": null
+            }
+          },
+          "media": null,
+          "id": "2062342160523866169"
+        }
+      },
+      "_d": 1
+    },
+    {
+      "id": "2062295654987116646",
+      "url": "https://x.com/olharfactual/status/2062295654987116646",
+      "created_at": "2026-06-03T22:09:34.000Z",
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 12,
+      "title": "INSS reativa acordo com entidade ligada ao PT e investigada por farra",
+      "summary": "O INSS reativou o acordo de cooperação técnica com a Contag, entidade investigada pela Polícia Federal no escândalo dos descontos indevidos em",
+      "lenses": 2,
+      "media": [
+        "media/c92b876502af802e.jpg"
+      ],
+      "media_alt": "INSS reativa acordo com entidade ligada ao PT e investigada por farra",
+      "coverage_kind": "comparison",
+      "coverage": {
+        "left": {
+          "count": 1,
+          "outlets": [
+            "CNN Brasil"
+          ]
+        },
+        "center": {
+          "count": 0,
+          "outlets": []
+        },
+        "right": {
+          "count": 4,
+          "outlets": [
+            "Metrópoles",
+            "Veja",
+            "Revista Oeste",
+            "Gazeta do Povo"
+          ]
+        }
+      },
+      "sources": [],
+      "full_text": "🔍 A MESMA NOTÍCIA, DUAS LENTES DIFERENTES\n\nO INSS reativou o acordo de cooperação técnica com a Contag, entidade investigada pela Polícia Federal no escândalo dos descontos indevidos em aposentadorias. A decisão reverteu a rescisão feita em abril. Veja como cada lado da mídia contou essa história:\n\n🔴 Esquerda (CNN Brasil): A manchete é sobre a oposição tentando derrubar o convênio, não sobre a reativação em si. O protagonista da história é o deputado que protocolou o PDL, não o governo que tomou a decisão. A Contag é descrita como \"uma das entidades investigadas\", sem menção à ligação com o PT. Não aparecem cifras sobre o prejuízo estimado nem detalhes sobre o papel da Contag na redação de emendas parlamentares.\n\n🟢 Direita (Metrópoles, Veja, Revista Oeste, Gazeta do Povo): A manchete é sobre a decisão do governo. Todas destacam logo no título a ligação da Contag com o PT e as investigações. Trazem números: R$ 6,3 bilhões em prejuízo estimado segundo a PF, R$ 3,6 bilhões recebidos em dez anos, 34.487 benefícios desbloqueados de uma vez. Revelam que a Contag redigiu 96 de 578 emendas apresentadas por parlamentares de esquerda para alterar MP contra fraudes. Publicam reações duras de parlamentares da CPMI.\n\n𝗢 𝗾𝘂𝗲 𝗻𝗶𝗻𝗴𝘂𝗲́𝗺 𝘁𝗲 𝗰𝗼𝗻𝘁𝗮:\n\nEsquerda: transforma a oposição em protagonista e trata a reativação do acordo como pano de fundo. O leitor entende o que a oposição fez, mas recebe poucos detalhes sobre por que a decisão é controversa.\n\nDireita: coloca o governo no centro da história e detalha o histórico da Contag com dados, cifras e conexões políticas. A nota técnica do INSS sobre a legalidade do acordo aparece, mas fica abafada pelo volume de informações sobre o escândalo.\n\nNenhum lado está inventando fatos. Cada um escolheu um ângulo e um protagonista diferente para a mesma história.\n\nLer só um lado é assistir ao jogo pela câmera de uma torcida. Leia os dois e tire suas próprias conclusões.\n\n\n\n\n\n#INSS #Contag #FarraDoINSS #ViésDaMídia #Previdência\n\n",
+      "raw": {
+        "article": {
+          "rest_id": "2062295219404525568",
+          "title": "INSS reativa acordo com entidade ligada ao PT e investigada por farra",
+          "preview_text": "🔍 A MESMA NOTÍCIA, DUAS LENTES DIFERENTES\nO INSS reativou o acordo de cooperação técnica com a Contag, entidade investigada pela Polícia Federal no escândalo dos descontos indevidos em",
+          "cover_media": "https://pbs.twimg.com/media/HJ6-mWOXEAEIaDF.jpg"
+        },
+        "text": "https://t.co/7ByxMB3jTT",
+        "note_tweet": null,
+        "detail": {
+          "likes": 1,
+          "created_at": "Wed Jun 03 22:09:34 +0000 2026",
+          "status": "active",
+          "text": "https://t.co/7ByxMB3jTT",
+          "display_text": "x.com/i/article/2062…",
+          "urls": [
+            {
+              "display_url": "x.com/i/article/2062…",
+              "expanded_url": "http://x.com/i/article/2062295219404525568",
+              "url": "https://t.co/7ByxMB3jTT"
+            }
+          ],
+          "retweets": 0,
+          "bookmarks": 0,
+          "quotes": 0,
+          "reply_to": null,
+          "replies": 0,
+          "lang": "zxx",
+          "in_reply_to_screen_name": null,
+          "in_reply_to_status_id_str": null,
+          "in_reply_to_user_id_str": null,
+          "sensitive": false,
+          "views": "12",
+          "conversation_id": "2062295654987116646",
+          "entities": {
+            "urls": [
+              {
+                "display_url": "x.com/i/article/2062…",
+                "expanded_url": "http://x.com/i/article/2062295219404525568",
+                "indices": [
+                  0,
+                  23
+                ],
+                "url": "https://t.co/7ByxMB3jTT"
+              }
+            ],
+            "hashtags": [],
+            "symbols": [],
+            "timestamps": [],
+            "user_mentions": []
+          },
+          "conversation_control": {
+            "policy": null
+          },
+          "article": {
+            "title": "INSS reativa acordo com entidade ligada ao PT e investigada por farra",
+            "preview_text": "🔍 A MESMA NOTÍCIA, DUAS LENTES DIFERENTES\nO INSS reativou o acordo de cooperação técnica com a Contag, entidade investigada pela Polícia Federal no escândalo dos descontos indevidos em",
+            "full_text": "🔍 A MESMA NOTÍCIA, DUAS LENTES DIFERENTES\n\nO INSS reativou o acordo de cooperação técnica com a Contag, entidade investigada pela Polícia Federal no escândalo dos descontos indevidos em aposentadorias. A decisão reverteu a rescisão feita em abril. Veja como cada lado da mídia contou essa história:\n\n🔴 Esquerda (CNN Brasil): A manchete é sobre a oposição tentando derrubar o convênio, não sobre a reativação em si. O protagonista da história é o deputado que protocolou o PDL, não o governo que tomou a decisão. A Contag é descrita como \"uma das entidades investigadas\", sem menção à ligação com o PT. Não aparecem cifras sobre o prejuízo estimado nem detalhes sobre o papel da Contag na redação de emendas parlamentares.\n\n🟢 Direita (Metrópoles, Veja, Revista Oeste, Gazeta do Povo): A manchete é sobre a decisão do governo. Todas destacam logo no título a ligação da Contag com o PT e as investigações. Trazem números: R$ 6,3 bilhões em prejuízo estimado segundo a PF, R$ 3,6 bilhões recebidos em dez anos, 34.487 benefícios desbloqueados de uma vez. Revelam que a Contag redigiu 96 de 578 emendas apresentadas por parlamentares de esquerda para alterar MP contra fraudes. Publicam reações duras de parlamentares da CPMI.\n\n𝗢 𝗾𝘂𝗲 𝗻𝗶𝗻𝗴𝘂𝗲́𝗺 𝘁𝗲 𝗰𝗼𝗻𝘁𝗮:\n\nEsquerda: transforma a oposição em protagonista e trata a reativação do acordo como pano de fundo. O leitor entende o que a oposição fez, mas recebe poucos detalhes sobre por que a decisão é controversa.\n\nDireita: coloca o governo no centro da história e detalha o histórico da Contag com dados, cifras e conexões políticas. A nota técnica do INSS sobre a legalidade do acordo aparece, mas fica abafada pelo volume de informações sobre o escândalo.\n\nNenhum lado está inventando fatos. Cada um escolheu um ângulo e um protagonista diferente para a mesma história.\n\nLer só um lado é assistir ao jogo pela câmera de uma torcida. Leia os dois e tire suas próprias conclusões.\n\n\n\n\n\n#INSS #Contag #FarraDoINSS #ViésDaMídia #Previdência\n\n",
+            "cover_media": "https://pbs.twimg.com/media/HJ6-mWOXEAEIaDF.jpg"
+          },
+          "initial_tweets": null,
+          "author": {
+            "rest_id": "2056136747096965120",
+            "name": "Olhar Factual",
+            "screen_name": "OlharFactual",
+            "image": "https://pbs.twimg.com/profile_images/2059074705168949248/oy2orqtg_normal.jpg",
+            "blue_verified": true,
+            "verification": null,
+            "sub_count": 33
+          },
+          "card": {
+            "type": null,
+            "url": "https://t.co/7ByxMB3jTT",
+            "media": {
+              "image_url": null
+            }
+          },
+          "media": null,
+          "id": "2062295654987116646"
+        }
+      },
+      "_d": 1
+    },
+    {
+      "id": "2062271500745404576",
+      "url": "https://x.com/olharfactual/status/2062271500745404576",
+      "created_at": "2026-06-03T20:33:35.000Z",
+      "likes": 2,
+      "reposts": 1,
+      "replies": 0,
+      "views": 4479,
+      "title": "Lula: no dia da taxação de Trump, filhos de Bolsonaro agradeceram nas redes",
+      "summary": "Tarifas americanas de 25% sobre exportações brasileiras esquentaram o debate político. Mas quem é o culpado? Depende de onde você lê. Veja como cada lado da",
+      "lenses": 2,
+      "media": [
+        "media/746e604195d60b4f.jpg"
+      ],
+      "media_alt": "Lula: no dia da taxação de Trump, filhos de Bolsonaro agradeceram nas redes",
+      "coverage_kind": "comparison",
+      "coverage": {
+        "left": {
+          "count": 2,
+          "outlets": [
+            "CNN Brasil",
+            "UOL"
+          ]
+        },
+        "center": {
+          "count": 0,
+          "outlets": []
+        },
+        "right": {
+          "count": 2,
+          "outlets": [
+            "O Globo",
+            "Jovem Pan"
+          ]
+        }
+      },
+      "sources": [],
+      "full_text": "🔍 A MESMA NOTÍCIA, DUAS LENTES DIFERENTES\n\nTarifas americanas de 25% sobre exportações brasileiras esquentaram o debate político. Mas quem é o culpado? Depende de onde você lê. Veja como cada lado da mídia contou essa história:\n\n🔴 Esquerda (CNN Brasil, UOL): Protagonismo total de Lula atacando os filhos de Bolsonaro. Destacam que Flávio Bolsonaro agradeceu a Trump no dia do tarifaço de 2025, com direito a \"Obrigado, Trump\" e \"Faça o Brasil livre de novo\". Lula chama Flávio de \"imbecil\", \"traidor\" e \"vendilhão da pátria\". A UOL ainda traz Lula dizendo que a China reconheceu o Brasil como livre da febre aftosa no mesmo dia das tarifas, como contraponto. A política externa do governo não é questionada.\n\n Direita (O Globo, Jovem Pan): O foco é outro. Zema e Caiado responsabilizam a política externa do governo Lula pela taxação. Zema diz que \"o governo falhou na diplomacia\". Caiado afirma que é \"inaceitável sermos tributados por irresponsabilidade do PT\" e projeta sua pré-candidatura presidencial. O Globo nota que ambos evitaram mencionar Flávio Bolsonaro ao falar do tema. Jovem Pan destaca o encontro entre Caiado, Zema e Flávio no mesmo dia, num evento que Caiado chamou de \"o primeiro encontro dos três presidenciáveis\".\n\n𝗢 𝗾𝘂𝗲 𝗻𝗶𝗻𝗴𝘂𝗲́𝗺 𝘁𝗲 𝗰𝗼𝗻𝘁𝗮:\n\nEsquerda coloca os Bolsonaro como vilões que pediram a um país estrangeiro para prejudicar o Brasil. Direita coloca o governo Lula como incompetente diplomático que provocou a retaliação. Um lado mostra o tuíte de agradecimento a Trump. O outro mostra o Itamaraty que \"tomou lado ideológico\".\n\nNenhum está inventando fatos. Cada um escolheu o ângulo que melhor serve à sua narrativa.\n\nLeia os dois lados. Sempre. A verdade costuma morar no meio do caminho.\n\n\n\n\n\n#TarifaçoEUA #PolíticaExterna #ViésDaMídia #Eleições2026 #ComércioInternacional\n\n",
+      "raw": {
+        "article": {
+          "rest_id": "2062270933461798912",
+          "title": "Lula: no dia da taxação de Trump, filhos de Bolsonaro agradeceram nas redes",
+          "preview_text": "🔍 A MESMA NOTÍCIA, DUAS LENTES DIFERENTES\nTarifas americanas de 25% sobre exportações brasileiras esquentaram o debate político. Mas quem é o culpado? Depende de onde você lê. Veja como cada lado da",
+          "cover_media": "https://pbs.twimg.com/media/HJ6o_BRWAAA_sXA.jpg"
+        },
+        "text": "https://t.co/QWGsmWI0yB",
+        "note_tweet": null,
+        "detail": {
+          "likes": 2,
+          "created_at": "Wed Jun 03 20:33:35 +0000 2026",
+          "status": "active",
+          "text": "https://t.co/QWGsmWI0yB",
+          "display_text": "x.com/i/article/2062…",
+          "urls": [
+            {
+              "display_url": "x.com/i/article/2062…",
+              "expanded_url": "http://x.com/i/article/2062270933461798912",
+              "url": "https://t.co/QWGsmWI0yB"
+            }
+          ],
+          "retweets": 1,
+          "bookmarks": 0,
+          "quotes": 1,
+          "reply_to": null,
+          "replies": 0,
+          "lang": "zxx",
+          "in_reply_to_screen_name": null,
+          "in_reply_to_status_id_str": null,
+          "in_reply_to_user_id_str": null,
+          "sensitive": false,
+          "views": "4479",
+          "conversation_id": "2062271500745404576",
+          "entities": {
+            "urls": [
+              {
+                "display_url": "x.com/i/article/2062…",
+                "expanded_url": "http://x.com/i/article/2062270933461798912",
+                "indices": [
+                  0,
+                  23
+                ],
+                "url": "https://t.co/QWGsmWI0yB"
+              }
+            ],
+            "hashtags": [],
+            "symbols": [],
+            "timestamps": [],
+            "user_mentions": []
+          },
+          "conversation_control": {
+            "policy": null
+          },
+          "article": {
+            "title": "Lula: no dia da taxação de Trump, filhos de Bolsonaro agradeceram nas redes",
+            "preview_text": "🔍 A MESMA NOTÍCIA, DUAS LENTES DIFERENTES\nTarifas americanas de 25% sobre exportações brasileiras esquentaram o debate político. Mas quem é o culpado? Depende de onde você lê. Veja como cada lado da",
+            "full_text": "🔍 A MESMA NOTÍCIA, DUAS LENTES DIFERENTES\n\nTarifas americanas de 25% sobre exportações brasileiras esquentaram o debate político. Mas quem é o culpado? Depende de onde você lê. Veja como cada lado da mídia contou essa história:\n\n🔴 Esquerda (CNN Brasil, UOL): Protagonismo total de Lula atacando os filhos de Bolsonaro. Destacam que Flávio Bolsonaro agradeceu a Trump no dia do tarifaço de 2025, com direito a \"Obrigado, Trump\" e \"Faça o Brasil livre de novo\". Lula chama Flávio de \"imbecil\", \"traidor\" e \"vendilhão da pátria\". A UOL ainda traz Lula dizendo que a China reconheceu o Brasil como livre da febre aftosa no mesmo dia das tarifas, como contraponto. A política externa do governo não é questionada.\n\n Direita (O Globo, Jovem Pan): O foco é outro. Zema e Caiado responsabilizam a política externa do governo Lula pela taxação. Zema diz que \"o governo falhou na diplomacia\". Caiado afirma que é \"inaceitável sermos tributados por irresponsabilidade do PT\" e projeta sua pré-candidatura presidencial. O Globo nota que ambos evitaram mencionar Flávio Bolsonaro ao falar do tema. Jovem Pan destaca o encontro entre Caiado, Zema e Flávio no mesmo dia, num evento que Caiado chamou de \"o primeiro encontro dos três presidenciáveis\".\n\n𝗢 𝗾𝘂𝗲 𝗻𝗶𝗻𝗴𝘂𝗲́𝗺 𝘁𝗲 𝗰𝗼𝗻𝘁𝗮:\n\nEsquerda coloca os Bolsonaro como vilões que pediram a um país estrangeiro para prejudicar o Brasil. Direita coloca o governo Lula como incompetente diplomático que provocou a retaliação. Um lado mostra o tuíte de agradecimento a Trump. O outro mostra o Itamaraty que \"tomou lado ideológico\".\n\nNenhum está inventando fatos. Cada um escolheu o ângulo que melhor serve à sua narrativa.\n\nLeia os dois lados. Sempre. A verdade costuma morar no meio do caminho.\n\n\n\n\n\n#TarifaçoEUA #PolíticaExterna #ViésDaMídia #Eleições2026 #ComércioInternacional\n\n",
+            "cover_media": "https://pbs.twimg.com/media/HJ6o_BRWAAA_sXA.jpg"
+          },
+          "initial_tweets": null,
+          "author": {
+            "rest_id": "2056136747096965120",
+            "name": "Olhar Factual",
+            "screen_name": "OlharFactual",
+            "image": "https://pbs.twimg.com/profile_images/2059074705168949248/oy2orqtg_normal.jpg",
+            "blue_verified": true,
+            "verification": null,
+            "sub_count": 33
+          },
+          "card": {
+            "type": null,
+            "url": "https://t.co/QWGsmWI0yB",
+            "media": {
+              "image_url": null
+            }
+          },
+          "media": null,
+          "id": "2062271500745404576"
+        }
+      },
+      "_d": 1
+    },
+    {
+      "id": "2062269643616657819",
+      "url": "https://x.com/olharfactual/status/2062269643616657819",
+      "created_at": "2026-06-03T20:26:12.000Z",
+      "likes": 1,
+      "reposts": 1,
+      "replies": 0,
+      "views": 20,
+      "title": "Projeto que dificulta aborto legal em crianças avança no Senado",
+      "summary": "Em menos de 2 minutos e com plenário esvaziado, o Senado aprovou o projeto que suspende a resolução do Conanda sobre aborto legal em menores vítimas de",
+      "lenses": 2,
+      "media": [
+        "media/94bc485977b09df0.jpg"
+      ],
+      "media_alt": "Projeto que dificulta aborto legal em crianças avança no Senado",
+      "coverage_kind": "comparison",
+      "coverage": {
+        "left": {
+          "count": 2,
+          "outlets": [
+            "Revista Fórum",
+            "Metrópoles"
+          ]
+        },
+        "center": {
+          "count": 0,
+          "outlets": []
+        },
+        "right": {
+          "count": 5,
+          "outlets": [
+            "O Globo",
+            "G1",
+            "Veja",
+            "Valor Econômico",
+            "CNN Brasil"
+          ]
+        }
+      },
+      "sources": [],
+      "full_text": "🔍 A MESMA NOTÍCIA, DUAS LENTES DIFERENTES\n\nEm menos de 2 minutos e com plenário esvaziado, o Senado aprovou o projeto que suspende a resolução do Conanda sobre aborto legal em menores vítimas de estupro. Veja como cada lado da mídia contou essa história:\n\n🔴 Esquerda (Revista Fórum, Metrópoles): Enquadramento de urgência e indignação. A Revista Fórum chamou o projeto de \"PDL da pedofilia\" e publicou uma carta aberta de uma advogada sobrevivente de abuso sexual, que descreve a votação como uma violação da Constituição, do ECA e de tratados internacionais. Destaca a motivação religiosa dos parlamentares e aponta caminhos jurídicos para reverter a decisão no STF. Metrópoles deu voz às ministras Janine Mello e Márcia Lopes, que classificaram a aprovação como \"retrocesso\" e \"contramão\" das políticas de proteção à infância. Um artigo de opinião do Metrópoles conectou o tema a uma ofensiva ampla da extrema direita, incluindo a família Bolsonaro e Trump.\n\n🟢 Direita (O Globo, G1, Veja, Valor Econômico, CNN Brasil): Cobertura predominantemente factual. Descrevem em detalhe o que a resolução do Conanda dizia — aborto sem limite gestacional, sem boletim de ocorrência e sem autorização judicial ou dos pais. Dão espaço relevante ao argumento da relatora Damares Alves de que a resolução \"ultrapassou os limites\" do Conanda e \"relativizou prerrogativas legais dos pais\". Incluem a posição da autora Chris Tonietto, que chamou o conteúdo da resolução de \"atentatório ao mais basilar dos direitos humanos: a vida\". Veja classifica o projeto como iniciativa da \"oposição bolsonarista\". A maioria desses veículos também registra as críticas ao PDL e destaca a votação relâmpago e o plenário vazio.\n\n𝗢 𝗾𝘂𝗲 𝗻𝗶𝗻𝗴𝘂𝗲́𝗺 𝘁𝗲 𝗰𝗼𝗻𝘁𝗮:\n\nA esquerda foca no impacto humano sobre as vítimas e trata a resolução como mera organização de direitos já existentes, praticamente sem apresentar os argumentos dos defensores do projeto. A direita detalha o conteúdo da resolução suspensa — especialmente os pontos sobre dispensa de boletim de ocorrência e de autorização dos pais — e apresenta ambos os lados, mas dá espaço significativo à tese de que o Conanda teria extrapolado suas competências.\n\nNenhum lado está inventando fatos. Cada um escolhe qual parte da história iluminar e qual deixar na sombra.\n\nDa próxima vez que uma manchete te provocar raiva ou alívio, leia a mesma notícia do outro lado. A verdade costuma morar no meio do caminho.\n\n\n\n\n\n#AbortoLegal #DireitosDasCrianças #Senado #ViésNaMídia #ViolênciaSexual\n\n",
+      "raw": {
+        "article": {
+          "rest_id": "2062269047505379328",
+          "title": "Projeto que dificulta aborto legal em crianças avança no Senado",
+          "preview_text": "🔍 A MESMA NOTÍCIA, DUAS LENTES DIFERENTES\nEm menos de 2 minutos e com plenário esvaziado, o Senado aprovou o projeto que suspende a resolução do Conanda sobre aborto legal em menores vítimas de",
+          "cover_media": "https://pbs.twimg.com/media/HJ6m6ePWMAEOgDL.jpg"
+        },
+        "text": "https://t.co/V31BMIERdb",
+        "note_tweet": null,
+        "detail": {
+          "likes": 1,
+          "created_at": "Wed Jun 03 20:26:12 +0000 2026",
+          "status": "active",
+          "text": "https://t.co/V31BMIERdb",
+          "display_text": "x.com/i/article/2062…",
+          "urls": [
+            {
+              "display_url": "x.com/i/article/2062…",
+              "expanded_url": "http://x.com/i/article/2062269047505379328",
+              "url": "https://t.co/V31BMIERdb"
+            }
+          ],
+          "retweets": 1,
+          "bookmarks": 0,
+          "quotes": 0,
+          "reply_to": null,
+          "replies": 0,
+          "lang": "zxx",
+          "in_reply_to_screen_name": null,
+          "in_reply_to_status_id_str": null,
+          "in_reply_to_user_id_str": null,
+          "sensitive": false,
+          "views": "20",
+          "conversation_id": "2062269643616657819",
+          "entities": {
+            "urls": [
+              {
+                "display_url": "x.com/i/article/2062…",
+                "expanded_url": "http://x.com/i/article/2062269047505379328",
+                "indices": [
+                  0,
+                  23
+                ],
+                "url": "https://t.co/V31BMIERdb"
+              }
+            ],
+            "hashtags": [],
+            "symbols": [],
+            "timestamps": [],
+            "user_mentions": []
+          },
+          "conversation_control": {
+            "policy": null
+          },
+          "article": {
+            "title": "Projeto que dificulta aborto legal em crianças avança no Senado",
+            "preview_text": "🔍 A MESMA NOTÍCIA, DUAS LENTES DIFERENTES\nEm menos de 2 minutos e com plenário esvaziado, o Senado aprovou o projeto que suspende a resolução do Conanda sobre aborto legal em menores vítimas de",
+            "full_text": "🔍 A MESMA NOTÍCIA, DUAS LENTES DIFERENTES\n\nEm menos de 2 minutos e com plenário esvaziado, o Senado aprovou o projeto que suspende a resolução do Conanda sobre aborto legal em menores vítimas de estupro. Veja como cada lado da mídia contou essa história:\n\n🔴 Esquerda (Revista Fórum, Metrópoles): Enquadramento de urgência e indignação. A Revista Fórum chamou o projeto de \"PDL da pedofilia\" e publicou uma carta aberta de uma advogada sobrevivente de abuso sexual, que descreve a votação como uma violação da Constituição, do ECA e de tratados internacionais. Destaca a motivação religiosa dos parlamentares e aponta caminhos jurídicos para reverter a decisão no STF. Metrópoles deu voz às ministras Janine Mello e Márcia Lopes, que classificaram a aprovação como \"retrocesso\" e \"contramão\" das políticas de proteção à infância. Um artigo de opinião do Metrópoles conectou o tema a uma ofensiva ampla da extrema direita, incluindo a família Bolsonaro e Trump.\n\n🟢 Direita (O Globo, G1, Veja, Valor Econômico, CNN Brasil): Cobertura predominantemente factual. Descrevem em detalhe o que a resolução do Conanda dizia — aborto sem limite gestacional, sem boletim de ocorrência e sem autorização judicial ou dos pais. Dão espaço relevante ao argumento da relatora Damares Alves de que a resolução \"ultrapassou os limites\" do Conanda e \"relativizou prerrogativas legais dos pais\". Incluem a posição da autora Chris Tonietto, que chamou o conteúdo da resolução de \"atentatório ao mais basilar dos direitos humanos: a vida\". Veja classifica o projeto como iniciativa da \"oposição bolsonarista\". A maioria desses veículos também registra as críticas ao PDL e destaca a votação relâmpago e o plenário vazio.\n\n𝗢 𝗾𝘂𝗲 𝗻𝗶𝗻𝗴𝘂𝗲́𝗺 𝘁𝗲 𝗰𝗼𝗻𝘁𝗮:\n\nA esquerda foca no impacto humano sobre as vítimas e trata a resolução como mera organização de direitos já existentes, praticamente sem apresentar os argumentos dos defensores do projeto. A direita detalha o conteúdo da resolução suspensa — especialmente os pontos sobre dispensa de boletim de ocorrência e de autorização dos pais — e apresenta ambos os lados, mas dá espaço significativo à tese de que o Conanda teria extrapolado suas competências.\n\nNenhum lado está inventando fatos. Cada um escolhe qual parte da história iluminar e qual deixar na sombra.\n\nDa próxima vez que uma manchete te provocar raiva ou alívio, leia a mesma notícia do outro lado. A verdade costuma morar no meio do caminho.\n\n\n\n\n\n#AbortoLegal #DireitosDasCrianças #Senado #ViésNaMídia #ViolênciaSexual\n\n",
+            "cover_media": "https://pbs.twimg.com/media/HJ6m6ePWMAEOgDL.jpg"
+          },
+          "initial_tweets": null,
+          "author": {
+            "rest_id": "2056136747096965120",
+            "name": "Olhar Factual",
+            "screen_name": "OlharFactual",
+            "image": "https://pbs.twimg.com/profile_images/2059074705168949248/oy2orqtg_normal.jpg",
+            "blue_verified": true,
+            "verification": null,
+            "sub_count": 33
+          },
+          "card": {
+            "type": null,
+            "url": "https://t.co/V31BMIERdb",
+            "media": {
+              "image_url": null
+            }
+          },
+          "media": null,
+          "id": "2062269643616657819"
+        }
+      },
+      "_d": 1
+    },
+    {
+      "id": "2062268688166703190",
+      "url": "https://x.com/olharfactual/status/2062268688166703190",
+      "created_at": "2026-06-03T20:22:25.000Z",
+      "likes": 1,
+      "reposts": 1,
+      "replies": 0,
+      "views": 25,
+      "title": "Curadora da mostra 'Funk: Um Grito de Ousadia e Liberdade' cita censura",
+      "summary": "Uma exposição sobre funk no Museu da Língua Portuguesa foi encerrada antes do previsto após pressão de políticos do PL. Censura ou proteção? Depende de quem",
+      "lenses": 3,
+      "media": [
+        "media/f5fd92ddafb42608.jpg"
+      ],
+      "media_alt": "Curadora da mostra 'Funk: Um Grito de Ousadia e Liberdade' cita censura",
+      "coverage_kind": "comparison",
+      "coverage": null,
+      "sources": [],
+      "full_text": "🔍 A MESMA NOTÍCIA, TRÊS LENTES DIFERENTES\nUma exposição sobre funk no Museu da Língua Portuguesa foi encerrada antes do previsto após pressão de políticos do PL. Censura ou proteção? Depende de quem",
+      "raw": {
+        "article": {
+          "rest_id": "2062268217381277696",
+          "title": "Curadora da mostra 'Funk: Um Grito de Ousadia e Liberdade' cita censura",
+          "preview_text": "🔍 A MESMA NOTÍCIA, TRÊS LENTES DIFERENTES\nUma exposição sobre funk no Museu da Língua Portuguesa foi encerrada antes do previsto após pressão de políticos do PL. Censura ou proteção? Depende de quem",
+          "cover_media": "https://pbs.twimg.com/media/HJ6mC9IXgAEOaXj.jpg"
+        },
+        "text": "https://t.co/8f0KohhWIQ",
+        "note_tweet": null,
+        "detail": null
+      },
+      "_d": 0
+    },
+    {
+      "id": "2062185996288967006",
+      "url": "https://x.com/olharfactual/status/2062185996288967006",
+      "created_at": "2026-06-03T14:53:49.000Z",
+      "likes": 2,
+      "reposts": 1,
+      "replies": 0,
+      "views": 10,
+      "title": "Governo Lula anuncia um novo polo naval",
+      "summary": "Elio Gaspari escreveu uma coluna sobre o novo polo naval de Lula, com R$ 41,7 bilhões em investimentos e 890 obras. O texto é o mesmo nos dois veículos — mas",
+      "lenses": 2,
+      "media": [
+        "media/41e409fb89d900d8.jpg"
+      ],
+      "media_alt": "Governo Lula anuncia um novo polo naval",
+      "coverage_kind": "comparison",
+      "coverage": null,
+      "sources": [],
+      "full_text": "🔍 A MESMA NOTÍCIA, DUAS LENTES DIFERENTES\nElio Gaspari escreveu uma coluna sobre o novo polo naval de Lula, com R$ 41,7 bilhões em investimentos e 890 obras. O texto é o mesmo nos dois veículos — mas",
+      "raw": {
+        "article": {
+          "rest_id": "2062185291335561216",
+          "title": "Governo Lula anuncia um novo polo naval",
+          "preview_text": "🔍 A MESMA NOTÍCIA, DUAS LENTES DIFERENTES\nElio Gaspari escreveu uma coluna sobre o novo polo naval de Lula, com R$ 41,7 bilhões em investimentos e 890 obras. O texto é o mesmo nos dois veículos — mas",
+          "cover_media": "https://pbs.twimg.com/media/HJ5a6jaW4AAiQIc.jpg"
+        },
+        "text": "https://t.co/vPaLVa8uBo",
+        "note_tweet": null,
+        "detail": null
+      },
+      "_d": 0
+    },
+    {
+      "id": "2062178161866019149",
+      "url": "https://x.com/olharfactual/status/2062178161866019149",
+      "created_at": "2026-06-03T14:22:41.000Z",
+      "likes": 1,
+      "reposts": 1,
+      "replies": 0,
+      "views": 45,
+      "title": "Vorcaro pagou férias milionárias de Ciro Nogueira nos Alpes Franceses, aponta PF",
+      "summary": "A PF aponta que o banqueiro Daniel Vorcaro bancou férias de quase R$ 2 milhões para o senador Ciro Nogueira nos Alpes Franceses. Refeição de R$ 63 mil, hotel",
+      "lenses": 2,
+      "media": [
+        "media/233457b2f1c53da3.jpg"
+      ],
+      "media_alt": "Vorcaro pagou férias milionárias de Ciro Nogueira nos Alpes Franceses, aponta PF",
+      "coverage_kind": "comparison",
+      "coverage": null,
+      "sources": [],
+      "full_text": "🔍 A MESMA NOTÍCIA, DUAS LENTES DIFERENTES\nA PF aponta que o banqueiro Daniel Vorcaro bancou férias de quase R$ 2 milhões para o senador Ciro Nogueira nos Alpes Franceses. Refeição de R$ 63 mil, hotel",
+      "raw": {
+        "article": {
+          "rest_id": "2062177642317516800",
+          "title": "Vorcaro pagou férias milionárias de Ciro Nogueira nos Alpes Franceses, aponta PF",
+          "preview_text": "🔍 A MESMA NOTÍCIA, DUAS LENTES DIFERENTES\nA PF aponta que o banqueiro Daniel Vorcaro bancou férias de quase R$ 2 milhões para o senador Ciro Nogueira nos Alpes Franceses. Refeição de R$ 63 mil, hotel",
+          "cover_media": "https://pbs.twimg.com/media/HJ5T6tAWgAAs3z6.jpg"
+        },
+        "text": "https://t.co/AM4QXOMB2C",
+        "note_tweet": null,
+        "detail": null
+      },
+      "_d": 0
+    },
+    {
+      "id": "2061989461035044987",
+      "url": "https://x.com/olharfactual/status/2061989461035044987",
+      "created_at": "2026-06-03T01:52:52.000Z",
+      "likes": 2,
+      "reposts": 1,
+      "replies": 0,
+      "views": 8,
+      "title": "PSD avalia Kassab como vice na chapa de Caiado",
+      "summary": "Kassab pode ser vice de Caiado na chapa presidencial do PSD. Parece simples, mas cada lado da mídia contou uma história bem diferente.\n🔴 Esquerda (Folha de",
+      "lenses": 3,
+      "media": [
+        "media/e52373e4f4918a3c.jpg"
+      ],
+      "media_alt": "PSD avalia Kassab como vice na chapa de Caiado",
+      "coverage_kind": "comparison",
+      "coverage": null,
+      "sources": [],
+      "full_text": "🔍 A MESMA NOTÍCIA, TRÊS LENTES DIFERENTES\nKassab pode ser vice de Caiado na chapa presidencial do PSD. Parece simples, mas cada lado da mídia contou uma história bem diferente.\n🔴 Esquerda (Folha de",
+      "raw": {
+        "article": {
+          "rest_id": "2061988679212527616",
+          "title": "PSD avalia Kassab como vice na chapa de Caiado",
+          "preview_text": "🔍 A MESMA NOTÍCIA, TRÊS LENTES DIFERENTES\nKassab pode ser vice de Caiado na chapa presidencial do PSD. Parece simples, mas cada lado da mídia contou uma história bem diferente.\n🔴 Esquerda (Folha de",
+          "cover_media": "https://pbs.twimg.com/media/HJ2n0DoXAAA46uj.jpg"
+        },
+        "text": "https://t.co/q0slYmrXaw",
+        "note_tweet": null,
+        "detail": null
+      },
+      "_d": 0
+    }
+  ]
+}
