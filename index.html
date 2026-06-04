@@ -371,6 +371,12 @@
   // bypasses CDN hotlink/referer protection (e.g. Globo's glbimg).
   function proxied(src){
     if (!src || !/^https?:\/\//i.test(src)) return src; // leave local/relative paths alone
+    try {
+      // Images we self-host (same origin as our data source, e.g. the Cloudflare
+      // Worker's /img/ route) are already reliable — don't bounce them through the
+      // third-party proxy. Only un-self-hosted CDN urls (twimg, glbimg) get proxied.
+      if (new URL(src).origin === new URL(DATA_URL, location.href).origin) return src;
+    } catch (e) { /* fall through to proxy */ }
     return 'https://wsrv.nl/?url=' + encodeURIComponent(src);
   }
 
@@ -652,10 +658,127 @@
     watchImages();
   }
 
+  /* ---------- runtime parsing (from raw full_text) ----------
+   * The fetcher stores each post's full article body in `full_text`. We parse the
+   * coverage block, sources, lenses and summary HERE, at render time — so fixing a
+   * parser bug is just a page edit, no re-fetch of tweets.json needed. Mirrors the
+   * logic in x-fetcher/fetch.mjs; falls back to the stored fields when nothing parses.
+   */
+  function normalizeBold(s){
+    var out = '';
+    for (var ch of String(s)){
+      var c = ch.codePointAt(0);
+      if (c >= 0x1D5D4 && c <= 0x1D5ED) out += String.fromCharCode(65 + (c - 0x1D5D4));
+      else if (c >= 0x1D5EE && c <= 0x1D607) out += String.fromCharCode(97 + (c - 0x1D5EE));
+      else if (c >= 0x1D7EC && c <= 0x1D7F5) out += String.fromCharCode(48 + (c - 0x1D7EC));
+      else out += ch;
+    }
+    return out;
+  }
+  function stripAccents(s){ return String(s).normalize('NFD').replace(/[\u0300-\u036f]/g, ''); }
+  var LEAN_BY_EMOJI = { '🔴':'left', '🔵':'left', '⚪':'center', '⚫':'center', '🟢':'right' };
+  var SIDE_KEY = { ESQUERDA:'left', CENTRO:'center', DIREITA:'right' };
+  function cleanOutlet(s){ return String(s).replace(/^[\s🔴🔵⚪⚫🟢•·*]+/, '').replace(/[•·*]/g, '').trim(); }
+
+  function parseSources(text){
+    var i = text.search(/Fontes\s*:/i);
+    var region = i >= 0 ? text.slice(i) : '';
+    var out = [], re = /([🔴🔵⚪⚫🟢])?\s*([^\n–-]+?)\s*[–-]\s*(https?:\/\/\S+)/g, m;
+    while ((m = re.exec(region))){
+      var lean = m[1] ? (LEAN_BY_EMOJI[m[1]] || null) : null;
+      var outlet = cleanOutlet(m[2]);
+      if (outlet && m[3]) out.push({ outlet: outlet, lean: lean, url: m[3] });
+    }
+    return out;
+  }
+  // Outlet name cleanup: strip lean markers/bullets and a trailing citation number
+  // ("Revista Fórum 2" → "Revista Fórum"; leaves "Poder360"/"G1" intact — no space).
+  function trimOutlet(s){ return String(s).replace(/^[\s🔴🔵⚪⚫🟢•·*]+/, '').replace(/[•·*]/g, '').replace(/\s+\d+$/, '').trim(); }
+  function parseCoverage(rawText){
+    try {
+      if (!rawText) return null;
+      var text = normalizeBold(rawText), flat = stripAccents(text), kind = null;
+      if (/COBERTURA ASSIM/i.test(flat)) kind = 'blindspot';
+      else if (/A MESMA NOTICIA/i.test(flat)) kind = 'comparison';
+      var sides = { left:{count:0,outlets:[]}, center:{count:0,outlets:[]}, right:{count:0,outlets:[]} };
+      var m, found = false;
+
+      // Format A — explicit counts: "Esquerda: 8 artigo(s) de 4 outlet(s) — G1, O Globo"
+      var reA = /(Esquerda|Centro|Direita)\s*:\s*(\d+)\s*artigo\(s\)(?:\s*de\s*(\d+)\s*outlet\(s\))?\s*(?:[—–-]\s*([^\n]+))?/gi;
+      while ((m = reA.exec(text))){
+        found = true;
+        var kA = SIDE_KEY[stripAccents(m[1]).toUpperCase()];
+        var outsA = [], tail = (m[4] || '').trim();
+        if (tail && !/nenhum outlet/i.test(tail)) outsA = tail.split(/[,;]/).map(trimOutlet).filter(Boolean);
+        sides[kA] = { count: parseInt(m[2], 10) || 0, outlets: outsA };
+      }
+
+      // Format B (what Olhar Factual actually writes): outlets in parentheses after
+      // each side, e.g. "🔴 Esquerda (Folha, Carta, UOL): …". Count = distinct outlets.
+      // Anchored to line-start + optional lean emoji so prose ("a direita publica…")
+      // never matches; the emoji is consumed as non-letter chars (surrogate-safe).
+      if (!found){
+        var reB = /(?:[\n\r]|^)\s*[^\sA-Za-z]*\s*(Esquerda|Centro|Direita)\s*\(([^)\n]+)\)/g;
+        while ((m = reB.exec(text))){
+          var kB = SIDE_KEY[stripAccents(m[1]).toUpperCase()];
+          if (!kB) continue;
+          var list = m[2].split(/[,;]/).map(trimOutlet).filter(Boolean), seen = {}, uniq = [];
+          list.forEach(function(o){ var key = stripAccents(o).toLowerCase(); if (!seen[key]){ seen[key] = 1; uniq.push(o); } });
+          sides[kB] = { count: uniq.length, outlets: uniq };
+          found = true;
+        }
+      }
+
+      var sources = parseSources(text);
+      if (!found) return kind ? { kind: kind, coverage: null, sources: sources } : null;
+      var leanOf = {};
+      ['left','center','right'].forEach(function(k){ sides[k].outlets.forEach(function(o){ leanOf[stripAccents(o).toLowerCase()] = k; }); });
+      sources.forEach(function(s){ if (!s.lean) s.lean = leanOf[stripAccents(s.outlet).toLowerCase()] || null; });
+      return { kind: kind || 'comparison', coverage: sides, sources: sources };
+    } catch (e) { return null; }
+  }
+  var LENS_MAP = { UMA:1, DUAS:2, 'TRÊS':3, TRES:3, QUATRO:4, CINCO:5 };
+  function parseLenses(s){
+    var m = String(s).match(/A MESMA NOT[IÍ]CIA,\s*([A-ZÀ-Ÿ]+|\d+)\s*LENTES/i);
+    if (!m) return null;
+    var k = m[1].toUpperCase();
+    return LENS_MAP[k] || parseInt(m[1], 10) || null;
+  }
+  function extractSummary(full){
+    var t = normalizeBold(full), nl = t.indexOf('\n');
+    var body = (nl >= 0 ? t.slice(nl + 1) : t).replace(/^\s+/, '');
+    var cut = body.search(/\n\s*\n|[🔴🔵⚪⚫🟢]|\b(Esquerda|Centro|Direita)\s*:|Dados da cobertura|Fontes\s*:/i);
+    if (cut > 0) body = body.slice(0, cut);
+    return body.trim();
+  }
+
+  // Re-derive parsed fields from each post's raw `full_text`, overriding the stored
+  // values only when something actually parses (otherwise keep the fetcher's output).
+  function enrichData(data){
+    if (!data || !Array.isArray(data.posts)) return data;
+    data.posts.forEach(function(p){
+      var full = p.full_text || '';
+      var lz = parseLenses(full || p.summary || '');
+      if (lz != null) p.lenses = lz;
+      if (full && full.length > (p.summary || '').length){
+        var s = extractSummary(full);
+        if (s) p.summary = s;
+      }
+      var cov = parseCoverage(full);
+      if (cov){
+        p.coverage_kind = cov.kind;
+        if (cov.coverage) p.coverage = cov.coverage;
+        if (cov.sources && cov.sources.length) p.sources = cov.sources;
+      }
+    });
+    return data;
+  }
+
   function load(isRefresh){
     fetch(DATA_URL, { cache: 'no-store' })
       .then(function(r){ if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
       .then(function(data){
+        enrichData(data); // runtime parse coverage/sources/lenses/summary from full_text
         var sig = signature(data);
         // On a silent refresh with no new posts, just bump the relative timestamps.
         if (isRefresh && sig === lastSig){ setChrome(data && data.account, data && data.fetched_at); return; }

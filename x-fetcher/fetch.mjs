@@ -31,7 +31,7 @@
  */
 
 import { writeFile, readFile, mkdir, readdir } from 'node:fs/promises';
-import { dirname, join } from 'node:path';
+import { dirname, join, resolve } from 'node:path';
 import { createHash } from 'node:crypto';
 
 const RAPIDAPI_KEY  = process.env.RAPIDAPI_KEY;
@@ -191,6 +191,7 @@ function parseSources(text) {
   }
   return out;
 }
+const trimOutlet = (s) => cleanOutlet(s).replace(/\s+\d+$/, ''); // also drop trailing citation number
 function parseCoverage(rawText) {
   try {
     if (!rawText) return null;
@@ -199,21 +200,38 @@ function parseCoverage(rawText) {
     let kind = null;
     if (/COBERTURA ASSIM/i.test(flat)) kind = 'blindspot';
     else if (/A MESMA NOTICIA/i.test(flat)) kind = 'comparison';
-    const sides = {};
-    const re = /(Esquerda|Centro|Direita)\s*:\s*(\d+)\s*artigo\(s\)(?:\s*de\s*(\d+)\s*outlet\(s\))?\s*(?:[—–-]\s*([^\n]+))?/gi;
+    const sides = { left: { count: 0, outlets: [] }, center: { count: 0, outlets: [] }, right: { count: 0, outlets: [] } };
     let m, found = false;
-    while ((m = re.exec(text))) {
+
+    // Format A — explicit counts: "Esquerda: 8 artigo(s) de 4 outlet(s) — G1, O Globo"
+    // (the blindspot/COBERTURA ASSIMÉTRICA posts use this).
+    const reA = /(Esquerda|Centro|Direita)\s*:\s*(\d+)\s*artigo\(s\)(?:\s*de\s*(\d+)\s*outlet\(s\))?\s*(?:[—–-]\s*([^\n]+))?/gi;
+    while ((m = reA.exec(text))) {
       found = true;
       const key = SIDE_KEY[stripAccents(m[1]).toUpperCase()];
-      const count = parseInt(m[2], 10) || 0;
-      let outlets = [];
       const tail = (m[4] || '').trim();
-      if (tail && !/nenhum outlet/i.test(tail)) outlets = tail.split(/[,;]/).map((s) => s.trim()).filter(Boolean);
-      sides[key] = { count, outlets };
+      const outlets = (tail && !/nenhum outlet/i.test(tail)) ? tail.split(/[,;]/).map(trimOutlet).filter(Boolean) : [];
+      sides[key] = { count: parseInt(m[2], 10) || 0, outlets };
     }
+
+    // Format B — outlets in parentheses: "🔴 Esquerda (Folha, Carta, UOL): …" (the
+    // A MESMA NOTÍCIA comparison posts use this — no explicit counts). Count = distinct
+    // outlets. Anchored to line-start + optional lean emoji so prose never matches.
+    if (!found) {
+      const reB = /(?:[\n\r]|^)\s*[^\sA-Za-z]*\s*(Esquerda|Centro|Direita)\s*\(([^)\n]+)\)/g;
+      while ((m = reB.exec(text))) {
+        const key = SIDE_KEY[stripAccents(m[1]).toUpperCase()];
+        if (!key) continue;
+        const list = m[2].split(/[,;]/).map(trimOutlet).filter(Boolean);
+        const seen = new Set(), uniq = [];
+        for (const o of list) { const k = stripAccents(o).toLowerCase(); if (!seen.has(k)) { seen.add(k); uniq.push(o); } }
+        sides[key] = { count: uniq.length, outlets: uniq };
+        found = true;
+      }
+    }
+
     const sources = parseSources(text);
     if (!found) return kind ? { kind, coverage: null, sources } : null;
-    for (const k of ['left', 'center', 'right']) if (!sides[k]) sides[k] = { count: 0, outlets: [] };
     const leanOf = {};
     for (const k of ['left', 'center', 'right']) for (const o of sides[k].outlets) leanOf[stripAccents(o).toLowerCase()] = k;
     for (const s of sources) if (!s.lean) s.lean = leanOf[stripAccents(s.outlet).toLowerCase()] || null;
@@ -427,3 +445,14 @@ if (!NO_MEDIA) {
 await mkdir(dirname(OUT_PATH), { recursive: true });
 await writeFile(OUT_PATH, JSON.stringify(out, null, 2) + '\n', 'utf8');
 console.log(`Wrote ${posts.length} posts → ${OUT_PATH}`);
+
+// Make it obvious WHERE images went (the #1 source of "I don't see a media dir":
+// the folder lives next to OUT_PATH, not necessarily where you're looking).
+if (!NO_MEDIA) {
+  let count = 0;
+  try { count = (await readdir(MEDIA_DIR)).length; } catch { /* none */ }
+  console.log(`Images: ${count} file(s) in ${resolve(MEDIA_DIR)}  (JSON refers to them as "${MEDIA_PUBLIC}/…")`);
+  if (count === 0) console.log('  ⚠ No images downloaded — every cover fell back to its remote URL (check the warnings above).');
+} else {
+  console.log('Images: NO_MEDIA=1 set → kept remote X URLs, nothing downloaded.');
+}
