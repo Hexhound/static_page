@@ -6,10 +6,256 @@
     "avatar": "media/a14d8acb8ac4d85a.jpg",
     "bio": "A mesma notícia. Todos os lados. Analisamos como a mídia brasileira cobre os mesmos fatos.",
     "followers": 34,
-    "posts_count": 144
+    "posts_count": 152
   },
-  "fetched_at": "2026-06-05T20:15:33.380Z",
+  "fetched_at": "2026-06-05T21:48:35.705Z",
   "posts": [
+    {
+      "id": "2063006361697374339",
+      "url": "https://x.com/olharfactual/status/2063006361697374339",
+      "created_at": "2026-06-05T21:13:40.000Z",
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 3,
+      "title": "Esquerda questiona uso de camisa da seleção da Colômbia como símbolo político",
+      "summary": "A camisa da seleção da Colômbia virou campo de batalha política às vésperas da Copa do Mundo. O candidato de direita Abelardo de la Espriella vestiu o",
+      "lenses": 3,
+      "media": [
+        "media/8845f4c51f263ede.jpg"
+      ],
+      "media_alt": "Esquerda questiona uso de camisa da seleção da Colômbia como símbolo político",
+      "coverage_kind": "comparison",
+      "coverage": {
+        "left": {
+          "count": 1,
+          "outlets": [
+            "UOL"
+          ]
+        },
+        "center": {
+          "count": 3,
+          "outlets": [
+            "CNN Brasil",
+            "O Globo",
+            "G1"
+          ]
+        },
+        "right": {
+          "count": 1,
+          "outlets": [
+            "O Globo"
+          ]
+        }
+      },
+      "sources": [],
+      "full_text": "🔍 A MESMA NOTÍCIA, TRÊS LENTES DIFERENTES\n\nA camisa da seleção da Colômbia virou campo de batalha política às vésperas da Copa do Mundo. O candidato de direita Abelardo de la Espriella vestiu o uniforme em comícios, e o rival de esquerda Iván Cepeda o acusou de se apropriar do símbolo nacional. Veja como cada lado da mídia contou essa história:\n\n🔴 Esquerda (UOL): Cepeda é o protagonista. O texto abre com a acusação de que Espriella \"roubou\" a camisa da seleção e traça paralelo direto com Bolsonaro no Brasil. Destaca o pedido de posicionamento à Federação Colombiana de Futebol e traz análise de antropólogo que aponta a fusão entre \"paixão esportiva e paixão política\". A voz de Espriella não aparece.\n\n⚪ Centro (CNN Brasil, O Globo, G1): A Justiça é a protagonista. Foco na decisão liminar que proibiu Espriella de usar a camisa como símbolo de campanha. Apresenta tanto a reação de Espriella, que chamou a ordem de \"autoritária\" e disse que \"a camisa não se censura\", quanto a queixa de Cepeda. A CNN Brasil amplia o contexto: menciona o apoio de Trump a Espriella, as alegações de fraude de Petro e a comparação com Bukele.\n\n🟢 Direita (O Globo): Espriella é retratado como estrategista político. O texto descreve a adoção da camisa como jogada de campanha e traz um episódio que não aparece nos outros veículos: apoiadores de Cepeda vandalizaram o ônibus da seleção colombiana após um amistoso. Inclui análise de James Bosworth, que afirma que Cepeda e Petro \"parecem desconectados da realidade\" por não terem adotado a estratégia primeiro.\n\n𝗢 𝗾𝘂𝗲 𝗻𝗶𝗻𝗴𝘂𝗲́𝗺 𝘁𝗲 𝗰𝗼𝗻𝘁𝗮:\n\nEsquerda dá o microfone a Cepeda e enquadra o uso da camisa como apropriação indevida. Centro apresenta a decisão judicial e equilibra as duas vozes. Direita contextualiza como estratégia eleitoral eficaz e destaca o vandalismo de apoiadores de Cepeda contra o ônibus da seleção.\n\nNenhum veículo está inventando fatos. Cada um escolheu um ângulo, um protagonista e um recorte diferente da mesma realidade.\n\nUma camisa de futebol. Três narrativas. Da próxima vez que você ler sobre política, pergunte: quem é o protagonista desta matéria e por que o jornalista escolheu esse enquadramento?\n\n\n\n\n\n#ColômbiaEleições #CamisaDaSeleção #ViésNaMídia #CopaDoMundo2026 #PolarizaçãoPolítica\n\n",
+      "raw": {
+        "article": {
+          "rest_id": "2063005958486593536",
+          "title": "Esquerda questiona uso de camisa da seleção da Colômbia como símbolo político",
+          "preview_text": "🔍 A MESMA NOTÍCIA, TRÊS LENTES DIFERENTES\nA camisa da seleção da Colômbia virou campo de batalha política às vésperas da Copa do Mundo. O candidato de direita Abelardo de la Espriella vestiu o",
+          "cover_media": "https://pbs.twimg.com/media/HKFFB4RWUAAqxBl.jpg"
+        },
+        "text": "https://t.co/uFVKMvdthz",
+        "note_tweet": null,
+        "detail": {
+          "likes": 0,
+          "created_at": "Fri Jun 05 21:13:40 +0000 2026",
+          "status": "active",
+          "text": "https://t.co/uFVKMvdthz",
+          "display_text": "x.com/i/article/2063…",
+          "urls": [
+            {
+              "display_url": "x.com/i/article/2063…",
+              "expanded_url": "http://x.com/i/article/2063005958486593536",
+              "url": "https://t.co/uFVKMvdthz"
+            }
+          ],
+          "retweets": 0,
+          "bookmarks": 0,
+          "quotes": 0,
+          "reply_to": null,
+          "replies": 0,
+          "lang": "zxx",
+          "in_reply_to_screen_name": null,
+          "in_reply_to_status_id_str": null,
+          "in_reply_to_user_id_str": null,
+          "sensitive": false,
+          "views": "3",
+          "conversation_id": "2063006361697374339",
+          "entities": {
+            "urls": [
+              {
+                "display_url": "x.com/i/article/2063…",
+                "expanded_url": "http://x.com/i/article/2063005958486593536",
+                "indices": [
+                  0,
+                  23
+                ],
+                "url": "https://t.co/uFVKMvdthz"
+              }
+            ],
+            "hashtags": [],
+            "symbols": [],
+            "timestamps": [],
+            "user_mentions": []
+          },
+          "conversation_control": {
+            "policy": null
+          },
+          "article": {
+            "title": "Esquerda questiona uso de camisa da seleção da Colômbia como símbolo político",
+            "preview_text": "🔍 A MESMA NOTÍCIA, TRÊS LENTES DIFERENTES\nA camisa da seleção da Colômbia virou campo de batalha política às vésperas da Copa do Mundo. O candidato de direita Abelardo de la Espriella vestiu o",
+            "full_text": "🔍 A MESMA NOTÍCIA, TRÊS LENTES DIFERENTES\n\nA camisa da seleção da Colômbia virou campo de batalha política às vésperas da Copa do Mundo. O candidato de direita Abelardo de la Espriella vestiu o uniforme em comícios, e o rival de esquerda Iván Cepeda o acusou de se apropriar do símbolo nacional. Veja como cada lado da mídia contou essa história:\n\n🔴 Esquerda (UOL): Cepeda é o protagonista. O texto abre com a acusação de que Espriella \"roubou\" a camisa da seleção e traça paralelo direto com Bolsonaro no Brasil. Destaca o pedido de posicionamento à Federação Colombiana de Futebol e traz análise de antropólogo que aponta a fusão entre \"paixão esportiva e paixão política\". A voz de Espriella não aparece.\n\n⚪ Centro (CNN Brasil, O Globo, G1): A Justiça é a protagonista. Foco na decisão liminar que proibiu Espriella de usar a camisa como símbolo de campanha. Apresenta tanto a reação de Espriella, que chamou a ordem de \"autoritária\" e disse que \"a camisa não se censura\", quanto a queixa de Cepeda. A CNN Brasil amplia o contexto: menciona o apoio de Trump a Espriella, as alegações de fraude de Petro e a comparação com Bukele.\n\n🟢 Direita (O Globo): Espriella é retratado como estrategista político. O texto descreve a adoção da camisa como jogada de campanha e traz um episódio que não aparece nos outros veículos: apoiadores de Cepeda vandalizaram o ônibus da seleção colombiana após um amistoso. Inclui análise de James Bosworth, que afirma que Cepeda e Petro \"parecem desconectados da realidade\" por não terem adotado a estratégia primeiro.\n\n𝗢 𝗾𝘂𝗲 𝗻𝗶𝗻𝗴𝘂𝗲́𝗺 𝘁𝗲 𝗰𝗼𝗻𝘁𝗮:\n\nEsquerda dá o microfone a Cepeda e enquadra o uso da camisa como apropriação indevida. Centro apresenta a decisão judicial e equilibra as duas vozes. Direita contextualiza como estratégia eleitoral eficaz e destaca o vandalismo de apoiadores de Cepeda contra o ônibus da seleção.\n\nNenhum veículo está inventando fatos. Cada um escolheu um ângulo, um protagonista e um recorte diferente da mesma realidade.\n\nUma camisa de futebol. Três narrativas. Da próxima vez que você ler sobre política, pergunte: quem é o protagonista desta matéria e por que o jornalista escolheu esse enquadramento?\n\n\n\n\n\n#ColômbiaEleições #CamisaDaSeleção #ViésNaMídia #CopaDoMundo2026 #PolarizaçãoPolítica\n\n",
+            "cover_media": "https://pbs.twimg.com/media/HKFFB4RWUAAqxBl.jpg"
+          },
+          "initial_tweets": null,
+          "author": {
+            "rest_id": "2056136747096965120",
+            "name": "Olhar Factual",
+            "screen_name": "OlharFactual",
+            "image": "https://pbs.twimg.com/profile_images/2059074705168949248/oy2orqtg_normal.jpg",
+            "blue_verified": true,
+            "verification": null,
+            "sub_count": 34
+          },
+          "card": {
+            "type": null,
+            "url": "https://t.co/uFVKMvdthz",
+            "media": {
+              "image_url": null
+            }
+          },
+          "media": null,
+          "id": "2063006361697374339"
+        }
+      },
+      "_d": 1
+    },
+    {
+      "id": "2063004710571848163",
+      "url": "https://x.com/olharfactual/status/2063004710571848163",
+      "created_at": "2026-06-05T21:07:06.000Z",
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 236,
+      "title": "Flávio quer suspeição de Moraes para julgar pedido para investigar elo com Vorcaro",
+      "summary": "Flávio Bolsonaro pediu ao STF que declare Alexandre de Moraes suspeito para julgar caso envolvendo o Banco Master e Daniel Vorcaro. O motivo: o escritório da",
+      "lenses": 3,
+      "media": [
+        "media/5336394d166635dd.jpg"
+      ],
+      "media_alt": "Flávio quer suspeição de Moraes para julgar pedido para investigar elo com Vorcaro",
+      "coverage_kind": "comparison",
+      "coverage": {
+        "left": {
+          "count": 1,
+          "outlets": [
+            "Revista Fórum"
+          ]
+        },
+        "center": {
+          "count": 1,
+          "outlets": [
+            "Poder360"
+          ]
+        },
+        "right": {
+          "count": 3,
+          "outlets": [
+            "Veja",
+            "Gazeta do Povo",
+            "Revista Oeste"
+          ]
+        }
+      },
+      "sources": [],
+      "full_text": "🔍 A MESMA NOTÍCIA, TRÊS LENTES DIFERENTES\n\nFlávio Bolsonaro pediu ao STF que declare Alexandre de Moraes suspeito para julgar caso envolvendo o Banco Master e Daniel Vorcaro. O motivo: o escritório da esposa do ministro teve contrato milionário com o banco. Veja como cada lado da mídia contou essa história:\n\n🔴 Esquerda (Revista Fórum): Chama o pedido de \"manobra\" e destaca que Flávio quer transferir o caso para André Mendonça, com quem dividiu o palanque na Marcha para Jesus dias antes do protocolo. Detalha que Mendonça, como relator do caso Master, afastou o diretor-geral da PF das investigações e centralizou em si a autorização para qualquer nova apuração. Menciona que a segunda proposta de delação de Vorcaro cita mais de 10 milhões de dólares destinados ao clã Bolsonaro. Traz ainda a presença de Tarcísio de Freitas e Ricardo Nunes no mesmo evento com Flávio e Mendonça.\n\n⚪ Centro (Poder360): Relato breve e direto. Descreve o pedido de suspeição, o argumento da defesa sobre o contrato da esposa de Moraes com o Master e a solicitação de redistribuição para Mendonça. Não entra em análise política nem contextualiza relações entre os personagens.\n\n🟢 Direita (Veja, Gazeta do Povo, Revista Oeste): Foco na fundamentação jurídica do pedido de Flávio. Reproduzem trechos da petição em que a defesa afirma buscar apenas \"observância das regras processuais e regimentais\" e recorda que a PGR já concluiu pela licitude do contrato da esposa de Moraes. Veja detalha os áudios revelados pelo Intercept mostrando Flávio cobrando R$ 134 milhões de Vorcaro. Revista Oeste acrescenta que Moraes negou ter trocado mensagens com o banqueiro. Gazeta do Povo descreve os fatos sem adjetivar a estratégia da defesa.\n\n𝗢 𝗾𝘂𝗲 𝗻𝗶𝗻𝗴𝘂𝗲́𝗺 𝘁𝗲 𝗰𝗼𝗻𝘁𝗮:\n\nA esquerda contextualiza a proximidade pública entre Flávio e Mendonça e detalha as decisões do ministro que restringiram o alcance das investigações. A direita reproduz os argumentos técnicos da defesa e inclui detalhes como a negativa de Moraes sobre contato com Vorcaro. O centro entrega os fatos sem paisagem.\n\nNenhum lado está inventando. Cada um escolhe qual parte da história iluminar e qual deixar na sombra.\n\nLeia os três antes de formar opinião. É mais trabalhoso, mas é o único caminho honesto.\n\n\n\n\n\n#CasoMaster #STF #FlávioBolsonaro #DarkHorse #ViésDaMídia\n\n",
+      "raw": {
+        "article": {
+          "rest_id": "2063004084505051136",
+          "title": "Flávio quer suspeição de Moraes para julgar pedido para investigar elo com Vorcaro",
+          "preview_text": "🔍 A MESMA NOTÍCIA, TRÊS LENTES DIFERENTES\nFlávio Bolsonaro pediu ao STF que declare Alexandre de Moraes suspeito para julgar caso envolvendo o Banco Master e Daniel Vorcaro. O motivo: o escritório da",
+          "cover_media": "https://pbs.twimg.com/media/HKFDUt9XcAAD_0J.jpg"
+        },
+        "text": "https://t.co/PIoURyAsX0",
+        "note_tweet": null,
+        "detail": {
+          "likes": 0,
+          "created_at": "Fri Jun 05 21:07:06 +0000 2026",
+          "status": "active",
+          "text": "https://t.co/PIoURyAsX0",
+          "display_text": "x.com/i/article/2063…",
+          "urls": [
+            {
+              "display_url": "x.com/i/article/2063…",
+              "expanded_url": "http://x.com/i/article/2063004084505051136",
+              "url": "https://t.co/PIoURyAsX0"
+            }
+          ],
+          "retweets": 0,
+          "bookmarks": 0,
+          "quotes": 1,
+          "reply_to": null,
+          "replies": 0,
+          "lang": "zxx",
+          "in_reply_to_screen_name": null,
+          "in_reply_to_status_id_str": null,
+          "in_reply_to_user_id_str": null,
+          "sensitive": false,
+          "views": "236",
+          "conversation_id": "2063004710571848163",
+          "entities": {
+            "urls": [
+              {
+                "display_url": "x.com/i/article/2063…",
+                "expanded_url": "http://x.com/i/article/2063004084505051136",
+                "indices": [
+                  0,
+                  23
+                ],
+                "url": "https://t.co/PIoURyAsX0"
+              }
+            ],
+            "hashtags": [],
+            "symbols": [],
+            "timestamps": [],
+            "user_mentions": []
+          },
+          "conversation_control": {
+            "policy": null
+          },
+          "article": {
+            "title": "Flávio quer suspeição de Moraes para julgar pedido para investigar elo com Vorcaro",
+            "preview_text": "🔍 A MESMA NOTÍCIA, TRÊS LENTES DIFERENTES\nFlávio Bolsonaro pediu ao STF que declare Alexandre de Moraes suspeito para julgar caso envolvendo o Banco Master e Daniel Vorcaro. O motivo: o escritório da",
+            "full_text": "🔍 A MESMA NOTÍCIA, TRÊS LENTES DIFERENTES\n\nFlávio Bolsonaro pediu ao STF que declare Alexandre de Moraes suspeito para julgar caso envolvendo o Banco Master e Daniel Vorcaro. O motivo: o escritório da esposa do ministro teve contrato milionário com o banco. Veja como cada lado da mídia contou essa história:\n\n🔴 Esquerda (Revista Fórum): Chama o pedido de \"manobra\" e destaca que Flávio quer transferir o caso para André Mendonça, com quem dividiu o palanque na Marcha para Jesus dias antes do protocolo. Detalha que Mendonça, como relator do caso Master, afastou o diretor-geral da PF das investigações e centralizou em si a autorização para qualquer nova apuração. Menciona que a segunda proposta de delação de Vorcaro cita mais de 10 milhões de dólares destinados ao clã Bolsonaro. Traz ainda a presença de Tarcísio de Freitas e Ricardo Nunes no mesmo evento com Flávio e Mendonça.\n\n⚪ Centro (Poder360): Relato breve e direto. Descreve o pedido de suspeição, o argumento da defesa sobre o contrato da esposa de Moraes com o Master e a solicitação de redistribuição para Mendonça. Não entra em análise política nem contextualiza relações entre os personagens.\n\n🟢 Direita (Veja, Gazeta do Povo, Revista Oeste): Foco na fundamentação jurídica do pedido de Flávio. Reproduzem trechos da petição em que a defesa afirma buscar apenas \"observância das regras processuais e regimentais\" e recorda que a PGR já concluiu pela licitude do contrato da esposa de Moraes. Veja detalha os áudios revelados pelo Intercept mostrando Flávio cobrando R$ 134 milhões de Vorcaro. Revista Oeste acrescenta que Moraes negou ter trocado mensagens com o banqueiro. Gazeta do Povo descreve os fatos sem adjetivar a estratégia da defesa.\n\n𝗢 𝗾𝘂𝗲 𝗻𝗶𝗻𝗴𝘂𝗲́𝗺 𝘁𝗲 𝗰𝗼𝗻𝘁𝗮:\n\nA esquerda contextualiza a proximidade pública entre Flávio e Mendonça e detalha as decisões do ministro que restringiram o alcance das investigações. A direita reproduz os argumentos técnicos da defesa e inclui detalhes como a negativa de Moraes sobre contato com Vorcaro. O centro entrega os fatos sem paisagem.\n\nNenhum lado está inventando. Cada um escolhe qual parte da história iluminar e qual deixar na sombra.\n\nLeia os três antes de formar opinião. É mais trabalhoso, mas é o único caminho honesto.\n\n\n\n\n\n#CasoMaster #STF #FlávioBolsonaro #DarkHorse #ViésDaMídia\n\n",
+            "cover_media": "https://pbs.twimg.com/media/HKFDUt9XcAAD_0J.jpg"
+          },
+          "initial_tweets": null,
+          "author": {
+            "rest_id": "2056136747096965120",
+            "name": "Olhar Factual",
+            "screen_name": "OlharFactual",
+            "image": "https://pbs.twimg.com/profile_images/2059074705168949248/oy2orqtg_normal.jpg",
+            "blue_verified": true,
+            "verification": null,
+            "sub_count": 34
+          },
+          "card": {
+            "type": null,
+            "url": "https://t.co/PIoURyAsX0",
+            "media": {
+              "image_url": null
+            }
+          },
+          "media": null,
+          "id": "2063004710571848163"
+        }
+      },
+      "_d": 1
+    },
     {
       "id": "2062902226922676561",
       "url": "https://x.com/olharfactual/status/2062902226922676561",
@@ -142,7 +388,7 @@
       "likes": 0,
       "reposts": 0,
       "replies": 0,
-      "views": 67,
+      "views": 68,
       "title": "Pesquisa Quaest mostra disputa Lula x Flávio após novo tarifaço de Trump",
       "summary": "A Quaest vai a campo entre 5 e 8 de junho para medir a corrida presidencial de 2026. Todos os lados cobriram a mesma pesquisa. Mas o que cada um escolheu",
       "lenses": 3,
@@ -519,7 +765,7 @@
       "likes": 3,
       "reposts": 0,
       "replies": 0,
-      "views": 86,
+      "views": 96,
       "title": "Virginia se defende e afirma que empresas passam por auditoria",
       "summary": "A Polícia Federal estaria investigando Virginia Fonseca por movimentações financeiras atípicas detectadas pelo Coaf. A influenciadora se defendeu dizendo que",
       "lenses": 3,
@@ -642,7 +888,7 @@
       "likes": 3,
       "reposts": 1,
       "replies": 0,
-      "views": 49,
+      "views": 52,
       "title": "Festas de Vorcaro em Nova York com políticos custaram R$ 11,9 milhões",
       "summary": "O banqueiro Daniel Vorcaro gastou R$ 11,9 milhões em festas de luxo em Nova York para entreter políticos — incluindo a \"noite das astronautas\", degustação de",
       "lenses": 2,
@@ -1004,7 +1250,7 @@
       "likes": 4,
       "reposts": 0,
       "replies": 0,
-      "views": 5839,
+      "views": 5852,
       "title": "Eduardo Bolsonaro vê espaço para negociar sobre Pix com EUA",
       "summary": "Eduardo Bolsonaro disse que dá pra negociar com os EUA usando sistemas de pagamento \"semelhantes ao Pix\", como o Zelle. O vídeo viralizou e dividiu opiniões.",
       "lenses": 2,
@@ -2024,7 +2270,7 @@
       "likes": 3,
       "reposts": 1,
       "replies": 0,
-      "views": 4535,
+      "views": 4537,
       "title": "Lula: no dia da taxação de Trump, filhos de Bolsonaro agradeceram nas redes",
       "summary": "Tarifas americanas de 25% sobre exportações brasileiras esquentaram o debate político. Mas quem é o culpado? Depende de onde você lê. Veja como cada lado da",
       "lenses": 2,
@@ -2134,251 +2380,6 @@
           },
           "media": null,
           "id": "2062271500745404576"
-        }
-      },
-      "_d": 1
-    },
-    {
-      "id": "2062269643616657819",
-      "url": "https://x.com/olharfactual/status/2062269643616657819",
-      "created_at": "2026-06-03T20:26:12.000Z",
-      "likes": 2,
-      "reposts": 1,
-      "replies": 0,
-      "views": 26,
-      "title": "Projeto que dificulta aborto legal em crianças avança no Senado",
-      "summary": "Em menos de 2 minutos e com plenário esvaziado, o Senado aprovou o projeto que suspende a resolução do Conanda sobre aborto legal em menores vítimas de",
-      "lenses": 2,
-      "media": [
-        "media/94bc485977b09df0.jpg"
-      ],
-      "media_alt": "Projeto que dificulta aborto legal em crianças avança no Senado",
-      "coverage_kind": "comparison",
-      "coverage": {
-        "left": {
-          "count": 2,
-          "outlets": [
-            "Revista Fórum",
-            "Metrópoles"
-          ]
-        },
-        "center": {
-          "count": 0,
-          "outlets": []
-        },
-        "right": {
-          "count": 5,
-          "outlets": [
-            "O Globo",
-            "G1",
-            "Veja",
-            "Valor Econômico",
-            "CNN Brasil"
-          ]
-        }
-      },
-      "sources": [],
-      "full_text": "🔍 A MESMA NOTÍCIA, DUAS LENTES DIFERENTES\n\nEm menos de 2 minutos e com plenário esvaziado, o Senado aprovou o projeto que suspende a resolução do Conanda sobre aborto legal em menores vítimas de estupro. Veja como cada lado da mídia contou essa história:\n\n🔴 Esquerda (Revista Fórum, Metrópoles): Enquadramento de urgência e indignação. A Revista Fórum chamou o projeto de \"PDL da pedofilia\" e publicou uma carta aberta de uma advogada sobrevivente de abuso sexual, que descreve a votação como uma violação da Constituição, do ECA e de tratados internacionais. Destaca a motivação religiosa dos parlamentares e aponta caminhos jurídicos para reverter a decisão no STF. Metrópoles deu voz às ministras Janine Mello e Márcia Lopes, que classificaram a aprovação como \"retrocesso\" e \"contramão\" das políticas de proteção à infância. Um artigo de opinião do Metrópoles conectou o tema a uma ofensiva ampla da extrema direita, incluindo a família Bolsonaro e Trump.\n\n🟢 Direita (O Globo, G1, Veja, Valor Econômico, CNN Brasil): Cobertura predominantemente factual. Descrevem em detalhe o que a resolução do Conanda dizia — aborto sem limite gestacional, sem boletim de ocorrência e sem autorização judicial ou dos pais. Dão espaço relevante ao argumento da relatora Damares Alves de que a resolução \"ultrapassou os limites\" do Conanda e \"relativizou prerrogativas legais dos pais\". Incluem a posição da autora Chris Tonietto, que chamou o conteúdo da resolução de \"atentatório ao mais basilar dos direitos humanos: a vida\". Veja classifica o projeto como iniciativa da \"oposição bolsonarista\". A maioria desses veículos também registra as críticas ao PDL e destaca a votação relâmpago e o plenário vazio.\n\n𝗢 𝗾𝘂𝗲 𝗻𝗶𝗻𝗴𝘂𝗲́𝗺 𝘁𝗲 𝗰𝗼𝗻𝘁𝗮:\n\nA esquerda foca no impacto humano sobre as vítimas e trata a resolução como mera organização de direitos já existentes, praticamente sem apresentar os argumentos dos defensores do projeto. A direita detalha o conteúdo da resolução suspensa — especialmente os pontos sobre dispensa de boletim de ocorrência e de autorização dos pais — e apresenta ambos os lados, mas dá espaço significativo à tese de que o Conanda teria extrapolado suas competências.\n\nNenhum lado está inventando fatos. Cada um escolhe qual parte da história iluminar e qual deixar na sombra.\n\nDa próxima vez que uma manchete te provocar raiva ou alívio, leia a mesma notícia do outro lado. A verdade costuma morar no meio do caminho.\n\n\n\n\n\n#AbortoLegal #DireitosDasCrianças #Senado #ViésNaMídia #ViolênciaSexual\n\n",
-      "raw": {
-        "article": {
-          "rest_id": "2062269047505379328",
-          "title": "Projeto que dificulta aborto legal em crianças avança no Senado",
-          "preview_text": "🔍 A MESMA NOTÍCIA, DUAS LENTES DIFERENTES\nEm menos de 2 minutos e com plenário esvaziado, o Senado aprovou o projeto que suspende a resolução do Conanda sobre aborto legal em menores vítimas de",
-          "cover_media": "https://pbs.twimg.com/media/HJ6m6ePWMAEOgDL.jpg"
-        },
-        "text": "https://t.co/V31BMIERdb",
-        "note_tweet": null,
-        "detail": {
-          "likes": 1,
-          "created_at": "Wed Jun 03 20:26:12 +0000 2026",
-          "status": "active",
-          "text": "https://t.co/V31BMIERdb",
-          "display_text": "x.com/i/article/2062…",
-          "urls": [
-            {
-              "display_url": "x.com/i/article/2062…",
-              "expanded_url": "http://x.com/i/article/2062269047505379328",
-              "url": "https://t.co/V31BMIERdb"
-            }
-          ],
-          "retweets": 1,
-          "bookmarks": 0,
-          "quotes": 0,
-          "reply_to": null,
-          "replies": 0,
-          "lang": "zxx",
-          "in_reply_to_screen_name": null,
-          "in_reply_to_status_id_str": null,
-          "in_reply_to_user_id_str": null,
-          "sensitive": false,
-          "views": "20",
-          "conversation_id": "2062269643616657819",
-          "entities": {
-            "urls": [
-              {
-                "display_url": "x.com/i/article/2062…",
-                "expanded_url": "http://x.com/i/article/2062269047505379328",
-                "indices": [
-                  0,
-                  23
-                ],
-                "url": "https://t.co/V31BMIERdb"
-              }
-            ],
-            "hashtags": [],
-            "symbols": [],
-            "timestamps": [],
-            "user_mentions": []
-          },
-          "conversation_control": {
-            "policy": null
-          },
-          "article": {
-            "title": "Projeto que dificulta aborto legal em crianças avança no Senado",
-            "preview_text": "🔍 A MESMA NOTÍCIA, DUAS LENTES DIFERENTES\nEm menos de 2 minutos e com plenário esvaziado, o Senado aprovou o projeto que suspende a resolução do Conanda sobre aborto legal em menores vítimas de",
-            "full_text": "🔍 A MESMA NOTÍCIA, DUAS LENTES DIFERENTES\n\nEm menos de 2 minutos e com plenário esvaziado, o Senado aprovou o projeto que suspende a resolução do Conanda sobre aborto legal em menores vítimas de estupro. Veja como cada lado da mídia contou essa história:\n\n🔴 Esquerda (Revista Fórum, Metrópoles): Enquadramento de urgência e indignação. A Revista Fórum chamou o projeto de \"PDL da pedofilia\" e publicou uma carta aberta de uma advogada sobrevivente de abuso sexual, que descreve a votação como uma violação da Constituição, do ECA e de tratados internacionais. Destaca a motivação religiosa dos parlamentares e aponta caminhos jurídicos para reverter a decisão no STF. Metrópoles deu voz às ministras Janine Mello e Márcia Lopes, que classificaram a aprovação como \"retrocesso\" e \"contramão\" das políticas de proteção à infância. Um artigo de opinião do Metrópoles conectou o tema a uma ofensiva ampla da extrema direita, incluindo a família Bolsonaro e Trump.\n\n🟢 Direita (O Globo, G1, Veja, Valor Econômico, CNN Brasil): Cobertura predominantemente factual. Descrevem em detalhe o que a resolução do Conanda dizia — aborto sem limite gestacional, sem boletim de ocorrência e sem autorização judicial ou dos pais. Dão espaço relevante ao argumento da relatora Damares Alves de que a resolução \"ultrapassou os limites\" do Conanda e \"relativizou prerrogativas legais dos pais\". Incluem a posição da autora Chris Tonietto, que chamou o conteúdo da resolução de \"atentatório ao mais basilar dos direitos humanos: a vida\". Veja classifica o projeto como iniciativa da \"oposição bolsonarista\". A maioria desses veículos também registra as críticas ao PDL e destaca a votação relâmpago e o plenário vazio.\n\n𝗢 𝗾𝘂𝗲 𝗻𝗶𝗻𝗴𝘂𝗲́𝗺 𝘁𝗲 𝗰𝗼𝗻𝘁𝗮:\n\nA esquerda foca no impacto humano sobre as vítimas e trata a resolução como mera organização de direitos já existentes, praticamente sem apresentar os argumentos dos defensores do projeto. A direita detalha o conteúdo da resolução suspensa — especialmente os pontos sobre dispensa de boletim de ocorrência e de autorização dos pais — e apresenta ambos os lados, mas dá espaço significativo à tese de que o Conanda teria extrapolado suas competências.\n\nNenhum lado está inventando fatos. Cada um escolhe qual parte da história iluminar e qual deixar na sombra.\n\nDa próxima vez que uma manchete te provocar raiva ou alívio, leia a mesma notícia do outro lado. A verdade costuma morar no meio do caminho.\n\n\n\n\n\n#AbortoLegal #DireitosDasCrianças #Senado #ViésNaMídia #ViolênciaSexual\n\n",
-            "cover_media": "https://pbs.twimg.com/media/HJ6m6ePWMAEOgDL.jpg"
-          },
-          "initial_tweets": null,
-          "author": {
-            "rest_id": "2056136747096965120",
-            "name": "Olhar Factual",
-            "screen_name": "OlharFactual",
-            "image": "https://pbs.twimg.com/profile_images/2059074705168949248/oy2orqtg_normal.jpg",
-            "blue_verified": true,
-            "verification": null,
-            "sub_count": 33
-          },
-          "card": {
-            "type": null,
-            "url": "https://t.co/V31BMIERdb",
-            "media": {
-              "image_url": null
-            }
-          },
-          "media": null,
-          "id": "2062269643616657819"
-        }
-      },
-      "_d": 1
-    },
-    {
-      "id": "2062268688166703190",
-      "url": "https://x.com/olharfactual/status/2062268688166703190",
-      "created_at": "2026-06-03T20:22:25.000Z",
-      "likes": 2,
-      "reposts": 1,
-      "replies": 0,
-      "views": 33,
-      "title": "Curadora da mostra 'Funk: Um Grito de Ousadia e Liberdade' cita censura",
-      "summary": "Uma exposição sobre funk no Museu da Língua Portuguesa foi encerrada antes do previsto após pressão de políticos do PL. Censura ou proteção? Depende de quem",
-      "lenses": 3,
-      "media": [
-        "media/f5fd92ddafb42608.jpg"
-      ],
-      "media_alt": "Curadora da mostra 'Funk: Um Grito de Ousadia e Liberdade' cita censura",
-      "coverage_kind": "comparison",
-      "coverage": {
-        "left": {
-          "count": 1,
-          "outlets": [
-            "G1"
-          ]
-        },
-        "center": {
-          "count": 1,
-          "outlets": [
-            "Metrópoles"
-          ]
-        },
-        "right": {
-          "count": 1,
-          "outlets": [
-            "Revista Oeste"
-          ]
-        }
-      },
-      "sources": [],
-      "full_text": "🔍 A MESMA NOTÍCIA, TRÊS LENTES DIFERENTES\n\nUma exposição sobre funk no Museu da Língua Portuguesa foi encerrada antes do previsto após pressão de políticos do PL. Censura ou proteção? Depende de quem conta a história:\n\n🔴 Esquerda (G1): Protagonismo total da curadora Renata Prado e sua carta aberta denunciando censura. Destaca que a mostra tinha 473 obras e ficou mais de um ano no Museu de Arte do Rio sem problemas. Dá espaço à defesa do funk como linguagem legítima de expressão negra e periférica. A ação dos parlamentares aparece como \"ataque sistemático\". A frase-chave: \"Saímos pela porta de trás do museu.\"\n\n⚪ Centro (Metrópoles): Apresenta todos os lados. Informa a denúncia ao Ministério Público feita por Lucas Pavanato e Felipe Sertanejo (PL), a justificativa do museu de que o encerramento foi para \"possibilitar duas novas mostras\", e o posicionamento do MPSP dizendo que não determinou qualquer censura ou interrupção. Traz ainda a carta de Renata Prado e o repúdio da historiadora Lilia Schwarcz. Registra que a mostra ficou seis meses em cartaz, tempo médio das exposições temporárias da instituição.\n\n🟢 Direita (Revista Oeste): Foco quase exclusivo na denúncia ao Ministério Público e nos questionamentos sobre o conteúdo. Detalha o que os denunciantes encontraram: imagens de mulheres com roupas curtas, referências a drogas, cenas de bailes com homens armados. Destaca a apuração da Promotoria da Infância e Juventude sobre possíveis violações ao ECA e visitas escolares à mostra. A palavra \"censura\" não aparece em nenhum momento.\n\n\n\n𝗢 𝗾𝘂𝗲 𝗻𝗶𝗻𝗴𝘂𝗲́𝗺 𝘁𝗲 𝗰𝗼𝗻𝘁𝗮:\n\nA esquerda enquadra o episódio como censura a uma cultura periférica e dá voz à curadora. A direita enquadra como questão de proteção à infância e detalha o conteúdo denunciado. O centro é o único que traz a resposta do MPSP afirmando que não ordenou o encerramento e a justificativa do próprio museu sobre o tempo médio das exposições temporárias.\n\nNenhum veículo está inventando fatos. Cada um escolheu um ângulo e um protagonista diferente para a mesma história.\n\nLeia as fontes, compare e tire suas próprias conclusões. Informação cruzada é o melhor antídoto contra o viés.\n\n\n\n#Funk #CensuraCultural #MuseuDaLinguaPortuguesa #ViesNaMidia #LiberdadeDeExpressao\n\n",
-      "raw": {
-        "article": {
-          "rest_id": "2062268217381277696",
-          "title": "Curadora da mostra 'Funk: Um Grito de Ousadia e Liberdade' cita censura",
-          "preview_text": "🔍 A MESMA NOTÍCIA, TRÊS LENTES DIFERENTES\nUma exposição sobre funk no Museu da Língua Portuguesa foi encerrada antes do previsto após pressão de políticos do PL. Censura ou proteção? Depende de quem",
-          "cover_media": "https://pbs.twimg.com/media/HJ6mC9IXgAEOaXj.jpg"
-        },
-        "text": "https://t.co/8f0KohhWIQ",
-        "note_tweet": null,
-        "detail": {
-          "likes": 1,
-          "created_at": "Wed Jun 03 20:22:25 +0000 2026",
-          "status": "active",
-          "text": "https://t.co/8f0KohhWIQ",
-          "display_text": "x.com/i/article/2062…",
-          "urls": [
-            {
-              "display_url": "x.com/i/article/2062…",
-              "expanded_url": "http://x.com/i/article/2062268217381277696",
-              "url": "https://t.co/8f0KohhWIQ"
-            }
-          ],
-          "retweets": 1,
-          "bookmarks": 0,
-          "quotes": 0,
-          "reply_to": null,
-          "replies": 0,
-          "lang": "zxx",
-          "in_reply_to_screen_name": null,
-          "in_reply_to_status_id_str": null,
-          "in_reply_to_user_id_str": null,
-          "sensitive": false,
-          "views": "26",
-          "conversation_id": "2062268688166703190",
-          "entities": {
-            "urls": [
-              {
-                "display_url": "x.com/i/article/2062…",
-                "expanded_url": "http://x.com/i/article/2062268217381277696",
-                "indices": [
-                  0,
-                  23
-                ],
-                "url": "https://t.co/8f0KohhWIQ"
-              }
-            ],
-            "hashtags": [],
-            "symbols": [],
-            "timestamps": [],
-            "user_mentions": []
-          },
-          "conversation_control": {
-            "policy": null
-          },
-          "article": {
-            "title": "Curadora da mostra 'Funk: Um Grito de Ousadia e Liberdade' cita censura",
-            "preview_text": "🔍 A MESMA NOTÍCIA, TRÊS LENTES DIFERENTES\nUma exposição sobre funk no Museu da Língua Portuguesa foi encerrada antes do previsto após pressão de políticos do PL. Censura ou proteção? Depende de quem",
-            "full_text": "🔍 A MESMA NOTÍCIA, TRÊS LENTES DIFERENTES\n\nUma exposição sobre funk no Museu da Língua Portuguesa foi encerrada antes do previsto após pressão de políticos do PL. Censura ou proteção? Depende de quem conta a história:\n\n🔴 Esquerda (G1): Protagonismo total da curadora Renata Prado e sua carta aberta denunciando censura. Destaca que a mostra tinha 473 obras e ficou mais de um ano no Museu de Arte do Rio sem problemas. Dá espaço à defesa do funk como linguagem legítima de expressão negra e periférica. A ação dos parlamentares aparece como \"ataque sistemático\". A frase-chave: \"Saímos pela porta de trás do museu.\"\n\n⚪ Centro (Metrópoles): Apresenta todos os lados. Informa a denúncia ao Ministério Público feita por Lucas Pavanato e Felipe Sertanejo (PL), a justificativa do museu de que o encerramento foi para \"possibilitar duas novas mostras\", e o posicionamento do MPSP dizendo que não determinou qualquer censura ou interrupção. Traz ainda a carta de Renata Prado e o repúdio da historiadora Lilia Schwarcz. Registra que a mostra ficou seis meses em cartaz, tempo médio das exposições temporárias da instituição.\n\n🟢 Direita (Revista Oeste): Foco quase exclusivo na denúncia ao Ministério Público e nos questionamentos sobre o conteúdo. Detalha o que os denunciantes encontraram: imagens de mulheres com roupas curtas, referências a drogas, cenas de bailes com homens armados. Destaca a apuração da Promotoria da Infância e Juventude sobre possíveis violações ao ECA e visitas escolares à mostra. A palavra \"censura\" não aparece em nenhum momento.\n\n\n\n𝗢 𝗾𝘂𝗲 𝗻𝗶𝗻𝗴𝘂𝗲́𝗺 𝘁𝗲 𝗰𝗼𝗻𝘁𝗮:\n\nA esquerda enquadra o episódio como censura a uma cultura periférica e dá voz à curadora. A direita enquadra como questão de proteção à infância e detalha o conteúdo denunciado. O centro é o único que traz a resposta do MPSP afirmando que não ordenou o encerramento e a justificativa do próprio museu sobre o tempo médio das exposições temporárias.\n\nNenhum veículo está inventando fatos. Cada um escolheu um ângulo e um protagonista diferente para a mesma história.\n\nLeia as fontes, compare e tire suas próprias conclusões. Informação cruzada é o melhor antídoto contra o viés.\n\n\n\n#Funk #CensuraCultural #MuseuDaLinguaPortuguesa #ViesNaMidia #LiberdadeDeExpressao\n\n",
-            "cover_media": "https://pbs.twimg.com/media/HJ6mC9IXgAEOaXj.jpg"
-          },
-          "initial_tweets": null,
-          "author": {
-            "rest_id": "2056136747096965120",
-            "name": "Olhar Factual",
-            "screen_name": "OlharFactual",
-            "image": "https://pbs.twimg.com/profile_images/2059074705168949248/oy2orqtg_normal.jpg",
-            "blue_verified": true,
-            "verification": null,
-            "sub_count": 33
-          },
-          "card": {
-            "type": null,
-            "url": "https://t.co/8f0KohhWIQ",
-            "media": {
-              "image_url": null
-            }
-          },
-          "media": null,
-          "id": "2062268688166703190"
         }
       },
       "_d": 1
