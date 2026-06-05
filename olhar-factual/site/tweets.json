@@ -6,10 +6,384 @@
     "avatar": "media/a14d8acb8ac4d85a.jpg",
     "bio": "A mesma notícia. Todos os lados. Analisamos como a mídia brasileira cobre os mesmos fatos.",
     "followers": 34,
-    "posts_count": 128
+    "posts_count": 144
   },
-  "fetched_at": "2026-06-05T12:20:42.866Z",
+  "fetched_at": "2026-06-05T16:10:04.576Z",
   "posts": [
+    {
+      "id": "2062902226922676561",
+      "url": "https://x.com/olharfactual/status/2062902226922676561",
+      "created_at": "2026-06-05T14:19:52.000Z",
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 5,
+      "title": "Dona de produtora do 'Dark Horse' expandiu negócios depois de conhecer Mario Frias",
+      "summary": "R$ 1.800 por ponto de wi-fi. A empresa pública da prefeitura cobrava R$ 306. A diferença entre esses dois números está no centro de uma investigação que",
+      "lenses": 3,
+      "media": [
+        "media/251d8ba4065a8203.jpg"
+      ],
+      "media_alt": "Dona de produtora do 'Dark Horse' expandiu negócios depois de conhecer Mario Frias",
+      "coverage_kind": "comparison",
+      "coverage": {
+        "left": {
+          "count": 4,
+          "outlets": [
+            "Folha de S.Paulo",
+            "UOL",
+            "CNN Brasil",
+            "Revista Fórum"
+          ]
+        },
+        "center": {
+          "count": 2,
+          "outlets": [
+            "Poder360",
+            "Metrópoles"
+          ]
+        },
+        "right": {
+          "count": 1,
+          "outlets": [
+            "O Globo"
+          ]
+        }
+      },
+      "sources": [],
+      "full_text": "🔍 A MESMA NOTÍCIA, TRÊS LENTES DIFERENTES\n\nR$ 1.800 por ponto de wi-fi. A empresa pública da prefeitura cobrava R$ 306. A diferença entre esses dois números está no centro de uma investigação que conecta a produtora do filme \"Dark Horse\" (sobre Bolsonaro), um contrato de R$ 108 milhões com a Prefeitura de SP e o Banco Master. Veja como cada lado da mídia contou essa história:\n\n🔴 Esquerda (Folha de S.Paulo, UOL, CNN Brasil, Revista Fórum): Mergulho investigativo na rede de Karina Gama. Mapeiam a criação de ao menos 6 empresas desde que ela conheceu Mario Frias em 2020, os R$ 61 milhões repassados por Daniel Vorcaro (Banco Master) ao filme, e os 51 contratos do ICB com governos pelo país. Destacam que o TCM apontou 20 irregularidades no edital antes da operação. Desconstroem a tese de \"perseguição política\" lembrando que a Polícia Civil responde a Tarcísio, aliado de Nunes e Flávio.\n\n⚪ Centro (Poder360, Metrópoles): Foco nos números e nos fatos jurídicos. Poder360 detalha os crimes investigados (fraude em licitação, emprego irregular de verba pública) e a disparidade: R$ 1.800 por ponto de wi-fi contra R$ 306 da Prodam. Metrópoles revela que o gabinete de Frias pagou R$ 269,6 mil da cota parlamentar a empresas ligadas a Karina, e que uma nota fiscal apresentada ao ICB constava como cancelada no sistema da prefeitura.\n\n🟢 Direita (O Globo): O foco recai sobre a crise política entre aliados. Usa a expressão \"fogo amigo\" para descrever o atrito entre Nunes e Tarcísio após a operação. Registra a defesa de autonomia da polícia pelo governador, mas divide espaço na mesma reportagem com a possibilidade de novo tarifaço dos EUA sobre o Brasil, diluindo o peso do caso Dark Horse.\n\n𝗢 𝗾𝘂𝗲 𝗻𝗶𝗻𝗴𝘂𝗲́𝗺 𝘁𝗲 𝗰𝗼𝗻𝘁𝗮:\n\nA esquerda constrói um painel extenso de conexões entre Karina, a família Bolsonaro e o dinheiro público, tratando a operação policial como desdobramento natural das evidências. O centro entrega os dados brutos que sustentam a investigação, sem adjetivar as intenções de ninguém. A direita enquadra o episódio como disputa política entre aliados, dando mais espaço à reação dos envolvidos do que à substância do que está sendo investigado.\n\nNenhum lado está fabricando fatos. Cada um escolheu um ângulo e um nível de profundidade diferente para a mesma realidade.\n\nLer só um lado é como assistir a um filme começando pela metade. Siga para ver o quadro completo.\n\n\n\n\n\n#DarkHorse #WiFiLivreSP #ViésNaMídia #BancoMaster #OperaçãoWiFi\n\n",
+      "raw": {
+        "article": {
+          "rest_id": "2062901459671277568",
+          "title": "Dona de produtora do 'Dark Horse' expandiu negócios depois de conhecer Mario Frias",
+          "preview_text": "🔍 A MESMA NOTÍCIA, TRÊS LENTES DIFERENTES\nR$ 1.800 por ponto de wi-fi. A empresa pública da prefeitura cobrava R$ 306. A diferença entre esses dois números está no centro de uma investigação que",
+          "cover_media": "https://pbs.twimg.com/media/HKDl-ayX0AADtvz.jpg"
+        },
+        "text": "https://t.co/x39svAn6GR",
+        "note_tweet": null,
+        "detail": {
+          "likes": 0,
+          "created_at": "Fri Jun 05 14:19:52 +0000 2026",
+          "status": "active",
+          "text": "https://t.co/x39svAn6GR",
+          "display_text": "x.com/i/article/2062…",
+          "urls": [
+            {
+              "display_url": "x.com/i/article/2062…",
+              "expanded_url": "http://x.com/i/article/2062901459671277568",
+              "url": "https://t.co/x39svAn6GR"
+            }
+          ],
+          "retweets": 0,
+          "bookmarks": 0,
+          "quotes": 1,
+          "reply_to": null,
+          "replies": 0,
+          "lang": "zxx",
+          "in_reply_to_screen_name": null,
+          "in_reply_to_status_id_str": null,
+          "in_reply_to_user_id_str": null,
+          "sensitive": false,
+          "views": "5",
+          "conversation_id": "2062902226922676561",
+          "entities": {
+            "urls": [
+              {
+                "display_url": "x.com/i/article/2062…",
+                "expanded_url": "http://x.com/i/article/2062901459671277568",
+                "indices": [
+                  0,
+                  23
+                ],
+                "url": "https://t.co/x39svAn6GR"
+              }
+            ],
+            "hashtags": [],
+            "symbols": [],
+            "timestamps": [],
+            "user_mentions": []
+          },
+          "conversation_control": {
+            "policy": null
+          },
+          "article": {
+            "title": "Dona de produtora do 'Dark Horse' expandiu negócios depois de conhecer Mario Frias",
+            "preview_text": "🔍 A MESMA NOTÍCIA, TRÊS LENTES DIFERENTES\nR$ 1.800 por ponto de wi-fi. A empresa pública da prefeitura cobrava R$ 306. A diferença entre esses dois números está no centro de uma investigação que",
+            "full_text": "🔍 A MESMA NOTÍCIA, TRÊS LENTES DIFERENTES\n\nR$ 1.800 por ponto de wi-fi. A empresa pública da prefeitura cobrava R$ 306. A diferença entre esses dois números está no centro de uma investigação que conecta a produtora do filme \"Dark Horse\" (sobre Bolsonaro), um contrato de R$ 108 milhões com a Prefeitura de SP e o Banco Master. Veja como cada lado da mídia contou essa história:\n\n🔴 Esquerda (Folha de S.Paulo, UOL, CNN Brasil, Revista Fórum): Mergulho investigativo na rede de Karina Gama. Mapeiam a criação de ao menos 6 empresas desde que ela conheceu Mario Frias em 2020, os R$ 61 milhões repassados por Daniel Vorcaro (Banco Master) ao filme, e os 51 contratos do ICB com governos pelo país. Destacam que o TCM apontou 20 irregularidades no edital antes da operação. Desconstroem a tese de \"perseguição política\" lembrando que a Polícia Civil responde a Tarcísio, aliado de Nunes e Flávio.\n\n⚪ Centro (Poder360, Metrópoles): Foco nos números e nos fatos jurídicos. Poder360 detalha os crimes investigados (fraude em licitação, emprego irregular de verba pública) e a disparidade: R$ 1.800 por ponto de wi-fi contra R$ 306 da Prodam. Metrópoles revela que o gabinete de Frias pagou R$ 269,6 mil da cota parlamentar a empresas ligadas a Karina, e que uma nota fiscal apresentada ao ICB constava como cancelada no sistema da prefeitura.\n\n🟢 Direita (O Globo): O foco recai sobre a crise política entre aliados. Usa a expressão \"fogo amigo\" para descrever o atrito entre Nunes e Tarcísio após a operação. Registra a defesa de autonomia da polícia pelo governador, mas divide espaço na mesma reportagem com a possibilidade de novo tarifaço dos EUA sobre o Brasil, diluindo o peso do caso Dark Horse.\n\n𝗢 𝗾𝘂𝗲 𝗻𝗶𝗻𝗴𝘂𝗲́𝗺 𝘁𝗲 𝗰𝗼𝗻𝘁𝗮:\n\nA esquerda constrói um painel extenso de conexões entre Karina, a família Bolsonaro e o dinheiro público, tratando a operação policial como desdobramento natural das evidências. O centro entrega os dados brutos que sustentam a investigação, sem adjetivar as intenções de ninguém. A direita enquadra o episódio como disputa política entre aliados, dando mais espaço à reação dos envolvidos do que à substância do que está sendo investigado.\n\nNenhum lado está fabricando fatos. Cada um escolheu um ângulo e um nível de profundidade diferente para a mesma realidade.\n\nLer só um lado é como assistir a um filme começando pela metade. Siga para ver o quadro completo.\n\n\n\n\n\n#DarkHorse #WiFiLivreSP #ViésNaMídia #BancoMaster #OperaçãoWiFi\n\n",
+            "cover_media": "https://pbs.twimg.com/media/HKDl-ayX0AADtvz.jpg"
+          },
+          "initial_tweets": null,
+          "author": {
+            "rest_id": "2056136747096965120",
+            "name": "Olhar Factual",
+            "screen_name": "OlharFactual",
+            "image": "https://pbs.twimg.com/profile_images/2059074705168949248/oy2orqtg_normal.jpg",
+            "blue_verified": true,
+            "verification": null,
+            "sub_count": 34
+          },
+          "card": {
+            "type": null,
+            "url": "https://t.co/x39svAn6GR",
+            "media": {
+              "image_url": null
+            }
+          },
+          "media": null,
+          "id": "2062902226922676561"
+        }
+      },
+      "_d": 1
+    },
+    {
+      "id": "2062900075131507157",
+      "url": "https://x.com/olharfactual/status/2062900075131507157",
+      "created_at": "2026-06-05T14:11:19.000Z",
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 35,
+      "title": "Pesquisa Quaest mostra disputa Lula x Flávio após novo tarifaço de Trump",
+      "summary": "A Quaest vai a campo entre 5 e 8 de junho para medir a corrida presidencial de 2026. Todos os lados cobriram a mesma pesquisa. Mas o que cada um escolheu",
+      "lenses": 3,
+      "media": [
+        "media/96fa285d820ea98b.jpg"
+      ],
+      "media_alt": "Pesquisa Quaest mostra disputa Lula x Flávio após novo tarifaço de Trump",
+      "coverage_kind": "comparison",
+      "coverage": {
+        "left": {
+          "count": 2,
+          "outlets": [
+            "Revista Fórum",
+            "CartaCapital"
+          ]
+        },
+        "center": {
+          "count": 1,
+          "outlets": [
+            "G1"
+          ]
+        },
+        "right": {
+          "count": 2,
+          "outlets": [
+            "Veja",
+            "O Globo"
+          ]
+        }
+      },
+      "sources": [],
+      "full_text": "🔍 A MESMA NOTÍCIA, TRÊS LENTES DIFERENTES\n\nA Quaest vai a campo entre 5 e 8 de junho para medir a corrida presidencial de 2026. Todos os lados cobriram a mesma pesquisa. Mas o que cada um escolheu destacar diz muito. Veja como cada lado da mídia contou essa história:\n\n🔴 Esquerda (Revista Fórum, CartaCapital): Chamam as tarifas de Trump de \"TariFlávio\", colando o tarifaço diretamente no senador Flávio Bolsonaro. A Revista Fórum descreve Jair Bolsonaro como \"ex-presidente condenado\". O foco é que Lula ampliou vantagem após os áudios de Flávio com Vorcaro. A CartaCapital destaca que a pesquisa chega \"uma semana depois da viagem de Flávio Bolsonaro à Casa Branca\", reforçando a associação entre o senador e Trump.\n\n⚪ Centro (G1): Cobertura extensa e baseada em dados. Publica todos os números da pesquisa anterior, todos os cenários de segundo turno, a evolução mês a mês de cada candidato. Menciona que pela primeira vez a Quaest testará o nome de Aécio Neves. Aborda também temas extras da pesquisa: classificação do PCC e CV como organizações terroristas pelos EUA e os repasses de R$ 61 milhões para o filme Dark Horse sobre Jair Bolsonaro.\n\n🟢 Direita (Veja, O Globo): Tom analítico e investigativo. A Veja organiza a cobertura em perguntas — \"A vantagem de Lula aumentou ou estabilizou?\", \"O desgaste de Flávio chegou ao eleitorado moderado?\", \"Há espaço para uma terceira via?\" — e levanta a hipótese de que os efeitos da crise de Flávio podem ter sido \"pontuais\". O Globo revela o custo da pesquisa (R$ 433,2 mil), perguntas específicas do questionário e destaca que Joaquim Barbosa aparece pela primeira vez na lista de candidatos testados.\n\n𝗢 𝗾𝘂𝗲 𝗻𝗶𝗻𝗴𝘂𝗲́𝗺 𝘁𝗲 𝗰𝗼𝗻𝘁𝗮:\n\nEsquerda já trata a queda de Flávio como tendência consolidada e usa vocabulário que associa o senador às tarifas americanas. Direita questiona se o desgaste é duradouro e abre espaço para narrativas de recuperação. Centro entrega os números brutos e deixa o leitor tirar suas conclusões.\n\nNenhum lado está inventando fatos. Cada um escolhe o ângulo, o vocabulário e o que merece destaque.\n\nLer só um lado é como assistir a um jogo ouvindo apenas a torcida de um time. Siga para ver sempre os dois lados da arquibancada.\n\n\n\n#Eleições2026 #PesquisaQuaest #ViésNaMídia #LulaXFlávio #TarifaçoTrump\n\n",
+      "raw": {
+        "article": {
+          "rest_id": "2062899532841586688",
+          "title": "Pesquisa Quaest mostra disputa Lula x Flávio após novo tarifaço de Trump",
+          "preview_text": "🔍 A MESMA NOTÍCIA, TRÊS LENTES DIFERENTES\nA Quaest vai a campo entre 5 e 8 de junho para medir a corrida presidencial de 2026. Todos os lados cobriram a mesma pesquisa. Mas o que cada um escolheu",
+          "cover_media": "https://pbs.twimg.com/media/HKDkPJfXMAAWZim.jpg"
+        },
+        "text": "https://t.co/wlUDMCsGlC",
+        "note_tweet": null,
+        "detail": {
+          "likes": 0,
+          "created_at": "Fri Jun 05 14:11:19 +0000 2026",
+          "status": "active",
+          "text": "https://t.co/wlUDMCsGlC",
+          "display_text": "x.com/i/article/2062…",
+          "urls": [
+            {
+              "display_url": "x.com/i/article/2062…",
+              "expanded_url": "http://x.com/i/article/2062899532841586688",
+              "url": "https://t.co/wlUDMCsGlC"
+            }
+          ],
+          "retweets": 0,
+          "bookmarks": 0,
+          "quotes": 1,
+          "reply_to": null,
+          "replies": 0,
+          "lang": "zxx",
+          "in_reply_to_screen_name": null,
+          "in_reply_to_status_id_str": null,
+          "in_reply_to_user_id_str": null,
+          "sensitive": false,
+          "views": "35",
+          "conversation_id": "2062900075131507157",
+          "entities": {
+            "urls": [
+              {
+                "display_url": "x.com/i/article/2062…",
+                "expanded_url": "http://x.com/i/article/2062899532841586688",
+                "indices": [
+                  0,
+                  23
+                ],
+                "url": "https://t.co/wlUDMCsGlC"
+              }
+            ],
+            "hashtags": [],
+            "symbols": [],
+            "timestamps": [],
+            "user_mentions": []
+          },
+          "conversation_control": {
+            "policy": null
+          },
+          "article": {
+            "title": "Pesquisa Quaest mostra disputa Lula x Flávio após novo tarifaço de Trump",
+            "preview_text": "🔍 A MESMA NOTÍCIA, TRÊS LENTES DIFERENTES\nA Quaest vai a campo entre 5 e 8 de junho para medir a corrida presidencial de 2026. Todos os lados cobriram a mesma pesquisa. Mas o que cada um escolheu",
+            "full_text": "🔍 A MESMA NOTÍCIA, TRÊS LENTES DIFERENTES\n\nA Quaest vai a campo entre 5 e 8 de junho para medir a corrida presidencial de 2026. Todos os lados cobriram a mesma pesquisa. Mas o que cada um escolheu destacar diz muito. Veja como cada lado da mídia contou essa história:\n\n🔴 Esquerda (Revista Fórum, CartaCapital): Chamam as tarifas de Trump de \"TariFlávio\", colando o tarifaço diretamente no senador Flávio Bolsonaro. A Revista Fórum descreve Jair Bolsonaro como \"ex-presidente condenado\". O foco é que Lula ampliou vantagem após os áudios de Flávio com Vorcaro. A CartaCapital destaca que a pesquisa chega \"uma semana depois da viagem de Flávio Bolsonaro à Casa Branca\", reforçando a associação entre o senador e Trump.\n\n⚪ Centro (G1): Cobertura extensa e baseada em dados. Publica todos os números da pesquisa anterior, todos os cenários de segundo turno, a evolução mês a mês de cada candidato. Menciona que pela primeira vez a Quaest testará o nome de Aécio Neves. Aborda também temas extras da pesquisa: classificação do PCC e CV como organizações terroristas pelos EUA e os repasses de R$ 61 milhões para o filme Dark Horse sobre Jair Bolsonaro.\n\n🟢 Direita (Veja, O Globo): Tom analítico e investigativo. A Veja organiza a cobertura em perguntas — \"A vantagem de Lula aumentou ou estabilizou?\", \"O desgaste de Flávio chegou ao eleitorado moderado?\", \"Há espaço para uma terceira via?\" — e levanta a hipótese de que os efeitos da crise de Flávio podem ter sido \"pontuais\". O Globo revela o custo da pesquisa (R$ 433,2 mil), perguntas específicas do questionário e destaca que Joaquim Barbosa aparece pela primeira vez na lista de candidatos testados.\n\n𝗢 𝗾𝘂𝗲 𝗻𝗶𝗻𝗴𝘂𝗲́𝗺 𝘁𝗲 𝗰𝗼𝗻𝘁𝗮:\n\nEsquerda já trata a queda de Flávio como tendência consolidada e usa vocabulário que associa o senador às tarifas americanas. Direita questiona se o desgaste é duradouro e abre espaço para narrativas de recuperação. Centro entrega os números brutos e deixa o leitor tirar suas conclusões.\n\nNenhum lado está inventando fatos. Cada um escolhe o ângulo, o vocabulário e o que merece destaque.\n\nLer só um lado é como assistir a um jogo ouvindo apenas a torcida de um time. Siga para ver sempre os dois lados da arquibancada.\n\n\n\n#Eleições2026 #PesquisaQuaest #ViésNaMídia #LulaXFlávio #TarifaçoTrump\n\n",
+            "cover_media": "https://pbs.twimg.com/media/HKDkPJfXMAAWZim.jpg"
+          },
+          "initial_tweets": null,
+          "author": {
+            "rest_id": "2056136747096965120",
+            "name": "Olhar Factual",
+            "screen_name": "OlharFactual",
+            "image": "https://pbs.twimg.com/profile_images/2059074705168949248/oy2orqtg_normal.jpg",
+            "blue_verified": true,
+            "verification": null,
+            "sub_count": 34
+          },
+          "card": {
+            "type": null,
+            "url": "https://t.co/wlUDMCsGlC",
+            "media": {
+              "image_url": null
+            }
+          },
+          "media": null,
+          "id": "2062900075131507157"
+        }
+      },
+      "_d": 1
+    },
+    {
+      "id": "2062899289794228458",
+      "url": "https://x.com/olharfactual/status/2062899289794228458",
+      "created_at": "2026-06-05T14:08:12.000Z",
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 10,
+      "title": "Senado avança projeto do ICE; democratas tentam fazer de Trump um peso para republicanos",
+      "summary": "O Senado dos EUA aprovou US$ 70 bilhões para financiar o ICE e a Patrulha de Fronteira pelo restante do mandato Trump. O placar: 52 a 47. Veja como cada lado",
+      "lenses": 3,
+      "media": [
+        "media/60633b0df981d871.jpg"
+      ],
+      "media_alt": "Senado avança projeto do ICE; democratas tentam fazer de Trump um peso para republicanos",
+      "coverage_kind": "comparison",
+      "coverage": {
+        "left": {
+          "count": 3,
+          "outlets": [
+            "UOL",
+            "Folha de S.Paulo",
+            "Revista Fórum"
+          ]
+        },
+        "center": {
+          "count": 2,
+          "outlets": [
+            "G1",
+            "Poder360"
+          ]
+        },
+        "right": {
+          "count": 3,
+          "outlets": [
+            "O Globo",
+            "Revista Oeste",
+            "IstoÉ"
+          ]
+        }
+      },
+      "sources": [],
+      "full_text": "🔍 A MESMA NOTÍCIA, TRÊS LENTES DIFERENTES\n\nO Senado dos EUA aprovou US$ 70 bilhões para financiar o ICE e a Patrulha de Fronteira pelo restante do mandato Trump. O placar: 52 a 47. Veja como cada lado da mídia contou essa história:\n\n🔴 Esquerda (UOL, Folha de S.Paulo, Revista Fórum): Enquadram o projeto como financiamento da \"repressão à imigração\" e da \"ofensiva migratória\" de Trump. Destacam a estratégia democrata de usar emendas para constranger republicanos, dando amplo espaço às falas de Chuck Schumer, que chamou o projeto de \"podre de ponta a ponta\". Mencionam táticas controversas do ICE, como batidas policiais e uso de máscaras por agentes. A Folha aponta que as votações de emendas \"evidenciaram divisões entre os republicanos\".\n\n⚪ Centro (G1, Poder360): Tom descritivo e enxuto. O G1 resume o valor e diz que foi \"solicitado pelo governo Trump para financiar sua campanha contra os imigrantes\". O Poder360 traz o placar exato da votação, explica a tentativa democrata de inserir o tema do fundo de US$ 1,8 bilhão e detalha o recuo do governo sobre esse fundo, incluindo o depoimento do procurador-geral interino Todd Blanche.\n\n🟢 Direita (O Globo, Revista Oeste, IstoÉ): Foco na vitória de Trump e na unidade republicana apesar de dissidências pontuais. O Globo faz a cobertura mais detalhada de todas, descrevendo hora a hora a maratona de votações e nomeando cada republicano que rompeu com o partido em emendas específicas. A Revista Oeste destaca que republicanos \"barraram manobra da oposição\" e que democratas tentaram \"desviar o foco das verbas destinadas à segurança\". IstoÉ trata como vitória significativa nas \"principais bandeiras\" de Trump.\n\n𝗢 𝗾𝘂𝗲 𝗻𝗶𝗻𝗴𝘂𝗲́𝗺 𝘁𝗲 𝗰𝗼𝗻𝘁𝗮:\n\nEsquerda dá protagonismo à oposição democrata e ao caráter controverso das políticas migratórias. Direita destaca a força da maioria republicana e trata as emendas democratas como tática de obstrução. Centro descreve os fatos sem amplificar nenhum dos dois lados.\n\nUm detalhe revelador: a Revista Oeste menciona que o acordo tributário que protege a família Trump de auditorias retroativas continua de pé mesmo após o recuo do fundo. Esse dado praticamente não aparece nos outros veículos.\n\nNenhum lado está fabricando fatos. Cada um escolhe qual parte da história merece o holofote.\n\nLer uma só fonte é como assistir a um jogo pela câmera de uma única torcida. Cruze as versões.\n\n\n\n#ImigracaoEUA #ICE #Trump #ViesDaMidia #PoliticaAmericana\n\n",
+      "raw": {
+        "article": {
+          "rest_id": "2062898212772458496",
+          "title": "Senado avança projeto do ICE; democratas tentam fazer de Trump um peso para republicanos",
+          "preview_text": "🔍 A MESMA NOTÍCIA, TRÊS LENTES DIFERENTES\nO Senado dos EUA aprovou US$ 70 bilhões para financiar o ICE e a Patrulha de Fronteira pelo restante do mandato Trump. O placar: 52 a 47. Veja como cada lado",
+          "cover_media": "https://pbs.twimg.com/media/HKDjSEvW4AAf6Kz.jpg"
+        },
+        "text": "https://t.co/eYiE22REu0",
+        "note_tweet": null,
+        "detail": {
+          "likes": 0,
+          "created_at": "Fri Jun 05 14:08:12 +0000 2026",
+          "status": "active",
+          "text": "https://t.co/eYiE22REu0",
+          "display_text": "x.com/i/article/2062…",
+          "urls": [
+            {
+              "display_url": "x.com/i/article/2062…",
+              "expanded_url": "http://x.com/i/article/2062898212772458496",
+              "url": "https://t.co/eYiE22REu0"
+            }
+          ],
+          "retweets": 0,
+          "bookmarks": 0,
+          "quotes": 0,
+          "reply_to": null,
+          "replies": 0,
+          "lang": "zxx",
+          "in_reply_to_screen_name": null,
+          "in_reply_to_status_id_str": null,
+          "in_reply_to_user_id_str": null,
+          "sensitive": false,
+          "views": "10",
+          "conversation_id": "2062899289794228458",
+          "entities": {
+            "urls": [
+              {
+                "display_url": "x.com/i/article/2062…",
+                "expanded_url": "http://x.com/i/article/2062898212772458496",
+                "indices": [
+                  0,
+                  23
+                ],
+                "url": "https://t.co/eYiE22REu0"
+              }
+            ],
+            "hashtags": [],
+            "symbols": [],
+            "timestamps": [],
+            "user_mentions": []
+          },
+          "conversation_control": {
+            "policy": null
+          },
+          "article": {
+            "title": "Senado avança projeto do ICE; democratas tentam fazer de Trump um peso para republicanos",
+            "preview_text": "🔍 A MESMA NOTÍCIA, TRÊS LENTES DIFERENTES\nO Senado dos EUA aprovou US$ 70 bilhões para financiar o ICE e a Patrulha de Fronteira pelo restante do mandato Trump. O placar: 52 a 47. Veja como cada lado",
+            "full_text": "🔍 A MESMA NOTÍCIA, TRÊS LENTES DIFERENTES\n\nO Senado dos EUA aprovou US$ 70 bilhões para financiar o ICE e a Patrulha de Fronteira pelo restante do mandato Trump. O placar: 52 a 47. Veja como cada lado da mídia contou essa história:\n\n🔴 Esquerda (UOL, Folha de S.Paulo, Revista Fórum): Enquadram o projeto como financiamento da \"repressão à imigração\" e da \"ofensiva migratória\" de Trump. Destacam a estratégia democrata de usar emendas para constranger republicanos, dando amplo espaço às falas de Chuck Schumer, que chamou o projeto de \"podre de ponta a ponta\". Mencionam táticas controversas do ICE, como batidas policiais e uso de máscaras por agentes. A Folha aponta que as votações de emendas \"evidenciaram divisões entre os republicanos\".\n\n⚪ Centro (G1, Poder360): Tom descritivo e enxuto. O G1 resume o valor e diz que foi \"solicitado pelo governo Trump para financiar sua campanha contra os imigrantes\". O Poder360 traz o placar exato da votação, explica a tentativa democrata de inserir o tema do fundo de US$ 1,8 bilhão e detalha o recuo do governo sobre esse fundo, incluindo o depoimento do procurador-geral interino Todd Blanche.\n\n🟢 Direita (O Globo, Revista Oeste, IstoÉ): Foco na vitória de Trump e na unidade republicana apesar de dissidências pontuais. O Globo faz a cobertura mais detalhada de todas, descrevendo hora a hora a maratona de votações e nomeando cada republicano que rompeu com o partido em emendas específicas. A Revista Oeste destaca que republicanos \"barraram manobra da oposição\" e que democratas tentaram \"desviar o foco das verbas destinadas à segurança\". IstoÉ trata como vitória significativa nas \"principais bandeiras\" de Trump.\n\n𝗢 𝗾𝘂𝗲 𝗻𝗶𝗻𝗴𝘂𝗲́𝗺 𝘁𝗲 𝗰𝗼𝗻𝘁𝗮:\n\nEsquerda dá protagonismo à oposição democrata e ao caráter controverso das políticas migratórias. Direita destaca a força da maioria republicana e trata as emendas democratas como tática de obstrução. Centro descreve os fatos sem amplificar nenhum dos dois lados.\n\nUm detalhe revelador: a Revista Oeste menciona que o acordo tributário que protege a família Trump de auditorias retroativas continua de pé mesmo após o recuo do fundo. Esse dado praticamente não aparece nos outros veículos.\n\nNenhum lado está fabricando fatos. Cada um escolhe qual parte da história merece o holofote.\n\nLer uma só fonte é como assistir a um jogo pela câmera de uma única torcida. Cruze as versões.\n\n\n\n#ImigracaoEUA #ICE #Trump #ViesDaMidia #PoliticaAmericana\n\n",
+            "cover_media": "https://pbs.twimg.com/media/HKDjSEvW4AAf6Kz.jpg"
+          },
+          "initial_tweets": null,
+          "author": {
+            "rest_id": "2056136747096965120",
+            "name": "Olhar Factual",
+            "screen_name": "OlharFactual",
+            "image": "https://pbs.twimg.com/profile_images/2059074705168949248/oy2orqtg_normal.jpg",
+            "blue_verified": true,
+            "verification": null,
+            "sub_count": 34
+          },
+          "card": {
+            "type": null,
+            "url": "https://t.co/eYiE22REu0",
+            "media": {
+              "image_url": null
+            }
+          },
+          "media": null,
+          "id": "2062899289794228458"
+        }
+      },
+      "_d": 1
+    },
     {
       "id": "2062637336563994898",
       "url": "https://x.com/olharfactual/status/2062637336563994898",
@@ -17,7 +391,7 @@
       "likes": 2,
       "reposts": 0,
       "replies": 0,
-      "views": 32,
+      "views": 33,
       "title": "Messias representará Lula na Marcha para Jesus pelo quarto ano seguido",
       "summary": "Lula não foi à Marcha para Jesus. Flávio Bolsonaro foi e discursou em tom de campanha. Jorge Messias representou o governo. Mesmos fatos, três histórias",
       "lenses": 3,
@@ -145,7 +519,7 @@
       "likes": 2,
       "reposts": 0,
       "replies": 0,
-      "views": 52,
+      "views": 62,
       "title": "Virginia se defende e afirma que empresas passam por auditoria",
       "summary": "A Polícia Federal estaria investigando Virginia Fonseca por movimentações financeiras atípicas detectadas pelo Coaf. A influenciadora se defendeu dizendo que",
       "lenses": 3,
@@ -268,7 +642,7 @@
       "likes": 2,
       "reposts": 0,
       "replies": 0,
-      "views": 44,
+      "views": 47,
       "title": "Festas de Vorcaro em Nova York com políticos custaram R$ 11,9 milhões",
       "summary": "O banqueiro Daniel Vorcaro gastou R$ 11,9 milhões em festas de luxo em Nova York para entreter políticos — incluindo a \"noite das astronautas\", degustação de",
       "lenses": 2,
@@ -387,7 +761,7 @@
       "likes": 2,
       "reposts": 0,
       "replies": 0,
-      "views": 12,
+      "views": 13,
       "title": "Governo de Trump desmonta infraestrutura de observação oceânica",
       "summary": "O governo Trump começou a desmontar uma rede de US$ 368 milhões que monitorava oceanos há uma década. Mais de 900 instrumentos serão retirados do fundo do",
       "lenses": 2,
@@ -630,7 +1004,7 @@
       "likes": 3,
       "reposts": 0,
       "replies": 0,
-      "views": 5631,
+      "views": 5767,
       "title": "Eduardo Bolsonaro vê espaço para negociar sobre Pix com EUA",
       "summary": "Eduardo Bolsonaro disse que dá pra negociar com os EUA usando sistemas de pagamento \"semelhantes ao Pix\", como o Zelle. O vídeo viralizou e dividiu opiniões.",
       "lenses": 2,
@@ -750,7 +1124,7 @@
       "likes": 2,
       "reposts": 0,
       "replies": 0,
-      "views": 9,
+      "views": 10,
       "title": "Ponto cego: Concessões rodoviárias põem em xeque bandeira eleitoral de Tarcísio",
       "summary": "Levantamento da Folha de S.Paulo compara os números de concessões rodoviárias de Tarcísio de Freitas (Republicanos) — como ex-ministro da Infraestrutura e",
       "lenses": null,
@@ -782,7 +1156,7 @@
       "likes": 2,
       "reposts": 1,
       "replies": 0,
-      "views": 12,
+      "views": 13,
       "title": "Governo Lula chama Flávio e Eduardo Bolsonaro de \"traidores envolvidos com o crime\"",
       "summary": "Os EUA classificaram PCC e CV como organizações terroristas. O governo Lula respondeu com uma nota chamando a família Bolsonaro de \"traidores\" e defendendo a",
       "lenses": 3,
@@ -1650,7 +2024,7 @@
       "likes": 3,
       "reposts": 1,
       "replies": 0,
-      "views": 4524,
+      "views": 4531,
       "title": "Lula: no dia da taxação de Trump, filhos de Bolsonaro agradeceram nas redes",
       "summary": "Tarifas americanas de 25% sobre exportações brasileiras esquentaram o debate político. Mas quem é o culpado? Depende de onde você lê. Veja como cada lado da",
       "lenses": 2,
@@ -2005,372 +2379,6 @@
           },
           "media": null,
           "id": "2062268688166703190"
-        }
-      },
-      "_d": 1
-    },
-    {
-      "id": "2062185996288967006",
-      "url": "https://x.com/olharfactual/status/2062185996288967006",
-      "created_at": "2026-06-03T14:53:49.000Z",
-      "likes": 3,
-      "reposts": 1,
-      "replies": 0,
-      "views": 13,
-      "title": "Governo Lula anuncia um novo polo naval",
-      "summary": "Elio Gaspari escreveu uma coluna sobre o novo polo naval de Lula, com R$ 41,7 bilhões em investimentos e 890 obras. O texto é o mesmo nos dois veículos — mas",
-      "lenses": 2,
-      "media": [
-        "media/41e409fb89d900d8.jpg"
-      ],
-      "media_alt": "Governo Lula anuncia um novo polo naval",
-      "coverage_kind": "comparison",
-      "coverage": {
-        "left": {
-          "count": 1,
-          "outlets": [
-            "Folha de S.Paulo"
-          ]
-        },
-        "center": {
-          "count": 0,
-          "outlets": []
-        },
-        "right": {
-          "count": 1,
-          "outlets": [
-            "O Globo"
-          ]
-        }
-      },
-      "sources": [],
-      "full_text": "🔍 A MESMA NOTÍCIA, DUAS LENTES DIFERENTES\n\nElio Gaspari escreveu uma coluna sobre o novo polo naval de Lula, com R$ 41,7 bilhões em investimentos e 890 obras. O texto é o mesmo nos dois veículos — mas a forma como cada um apresentou ao leitor conta uma história diferente. Veja como cada lado da mídia contou essa história:\n\n🔴 Esquerda (Folha de S.Paulo): Título: \"O polo naval voltou\". A manchete é descritiva, quase neutra — anuncia o retorno do polo naval sem antecipar julgamento. O leitor que vê o título pode imaginar que se trata de uma notícia sobre o novo programa do governo.\n\n🟢 Direita (O Globo): Título: \"Os estaleiros quebraram porque reciclavam incompetência\". A manchete já entrega a conclusão mais dura da coluna. O leitor é recebido com o veredito antes mesmo de ler o primeiro parágrafo. O Globo ainda adiciona chamadas contextuais dentro do texto, como \"Lula insinua que governos de Bolsonaro e Temer 'acabaram' com as indústrias naval e do aço no Brasil\".\n\n𝗢 𝗾𝘂𝗲 𝗻𝗶𝗻𝗴𝘂𝗲́𝗺 𝘁𝗲 𝗰𝗼𝗻𝘁𝗮:\n\nEsquerda e direita publicaram 𝘰 𝘮𝘦𝘴𝘮𝘰 𝘵𝘦𝘹𝘵𝘰, do mesmo colunista — e ainda assim a experiência de leitura é diferente. A Folha escolheu um título que convida à leitura sem spoiler. O Globo escolheu o trecho mais demolidor como vitrine.\n\nO conteúdo é idêntico. A moldura, não. E a moldura muda tudo.\n\nDa próxima vez que você ler uma manchete, lembre-se: o título já é uma escolha editorial — mesmo quando o texto por trás dele é o mesmo.\n\n\n\n\n\n#PoloNaval #IndustriaNaval #ViesNaMidia #Manchetes #JornalismoComparado\n\n",
-      "raw": {
-        "article": {
-          "rest_id": "2062185291335561216",
-          "title": "Governo Lula anuncia um novo polo naval",
-          "preview_text": "🔍 A MESMA NOTÍCIA, DUAS LENTES DIFERENTES\nElio Gaspari escreveu uma coluna sobre o novo polo naval de Lula, com R$ 41,7 bilhões em investimentos e 890 obras. O texto é o mesmo nos dois veículos — mas",
-          "cover_media": "https://pbs.twimg.com/media/HJ5a6jaW4AAiQIc.jpg"
-        },
-        "text": "https://t.co/vPaLVa8uBo",
-        "note_tweet": null,
-        "detail": {
-          "likes": 2,
-          "created_at": "Wed Jun 03 14:53:49 +0000 2026",
-          "status": "active",
-          "text": "https://t.co/vPaLVa8uBo",
-          "display_text": "x.com/i/article/2062…",
-          "urls": [
-            {
-              "display_url": "x.com/i/article/2062…",
-              "expanded_url": "http://x.com/i/article/2062185291335561216",
-              "url": "https://t.co/vPaLVa8uBo"
-            }
-          ],
-          "retweets": 1,
-          "bookmarks": 0,
-          "quotes": 0,
-          "reply_to": null,
-          "replies": 0,
-          "lang": "zxx",
-          "in_reply_to_screen_name": null,
-          "in_reply_to_status_id_str": null,
-          "in_reply_to_user_id_str": null,
-          "sensitive": false,
-          "views": "11",
-          "conversation_id": "2062185996288967006",
-          "entities": {
-            "urls": [
-              {
-                "display_url": "x.com/i/article/2062…",
-                "expanded_url": "http://x.com/i/article/2062185291335561216",
-                "indices": [
-                  0,
-                  23
-                ],
-                "url": "https://t.co/vPaLVa8uBo"
-              }
-            ],
-            "hashtags": [],
-            "symbols": [],
-            "timestamps": [],
-            "user_mentions": []
-          },
-          "conversation_control": {
-            "policy": null
-          },
-          "article": {
-            "title": "Governo Lula anuncia um novo polo naval",
-            "preview_text": "🔍 A MESMA NOTÍCIA, DUAS LENTES DIFERENTES\nElio Gaspari escreveu uma coluna sobre o novo polo naval de Lula, com R$ 41,7 bilhões em investimentos e 890 obras. O texto é o mesmo nos dois veículos — mas",
-            "full_text": "🔍 A MESMA NOTÍCIA, DUAS LENTES DIFERENTES\n\nElio Gaspari escreveu uma coluna sobre o novo polo naval de Lula, com R$ 41,7 bilhões em investimentos e 890 obras. O texto é o mesmo nos dois veículos — mas a forma como cada um apresentou ao leitor conta uma história diferente. Veja como cada lado da mídia contou essa história:\n\n🔴 Esquerda (Folha de S.Paulo): Título: \"O polo naval voltou\". A manchete é descritiva, quase neutra — anuncia o retorno do polo naval sem antecipar julgamento. O leitor que vê o título pode imaginar que se trata de uma notícia sobre o novo programa do governo.\n\n🟢 Direita (O Globo): Título: \"Os estaleiros quebraram porque reciclavam incompetência\". A manchete já entrega a conclusão mais dura da coluna. O leitor é recebido com o veredito antes mesmo de ler o primeiro parágrafo. O Globo ainda adiciona chamadas contextuais dentro do texto, como \"Lula insinua que governos de Bolsonaro e Temer 'acabaram' com as indústrias naval e do aço no Brasil\".\n\n𝗢 𝗾𝘂𝗲 𝗻𝗶𝗻𝗴𝘂𝗲́𝗺 𝘁𝗲 𝗰𝗼𝗻𝘁𝗮:\n\nEsquerda e direita publicaram 𝘰 𝘮𝘦𝘴𝘮𝘰 𝘵𝘦𝘹𝘵𝘰, do mesmo colunista — e ainda assim a experiência de leitura é diferente. A Folha escolheu um título que convida à leitura sem spoiler. O Globo escolheu o trecho mais demolidor como vitrine.\n\nO conteúdo é idêntico. A moldura, não. E a moldura muda tudo.\n\nDa próxima vez que você ler uma manchete, lembre-se: o título já é uma escolha editorial — mesmo quando o texto por trás dele é o mesmo.\n\n\n\n\n\n#PoloNaval #IndustriaNaval #ViesNaMidia #Manchetes #JornalismoComparado\n\n",
-            "cover_media": "https://pbs.twimg.com/media/HJ5a6jaW4AAiQIc.jpg"
-          },
-          "initial_tweets": null,
-          "author": {
-            "rest_id": "2056136747096965120",
-            "name": "Olhar Factual",
-            "screen_name": "OlharFactual",
-            "image": "https://pbs.twimg.com/profile_images/2059074705168949248/oy2orqtg_normal.jpg",
-            "blue_verified": true,
-            "verification": null,
-            "sub_count": 33
-          },
-          "card": {
-            "type": null,
-            "url": "https://t.co/vPaLVa8uBo",
-            "media": {
-              "image_url": null
-            }
-          },
-          "media": null,
-          "id": "2062185996288967006"
-        }
-      },
-      "_d": 1
-    },
-    {
-      "id": "2062178161866019149",
-      "url": "https://x.com/olharfactual/status/2062178161866019149",
-      "created_at": "2026-06-03T14:22:41.000Z",
-      "likes": 2,
-      "reposts": 1,
-      "replies": 0,
-      "views": 51,
-      "title": "Vorcaro pagou férias milionárias de Ciro Nogueira nos Alpes Franceses, aponta PF",
-      "summary": "A PF aponta que o banqueiro Daniel Vorcaro bancou férias de quase R$ 2 milhões para o senador Ciro Nogueira nos Alpes Franceses. Refeição de R$ 63 mil, hotel",
-      "lenses": 2,
-      "media": [
-        "media/233457b2f1c53da3.jpg"
-      ],
-      "media_alt": "Vorcaro pagou férias milionárias de Ciro Nogueira nos Alpes Franceses, aponta PF",
-      "coverage_kind": "comparison",
-      "coverage": {
-        "left": {
-          "count": 1,
-          "outlets": [
-            "Revista Fórum"
-          ]
-        },
-        "center": {
-          "count": 0,
-          "outlets": []
-        },
-        "right": {
-          "count": 2,
-          "outlets": [
-            "Gazeta do Povo",
-            "O Globo"
-          ]
-        }
-      },
-      "sources": [],
-      "full_text": "🔍 A MESMA NOTÍCIA, DUAS LENTES DIFERENTES\n\nA PF aponta que o banqueiro Daniel Vorcaro bancou férias de quase R$ 2 milhões para o senador Ciro Nogueira nos Alpes Franceses. Refeição de R$ 63 mil, hotel de alto padrão, 13 dias em Courchevel. Veja como cada lado da mídia contou essa história:\n\n🔴 Esquerda (Revista Fórum): Foco no vínculo político. Apresenta Ciro repetidamente como \"ex-ministro da Casa Civil de Bolsonaro\" e \"peça central do Centrão\". Conecta o caso a \"articulações da direita\" e ao colapso do Banco Master. Detalha a empresa CNLF Empreendimentos Imobiliários, cuja sigla coincide com as iniciais do nome completo do senador: Ciro Nogueira Lima Filho. Publica múltiplas referências a reportagens anteriores do próprio veículo e destaca que o senador não respondeu 60 perguntas enviadas pela revista Piauí.\n\n🟢 Direita (Gazeta do Povo, O Globo): Foco nos fatos da investigação. Detalham valores, restaurantes específicos (La Soucoupe, Le Tremplin), mensagens entre Vorcaro e intermediários e a dinâmica dos pagamentos. O Globo revela ainda que a PF aponta hospedagem no Park Hyatt New York com diárias acima de R$ 10 mil. A Gazeta do Povo descreve a \"Emenda Master\" sem conectar o caso a um campo político específico. Ambos reproduzem a defesa de Ciro sem comentários adicionais.\n\n𝗢 𝗾𝘂𝗲 𝗻𝗶𝗻𝗴𝘂𝗲́𝗺 𝘁𝗲 𝗰𝗼𝗻𝘁𝗮:\n\nA esquerda enquadra o escândalo como sintoma de um sistema político ligado ao bolsonarismo e ao Centrão, repetindo a vinculação partidária do senador em praticamente cada parágrafo. A direita trata o caso como fato policial e financeiro, detalhando cifras e mensagens sem associar o episódio a um campo ideológico.\n\nNenhum dos lados inventou informação. Mas a escolha de 𝘤𝘰𝘯𝘵𝘦𝘹𝘵𝘰 muda completamente a história que você recebe.\n\nLeu só uma versão? Você não se informou. Você foi enquadrado.\n\n\n\n\n\n#CasoMaster #CiroNogueira #ViesDaMidia #OperacaoComplianceZero #BancoMaster\n\n",
-      "raw": {
-        "article": {
-          "rest_id": "2062177642317516800",
-          "title": "Vorcaro pagou férias milionárias de Ciro Nogueira nos Alpes Franceses, aponta PF",
-          "preview_text": "🔍 A MESMA NOTÍCIA, DUAS LENTES DIFERENTES\nA PF aponta que o banqueiro Daniel Vorcaro bancou férias de quase R$ 2 milhões para o senador Ciro Nogueira nos Alpes Franceses. Refeição de R$ 63 mil, hotel",
-          "cover_media": "https://pbs.twimg.com/media/HJ5T6tAWgAAs3z6.jpg"
-        },
-        "text": "https://t.co/AM4QXOMB2C",
-        "note_tweet": null,
-        "detail": {
-          "likes": 1,
-          "created_at": "Wed Jun 03 14:22:41 +0000 2026",
-          "status": "active",
-          "text": "https://t.co/AM4QXOMB2C",
-          "display_text": "x.com/i/article/2062…",
-          "urls": [
-            {
-              "display_url": "x.com/i/article/2062…",
-              "expanded_url": "http://x.com/i/article/2062177642317516800",
-              "url": "https://t.co/AM4QXOMB2C"
-            }
-          ],
-          "retweets": 1,
-          "bookmarks": 0,
-          "quotes": 0,
-          "reply_to": null,
-          "replies": 0,
-          "lang": "zxx",
-          "in_reply_to_screen_name": null,
-          "in_reply_to_status_id_str": null,
-          "in_reply_to_user_id_str": null,
-          "sensitive": false,
-          "views": "46",
-          "conversation_id": "2062178161866019149",
-          "entities": {
-            "urls": [
-              {
-                "display_url": "x.com/i/article/2062…",
-                "expanded_url": "http://x.com/i/article/2062177642317516800",
-                "indices": [
-                  0,
-                  23
-                ],
-                "url": "https://t.co/AM4QXOMB2C"
-              }
-            ],
-            "hashtags": [],
-            "symbols": [],
-            "timestamps": [],
-            "user_mentions": []
-          },
-          "conversation_control": {
-            "policy": null
-          },
-          "article": {
-            "title": "Vorcaro pagou férias milionárias de Ciro Nogueira nos Alpes Franceses, aponta PF",
-            "preview_text": "🔍 A MESMA NOTÍCIA, DUAS LENTES DIFERENTES\nA PF aponta que o banqueiro Daniel Vorcaro bancou férias de quase R$ 2 milhões para o senador Ciro Nogueira nos Alpes Franceses. Refeição de R$ 63 mil, hotel",
-            "full_text": "🔍 A MESMA NOTÍCIA, DUAS LENTES DIFERENTES\n\nA PF aponta que o banqueiro Daniel Vorcaro bancou férias de quase R$ 2 milhões para o senador Ciro Nogueira nos Alpes Franceses. Refeição de R$ 63 mil, hotel de alto padrão, 13 dias em Courchevel. Veja como cada lado da mídia contou essa história:\n\n🔴 Esquerda (Revista Fórum): Foco no vínculo político. Apresenta Ciro repetidamente como \"ex-ministro da Casa Civil de Bolsonaro\" e \"peça central do Centrão\". Conecta o caso a \"articulações da direita\" e ao colapso do Banco Master. Detalha a empresa CNLF Empreendimentos Imobiliários, cuja sigla coincide com as iniciais do nome completo do senador: Ciro Nogueira Lima Filho. Publica múltiplas referências a reportagens anteriores do próprio veículo e destaca que o senador não respondeu 60 perguntas enviadas pela revista Piauí.\n\n🟢 Direita (Gazeta do Povo, O Globo): Foco nos fatos da investigação. Detalham valores, restaurantes específicos (La Soucoupe, Le Tremplin), mensagens entre Vorcaro e intermediários e a dinâmica dos pagamentos. O Globo revela ainda que a PF aponta hospedagem no Park Hyatt New York com diárias acima de R$ 10 mil. A Gazeta do Povo descreve a \"Emenda Master\" sem conectar o caso a um campo político específico. Ambos reproduzem a defesa de Ciro sem comentários adicionais.\n\n𝗢 𝗾𝘂𝗲 𝗻𝗶𝗻𝗴𝘂𝗲́𝗺 𝘁𝗲 𝗰𝗼𝗻𝘁𝗮:\n\nA esquerda enquadra o escândalo como sintoma de um sistema político ligado ao bolsonarismo e ao Centrão, repetindo a vinculação partidária do senador em praticamente cada parágrafo. A direita trata o caso como fato policial e financeiro, detalhando cifras e mensagens sem associar o episódio a um campo ideológico.\n\nNenhum dos lados inventou informação. Mas a escolha de 𝘤𝘰𝘯𝘵𝘦𝘹𝘵𝘰 muda completamente a história que você recebe.\n\nLeu só uma versão? Você não se informou. Você foi enquadrado.\n\n\n\n\n\n#CasoMaster #CiroNogueira #ViesDaMidia #OperacaoComplianceZero #BancoMaster\n\n",
-            "cover_media": "https://pbs.twimg.com/media/HJ5T6tAWgAAs3z6.jpg"
-          },
-          "initial_tweets": null,
-          "author": {
-            "rest_id": "2056136747096965120",
-            "name": "Olhar Factual",
-            "screen_name": "OlharFactual",
-            "image": "https://pbs.twimg.com/profile_images/2059074705168949248/oy2orqtg_normal.jpg",
-            "blue_verified": true,
-            "verification": null,
-            "sub_count": 33
-          },
-          "card": {
-            "type": null,
-            "url": "https://t.co/AM4QXOMB2C",
-            "media": {
-              "image_url": null
-            }
-          },
-          "media": null,
-          "id": "2062178161866019149"
-        }
-      },
-      "_d": 1
-    },
-    {
-      "id": "2061989461035044987",
-      "url": "https://x.com/olharfactual/status/2061989461035044987",
-      "created_at": "2026-06-03T01:52:52.000Z",
-      "likes": 3,
-      "reposts": 1,
-      "replies": 0,
-      "views": 10,
-      "title": "PSD avalia Kassab como vice na chapa de Caiado",
-      "summary": "Kassab pode ser vice de Caiado na chapa presidencial do PSD. Parece simples, mas cada lado da mídia contou uma história bem diferente.\n🔴 Esquerda (Folha de",
-      "lenses": 3,
-      "media": [
-        "media/e52373e4f4918a3c.jpg"
-      ],
-      "media_alt": "PSD avalia Kassab como vice na chapa de Caiado",
-      "coverage_kind": "comparison",
-      "coverage": {
-        "left": {
-          "count": 3,
-          "outlets": [
-            "Folha de S.Paulo",
-            "UOL",
-            "Revista Fórum"
-          ]
-        },
-        "center": {
-          "count": 3,
-          "outlets": [
-            "Metrópoles",
-            "G1",
-            "Poder360"
-          ]
-        },
-        "right": {
-          "count": 3,
-          "outlets": [
-            "Revista Oeste",
-            "Veja",
-            "Valor Globo"
-          ]
-        }
-      },
-      "sources": [],
-      "full_text": "🔍 A MESMA NOTÍCIA, TRÊS LENTES DIFERENTES\n\nKassab pode ser vice de Caiado na chapa presidencial do PSD. Parece simples, mas cada lado da mídia contou uma história bem diferente.\n\n🔴 Esquerda (Folha de S.Paulo, UOL, Revista Fórum): Foco na estratégia política por trás do movimento. Destacam que Kassab quer frear uma aliança com Zema que colocaria Caiado como vice. A Folha revela que caciques do próprio partido criticam a jogada nos bastidores e duvidam do sucesso da candidatura. A Revista Fórum vai além: descreve Kassab como alguém que se afastou de Lula e ao mesmo tempo se recusou a criticar os escândalos envolvendo Flávio Bolsonaro e o Banco Master, enquadrando o dirigente como calculista que joga o \"jogo da conveniência\".\n\n⚪ Centro (Metrópoles, G1, Poder360): Tom factual e equilibrado. Apresentam os dados das pesquisas — Caiado estagnado em 3-4%, enquanto Lula lidera com 40%. O Poder360 destaca que a alta rejeição de Lula e Flávio abre espaço teórico para Caiado, mas pondera que esse espaço ainda não se converteu em votos. O Metrópoles informa que, apesar do movimento de Kassab, aliados do próprio dirigente não descartam a composição com Zema.\n\n🟢 Direita (Revista Oeste, Veja, Valor Globo): Enquadramento institucional e propositivo. A Revista Oeste reproduz a carta de Kassab com tom respeitoso e destaca a defesa de Caiado pela unidade da centro-direita. O Valor Globo vai além da questão do vice e detalha propostas de Caiado caso eleito: reformas trabalhista, política e administrativa no primeiro dia de governo, além de anistia aos envolvidos no 8 de janeiro. Esse conteúdo programático não aparece nos outros veículos.\n\n𝗢 𝗾𝘂𝗲 𝗻𝗶𝗻𝗴𝘂𝗲́𝗺 𝘁𝗲 𝗰𝗼𝗻𝘁𝗮:\n\nEsquerda deu destaque às críticas internas ao movimento e ao que chamou de postura evasiva de Kassab diante do escândalo do Banco Master. Direita focou no discurso de unidade e nas propostas concretas de governo de Caiado. Centro trouxe os números das pesquisas que mostram a distância entre o discurso otimista do PSD e a realidade eleitoral.\n\nUm detalhe revelador: a possibilidade de anistia ao 8 de janeiro, mencionada pelo Valor Globo, e a recusa de Kassab em criticar Flávio Bolsonaro, destacada pela Revista Fórum, são fatos que simplesmente não aparecem na cobertura um do outro.\n\nNenhum lado está mentindo. Cada um escolheu qual pedaço da realidade colocar sob o holofote.\n\nQuer enxergar a notícia completa? Leia todos os lados. Sempre.\n\n\n\n\n\n#Eleições2026 #Caiado #Kassab #PSD #ViésNaMídia\n\n",
-      "raw": {
-        "article": {
-          "rest_id": "2061988679212527616",
-          "title": "PSD avalia Kassab como vice na chapa de Caiado",
-          "preview_text": "🔍 A MESMA NOTÍCIA, TRÊS LENTES DIFERENTES\nKassab pode ser vice de Caiado na chapa presidencial do PSD. Parece simples, mas cada lado da mídia contou uma história bem diferente.\n🔴 Esquerda (Folha de",
-          "cover_media": "https://pbs.twimg.com/media/HJ2n0DoXAAA46uj.jpg"
-        },
-        "text": "https://t.co/q0slYmrXaw",
-        "note_tweet": null,
-        "detail": {
-          "likes": 2,
-          "created_at": "Wed Jun 03 01:52:52 +0000 2026",
-          "status": "active",
-          "text": "https://t.co/q0slYmrXaw",
-          "display_text": "x.com/i/article/2061…",
-          "urls": [
-            {
-              "display_url": "x.com/i/article/2061…",
-              "expanded_url": "http://x.com/i/article/2061988679212527616",
-              "url": "https://t.co/q0slYmrXaw"
-            }
-          ],
-          "retweets": 1,
-          "bookmarks": 0,
-          "quotes": 0,
-          "reply_to": null,
-          "replies": 0,
-          "lang": "zxx",
-          "in_reply_to_screen_name": null,
-          "in_reply_to_status_id_str": null,
-          "in_reply_to_user_id_str": null,
-          "sensitive": false,
-          "views": "9",
-          "conversation_id": "2061989461035044987",
-          "entities": {
-            "urls": [
-              {
-                "display_url": "x.com/i/article/2061…",
-                "expanded_url": "http://x.com/i/article/2061988679212527616",
-                "indices": [
-                  0,
-                  23
-                ],
-                "url": "https://t.co/q0slYmrXaw"
-              }
-            ],
-            "hashtags": [],
-            "symbols": [],
-            "timestamps": [],
-            "user_mentions": []
-          },
-          "conversation_control": {
-            "policy": null
-          },
-          "article": {
-            "title": "PSD avalia Kassab como vice na chapa de Caiado",
-            "preview_text": "🔍 A MESMA NOTÍCIA, TRÊS LENTES DIFERENTES\nKassab pode ser vice de Caiado na chapa presidencial do PSD. Parece simples, mas cada lado da mídia contou uma história bem diferente.\n🔴 Esquerda (Folha de",
-            "full_text": "🔍 A MESMA NOTÍCIA, TRÊS LENTES DIFERENTES\n\nKassab pode ser vice de Caiado na chapa presidencial do PSD. Parece simples, mas cada lado da mídia contou uma história bem diferente.\n\n🔴 Esquerda (Folha de S.Paulo, UOL, Revista Fórum): Foco na estratégia política por trás do movimento. Destacam que Kassab quer frear uma aliança com Zema que colocaria Caiado como vice. A Folha revela que caciques do próprio partido criticam a jogada nos bastidores e duvidam do sucesso da candidatura. A Revista Fórum vai além: descreve Kassab como alguém que se afastou de Lula e ao mesmo tempo se recusou a criticar os escândalos envolvendo Flávio Bolsonaro e o Banco Master, enquadrando o dirigente como calculista que joga o \"jogo da conveniência\".\n\n⚪ Centro (Metrópoles, G1, Poder360): Tom factual e equilibrado. Apresentam os dados das pesquisas — Caiado estagnado em 3-4%, enquanto Lula lidera com 40%. O Poder360 destaca que a alta rejeição de Lula e Flávio abre espaço teórico para Caiado, mas pondera que esse espaço ainda não se converteu em votos. O Metrópoles informa que, apesar do movimento de Kassab, aliados do próprio dirigente não descartam a composição com Zema.\n\n🟢 Direita (Revista Oeste, Veja, Valor Globo): Enquadramento institucional e propositivo. A Revista Oeste reproduz a carta de Kassab com tom respeitoso e destaca a defesa de Caiado pela unidade da centro-direita. O Valor Globo vai além da questão do vice e detalha propostas de Caiado caso eleito: reformas trabalhista, política e administrativa no primeiro dia de governo, além de anistia aos envolvidos no 8 de janeiro. Esse conteúdo programático não aparece nos outros veículos.\n\n𝗢 𝗾𝘂𝗲 𝗻𝗶𝗻𝗴𝘂𝗲́𝗺 𝘁𝗲 𝗰𝗼𝗻𝘁𝗮:\n\nEsquerda deu destaque às críticas internas ao movimento e ao que chamou de postura evasiva de Kassab diante do escândalo do Banco Master. Direita focou no discurso de unidade e nas propostas concretas de governo de Caiado. Centro trouxe os números das pesquisas que mostram a distância entre o discurso otimista do PSD e a realidade eleitoral.\n\nUm detalhe revelador: a possibilidade de anistia ao 8 de janeiro, mencionada pelo Valor Globo, e a recusa de Kassab em criticar Flávio Bolsonaro, destacada pela Revista Fórum, são fatos que simplesmente não aparecem na cobertura um do outro.\n\nNenhum lado está mentindo. Cada um escolheu qual pedaço da realidade colocar sob o holofote.\n\nQuer enxergar a notícia completa? Leia todos os lados. Sempre.\n\n\n\n\n\n#Eleições2026 #Caiado #Kassab #PSD #ViésNaMídia\n\n",
-            "cover_media": "https://pbs.twimg.com/media/HJ2n0DoXAAA46uj.jpg"
-          },
-          "initial_tweets": null,
-          "author": {
-            "rest_id": "2056136747096965120",
-            "name": "Olhar Factual",
-            "screen_name": "OlharFactual",
-            "image": "https://pbs.twimg.com/profile_images/2059074705168949248/oy2orqtg_normal.jpg",
-            "blue_verified": true,
-            "verification": null,
-            "sub_count": 33
-          },
-          "card": {
-            "type": null,
-            "url": "https://t.co/q0slYmrXaw",
-            "media": {
-              "image_url": null
-            }
-          },
-          "media": null,
-          "id": "2061989461035044987"
         }
       },
       "_d": 1
