@@ -396,7 +396,20 @@
     if (img.complete && img.naturalWidth > 0){ ok(); return; }
     img.addEventListener('load', ok);
     img.addEventListener('error', fail);
-    setTimeout(function(){ if (!img.__done && !(img.complete && img.naturalWidth > 0)) fail(); }, 5000);
+    // Start the timeout only once the image is near the viewport — lazy-loaded
+    // images are never fetched off-screen, so a global timer would fire and replace
+    // them with placeholders before the browser ever requested them.
+    function armTimeout(){
+      setTimeout(function(){ if (!img.__done && !(img.complete && img.naturalWidth > 0)) fail(); }, 5000);
+    }
+    if ('IntersectionObserver' in window){
+      var obs = new IntersectionObserver(function(entries){
+        if (entries[0].isIntersecting){ obs.disconnect(); armTimeout(); }
+      }, { rootMargin: '200px' });
+      obs.observe(img);
+    } else {
+      armTimeout();
+    }
   }
   function watchImages(){
     var imgs = document.querySelectorAll('img[data-imgwatch]');
