@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Olhar Factual — Fontes &amp; Classificação</title>
+<title>Olhar Factual — Fontes</title>
 <link rel="stylesheet" href="of-tokens.css">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
@@ -13,30 +13,38 @@
   .pg-head { padding-block: var(--of-s8) var(--of-s7); border-bottom: 2px solid var(--of-ink); }
   .pg-title { font-family: var(--of-display); font-size: clamp(2.6rem, 6vw, 4.25rem); line-height: 0.96; margin: var(--of-s3) 0 0; }
 
-  /* spectrum explainer */
-  .fo-spectrum { padding-block: var(--of-s7); border-bottom: 1px solid var(--of-rule); display: grid; gap: var(--of-s6); align-items: center; }
-  @media (min-width: 820px){ .fo-spectrum { grid-template-columns: 1.1fr 1fr; gap: var(--of-s8); } }
-  .fo-spectrum p { font-family: var(--of-serif); font-size: 1.1rem; line-height: 1.55; color: var(--of-ink-80); margin: 0; max-width: 52ch; }
-  .fo-spectrum .of-bias__legend { font-size: 0.7rem; }
+  /* intro explainer */
+  .fo-intro { padding-block: var(--of-s7); border-bottom: 1px solid var(--of-rule); }
+  .fo-intro p { font-family: var(--of-serif); font-size: 1.15rem; line-height: 1.55; color: var(--of-ink-80); margin: 0; max-width: 56ch; }
+  .fo-intro p + p { margin-top: var(--of-s4); }
+  .fo-intro__aside { background: var(--of-paper-raised); border: 1px solid var(--of-rule); border-radius: var(--of-radius); padding: var(--of-s6); }
+  .fo-intro__aside h4 { font-family: var(--of-mono); font-size: var(--of-fs-micro); letter-spacing: 0.2em; text-transform: uppercase; color: var(--of-ink-55); margin: 0 0 var(--of-s3); }
+  .fo-intro__aside p { font-size: 1rem; line-height: 1.5; color: var(--of-ink-80); margin: 0; }
 
   /* counts strip */
   .fo-counts { display: flex; flex-wrap: wrap; gap: var(--of-s6) var(--of-s8); padding-block: var(--of-s6); border-bottom: 1px solid var(--of-rule); }
   .fo-count__n { font-family: var(--of-display); font-size: 2.4rem; line-height: 1; }
   .fo-count__l { font-family: var(--of-mono); font-size: var(--of-fs-micro); letter-spacing: 0.14em; text-transform: uppercase; color: var(--of-ink-55); margin-top: 0.3rem; }
 
-  /* outlet groups */
-  .fo-group { padding-block: var(--of-s7); border-bottom: 1px solid var(--of-rule); }
-  .fo-group__head { display: flex; align-items: baseline; gap: var(--of-s4); margin-bottom: var(--of-s5); }
-  .fo-dot { width: 12px; height: 12px; border-radius: 99px; flex: none; transform: translateY(1px); }
-  .fo-dot--left { background: var(--of-bias-left); }
-  .fo-dot--center { background: var(--of-bias-center); }
-  .fo-dot--right { background: var(--of-bias-right); }
-  .fo-group__title { font-family: var(--of-display); font-size: 1.7rem; line-height: 1; }
-  .fo-group__sub { font-family: var(--of-mono); font-size: var(--of-fs-micro); letter-spacing: 0.1em; color: var(--of-ink-55); }
-  .fo-outlets { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 0; }
-  .fo-outlet { padding: var(--of-s4) 0; border-top: 1px solid var(--of-rule-soft); font-family: var(--of-serif);
-    font-size: 1.05rem; color: var(--of-ink); display: flex; align-items: center; gap: 0.6rem; }
-  .fo-outlet small { font-family: var(--of-mono); font-size: 0.62rem; letter-spacing: 0.08em; color: var(--of-ink-40); text-transform: uppercase; }
+  /* outlet directory */
+  .fo-dirhead { display: flex; align-items: baseline; justify-content: space-between; gap: var(--of-s4); padding-block: var(--of-s7) var(--of-s5); flex-wrap: wrap; }
+  .fo-dirhead h2 { font-family: var(--of-display); font-size: 1.9rem; line-height: 1; margin: 0; }
+  .fo-dirhead span { font-family: var(--of-mono); font-size: var(--of-fs-micro); letter-spacing: 0.14em; text-transform: uppercase; color: var(--of-ink-55); }
+  .fo-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 0 var(--of-s7); border-top: 1px solid var(--of-rule); }
+  .fo-outlet { display: flex; align-items: center; gap: var(--of-s4); padding: var(--of-s4) var(--of-s2) var(--of-s4) 0;
+    border-bottom: 1px solid var(--of-rule-soft); transition: background 0.15s; }
+  .fo-outlet:hover { background: var(--of-paper-raised); }
+  .fo-fav { position: relative; flex: none; width: 40px; height: 40px; display: grid; place-items: center;
+    background: var(--of-paper-raised); border: 1px solid var(--of-rule); border-radius: var(--of-radius); overflow: hidden; }
+  .fo-fav::before { content: attr(data-i); position: absolute; inset: 0; display: grid; place-items: center;
+    font-family: var(--of-display); font-size: 1.15rem; color: var(--of-ink-40); }
+  .fo-fav img { position: relative; width: 22px; height: 22px; object-fit: contain; }
+  .fo-outlet__txt { display: flex; flex-direction: column; gap: 0.12rem; min-width: 0; }
+  .fo-outlet__name { font-family: var(--of-serif); font-size: 1.08rem; font-weight: 600; color: var(--of-ink);
+    line-height: 1.15; transition: color 0.15s; }
+  .fo-outlet:hover .fo-outlet__name { color: var(--of-crimson); }
+  .fo-outlet__dom { font-family: var(--of-mono); font-size: 0.62rem; letter-spacing: 0.05em; color: var(--of-ink-40);
+    white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 
   /* disclaimer */
   .fo-note { background: var(--of-paper-raised); border: 1px solid var(--of-rule); border-radius: var(--of-radius);
@@ -62,86 +70,128 @@
 
   <div class="pg-head">
     <div class="of-kicker">Transparência</div>
-    <h1 class="pg-title">Fontes &amp; classificação</h1>
+    <h1 class="pg-title">Fontes</h1>
     <p class="of-deck" style="margin-top:var(--of-s5); max-width:62ch">
-      Acompanhamos a imprensa brasileira — dos grandes jornais a nativos digitais. Cada veículo recebe uma posição no espectro político segundo a sua linha editorial média. Veja como classificamos e quais veículos monitoramos.
+      Acompanhamos a imprensa brasileira — dos grandes jornais de referência aos nativos digitais. Estes são os veículos cuja cobertura coletamos e comparamos lado a lado, todos os dias.
     </p>
   </div>
 
-  <!-- SPECTRUM -->
-  <section class="fo-spectrum">
-    <p>A posição reflete a <strong>tendência editorial recorrente</strong> de um veículo — a escolha de pautas, de fontes e de linguagem — não a qualidade, a veracidade ou a filiação partidária. "Centro" indica cobertura predominantemente factual e equilibrada entre os polos.</p>
-    <div class="of-bias">
-      <div class="of-bias__track of-bias__track--lg">
-        <div class="of-bias__seg of-bias__seg--left" style="width:33.33%"></div>
-        <div class="of-bias__seg of-bias__seg--center" style="width:33.33%"></div>
-        <div class="of-bias__seg of-bias__seg--right" style="width:33.34%"></div>
-      </div>
-      <div class="of-bias__legend"><span class="l">Esquerda</span><span class="c">Centro</span><span class="r">Direita</span></div>
+  <!-- INTRO -->
+  <section class="fo-intro">
+    <div>
+      <p>Monitoramos veículos de <strong>todo o espectro político brasileiro</strong> — da esquerda à direita, dos diários de referência às agências independentes e aos nativos digitais.</p>
     </div>
   </section>
 
   <!-- COUNTS -->
   <section class="fo-counts">
-    <div><div class="fo-count__n">120+</div><div class="fo-count__l">Veículos monitorados</div></div>
-    <div><div class="fo-count__n">3</div><div class="fo-count__l">Faixas do espectro</div></div>
+    <div><div class="fo-count__n">22</div><div class="fo-count__l">Veículos monitorados</div></div>
+    <div><div class="fo-count__n">24/7</div><div class="fo-count__l">Coleta automática</div></div>
     <div><div class="fo-count__n">∞</div><div class="fo-count__l">Atualização contínua</div></div>
   </section>
 
-  <!-- ESQUERDA -->
-  <section class="fo-group">
-    <div class="fo-group__head">
-      <span class="fo-dot fo-dot--left"></span>
-      <div><div class="fo-group__title">Esquerda &amp; centro-esquerda</div><div class="fo-group__sub">Exemplos representativos</div></div>
+  <!-- DIRECTORY -->
+  <section>
+    <div class="fo-dirhead">
+      <h2>Veículos monitorados</h2>
+      <span>Em ordem alfabética · A–Z</span>
     </div>
-    <div class="fo-outlets">
-      <div class="fo-outlet">Brasil 247</div>
-      <div class="fo-outlet">Carta Capital</div>
-      <div class="fo-outlet">Revista Fórum</div>
-      <div class="fo-outlet">GGN</div>
-      <div class="fo-outlet">The Intercept Brasil</div>
-      <div class="fo-outlet">Opera Mundi</div>
-    </div>
-  </section>
-
-  <!-- CENTRO -->
-  <section class="fo-group">
-    <div class="fo-group__head">
-      <span class="fo-dot fo-dot--center"></span>
-      <div><div class="fo-group__title">Centro</div><div class="fo-group__sub">Exemplos representativos</div></div>
-    </div>
-    <div class="fo-outlets">
-      <div class="fo-outlet">G1</div>
-      <div class="fo-outlet">O Globo</div>
-      <div class="fo-outlet">Folha de S.Paulo</div>
-      <div class="fo-outlet">UOL</div>
-      <div class="fo-outlet">Estadão</div>
-      <div class="fo-outlet">CNN Brasil</div>
-      <div class="fo-outlet">Poder360</div>
-      <div class="fo-outlet">Agência Pública</div>
-    </div>
-  </section>
-
-  <!-- DIREITA -->
-  <section class="fo-group">
-    <div class="fo-group__head">
-      <span class="fo-dot fo-dot--right"></span>
-      <div><div class="fo-group__title">Direita &amp; centro-direita</div><div class="fo-group__sub">Exemplos representativos</div></div>
-    </div>
-    <div class="fo-outlets">
-      <div class="fo-outlet">Gazeta do Povo</div>
-      <div class="fo-outlet">Jovem Pan</div>
-      <div class="fo-outlet">Revista Oeste</div>
-      <div class="fo-outlet">Pleno.News</div>
-      <div class="fo-outlet">Conexão Política</div>
+    <div class="fo-grid">
+        <a class="fo-outlet" href="https://agenciabrasil.ebc.com.br" target="_blank" rel="noopener">
+          <span class="fo-fav" data-i="A"><img src="https://www.google.com/s2/favicons?domain=agenciabrasil.ebc.com.br&amp;sz=64" alt="" loading="lazy" onerror="this.remove()"></span>
+          <span class="fo-outlet__txt"><span class="fo-outlet__name">Agência Brasil</span><span class="fo-outlet__dom">agenciabrasil.ebc.com.br</span></span>
+        </a>
+        <a class="fo-outlet" href="https://www.apublica.org" target="_blank" rel="noopener">
+          <span class="fo-fav" data-i="A"><img src="https://www.google.com/s2/favicons?domain=apublica.org&amp;sz=64" alt="" loading="lazy" onerror="this.remove()"></span>
+          <span class="fo-outlet__txt"><span class="fo-outlet__name">Agência Pública</span><span class="fo-outlet__dom">apublica.org</span></span>
+        </a>
+        <a class="fo-outlet" href="https://www.cartacapital.com.br" target="_blank" rel="noopener">
+          <span class="fo-fav" data-i="C"><img src="https://www.google.com/s2/favicons?domain=cartacapital.com.br&amp;sz=64" alt="" loading="lazy" onerror="this.remove()"></span>
+          <span class="fo-outlet__txt"><span class="fo-outlet__name">Carta Capital</span><span class="fo-outlet__dom">cartacapital.com.br</span></span>
+        </a>
+        <a class="fo-outlet" href="https://www.cnnbrasil.com.br" target="_blank" rel="noopener">
+          <span class="fo-fav" data-i="C"><img src="https://www.google.com/s2/favicons?domain=cnnbrasil.com.br&amp;sz=64" alt="" loading="lazy" onerror="this.remove()"></span>
+          <span class="fo-outlet__txt"><span class="fo-outlet__name">CNN Brasil</span><span class="fo-outlet__dom">cnnbrasil.com.br</span></span>
+        </a>
+        <a class="fo-outlet" href="https://www.estadao.com.br" target="_blank" rel="noopener">
+          <span class="fo-fav" data-i="E"><img src="https://www.google.com/s2/favicons?domain=estadao.com.br&amp;sz=64" alt="" loading="lazy" onerror="this.remove()"></span>
+          <span class="fo-outlet__txt"><span class="fo-outlet__name">Estadão</span><span class="fo-outlet__dom">estadao.com.br</span></span>
+        </a>
+        <a class="fo-outlet" href="https://www.folha.uol.com.br" target="_blank" rel="noopener">
+          <span class="fo-fav" data-i="F"><img src="https://www.google.com/s2/favicons?domain=folha.uol.com.br&amp;sz=64" alt="" loading="lazy" onerror="this.remove()"></span>
+          <span class="fo-outlet__txt"><span class="fo-outlet__name">Folha de S.Paulo</span><span class="fo-outlet__dom">folha.uol.com.br</span></span>
+        </a>
+        <a class="fo-outlet" href="https://g1.globo.com" target="_blank" rel="noopener">
+          <span class="fo-fav" data-i="G"><img src="https://www.google.com/s2/favicons?domain=g1.globo.com&amp;sz=64" alt="" loading="lazy" onerror="this.remove()"></span>
+          <span class="fo-outlet__txt"><span class="fo-outlet__name">G1</span><span class="fo-outlet__dom">g1.globo.com</span></span>
+        </a>
+        <a class="fo-outlet" href="https://www.gazetadopovo.com.br" target="_blank" rel="noopener">
+          <span class="fo-fav" data-i="G"><img src="https://www.google.com/s2/favicons?domain=gazetadopovo.com.br&amp;sz=64" alt="" loading="lazy" onerror="this.remove()"></span>
+          <span class="fo-outlet__txt"><span class="fo-outlet__name">Gazeta do Povo</span><span class="fo-outlet__dom">gazetadopovo.com.br</span></span>
+        </a>
+        <a class="fo-outlet" href="https://istoe.com.br" target="_blank" rel="noopener">
+          <span class="fo-fav" data-i="I"><img src="https://www.google.com/s2/favicons?domain=istoe.com.br&amp;sz=64" alt="" loading="lazy" onerror="this.remove()"></span>
+          <span class="fo-outlet__txt"><span class="fo-outlet__name">IstoÉ</span><span class="fo-outlet__dom">istoe.com.br</span></span>
+        </a>
+        <a class="fo-outlet" href="https://jovempan.com.br" target="_blank" rel="noopener">
+          <span class="fo-fav" data-i="J"><img src="https://www.google.com/s2/favicons?domain=jovempan.com.br&amp;sz=64" alt="" loading="lazy" onerror="this.remove()"></span>
+          <span class="fo-outlet__txt"><span class="fo-outlet__name">Jovem Pan News</span><span class="fo-outlet__dom">jovempan.com.br</span></span>
+        </a>
+        <a class="fo-outlet" href="https://www.metropoles.com" target="_blank" rel="noopener">
+          <span class="fo-fav" data-i="M"><img src="https://www.google.com/s2/favicons?domain=metropoles.com&amp;sz=64" alt="" loading="lazy" onerror="this.remove()"></span>
+          <span class="fo-outlet__txt"><span class="fo-outlet__name">Metrópoles</span><span class="fo-outlet__dom">metropoles.com</span></span>
+        </a>
+        <a class="fo-outlet" href="https://www.nexojornal.com.br" target="_blank" rel="noopener">
+          <span class="fo-fav" data-i="N"><img src="https://www.google.com/s2/favicons?domain=nexojornal.com.br&amp;sz=64" alt="" loading="lazy" onerror="this.remove()"></span>
+          <span class="fo-outlet__txt"><span class="fo-outlet__name">Nexo Jornal</span><span class="fo-outlet__dom">nexojornal.com.br</span></span>
+        </a>
+        <a class="fo-outlet" href="https://oantagonista.com.br" target="_blank" rel="noopener">
+          <span class="fo-fav" data-i="O"><img src="https://www.google.com/s2/favicons?domain=oantagonista.com.br&amp;sz=64" alt="" loading="lazy" onerror="this.remove()"></span>
+          <span class="fo-outlet__txt"><span class="fo-outlet__name">O Antagonista</span><span class="fo-outlet__dom">oantagonista.com.br</span></span>
+        </a>
+        <a class="fo-outlet" href="https://oglobo.globo.com" target="_blank" rel="noopener">
+          <span class="fo-fav" data-i="O"><img src="https://www.google.com/s2/favicons?domain=oglobo.globo.com&amp;sz=64" alt="" loading="lazy" onerror="this.remove()"></span>
+          <span class="fo-outlet__txt"><span class="fo-outlet__name">O Globo</span><span class="fo-outlet__dom">oglobo.globo.com</span></span>
+        </a>
+        <a class="fo-outlet" href="https://www.poder360.com.br" target="_blank" rel="noopener">
+          <span class="fo-fav" data-i="P"><img src="https://www.google.com/s2/favicons?domain=poder360.com.br&amp;sz=64" alt="" loading="lazy" onerror="this.remove()"></span>
+          <span class="fo-outlet__txt"><span class="fo-outlet__name">Poder360</span><span class="fo-outlet__dom">poder360.com.br</span></span>
+        </a>
+        <a class="fo-outlet" href="https://www.pragmatismopolitico.com.br" target="_blank" rel="noopener">
+          <span class="fo-fav" data-i="P"><img src="https://www.google.com/s2/favicons?domain=pragmatismopolitico.com.br&amp;sz=64" alt="" loading="lazy" onerror="this.remove()"></span>
+          <span class="fo-outlet__txt"><span class="fo-outlet__name">Pragmatismo Político</span><span class="fo-outlet__dom">pragmatismopolitico.com.br</span></span>
+        </a>
+        <a class="fo-outlet" href="https://www.revistaforum.com.br" target="_blank" rel="noopener">
+          <span class="fo-fav" data-i="R"><img src="https://www.google.com/s2/favicons?domain=revistaforum.com.br&amp;sz=64" alt="" loading="lazy" onerror="this.remove()"></span>
+          <span class="fo-outlet__txt"><span class="fo-outlet__name">Revista Fórum</span><span class="fo-outlet__dom">revistaforum.com.br</span></span>
+        </a>
+        <a class="fo-outlet" href="https://revistaoeste.com" target="_blank" rel="noopener">
+          <span class="fo-fav" data-i="R"><img src="https://www.google.com/s2/favicons?domain=revistaoeste.com&amp;sz=64" alt="" loading="lazy" onerror="this.remove()"></span>
+          <span class="fo-outlet__txt"><span class="fo-outlet__name">Revista Oeste</span><span class="fo-outlet__dom">revistaoeste.com</span></span>
+        </a>
+        <a class="fo-outlet" href="https://theintercept.com/brasil" target="_blank" rel="noopener">
+          <span class="fo-fav" data-i="T"><img src="https://www.google.com/s2/favicons?domain=theintercept.com&amp;sz=64" alt="" loading="lazy" onerror="this.remove()"></span>
+          <span class="fo-outlet__txt"><span class="fo-outlet__name">The Intercept Brasil</span><span class="fo-outlet__dom">theintercept.com</span></span>
+        </a>
+        <a class="fo-outlet" href="https://www.uol.com.br" target="_blank" rel="noopener">
+          <span class="fo-fav" data-i="U"><img src="https://www.google.com/s2/favicons?domain=uol.com.br&amp;sz=64" alt="" loading="lazy" onerror="this.remove()"></span>
+          <span class="fo-outlet__txt"><span class="fo-outlet__name">UOL Notícias</span><span class="fo-outlet__dom">uol.com.br</span></span>
+        </a>
+        <a class="fo-outlet" href="https://valor.globo.com" target="_blank" rel="noopener">
+          <span class="fo-fav" data-i="V"><img src="https://www.google.com/s2/favicons?domain=valor.globo.com&amp;sz=64" alt="" loading="lazy" onerror="this.remove()"></span>
+          <span class="fo-outlet__txt"><span class="fo-outlet__name">Valor Econômico</span><span class="fo-outlet__dom">valor.globo.com</span></span>
+        </a>
+        <a class="fo-outlet" href="https://veja.abril.com.br" target="_blank" rel="noopener">
+          <span class="fo-fav" data-i="V"><img src="https://www.google.com/s2/favicons?domain=veja.abril.com.br&amp;sz=64" alt="" loading="lazy" onerror="this.remove()"></span>
+          <span class="fo-outlet__txt"><span class="fo-outlet__name">Veja</span><span class="fo-outlet__dom">veja.abril.com.br</span></span>
+        </a>
     </div>
   </section>
 
   <!-- DISCLAIMER -->
   <div class="fo-note">
     <h4>Como ler esta lista</h4>
-    <p>Esta é uma <strong>amostra representativa</strong>, não a lista completa dos veículos monitorados. As faixas descrevem a <strong>linha editorial média</strong> de cada veículo e são revisadas periodicamente — linhas editoriais mudam devagar, então a classificação é estável, mas nunca definitiva.</p>
-    <p>Discorda de uma classificação? Aceitamos <strong>contestações fundamentadas</strong> e registramos publicamente cada mudança. <a href="Contato.html">Fale com a gente →</a></p>
+    <p>Quer sugerir um veículo que falta, ou contestar como uma matéria específica foi classificada? <a href="Contato.html">Fale com a gente →</a></p>
   </div>
 
   <div style="height:var(--of-s8)"></div>
