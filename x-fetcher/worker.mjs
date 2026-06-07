@@ -125,11 +125,13 @@ const LENS_MAP = { UMA: 1, DUAS: 2, 'TRÊS': 3, TRES: 3, QUATRO: 4, CINCO: 5 };
 function parsePreview(pv) {
   if (!pv) return { lenses: null, summary: '' };
   let lenses = null;
-  const m = pv.match(/A MESMA NOT[IÍ]CIA,\s*([A-ZÀ-Ÿ]+|\d+)\s*LENTES/i);
+  const m = pv.match(/\bA?\s*MESMA NOT[IÍ]CIA,?\s*([A-ZÀ-Ÿ]+|\d+)\s*LENTES/i);
   if (m) { const k = m[1].toUpperCase(); lenses = LENS_MAP[k] || parseInt(m[1], 10) || null; }
   const nl = pv.indexOf('\n');
+  const firstLine = nl >= 0 ? pv.slice(0, nl) : pv;
+  // Only drop the first line when it's the "A MESMA NOTÍCIA" header, not a content line
   const summary = nl >= 0
-    ? pv.slice(nl + 1).trim()
+    ? (/A MESMA NOT[IÍ]CIA/i.test(firstLine) ? pv.slice(nl + 1).trim() : pv.trim())
     : pv.replace(/^🔍?\s*A MESMA NOT[IÍ]CIA,.*?DIFERENTES\s*/i, '').trim();
   return { lenses, summary };
 }

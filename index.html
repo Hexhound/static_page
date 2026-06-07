@@ -752,15 +752,20 @@
   }
   var LENS_MAP = { UMA:1, DUAS:2, 'TRÊS':3, TRES:3, QUATRO:4, CINCO:5 };
   function parseLenses(s){
-    var m = String(s).match(/A MESMA NOT[IÍ]CIA,\s*([A-ZÀ-Ÿ]+|\d+)\s*LENTES/i);
+    var m = String(s).match(/\bA?\s*MESMA NOT[IÍ]CIA,?\s*([A-ZÀ-Ÿ]+|\d+)\s*LENTES/i);
     if (!m) return null;
     var k = m[1].toUpperCase();
     return LENS_MAP[k] || parseInt(m[1], 10) || null;
   }
   function extractSummary(full){
     var t = normalizeBold(full), nl = t.indexOf('\n');
-    var body = (nl >= 0 ? t.slice(nl + 1) : t).replace(/^\s+/, '');
-    var cut = body.search(/\n\s*\n|[🔴🔵⚪⚫🟢]|\b(Esquerda|Centro|Direita)\s*:|Dados da cobertura|Fontes\s*:/i);
+    var firstLine = nl >= 0 ? t.slice(0, nl) : t;
+    // Only drop the first line when it's the "A MESMA NOTÍCIA" header, not content lines
+    var body = (nl >= 0 && /A MESMA NOT[IÍ]CIA/i.test(firstLine))
+      ? t.slice(nl + 1).replace(/^\s+/, '')
+      : t;
+    // Cut before the detailed analysis section (🔍 paragraph or outlet-list headers)
+    var cut = body.search(/\n\s*🔍|\b(Esquerda|Centro|Direita)\s*\([^)]+\)\s*:|Dados da cobertura|Fontes\s*:/i);
     if (cut > 0) body = body.slice(0, cut);
     return body.trim();
   }
