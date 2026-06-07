@@ -1,0 +1,33 @@
+{
+  "mcpServers": {
+    "hexdocs-mcp": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "hexdocs-mcp"
+      ],
+      "env": {}
+    },
+    "sequential-thinking": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-sequential-thinking"
+      ]
+    },
+    "filesystem": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "./"
+      ]
+    },
+    "postgres": {
+      "type": "stdio",
+      "command": "postgres-mcp",
+      "args": []
+    }
+  }
+}

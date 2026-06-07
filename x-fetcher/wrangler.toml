@@ -1,0 +1,25 @@
+name = "olhar-factual-x-fetcher"
+main = "worker.mjs"
+compatibility_date = "2026-01-01"
+
+# Hourly — ~720 RapidAPI calls/month, under the twitter-api45 free cap (1,000/mo).
+# Don't go below ~45-min intervals. Cron syntax is UTC.
+[triggers]
+crons = ["17 * * * *"]
+
+# KV namespace that holds the cached tweets.json.
+# Create it once:  npx wrangler kv namespace create TWEETS_KV
+# then paste the printed id below.
+[[kv_namespaces]]
+binding = "TWEETS_KV"
+id = "08a330bef8334d21b8044b4f889101a8"
+
+# Non-secret config. RAPIDAPI_KEY is a SECRET — never put it here.
+[vars]
+X_HANDLE = "olharfactual"
+MAX_POSTS = "20"
+# Absolute base URL of THIS worker — required so image urls written into the JSON
+# are absolute (the page is cross-origin on GitHub Pages). After your first
+# `wrangler deploy` prints the workers.dev URL, paste it here and redeploy. If you
+# attach a custom domain/route, use that instead (e.g. https://api.olharfactual.com).
+PUBLIC_BASE = "https://olhar-factual-x-fetcher.olhar-factual.workers.dev"
