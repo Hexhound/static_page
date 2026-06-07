@@ -6,10 +6,134 @@
     "avatar": "media/a14d8acb8ac4d85a.jpg",
     "bio": "A mesma notícia. Todos os lados. Analisamos como a mídia brasileira cobre os mesmos fatos.",
     "followers": 34,
-    "posts_count": 152
+    "posts_count": 153
   },
-  "fetched_at": "2026-06-06T22:18:24.291Z",
+  "fetched_at": "2026-06-07T00:18:43.684Z",
   "posts": [
+    {
+      "id": "2063396270165626880",
+      "url": "https://x.com/olharfactual/status/2063396270165626880",
+      "created_at": "2026-06-06T23:03:01.000Z",
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 5,
+      "title": "As intenções de voto de Lula e Flávio Bolsonaro no Ceará, segundo Ipsos-Ipec",
+      "summary": "Lula lidera as pesquisas de intenção de voto contra Flávio Bolsonaro no primeiro e no segundo turno, segundo a Vox Brasil. Até aí, todos concordam. Mas o que",
+      "lenses": 3,
+      "media": [
+        "media/bd76f1dc0eed019c.jpg"
+      ],
+      "media_alt": "As intenções de voto de Lula e Flávio Bolsonaro no Ceará, segundo Ipsos-Ipec",
+      "coverage_kind": "comparison",
+      "coverage": {
+        "left": {
+          "count": 3,
+          "outlets": [
+            "Revista Fórum",
+            "CartaCapital",
+            "Metrópoles"
+          ]
+        },
+        "center": {
+          "count": 2,
+          "outlets": [
+            "Poder360",
+            "Metrópoles"
+          ]
+        },
+        "right": {
+          "count": 1,
+          "outlets": [
+            "Jovem Pan"
+          ]
+        }
+      },
+      "sources": [],
+      "full_text": "🔍 A MESMA NOTÍCIA, TRÊS LENTES DIFERENTES\n\nLula lidera as pesquisas de intenção de voto contra Flávio Bolsonaro no primeiro e no segundo turno, segundo a Vox Brasil. Até aí, todos concordam. Mas o que cada veículo escolheu destacar muda completamente a história. Veja como cada lado da mídia contou essa história:\n\n🔴 Esquerda (Revista Fórum, CartaCapital, Metrópoles): Manchetes com verbos de impacto: Flávio \"despenca\", \"derrete\", Eduardo Bolsonaro \"se desespera\". O foco não é apenas a liderança de Lula, mas o colapso do adversário. A Revista Fórum detalha o caso Vorcaro como causa da queda, traz o índice de performance digital da Datrix mostrando que Flávio perdeu a liderança nas redes, e destaca que nem o encontro com Trump reverteu o cenário. Chama Flávio de \"senador da extrema direita\" e \"senador da ultradireita\". A CartaCapital traz pesquisa regional do Ceará com Lula 39 pontos à frente.\n\n⚪ Centro (Poder360, Metrópoles): Tom enxuto e técnico. Apresenta os números do primeiro e segundo turno sem adjetivos. O Poder360 inclui ficha técnica completa — custo da pesquisa (R$ 50 mil), registro no TSE, metodologia. Detalhe que aparece com destaque no centro: a rejeição. Lula é rejeitado por 49,2% dos eleitores e Flávio por 48,3%. O Metrópoles traz recorte regional mostrando que Flávio lidera no Sul com 56,2% e Lula domina o Nordeste com 61,1%.\n\n🟢 Direita (Jovem Pan): Reporta a liderança de Lula sem contestar os dados, mas organiza a informação de modo revelador. Após apresentar os cenários de segundo turno, destaca que Ronaldo Caiado ficaria a apenas 1,6 ponto de Lula (46,5% a 44,9%) — sugerindo que há adversários mais competitivos que Flávio. E encerra com o dado de rejeição: Lula aparece com a maior do levantamento, 49,2%.\n\n𝗢 𝗾𝘂𝗲 𝗻𝗶𝗻𝗴𝘂𝗲́𝗺 𝘁𝗲 𝗰𝗼𝗻𝘁𝗮:\n\nEsquerda constrói uma narrativa de derrocada: Flávio cai, a família se desespera, o bolsonarismo racha. Centro apresenta os números como um boletim frio, sem heróis nem vilões — e é o único espaço onde a rejeição de Lula ganha o mesmo peso que a de Flávio. Direita reconhece a liderança de Lula, mas direciona o olhar para o dado que mais incomoda o petista: quase metade do país não votaria nele de jeito nenhum — e Caiado seria um adversário muito mais difícil.\n\nNenhum deles está mentindo. Todos publicaram dados reais da mesma pesquisa. A diferença está no que cada um escolheu colocar na vitrine — e no que deixou na prateleira de baixo.\n\nSe você leu só um desses veículos, recebeu só um pedaço da história. Siga pra ver o quadro completo sempre.\n\n\n\n\n\n#Eleições2026 #PesquisaEleitoral #VoxBrasil #LulaXFlávio #ViésNaMídia\n\n",
+      "raw": {
+        "article": {
+          "rest_id": "2063395645357015040",
+          "title": "As intenções de voto de Lula e Flávio Bolsonaro no Ceará, segundo Ipsos-Ipec",
+          "preview_text": "🔍 A MESMA NOTÍCIA, TRÊS LENTES DIFERENTES\nLula lidera as pesquisas de intenção de voto contra Flávio Bolsonaro no primeiro e no segundo turno, segundo a Vox Brasil. Até aí, todos concordam. Mas o que",
+          "cover_media": "https://pbs.twimg.com/media/HKKnb1pWcAA8W9K.jpg"
+        },
+        "text": "https://t.co/nAZNzCkt5T",
+        "note_tweet": null,
+        "detail": {
+          "likes": 0,
+          "created_at": "Sat Jun 06 23:03:01 +0000 2026",
+          "status": "active",
+          "text": "https://t.co/nAZNzCkt5T",
+          "display_text": "x.com/i/article/2063…",
+          "urls": [
+            {
+              "display_url": "x.com/i/article/2063…",
+              "expanded_url": "http://x.com/i/article/2063395645357015040",
+              "url": "https://t.co/nAZNzCkt5T"
+            }
+          ],
+          "retweets": 0,
+          "bookmarks": 0,
+          "quotes": 0,
+          "reply_to": null,
+          "replies": 0,
+          "lang": "zxx",
+          "in_reply_to_screen_name": null,
+          "in_reply_to_status_id_str": null,
+          "in_reply_to_user_id_str": null,
+          "sensitive": false,
+          "views": "5",
+          "conversation_id": "2063396270165626880",
+          "entities": {
+            "urls": [
+              {
+                "display_url": "x.com/i/article/2063…",
+                "expanded_url": "http://x.com/i/article/2063395645357015040",
+                "indices": [
+                  0,
+                  23
+                ],
+                "url": "https://t.co/nAZNzCkt5T"
+              }
+            ],
+            "hashtags": [],
+            "symbols": [],
+            "timestamps": [],
+            "user_mentions": []
+          },
+          "conversation_control": {
+            "policy": null
+          },
+          "article": {
+            "title": "As intenções de voto de Lula e Flávio Bolsonaro no Ceará, segundo Ipsos-Ipec",
+            "preview_text": "🔍 A MESMA NOTÍCIA, TRÊS LENTES DIFERENTES\nLula lidera as pesquisas de intenção de voto contra Flávio Bolsonaro no primeiro e no segundo turno, segundo a Vox Brasil. Até aí, todos concordam. Mas o que",
+            "full_text": "🔍 A MESMA NOTÍCIA, TRÊS LENTES DIFERENTES\n\nLula lidera as pesquisas de intenção de voto contra Flávio Bolsonaro no primeiro e no segundo turno, segundo a Vox Brasil. Até aí, todos concordam. Mas o que cada veículo escolheu destacar muda completamente a história. Veja como cada lado da mídia contou essa história:\n\n🔴 Esquerda (Revista Fórum, CartaCapital, Metrópoles): Manchetes com verbos de impacto: Flávio \"despenca\", \"derrete\", Eduardo Bolsonaro \"se desespera\". O foco não é apenas a liderança de Lula, mas o colapso do adversário. A Revista Fórum detalha o caso Vorcaro como causa da queda, traz o índice de performance digital da Datrix mostrando que Flávio perdeu a liderança nas redes, e destaca que nem o encontro com Trump reverteu o cenário. Chama Flávio de \"senador da extrema direita\" e \"senador da ultradireita\". A CartaCapital traz pesquisa regional do Ceará com Lula 39 pontos à frente.\n\n⚪ Centro (Poder360, Metrópoles): Tom enxuto e técnico. Apresenta os números do primeiro e segundo turno sem adjetivos. O Poder360 inclui ficha técnica completa — custo da pesquisa (R$ 50 mil), registro no TSE, metodologia. Detalhe que aparece com destaque no centro: a rejeição. Lula é rejeitado por 49,2% dos eleitores e Flávio por 48,3%. O Metrópoles traz recorte regional mostrando que Flávio lidera no Sul com 56,2% e Lula domina o Nordeste com 61,1%.\n\n🟢 Direita (Jovem Pan): Reporta a liderança de Lula sem contestar os dados, mas organiza a informação de modo revelador. Após apresentar os cenários de segundo turno, destaca que Ronaldo Caiado ficaria a apenas 1,6 ponto de Lula (46,5% a 44,9%) — sugerindo que há adversários mais competitivos que Flávio. E encerra com o dado de rejeição: Lula aparece com a maior do levantamento, 49,2%.\n\n𝗢 𝗾𝘂𝗲 𝗻𝗶𝗻𝗴𝘂𝗲́𝗺 𝘁𝗲 𝗰𝗼𝗻𝘁𝗮:\n\nEsquerda constrói uma narrativa de derrocada: Flávio cai, a família se desespera, o bolsonarismo racha. Centro apresenta os números como um boletim frio, sem heróis nem vilões — e é o único espaço onde a rejeição de Lula ganha o mesmo peso que a de Flávio. Direita reconhece a liderança de Lula, mas direciona o olhar para o dado que mais incomoda o petista: quase metade do país não votaria nele de jeito nenhum — e Caiado seria um adversário muito mais difícil.\n\nNenhum deles está mentindo. Todos publicaram dados reais da mesma pesquisa. A diferença está no que cada um escolheu colocar na vitrine — e no que deixou na prateleira de baixo.\n\nSe você leu só um desses veículos, recebeu só um pedaço da história. Siga pra ver o quadro completo sempre.\n\n\n\n\n\n#Eleições2026 #PesquisaEleitoral #VoxBrasil #LulaXFlávio #ViésNaMídia\n\n",
+            "cover_media": "https://pbs.twimg.com/media/HKKnb1pWcAA8W9K.jpg"
+          },
+          "initial_tweets": null,
+          "author": {
+            "rest_id": "2056136747096965120",
+            "name": "Olhar Factual",
+            "screen_name": "OlharFactual",
+            "image": "https://pbs.twimg.com/profile_images/2059074705168949248/oy2orqtg_normal.jpg",
+            "blue_verified": true,
+            "verification": null,
+            "sub_count": 34
+          },
+          "card": {
+            "type": null,
+            "url": "https://t.co/nAZNzCkt5T",
+            "media": {
+              "image_url": null
+            }
+          },
+          "media": null,
+          "id": "2063396270165626880"
+        }
+      },
+      "_d": 1
+    },
     {
       "id": "2063006361697374339",
       "url": "https://x.com/olharfactual/status/2063006361697374339",
@@ -137,7 +261,7 @@
       "id": "2063004710571848163",
       "url": "https://x.com/olharfactual/status/2063004710571848163",
       "created_at": "2026-06-05T21:07:06.000Z",
-      "likes": 1,
+      "likes": 2,
       "reposts": 1,
       "replies": 0,
       "views": 563,
@@ -388,7 +512,7 @@
       "likes": 2,
       "reposts": 1,
       "replies": 0,
-      "views": 97,
+      "views": 98,
       "title": "Pesquisa Quaest mostra disputa Lula x Flávio após novo tarifaço de Trump",
       "summary": "A Quaest vai a campo entre 5 e 8 de junho para medir a corrida presidencial de 2026. Todos os lados cobriram a mesma pesquisa. Mas o que cada um escolheu",
       "lenses": 3,
@@ -1250,7 +1374,7 @@
       "likes": 4,
       "reposts": 1,
       "replies": 0,
-      "views": 5885,
+      "views": 5887,
       "title": "Eduardo Bolsonaro vê espaço para negociar sobre Pix com EUA",
       "summary": "Eduardo Bolsonaro disse que dá pra negociar com os EUA usando sistemas de pagamento \"semelhantes ao Pix\", como o Zelle. O vídeo viralizou e dividiu opiniões.",
       "lenses": 2,
@@ -2259,127 +2383,6 @@
           },
           "media": null,
           "id": "2062295654987116646"
-        }
-      },
-      "_d": 1
-    },
-    {
-      "id": "2062271500745404576",
-      "url": "https://x.com/olharfactual/status/2062271500745404576",
-      "created_at": "2026-06-03T20:33:35.000Z",
-      "likes": 3,
-      "reposts": 1,
-      "replies": 0,
-      "views": 4544,
-      "title": "Lula: no dia da taxação de Trump, filhos de Bolsonaro agradeceram nas redes",
-      "summary": "Tarifas americanas de 25% sobre exportações brasileiras esquentaram o debate político. Mas quem é o culpado? Depende de onde você lê. Veja como cada lado da",
-      "lenses": 2,
-      "media": [
-        "media/746e604195d60b4f.jpg"
-      ],
-      "media_alt": "Lula: no dia da taxação de Trump, filhos de Bolsonaro agradeceram nas redes",
-      "coverage_kind": "comparison",
-      "coverage": {
-        "left": {
-          "count": 2,
-          "outlets": [
-            "CNN Brasil",
-            "UOL"
-          ]
-        },
-        "center": {
-          "count": 0,
-          "outlets": []
-        },
-        "right": {
-          "count": 2,
-          "outlets": [
-            "O Globo",
-            "Jovem Pan"
-          ]
-        }
-      },
-      "sources": [],
-      "full_text": "🔍 A MESMA NOTÍCIA, DUAS LENTES DIFERENTES\n\nTarifas americanas de 25% sobre exportações brasileiras esquentaram o debate político. Mas quem é o culpado? Depende de onde você lê. Veja como cada lado da mídia contou essa história:\n\n🔴 Esquerda (CNN Brasil, UOL): Protagonismo total de Lula atacando os filhos de Bolsonaro. Destacam que Flávio Bolsonaro agradeceu a Trump no dia do tarifaço de 2025, com direito a \"Obrigado, Trump\" e \"Faça o Brasil livre de novo\". Lula chama Flávio de \"imbecil\", \"traidor\" e \"vendilhão da pátria\". A UOL ainda traz Lula dizendo que a China reconheceu o Brasil como livre da febre aftosa no mesmo dia das tarifas, como contraponto. A política externa do governo não é questionada.\n\n Direita (O Globo, Jovem Pan): O foco é outro. Zema e Caiado responsabilizam a política externa do governo Lula pela taxação. Zema diz que \"o governo falhou na diplomacia\". Caiado afirma que é \"inaceitável sermos tributados por irresponsabilidade do PT\" e projeta sua pré-candidatura presidencial. O Globo nota que ambos evitaram mencionar Flávio Bolsonaro ao falar do tema. Jovem Pan destaca o encontro entre Caiado, Zema e Flávio no mesmo dia, num evento que Caiado chamou de \"o primeiro encontro dos três presidenciáveis\".\n\n𝗢 𝗾𝘂𝗲 𝗻𝗶𝗻𝗴𝘂𝗲́𝗺 𝘁𝗲 𝗰𝗼𝗻𝘁𝗮:\n\nEsquerda coloca os Bolsonaro como vilões que pediram a um país estrangeiro para prejudicar o Brasil. Direita coloca o governo Lula como incompetente diplomático que provocou a retaliação. Um lado mostra o tuíte de agradecimento a Trump. O outro mostra o Itamaraty que \"tomou lado ideológico\".\n\nNenhum está inventando fatos. Cada um escolheu o ângulo que melhor serve à sua narrativa.\n\nLeia os dois lados. Sempre. A verdade costuma morar no meio do caminho.\n\n\n\n\n\n#TarifaçoEUA #PolíticaExterna #ViésDaMídia #Eleições2026 #ComércioInternacional\n\n",
-      "raw": {
-        "article": {
-          "rest_id": "2062270933461798912",
-          "title": "Lula: no dia da taxação de Trump, filhos de Bolsonaro agradeceram nas redes",
-          "preview_text": "🔍 A MESMA NOTÍCIA, DUAS LENTES DIFERENTES\nTarifas americanas de 25% sobre exportações brasileiras esquentaram o debate político. Mas quem é o culpado? Depende de onde você lê. Veja como cada lado da",
-          "cover_media": "https://pbs.twimg.com/media/HJ6o_BRWAAA_sXA.jpg"
-        },
-        "text": "https://t.co/QWGsmWI0yB",
-        "note_tweet": null,
-        "detail": {
-          "likes": 2,
-          "created_at": "Wed Jun 03 20:33:35 +0000 2026",
-          "status": "active",
-          "text": "https://t.co/QWGsmWI0yB",
-          "display_text": "x.com/i/article/2062…",
-          "urls": [
-            {
-              "display_url": "x.com/i/article/2062…",
-              "expanded_url": "http://x.com/i/article/2062270933461798912",
-              "url": "https://t.co/QWGsmWI0yB"
-            }
-          ],
-          "retweets": 1,
-          "bookmarks": 0,
-          "quotes": 1,
-          "reply_to": null,
-          "replies": 0,
-          "lang": "zxx",
-          "in_reply_to_screen_name": null,
-          "in_reply_to_status_id_str": null,
-          "in_reply_to_user_id_str": null,
-          "sensitive": false,
-          "views": "4479",
-          "conversation_id": "2062271500745404576",
-          "entities": {
-            "urls": [
-              {
-                "display_url": "x.com/i/article/2062…",
-                "expanded_url": "http://x.com/i/article/2062270933461798912",
-                "indices": [
-                  0,
-                  23
-                ],
-                "url": "https://t.co/QWGsmWI0yB"
-              }
-            ],
-            "hashtags": [],
-            "symbols": [],
-            "timestamps": [],
-            "user_mentions": []
-          },
-          "conversation_control": {
-            "policy": null
-          },
-          "article": {
-            "title": "Lula: no dia da taxação de Trump, filhos de Bolsonaro agradeceram nas redes",
-            "preview_text": "🔍 A MESMA NOTÍCIA, DUAS LENTES DIFERENTES\nTarifas americanas de 25% sobre exportações brasileiras esquentaram o debate político. Mas quem é o culpado? Depende de onde você lê. Veja como cada lado da",
-            "full_text": "🔍 A MESMA NOTÍCIA, DUAS LENTES DIFERENTES\n\nTarifas americanas de 25% sobre exportações brasileiras esquentaram o debate político. Mas quem é o culpado? Depende de onde você lê. Veja como cada lado da mídia contou essa história:\n\n🔴 Esquerda (CNN Brasil, UOL): Protagonismo total de Lula atacando os filhos de Bolsonaro. Destacam que Flávio Bolsonaro agradeceu a Trump no dia do tarifaço de 2025, com direito a \"Obrigado, Trump\" e \"Faça o Brasil livre de novo\". Lula chama Flávio de \"imbecil\", \"traidor\" e \"vendilhão da pátria\". A UOL ainda traz Lula dizendo que a China reconheceu o Brasil como livre da febre aftosa no mesmo dia das tarifas, como contraponto. A política externa do governo não é questionada.\n\n Direita (O Globo, Jovem Pan): O foco é outro. Zema e Caiado responsabilizam a política externa do governo Lula pela taxação. Zema diz que \"o governo falhou na diplomacia\". Caiado afirma que é \"inaceitável sermos tributados por irresponsabilidade do PT\" e projeta sua pré-candidatura presidencial. O Globo nota que ambos evitaram mencionar Flávio Bolsonaro ao falar do tema. Jovem Pan destaca o encontro entre Caiado, Zema e Flávio no mesmo dia, num evento que Caiado chamou de \"o primeiro encontro dos três presidenciáveis\".\n\n𝗢 𝗾𝘂𝗲 𝗻𝗶𝗻𝗴𝘂𝗲́𝗺 𝘁𝗲 𝗰𝗼𝗻𝘁𝗮:\n\nEsquerda coloca os Bolsonaro como vilões que pediram a um país estrangeiro para prejudicar o Brasil. Direita coloca o governo Lula como incompetente diplomático que provocou a retaliação. Um lado mostra o tuíte de agradecimento a Trump. O outro mostra o Itamaraty que \"tomou lado ideológico\".\n\nNenhum está inventando fatos. Cada um escolheu o ângulo que melhor serve à sua narrativa.\n\nLeia os dois lados. Sempre. A verdade costuma morar no meio do caminho.\n\n\n\n\n\n#TarifaçoEUA #PolíticaExterna #ViésDaMídia #Eleições2026 #ComércioInternacional\n\n",
-            "cover_media": "https://pbs.twimg.com/media/HJ6o_BRWAAA_sXA.jpg"
-          },
-          "initial_tweets": null,
-          "author": {
-            "rest_id": "2056136747096965120",
-            "name": "Olhar Factual",
-            "screen_name": "OlharFactual",
-            "image": "https://pbs.twimg.com/profile_images/2059074705168949248/oy2orqtg_normal.jpg",
-            "blue_verified": true,
-            "verification": null,
-            "sub_count": 33
-          },
-          "card": {
-            "type": null,
-            "url": "https://t.co/QWGsmWI0yB",
-            "media": {
-              "image_url": null
-            }
-          },
-          "media": null,
-          "id": "2062271500745404576"
         }
       },
       "_d": 1
