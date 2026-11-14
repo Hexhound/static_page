@@ -2,7 +2,7 @@
   description = "";
 
   inputs = {
-    devenv.url = "github:cachix/devenv";
+    devenv.url = "github:cachix/devenv/v2.4.0";
 
     nixpkgs.url = "github:cachix/devenv-nixpkgs/rolling";
     nixpkgs-unstable.url = "github:nixos/nixpkgs/nixos-25.11";
